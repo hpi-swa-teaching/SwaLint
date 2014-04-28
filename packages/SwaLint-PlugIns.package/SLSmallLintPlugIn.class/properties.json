@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-PlugIns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 12/20/2007 13:55",
+	"instvars" : [
+		 ],
+	"name" : "SLSmallLintPlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLPlugIn",
+	"type" : "normal" }

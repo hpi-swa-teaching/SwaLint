@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLint-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 2/2/2008 17:52",
+	"instvars" : [
+		"loadedPlugIns",
+		"progressMorph",
+		"processedItems",
+		"testDictionary",
+		"testSystem" ],
+	"name" : "SLTestRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

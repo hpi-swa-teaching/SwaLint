@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLint-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 1/8/2008 19:01",
+	"instvars" : [
+		"error",
+		"rcvr",
+		"errPlugIn",
+		"errTest",
+		"errTestObject" ],
+	"name" : "SLTestError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+This result contains a boolean.

@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"newWithValue:" : "AT 5/8/2008 12:22",
+		"newWithValue:summarizing:" : "AT 5/8/2008 12:22",
+		"newWithValue:summarizing:condition:" : "AT 5/8/2008 12:22" },
+	"instance" : {
+		"condition:" : "AT 2/2/2008 11:24",
+		"defaultCondition" : "AT 5/8/2008 12:21",
+		"formatAsSummary" : "NR 1/28/2008 14:25",
+		"initializeFormatRule" : "AT 2/2/2008 12:13",
+		"initializeShowRule" : "AT 2/2/2008 12:13",
+		"isSummary" : "AT 5/8/2008 12:21",
+		"selectForSummary:" : "AT 5/8/2008 12:21",
+		"selectForSummary:ifTrue:" : "AT 2/2/2008 11:32",
+		"showOnlyIfHit" : "AT 1/19/2008 18:31",
+		"summarizedTest" : "AT 5/8/2008 12:21",
+		"summarizing:" : "AT 2/2/2008 11:22",
+		"summarizing:condition:" : "topa 2/7/2008 21:49",
+		"summarizingCondition" : "AT 5/8/2008 12:21",
+		"testObject:" : "AT 5/8/2008 12:21",
+		"valueAsString" : "AT 5/8/2008 12:20" } }

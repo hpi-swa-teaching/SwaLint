@@ -1,0 +1,4 @@
+displaying
+initializeColorRule
+	
+	self colorRed.

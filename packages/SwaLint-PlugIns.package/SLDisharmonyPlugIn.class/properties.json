@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-PlugIns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/28/2008 17:01",
+	"instvars" : [
+		 ],
+	"name" : "SLDisharmonyPlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLPlugIn",
+	"type" : "normal" }

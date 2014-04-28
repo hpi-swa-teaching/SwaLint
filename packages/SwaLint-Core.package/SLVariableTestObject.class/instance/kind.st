@@ -1,0 +1,4 @@
+identity
+kind
+
+	^ #Variable

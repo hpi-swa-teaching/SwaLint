@@ -1,0 +1,1 @@
+I represent a test object for a class. 

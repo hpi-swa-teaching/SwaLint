@@ -1,0 +1,1 @@
+I am raised when the value of a SLErrorResult is requested.

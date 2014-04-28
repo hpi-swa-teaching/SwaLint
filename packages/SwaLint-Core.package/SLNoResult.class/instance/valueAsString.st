@@ -1,0 +1,4 @@
+accessing
+valueAsString
+
+	^ 'No Result'

@@ -1,0 +1,1 @@
+I represent a result which is put in the users result list in order to represent a bunch of results (normally results for one test or results for one class).

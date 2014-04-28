@@ -1,0 +1,4 @@
+accessing
+hasResult
+
+	^ false

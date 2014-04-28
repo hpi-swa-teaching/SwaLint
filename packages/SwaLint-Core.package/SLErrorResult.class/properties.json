@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/8/2008 09:21",
+	"instvars" : [
+		 ],
+	"name" : "SLErrorResult",
+	"pools" : [
+		 ],
+	"super" : "SLResult",
+	"type" : "normal" }

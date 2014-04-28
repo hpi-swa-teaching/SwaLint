@@ -1,0 +1,22 @@
+{
+	"category" : "SwaLint-Preferences-Common",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 2/8/2008 12:03",
+	"instvars" : [
+		"name",
+		"value",
+		"defaultValue",
+		"helpString",
+		"localToProject",
+		"categoryList",
+		"changeInformee",
+		"changeSelector",
+		"viewRegistry" ],
+	"name" : "SLPreference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

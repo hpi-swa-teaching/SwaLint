@@ -1,0 +1,1 @@
+I am the abstract environment, in (and on) which a SwaLint Dialog runs. I provide classes, classCategories, tests and testCategories avialiable, as well as lists which are embedded into the UI to let the user make his selections.

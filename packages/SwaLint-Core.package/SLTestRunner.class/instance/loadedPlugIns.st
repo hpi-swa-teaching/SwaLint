@@ -1,0 +1,4 @@
+accessing
+loadedPlugIns
+
+	^ loadedPlugIns

@@ -1,0 +1,4 @@
+accessing
+testObject
+
+	^ self variable

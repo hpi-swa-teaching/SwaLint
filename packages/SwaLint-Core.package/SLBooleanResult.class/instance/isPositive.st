@@ -1,0 +1,4 @@
+accessing
+isPositive
+
+	^ self result

@@ -1,0 +1,4 @@
+accessing
+valueFormatRule
+
+	^ valueFormatRule

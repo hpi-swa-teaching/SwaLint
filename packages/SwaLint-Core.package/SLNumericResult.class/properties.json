@@ -1,0 +1,15 @@
+{
+	"category" : "SwaLint-Core-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 12/3/2007 23:49",
+	"instvars" : [
+		"threshold",
+		"thresholds" ],
+	"name" : "SLNumericResult",
+	"pools" : [
+		 ],
+	"super" : "SLResult",
+	"type" : "normal" }

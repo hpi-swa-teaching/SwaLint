@@ -1,0 +1,4 @@
+accessing
+windowLabel
+	
+	^ 'SwaLint TestSuite'

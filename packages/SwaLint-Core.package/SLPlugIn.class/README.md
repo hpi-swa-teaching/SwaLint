@@ -1,0 +1,1 @@
+I am the abstract super class for all plug-ins.

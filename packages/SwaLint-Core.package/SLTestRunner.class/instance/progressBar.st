@@ -1,0 +1,4 @@
+progress displaying
+progressBar
+
+	^ progressMorph

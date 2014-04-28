@@ -1,0 +1,4 @@
+displaying
+initializeFormatRule
+
+	self formatAccurateToATenth.

@@ -1,0 +1,15 @@
+{
+	"category" : "SwaLint-Core-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/13/2008 18:00",
+	"instvars" : [
+		"summarizedTest",
+		"summarizingCondition" ],
+	"name" : "SLSummaryResult",
+	"pools" : [
+		 ],
+	"super" : "SLNumericResult",
+	"type" : "normal" }

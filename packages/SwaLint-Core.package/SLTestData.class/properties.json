@@ -1,0 +1,22 @@
+{
+	"category" : "SwaLint-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 2/2/2008 17:55",
+	"instvars" : [
+		"symbol",
+		"category",
+		"name",
+		"description",
+		"plugIn",
+		"method",
+		"testRunner",
+		"userSelected",
+		"hidden" ],
+	"name" : "SLTestData",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

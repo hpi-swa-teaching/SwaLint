@@ -1,0 +1,1 @@
+(name 'SwaLint-Core-tfel.5'message 'Split removeComments method into removeCharacters, removeStrings and removeComments.'id '6edf51f3-b7e1-4891-aff9-ad61267120ee'date '10 January 2011'time '3:22:59.761 pm'author 'tfel'ancestors ((id '84a58013-9874-4f44-945c-e7cb7da4fbb2'))stepChildren ())

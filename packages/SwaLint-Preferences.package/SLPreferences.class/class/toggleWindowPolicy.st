@@ -1,0 +1,3 @@
+misc
+toggleWindowPolicy
+	self togglePreference: #reverseWindowStagger

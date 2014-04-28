@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"newFor:plugIn:" : "AT 5/8/2008 09:44" },
+	"instance" : {
+		"errPlugIn" : "AT 5/8/2008 09:41",
+		"errPlugIn:" : "AT 2/8/2008 08:24",
+		"initError" : "AT 2/8/2008 08:33",
+		"initializeShowRule" : "AT 2/7/2008 11:48",
+		"signal" : "AT 5/8/2008 09:41",
+		"valueAsString" : "AT 5/8/2008 09:41" } }

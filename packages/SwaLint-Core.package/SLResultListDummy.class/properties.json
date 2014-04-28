@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/13/2008 18:00",
+	"instvars" : [
+		"isTestNode" ],
+	"name" : "SLResultListDummy",
+	"pools" : [
+		 ],
+	"super" : "SLResult",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+*SwaLint-Core
+isSLResult
+
+	^ false

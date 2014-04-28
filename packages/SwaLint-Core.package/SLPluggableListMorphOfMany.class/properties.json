@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLPluggableListMorphOfMany",
+	"pools" : [
+		 ],
+	"super" : "PluggableListMorphOfMany",
+	"type" : "normal" }

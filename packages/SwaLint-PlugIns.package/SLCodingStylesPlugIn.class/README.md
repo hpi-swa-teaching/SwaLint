@@ -1,0 +1,1 @@
+I offer some general test on coding styles, e.g. whether a point at the end of a method was set (or not set) consequently.

@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Core-Environment",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/28/2008 17:02",
+	"instvars" : [
+		"results",
+		"originalTests",
+		"testTime" ],
+	"name" : "SLResultEnvironment",
+	"pools" : [
+		 ],
+	"super" : "SLEnvironment",
+	"type" : "normal" }

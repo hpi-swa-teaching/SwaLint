@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-PlugIns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 1/19/2008 17:30",
+	"instvars" : [
+		 ],
+	"name" : "SLMiscPlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLPlugIn",
+	"type" : "normal" }
