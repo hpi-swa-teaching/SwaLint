@@ -1,0 +1,14 @@
+{
+	"category" : "CCT-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CCTDemo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
