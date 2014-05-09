@@ -1,0 +1,1 @@
+I provide the SLResultDialog with all information to be displayed.

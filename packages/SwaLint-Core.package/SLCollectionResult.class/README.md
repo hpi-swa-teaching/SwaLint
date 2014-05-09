@@ -1,0 +1,1 @@
+I am a result containing a collection.

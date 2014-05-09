@@ -1,0 +1,1 @@
+I am a plugin which serves as a connection to SmallLint tests.

@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"onEnvironment:" : "AT 5/7/2008 19:43" },
+	"instance" : {
+		"close" : "NR 5/28/2008 14:40",
+		"createButtonBar:" : "AT 5/7/2008 14:55",
+		"createButtonLabeled:getState:action:" : "AT 5/7/2008 14:54",
+		"drawUserInterface" : "NR 12/9/2007 18:38",
+		"environment" : "AT 5/7/2008 14:54",
+		"environment:" : "NR 1/25/2008 15:07",
+		"initialize" : "NR 12/9/2007 18:03",
+		"initializeWindow" : "NR 12/18/2007 13:54",
+		"notRunning" : "AT 5/7/2008 14:54",
+		"onEnvironment:" : "NR 12/9/2007 18:27",
+		"open" : "NR 12/7/2007 19:46",
+		"openConfigureDialog" : "tfel 5/26/2012 01:49",
+		"optionsButton" : "NR 5/10/2008 10:35",
+		"refresh" : "NR 5/28/2008 14:42",
+		"removeStyle:" : "NR 12/18/2007 13:58",
+		"spacer:" : "AT 5/7/2008 14:55",
+		"window" : "AT 5/7/2008 14:55",
+		"window:" : "NR 12/18/2007 20:25",
+		"windowLabel" : "NR 12/7/2007 19:06" } }

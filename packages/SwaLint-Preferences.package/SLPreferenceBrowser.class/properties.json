@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Preferences-Squeak",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"UiInstance" ],
+	"commentStamp" : "NR 12/18/2007 14:34",
+	"instvars" : [
+		 ],
+	"name" : "SLPreferenceBrowser",
+	"pools" : [
+		 ],
+	"super" : "PreferenceBrowser",
+	"type" : "normal" }

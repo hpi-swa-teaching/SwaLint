@@ -1,0 +1,3 @@
+parameters
+borderColorWhenRunning
+	^ Color green

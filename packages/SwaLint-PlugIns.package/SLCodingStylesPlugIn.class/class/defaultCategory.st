@@ -1,0 +1,4 @@
+defaults
+defaultCategory
+
+	^ 'Coding Styles'

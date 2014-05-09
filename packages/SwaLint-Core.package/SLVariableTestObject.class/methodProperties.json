@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"newFrom:" : "AT 5/8/2008 12:24" },
+	"instance" : {
+		"children" : "AT 5/24/2008 01:11",
+		"classSide" : "AT 5/28/2008 13:57",
+		"classSide:" : "AT 5/28/2008 13:57",
+		"initialize" : "AT 5/28/2008 13:59",
+		"kind" : "AT 5/8/2008 12:24",
+		"name" : "AT 5/28/2008 13:58",
+		"testObject" : "AT 5/8/2008 12:24",
+		"testObject:" : "topa 1/19/2008 12:07",
+		"variable" : "AT 5/8/2008 12:24",
+		"variable:" : "topa 1/19/2008 12:07",
+		"variableName" : "AT 5/23/2008 20:18" } }

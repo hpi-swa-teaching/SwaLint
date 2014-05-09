@@ -1,0 +1,4 @@
+categories
+hiddenCategory
+
+	^ 'hidden'

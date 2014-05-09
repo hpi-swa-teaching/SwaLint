@@ -1,0 +1,4 @@
+displaying
+initializeShowRule
+
+	^ self showAlways

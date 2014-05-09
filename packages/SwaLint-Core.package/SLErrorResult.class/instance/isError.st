@@ -1,0 +1,4 @@
+identity
+isError
+
+	^ true

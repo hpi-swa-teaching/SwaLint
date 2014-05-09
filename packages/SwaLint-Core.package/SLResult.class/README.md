@@ -1,0 +1,1 @@
+This is the abstract super class for all real result classes.

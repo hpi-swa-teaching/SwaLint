@@ -1,0 +1,4 @@
+defaults
+defaultCategory
+
+	^ 'Slime: Grease'

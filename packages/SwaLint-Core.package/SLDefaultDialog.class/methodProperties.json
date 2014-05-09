@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"open" : "AT 5/8/2008 09:28" },
+	"instance" : {
+		"cancelButton" : "AT 5/8/2008 09:28",
+		"createButtonBarWithNextButton:" : "NR 5/10/2008 10:35",
+		"drawUserInterface" : "NR 12/18/2007 13:52",
+		"run" : "NR 1/2/2008 16:40",
+		"runButton" : "AT 5/8/2008 09:28",
+		"runnable" : "AT 5/8/2008 09:28",
+		"update:" : "topa 2/7/2008 22:23",
+		"windowLabel" : "AT 5/8/2008 09:28" } }

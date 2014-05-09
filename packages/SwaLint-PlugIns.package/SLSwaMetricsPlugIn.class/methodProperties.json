@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"defaultCategory" : "tfel 1/10/2011 15:16",
+		"initializePreferences" : "tfel 1/10/2011 15:17",
+		"maxLineSize" : "tfel 1/11/2011 11:35",
+		"offeredTestsData" : "topa 7/31/2013 10:31:16.52" },
+	"instance" : {
+		"badlyFormattedMethods:" : "tfel 1/11/2011 11:38",
+		"classcount:" : "topa 7/31/2013 10:30:31.84",
+		"commentedMethods:" : "tfel 1/10/2011 14:24",
+		"evilMethods" : "tfel 3/3/2011 13:24",
+		"globalState:" : "tfel 1/10/2011 14:26",
+		"interestingMethods:" : "tfel 1/10/2011 13:38",
+		"isUnclassifiedMethod:" : "tfel 1/10/2011 14:04",
+		"metaProgramming:" : "tfel 1/10/2011 14:29",
+		"methodHandlesNil:" : "tfel 3/3/2011 14:34",
+		"methodHasComment:" : "topa 11/26/2012 18:08",
+		"methodHasFormattingProblems:" : "topa 11/26/2012 18:25",
+		"methodUsesMetaprogramming:" : "tfel 1/11/2011 11:43",
+		"methodcount:" : "topa 7/31/2013 10:30:40.598",
+		"nilProgramming:" : "tfel 3/3/2011 14:47",
+		"noClassComments:" : "tfel 1/10/2011 14:28",
+		"sloccount:" : "tfel 1/10/2011 13:40",
+		"unclassifiedMethods:" : "tfel 1/10/2011 14:04" } }

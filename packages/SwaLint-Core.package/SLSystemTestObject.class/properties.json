@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLint-Core-TestObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/25/2008 14:13",
+	"instvars" : [
+		"categories",
+		"allClasses",
+		"allMethods",
+		"allTestObjects",
+		"selectedTestObjects" ],
+	"name" : "SLSystemTestObject",
+	"pools" : [
+		 ],
+	"super" : "SLTestObject",
+	"type" : "normal" }

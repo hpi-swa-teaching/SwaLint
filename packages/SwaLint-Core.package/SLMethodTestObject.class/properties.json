@@ -1,0 +1,17 @@
+{
+	"category" : "SwaLint-Core-TestObjects",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 12/28/2007 14:08",
+	"instvars" : [
+		"method",
+		"cleanSource",
+		"parseTree",
+		"classSide" ],
+	"name" : "SLMethodTestObject",
+	"pools" : [
+		 ],
+	"super" : "SLTestObject",
+	"type" : "normal" }

@@ -1,0 +1,19 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 4/22/2010 09:04",
+	"instvars" : [
+		"model",
+		"list",
+		"selection",
+		"getList",
+		"getMenu",
+		"primary" ],
+	"name" : "REMultipleSelectionModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "variable" }

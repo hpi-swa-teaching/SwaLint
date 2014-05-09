@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"fetchSystemClasses" : "AT 2/3/2008 21:13",
+		"initialize" : "AT 2/3/2008 20:48",
+		"selectableTestCategories" : "tfel 5/26/2012 01:43",
+		"selectableTests" : "AT 5/8/2008 09:29",
+		"testObjectsSelectedForTestRun" : "AT 5/8/2008 09:29",
+		"testsAndClassesChoosen" : "AT 5/8/2008 09:29",
+		"testsSelectedForTestRun" : "AT 5/8/2008 09:29" } }

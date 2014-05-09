@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"defaultCategory" : "AT 5/8/2008 09:40",
+		"offeredTestsData" : "AT 5/27/2008 14:00" },
+	"instance" : {
+		"accessedVar:" : "AT 5/8/2008 09:37",
+		"allAccessors:" : "AT 5/27/2008 17:29",
+		"calledOperations:" : "AT 5/27/2008 14:06",
+		"classWidth:" : "AT 5/8/2008 09:37",
+		"collectInstVarsOf:" : "AT 5/8/2008 09:37",
+		"firstAccessed:by:" : "AT 2/2/2008 14:38",
+		"firstAccessedBy:" : "AT 5/8/2008 09:37",
+		"isAccessor:" : "AT 5/8/2008 09:37",
+		"isGetter:" : "AT 5/8/2008 09:38",
+		"isSetter:" : "AT 5/8/2008 09:38",
+		"methodIsGetter:" : "AT 5/8/2008 09:38",
+		"methodIsSetter:" : "topa 10/24/2012 11:48",
+		"methodWidth:" : "AT 5/8/2008 09:38",
+		"miscTest:" : "AT 5/8/2008 09:38",
+		"usedInstVars:" : "AT 5/8/2008 09:39" } }

@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"newFrom:" : "AT 5/28/2008 13:43" },
+	"instance" : {
+		"bodyStartIn:onError:" : "topa 11/26/2012 18:04",
+		"buildCleanSource" : "topa 11/26/2012 18:23",
+		"children" : "AT 5/24/2008 01:11",
+		"classSide" : "AT 5/28/2008 13:41",
+		"classSide:" : "AT 5/28/2008 13:42",
+		"cleanSource" : "topa 11/26/2012 15:26",
+		"endOfMessagePatternIn:" : "topa 11/26/2012 16:20",
+		"initialize" : "AT 5/28/2008 13:41",
+		"kind" : "AT 5/8/2008 09:36",
+		"methodName" : "AT 5/8/2008 09:37",
+		"methodSelector" : "AT 5/8/2008 09:37",
+		"name" : "AT 5/28/2008 13:45",
+		"parseTree" : "AT 5/8/2008 09:37",
+		"source:withoutPattern:withoutComments:withoutStrings:withoutLiteralCharacters:" : "topa 11/26/2012 18:28",
+		"sourceCode" : "AT 5/8/2008 09:37",
+		"sourceString" : "AT 5/8/2008 09:37",
+		"startOfMethoBodyIn:" : "topa 11/26/2012 16:17",
+		"testObject" : "AT 5/8/2008 09:37",
+		"testObject:" : "NR 1/1/2008 14:41",
+		"withoutEmptyLines:" : "topa 11/26/2012 16:48" } }

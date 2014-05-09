@@ -1,0 +1,4 @@
+accessing
+category
+
+	^ self parent

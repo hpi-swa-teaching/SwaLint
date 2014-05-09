@@ -1,0 +1,4 @@
+preferences
+openConfigureDialog
+
+	SLPreferenceBrowser open

@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"defaultCategory" : "AT 5/8/2008 09:41",
+		"ifAndSimilar" : "AT 5/8/2008 09:41",
+		"initializePreferences" : "AT 5/19/2008 12:09",
+		"offeredTestsData" : "AT 5/27/2008 14:29" },
+	"instance" : {
+		"isAddedService:" : "AT 5/8/2008 09:35",
+		"loadPreferences" : "AT 1/12/2008 21:17",
+		"maxNesting:" : "AT 5/27/2008 00:42",
+		"methodCDISP:" : "AT 5/27/2008 14:54",
+		"methodCINT:" : "AT 5/27/2008 14:29",
+		"methodCYCLO:" : "AT 5/28/2008 12:24",
+		"methodLOC:" : "AT 5/28/2008 12:24",
+		"noavPerCint:" : "AT 5/27/2008 14:55",
+		"nodeCYCLO:" : "AT 5/8/2008 09:36",
+		"numberOfAccessedVars:" : "AT 5/28/2008 12:07",
+		"test:with:" : "AT 5/17/2008 17:05" } }

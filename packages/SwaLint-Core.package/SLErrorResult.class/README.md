@@ -1,0 +1,1 @@
+I am a result which is returned, if an error occures.

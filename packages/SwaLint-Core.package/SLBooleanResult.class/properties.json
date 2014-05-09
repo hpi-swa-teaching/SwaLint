@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/31/2008 08:48",
+	"instvars" : [
+		 ],
+	"name" : "SLBooleanResult",
+	"pools" : [
+		 ],
+	"super" : "SLResult",
+	"type" : "normal" }

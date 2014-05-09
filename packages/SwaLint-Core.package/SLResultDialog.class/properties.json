@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 12/7/2007 19:27",
+	"instvars" : [
+		 ],
+	"name" : "SLResultDialog",
+	"pools" : [
+		 ],
+	"super" : "SLAbstractDialog",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Core",
+	"classinstvars" : [
+		"usedPreferences",
+		"installed" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/28/2008 17:01",
+	"instvars" : [
+		"preferenceDict",
+		"testRunner" ],
+	"name" : "SLPlugIn",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

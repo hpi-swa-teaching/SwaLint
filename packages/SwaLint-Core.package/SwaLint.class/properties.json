@@ -1,0 +1,17 @@
+{
+	"category" : "SwaLint-Core",
+	"classinstvars" : [
+		"tests",
+		"categories",
+		"debug",
+		"icon" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 2/2/2008 17:49",
+	"instvars" : [
+		 ],
+	"name" : "SwaLint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

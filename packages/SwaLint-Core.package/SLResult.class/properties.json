@@ -1,0 +1,21 @@
+{
+	"category" : "SwaLint-Core-Results",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AT 1/18/2008 09:11",
+	"instvars" : [
+		"value",
+		"valueAsString",
+		"color",
+		"testData",
+		"testObject",
+		"showRule",
+		"valueFormatRule",
+		"colorRule" ],
+	"name" : "SLResult",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
