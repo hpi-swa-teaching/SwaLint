@@ -2,7 +2,7 @@
 	"class" : {
 		"defaultCategory" : "AT 5/7/2008 21:30",
 		"initializePreferences" : "AT 5/22/2008 15:20",
-		"offeredTestsData" : "AT 5/28/2008 11:49" },
+		"offeredTestsData" : "MT 5/12/2014 14:01" },
 	"instance" : {
 		"classNamespaceResult:" : "AT 5/28/2008 11:23",
 		"collectNamespaces:" : "AT 5/27/2008 18:14",
@@ -11,6 +11,7 @@
 		"complexMethods:" : "AT 5/28/2008 12:02",
 		"countDotsAfterReturn:" : "AT 5/22/2008 15:19",
 		"csMethodHasDotAfterReturn:" : "AT 5/22/2008 15:22",
+		"differingLineEndings:" : "MT 5/12/2014 14:16",
 		"dotAfterReturn:" : "AT 5/22/2008 15:18",
 		"endOfBlockOrArray:startingAt:" : "AT 5/7/2008 21:30",
 		"endOfCommand:startingAt:" : "AT 5/8/2008 09:47",
