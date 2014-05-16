@@ -1,0 +1,3 @@
+methods
+squeakStyle
+	^self

@@ -1,4 +1,4 @@
 building
 booleanResultWithValue: aValue
 
-	^SLBooleanResult newWithValue: aValue
+	^plugIn booleanResult: aValue

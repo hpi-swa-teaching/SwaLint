@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "SwaLintDisharmonyTests",
+		"testSystem",
+		"testRunner",
+		"plugIn",
+		"avrgValueRules",
+		"highLowValueRules" ],
+	"name" : "SwaLintPlugInTests",
 	"pools" : [
 		 ],
-	"super" : "SwaLintPlugInTests",
+	"super" : "TestCase",
 	"type" : "normal" }

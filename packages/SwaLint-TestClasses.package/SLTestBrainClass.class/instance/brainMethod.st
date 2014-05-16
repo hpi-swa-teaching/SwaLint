@@ -1,7 +1,7 @@
 brain
 brainMethod
 
-	|newLine apostrophe verse|
+	|newLine apostrophe hook|
 	
 	newLine := Character cr.
 	apostrophe := Character value: 39.
@@ -16,10 +16,10 @@ brainMethod
 		let: 'Guess who', apostrophe, 's back';
 		it: 7;
 		go: 10.
-	verse := self foobar, newLine, self wololo, self roggan.
-	self it timesRepeat: [verse := verse, self let, newLine].
-	verse := verse, newLine, newLine.
-	self go timesRepeat: [Transcript show: verse].
+	hook := self foobar, newLine, self wololo, self roggan.
+	self it timesRepeat: [hook := hook, self let, newLine].
+	hook := hook, newLine, newLine.
+	self go timesRepeat: [Transcript show: hook].
 	"a line of code"
 	"a line of code"
 	"a line of code"

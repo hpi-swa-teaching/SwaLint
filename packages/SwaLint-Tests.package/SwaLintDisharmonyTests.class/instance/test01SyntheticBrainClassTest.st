@@ -1,9 +1,9 @@
 testing
-test01BrainClassTest
+test01SyntheticBrainClassTest
 
-	|brainClass|
+	| brainClass |
 	
-	self configureTestDictionaryForBrainClass.
+	self configureTestDictionaryForSyntheticBrainClass.
 	
 	brainClass := self buildEmptyClassTestObject.
 	

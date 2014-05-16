@@ -3,7 +3,7 @@ setUp
 	
 	|testDictionary|
 	
-	plugIn := SLDisharmonyPlugIn new.
+	plugIn := self plugInClass new.
 	
 	avrgValueRules := (IdentityDictionary new).
 	avrgValueRules addAll:

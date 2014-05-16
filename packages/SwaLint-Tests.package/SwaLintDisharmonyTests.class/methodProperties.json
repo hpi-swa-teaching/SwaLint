@@ -2,16 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addBooleanResultTo:withValue:forTest:" : "MB 5/14/2014 19:57",
-		"addNumericResultTo:withThresholdValue:andTresholdFor:forTest:" : "MB 5/14/2014 16:02",
-		"addNumericResultTo:withValue:forTest:" : "MB 5/14/2014 15:58",
-		"booleanResultWithValue:" : "MB 5/14/2014 19:57",
 		"buildBrainMethodFor:" : "MB 5/14/2014 19:58",
-		"buildEmptyClassTestObject" : "MB 5/14/2014 14:13",
-		"configureTestDictionaryForBrainClass" : "MB 5/14/2014 14:05",
-		"getValueFor:andTreshold:" : "MB 5/14/2014 15:47",
-		"numericResultWithThresholdValue:andThresholdFor:" : "MB 5/14/2014 16:02",
-		"numericResultWithValue:" : "MB 5/14/2014 15:57",
-		"setUp" : "MB 5/14/2014 15:51",
-		"test00SelfTest" : "MB 5/14/2014 16:05",
-		"test01BrainClassTest" : "MB 5/14/2014 16:02" } }
+		"configureTestDictionaryForSyntheticBrainClass" : "MB 5/15/2014 12:37",
+		"plugInClass" : "MB 5/15/2014 09:35",
+		"test00SelfTest" : "MB 5/15/2014 09:39",
+		"test01SyntheticBrainClassTest" : "MB 5/15/2014 12:37",
+		"test02BrainClassTest" : "MB 5/15/2014 12:37" } }

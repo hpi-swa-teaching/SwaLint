@@ -5,7 +5,7 @@ buildEmptyClassTestObject
 	
 	classTestObject := (SLClassTestObject new)
 				parent: testSystem;
-				testObject: SwaLintDisharmonyTests.
+				testObject: SwaLintPlugInTests.
 	classTestObject fetchMethods.
 	classTestObject methods removeAll.
 	

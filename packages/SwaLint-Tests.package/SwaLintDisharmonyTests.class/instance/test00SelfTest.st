@@ -10,4 +10,3 @@ test00SelfTest
 	self assert: (result = #high).
 	self assert: (result > #low).
 	self assert: (result < #veryHigh).
-	
