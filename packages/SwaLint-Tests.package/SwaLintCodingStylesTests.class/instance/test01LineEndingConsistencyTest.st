@@ -1,5 +1,5 @@
 testing
-test04LineEndingConsistencyTest
+test01LineEndingConsistencyTest
 
 	| testClass testResult |
 	

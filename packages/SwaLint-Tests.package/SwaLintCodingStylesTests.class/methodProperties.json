@@ -4,5 +4,5 @@
 	"instance" : {
 		"configureTestDictionaryForLineEndingTest" : "MB 5/15/2014 12:52",
 		"plugInClass" : "MB 5/15/2014 09:40",
-		"test03MethodLineEndingTest" : "MB 5/15/2014 12:42",
-		"test04LineEndingConsistencyTest" : "MB 5/15/2014 12:51" } }
+		"test00MethodLineEndingTest" : "MT 5/16/2014 16:03",
+		"test01LineEndingConsistencyTest" : "MT 5/16/2014 16:04" } }
