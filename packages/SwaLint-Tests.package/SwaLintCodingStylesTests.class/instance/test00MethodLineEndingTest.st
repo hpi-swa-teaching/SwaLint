@@ -9,7 +9,7 @@ test00MethodLineEndingTest
 	squeakResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character 						cr, 'bar').
 	unixResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character lf, 						'bar').
 	windowsResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', 						Character cr, Character lf, 'bar').
-	mixResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character cr, 						Character lf, 'bar', Character cr, '').
+	mixResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character cr, 						Character lf, 'bar', Character cr, 'baz').
 	
 	self assert: emptyResult equals: 0;
 		assert: squeakResult equals: 1;
