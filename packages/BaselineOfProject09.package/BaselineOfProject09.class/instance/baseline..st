@@ -6,7 +6,6 @@ baseline: spec
 		do: [
 			spec
 				package: 'AST-Core';
-				package: 'Refactoring-Critics';
 				package: 'SwaLint-Preferences';
 				package: 'SwaLint-Core' with: [spec requires: #('SwaLint-Preferences' 'AST-Core')];
 				package: 'SwaLint-PlugIns' with: [spec requires:
@@ -14,7 +13,7 @@ baseline: spec
 				package: 'SwaLint-TestClasses';
 				package: 'SwaLint-Tests' with: [spec requires:
 					#('SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-PlugIns'
-														'SwaLint-TestClasses' 'AST-Core' 'Refactoring-Critics')];
+														'SwaLint-TestClasses' 'AST-Core')];
 				yourself.
 			spec
 				group: 'default' with: #('SwaLint-Core');
