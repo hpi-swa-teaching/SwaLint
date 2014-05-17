@@ -1,0 +1,1 @@
+(name 'AST-Core-lr.77'message '- if a method matcher has no pragmas specified, also match methods with pragmas (backward compatible)'id '172160c2-1cba-4e55-be26-448c48b56935'date '30 May 2010'time '12:27:04 pm'author 'lr'ancestors ((id '6041b55e-a2c5-4373-85fe-513747fdd7c9'))stepChildren ())

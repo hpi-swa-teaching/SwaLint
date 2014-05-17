@@ -1,0 +1,1 @@
+(name 'AST-Core-lr.50'message '- fixed a problem with uninitialized period collection in RBProgramNode'id '69be2036-f30c-4fad-af36-1d39fafe50e1'date '1 February 2010'time '10:29:13 am'author 'lr'ancestors ((id '59c4c1b4-e1a7-4aa5-882b-da2ba36b003a'))stepChildren ())

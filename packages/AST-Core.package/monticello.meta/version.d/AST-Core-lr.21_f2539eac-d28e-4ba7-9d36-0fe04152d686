@@ -1,0 +1,1 @@
+(name 'AST-Core-lr.21'message '- fixed a bug where literals in pragmas were not properly replaced'id 'f2539eac-d28e-4ba7-9d36-0fe04152d686'date '9 November 2009'time '9:54:59 pm'author 'lr'ancestors ((id '008448a1-371f-4ca9-9633-1f195e0a56a4'))stepChildren ())

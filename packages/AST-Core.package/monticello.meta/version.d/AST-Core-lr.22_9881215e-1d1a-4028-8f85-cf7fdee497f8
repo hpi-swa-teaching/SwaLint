@@ -1,0 +1,1 @@
+(name 'AST-Core-lr.22'message '- added a #parents accessor to the ast nodes'id '9881215e-1d1a-4028-8f85-cf7fdee497f8'date '13 November 2009'time '11:01:25 am'author 'lr'ancestors ((id 'f2539eac-d28e-4ba7-9d36-0fe04152d686'))stepChildren ())

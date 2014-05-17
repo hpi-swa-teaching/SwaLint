@@ -5,6 +5,7 @@ baseline: spec
 		for: #'common' 
 		do: [
 			spec
+				package: 'AST-Core';
 				package: 'SwaLint-Preferences';
 				package: 'SwaLint-Core' with: [spec requires: #('SwaLint-Preferences')];
 				package: 'SwaLint-PlugIns' with: [spec requires:
@@ -16,6 +17,7 @@ baseline: spec
 				yourself.
 			spec
 				group: 'default' with: #('SwaLint-Core');
+				group: 'AST' with: #('AST-Core');
 				group: 'Preferences' with: #('SwaLint-Preferences');
 				group: 'PlugIns' with: #('SwaLint-PlugIns');
 				group: 'TestClasses' with: #('SwaLint-TestClasses');

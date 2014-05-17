@@ -1,0 +1,1 @@
+(name 'AST-Core-lr.74'message '- do not reformat source when changing the receiver variable of a message send (thanks Eliot)'id '49b79339-40ed-469a-a0b7-10b3d4ed356e'date '26 May 2010'time '8:10:24 am'author 'lr'ancestors ((id 'ea0a32f8-e761-40c5-b462-1e88a6581ffb'))stepChildren ())

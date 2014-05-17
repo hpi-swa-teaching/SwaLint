@@ -1,0 +1,1 @@
+(name 'AST-Core-TestRunner.14'message '- fixed WAVariableNode>>#isRead and WAVariableNode>>#isWrite'id '22a37a3a-8299-4f0f-a556-8323b35e9fa7'date '2 November 2009'time '9:22:18 pm'author 'TestRunner'ancestors ((id '6eb6b32c-fdf3-43d4-a352-f94ff532d91d'))stepChildren ())
