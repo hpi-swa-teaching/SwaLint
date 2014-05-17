@@ -1,4 +1,4 @@
 running
 plugInClass
 
-	^SLDisharmonyPlugIn
+	^SLCodingStylesPlugIn"SLDisharmonyPlugIn"
