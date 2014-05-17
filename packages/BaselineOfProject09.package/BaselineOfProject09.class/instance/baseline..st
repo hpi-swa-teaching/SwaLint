@@ -11,7 +11,8 @@ baseline: spec
 					#('SwaLint-Preferences' 'SwaLint-Core')];
 				package: 'SwaLint-TestClasses';
 				package: 'SwaLint-Tests' with: [spec requires:
-					#('SwaLint-Core' 'SwaLintPreferences' 'SwaLintPlugins' 'SwaLint-TestClasses')];
+					#('SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-Plugins'
+																	'SwaLint-TestClasses')];
 				yourself.
 			spec
 				group: 'default' with: #('SwaLint-Core');
