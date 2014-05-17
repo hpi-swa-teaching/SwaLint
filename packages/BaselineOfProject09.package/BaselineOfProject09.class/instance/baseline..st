@@ -7,13 +7,13 @@ baseline: spec
 			spec
 				package: 'AST-Core';
 				package: 'SwaLint-Preferences';
-				package: 'SwaLint-Core' with: [spec requires: #('SwaLint-Preferences')];
+				package: 'SwaLint-Core' with: [spec requires: #('SwaLint-Preferences' 'AST-Core')];
 				package: 'SwaLint-PlugIns' with: [spec requires:
-					#('SwaLint-Preferences' 'SwaLint-Core')];
+					#('SwaLint-Preferences' 'SwaLint-Core' 'AST-Core')];
 				package: 'SwaLint-TestClasses';
 				package: 'SwaLint-Tests' with: [spec requires:
 					#('SwaLint-Core' 'SwaLint-Preferences' 'SwaLint-PlugIns'
-																	'SwaLint-TestClasses')];
+																	'SwaLint-TestClasses' 'AST-Core')];
 				yourself.
 			spec
 				group: 'default' with: #('SwaLint-Core');
