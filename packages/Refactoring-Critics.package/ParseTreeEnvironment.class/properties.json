@@ -1,0 +1,14 @@
+{
+	"category" : "Refactoring-Critics",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"matcher" ],
+	"name" : "ParseTreeEnvironment",
+	"pools" : [
+		 ],
+	"super" : "SelectorEnvironment",
+	"type" : "normal" }
