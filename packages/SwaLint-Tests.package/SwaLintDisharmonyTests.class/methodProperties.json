@@ -4,8 +4,7 @@
 	"instance" : {
 		"buildBrainMethodFor:" : "MB 5/14/2014 19:58",
 		"configureTestDictionaryForSyntheticBrainClass" : "MB 5/15/2014 12:37",
-		"plugInClass" : "MB 5/17/2014 13:36",
-		"test00SelfTest" : "MB 5/17/2014 13:35",
+		"plugInClass" : "MB 5/17/2014 14:03",
+		"test00SelfTest" : "MB 5/17/2014 14:03",
 		"test01SyntheticBrainClassTest" : "MB 5/15/2014 12:37",
-		"test02BrainClassTest" : "MB 5/15/2014 12:37",
-		"testTravisTest" : "MB 5/17/2014 13:37" } }
+		"test02BrainClassTest" : "MB 5/15/2014 12:37" } }
