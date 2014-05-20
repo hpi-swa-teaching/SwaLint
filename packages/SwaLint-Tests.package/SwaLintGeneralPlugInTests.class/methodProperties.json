@@ -13,4 +13,5 @@
 		"test09CheckExistenceOfPreferenceWMCSTDEV" : "MB 5/20/2014 12:31",
 		"test10CheckExistenceOfPreferenceClassLOCAVRG" : "MB 5/20/2014 12:31",
 		"test11CheckExistenceOfPreferenceClassLOCSTDEV" : "MB 5/20/2014 12:31",
-		"test12CheckExistenceOfPreferenceDictionary" : "MB 5/20/2014 12:46" } }
+		"test12CheckExistenceOfPreferenceDictionary" : "MB 5/20/2014 12:46",
+		"test13CheckIfPreferenceDictionaryIsEmpty" : "MB 5/20/2014 12:56" } }
