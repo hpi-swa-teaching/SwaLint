@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"test01InstantiateMethodMetricsPlugIn" : "MB 5/20/2014 11:05",
+		"test02InstantiateMClassMetricsPlugIn" : "MB 5/20/2014 11:06",
+		"test03InstantiateCodingStylesPlugIn" : "MB 5/20/2014 11:06",
+		"test04InstantiateDisharmonyPlugIn" : "MB 5/20/2014 11:07",
+		"test05InstantiateMiscPlugIn" : "MB 5/20/2014 11:07",
+		"test06InstantiateSwaMetricsPlugIn" : "MB 5/20/2014 11:07" } }
