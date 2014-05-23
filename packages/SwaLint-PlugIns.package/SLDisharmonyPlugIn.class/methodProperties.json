@@ -1,14 +1,15 @@
 {
 	"class" : {
 		"defaultCategory" : "AT 5/8/2008 09:28",
-		"offeredTestsData" : "MB 5/11/2014 19:35" },
+		"offeredTestsData" : "MT 5/23/2014 17:22" },
 	"instance" : {
 		"brainClass:" : "MB 5/11/2014 22:48",
 		"brainMethod:" : "AT 5/27/2008 00:48",
 		"dataClass:" : "AT 5/27/2008 19:19",
 		"godClass:" : "topa 12/7/2012 14:18",
 		"isExcessivelyLarge:" : "AT 5/27/2008 00:23",
-		"loadPreferences" : "MB 5/20/2014 12:28",
+		"loadPreferences" : "MT 5/23/2014 17:35",
 		"looksLikeBrainClass:" : "MB 5/14/2014 08:45",
 		"looksLikeBrainMethod:" : "AT 5/27/2008 00:48",
-		"looksLikeDataClass:" : "AT 5/8/2008 09:28" } }
+		"looksLikeDataClass:" : "AT 5/8/2008 09:28",
+		"shotgunSurgery:" : "MT 5/23/2014 17:34" } }

@@ -10,5 +10,8 @@ offeredTestsData
 		{#numberOfAccessedVars. 'Number of accessed variables [NOAV]'. 'Number of accessed variables inside a method'}.
 		{#maxNesting. 'Maximum Nesting Level'}.
 		{#methodLineEnding. 'Checks the line ending of the lines'}.
+		{#methodCallers. 'Collection with callers of this method'}.
+		{#methodCM. 'Changing Methods [CM]'}.
+		{#methodCC. 'Changing Classes [CC]'}.
 	}
 		

@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SwaLintMethodMetricsPlugIn",
+	"pools" : [
+		 ],
+	"super" : "SwaLintPlugInTests",
+	"type" : "normal" }

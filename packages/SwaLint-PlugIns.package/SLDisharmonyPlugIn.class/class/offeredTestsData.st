@@ -6,5 +6,6 @@ offeredTestsData
 		{#godClass. 'God Class'. 'A God Class is a class that centralizes intelligence. Detected classes heavily access data of simpler classes, are large, complex and have a lot of non-communicative behaviour.'}.
 		{#brainMethod. 'Brain Method'. 'Brain Methods centralize the functionality of a class. They are overlong methods, which are harder to understand and debug, and practically impossible to reuse.'}.
 		{#brainClass. 'Brain Class'. 'Evaluates wether the Class is a Brain Class.'}.
+		{#shotgunSurgery. 'Shotgun Surgery'. 'Evaluates wether there are Shotgun Surgeries'}.
 		"{#intenseCoupling. 'Intense Coupling'. ''}."
 	}
