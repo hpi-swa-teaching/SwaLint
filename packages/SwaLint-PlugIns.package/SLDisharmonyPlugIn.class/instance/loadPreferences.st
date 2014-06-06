@@ -1,7 +1,8 @@
 initialize-release
 loadPreferences
 
-	self loadPreferences: #(ClassLOCAVRG ClassLOCSTDEV WMCAVRG WMCSTDEV).
+	self loadPreferences: #(AverageLOCperMethodAVRG
+					ClassLOCAVRG ClassLOCSTDEV WMCAVRG WMCSTDEV).
 	self preferenceDict
 		at: #LargeMethodLOC
 		put: ((self preference: #ClassLOCAVRG) + (self preference: #ClassLOCSTDEV)) / 3;
@@ -10,4 +11,4 @@ loadPreferences
 		at: #LargeWeightedMethodCount
 		put: ((self preference: #WMCAVRG) + (self preference: #WMCSTDEV)) * 3;
 		at: #ShortMemoryCap
-		put: 00000000000000000000000000000000000000000000000000000030.
+		put: 30.

@@ -7,5 +7,6 @@ offeredTestsData
 		{#brainMethod. 'Brain Method'. 'Brain Methods centralize the functionality of a class. They are overlong methods, which are harder to understand and debug, and practically impossible to reuse.'}.
 		{#brainClass. 'Brain Class'. 'Evaluates wether the Class is a Brain Class.'}.
 		{#shotgunSurgery. 'Shotgun Surgery'. 'Evaluates wether there are Shotgun Surgeries'}.
+		{#significantDuplication. 'Significant Duplication'. 'Evaluates wether there are Significant Duplications'}.
 		"{#intenseCoupling. 'Intense Coupling'. ''}."
 	}

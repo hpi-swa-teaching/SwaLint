@@ -4,9 +4,12 @@
 	"instance" : {
 		"buildBrainMethodFor:" : "MB 5/14/2014 19:58",
 		"configureTestDictionaryForShotgunSurgery" : "MT 5/23/2014 17:56",
+		"configureTestDictionaryForSignificantDuplication" : "MB 6/6/2014 15:23",
 		"configureTestDictionaryForSyntheticBrainClass" : "MB 5/15/2014 12:37",
 		"plugInClass" : "MB 5/17/2014 14:03",
 		"test00SelfTest" : "MB 5/17/2014 14:03",
 		"test01SyntheticBrainClassTest" : "MB 5/15/2014 12:37",
 		"test02BrainClassTest" : "MB 5/15/2014 12:37",
-		"test03ShotgunSurgeryTest" : "MT 5/23/2014 17:54" } }
+		"test03ShotgunSurgeryTest" : "MT 5/23/2014 17:54",
+		"test04SyntheticSignificantDuplicationTest" : "MB 6/6/2014 13:24",
+		"test05SignificantDuplication" : "MB 6/6/2014 15:34" } }

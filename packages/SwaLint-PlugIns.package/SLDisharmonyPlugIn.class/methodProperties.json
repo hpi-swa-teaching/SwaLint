@@ -1,15 +1,20 @@
 {
 	"class" : {
 		"defaultCategory" : "AT 5/8/2008 09:28",
-		"offeredTestsData" : "MT 5/23/2014 17:22" },
+		"offeredTestsData" : "MB 6/6/2014 14:20" },
 	"instance" : {
 		"brainClass:" : "MB 5/11/2014 22:48",
 		"brainMethod:" : "AT 5/27/2008 00:48",
 		"dataClass:" : "AT 5/27/2008 19:19",
 		"godClass:" : "topa 12/7/2012 14:18",
 		"isExcessivelyLarge:" : "AT 5/27/2008 00:23",
-		"loadPreferences" : "MT 5/23/2014 17:35",
+		"lineIn:at:equals:at:" : "MB 6/6/2014 11:52",
+		"loadPreferences" : "MB 6/6/2014 14:12",
 		"looksLikeBrainClass:" : "MB 5/14/2014 08:45",
 		"looksLikeBrainMethod:" : "AT 5/27/2008 00:48",
 		"looksLikeDataClass:" : "AT 5/8/2008 09:28",
-		"shotgunSurgery:" : "MT 5/23/2014 17:34" } }
+		"searchCloneIn:from:comparedWith:from:range:" : "MB 6/6/2014 14:07",
+		"shotgunSurgery:" : "MT 5/23/2014 17:34",
+		"significantDuplication:" : "MB 6/6/2014 14:32",
+		"significantDuplicationChain:with:" : "MB 6/6/2014 14:06",
+		"significantStandaloneExactClone:with:" : "MB 6/6/2014 14:29" } }
