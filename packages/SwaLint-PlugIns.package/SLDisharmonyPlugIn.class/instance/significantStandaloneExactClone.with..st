@@ -14,7 +14,7 @@ significantStandaloneExactClone: aSLMethodTestObject with: anotherSLMethodTestOb
 			[:compIndex | currentClone := self searchCloneIn: testLines from: testIndex
 							comparedWith: compLines from: compIndex range: maxLines.
 			currentClone ifNotNil: [((currentClone at: #cloneSize)
-					> (self preference: #AverageLOCperMethodAVRG)) ifTrue:
+					> (self preference: #SignificantStandaloneExactCloneSize)) ifTrue:
 						[^true]]
 			]].
 	^false
