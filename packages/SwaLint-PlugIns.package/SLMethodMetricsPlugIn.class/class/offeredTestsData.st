@@ -9,9 +9,10 @@ offeredTestsData
 		{#methodLOC. 'Lines of Code of a Method [LOC]'. 'Answer the number of lines of code of a method'}.
 		{#numberOfAccessedVars. 'Number of accessed variables [NOAV]'. 'Number of accessed variables inside a method'}.
 		{#maxNesting. 'Maximum Nesting Level'}.
-		{#methodLineEnding. 'Checks the line ending of the lines'}.
-		{#methodCallers. 'Collection with callers of this method'}.
 		{#methodCM. 'Changing Methods [CM]'}.
 		{#methodCC. 'Changing Classes [CC]'}.
+		{#methodLAA. 'Locality of Attribute Accesses [LAA]'}.
+		{#methodFDP. 'Foreign Data Providers [FDP]'}.
+		{#methodATFD. 'Access To Foreign Data [ATFD]'}.
 	}
 		

@@ -8,5 +8,6 @@ offeredTestsData
 		{#brainClass. 'Brain Class'. 'Evaluates wether the Class is a Brain Class.'}.
 		{#shotgunSurgery. 'Shotgun Surgery'. 'Evaluates wether there are Shotgun Surgeries'}.
 		{#significantDuplication. 'Significant Duplication'. 'Evaluates wether there are Significant Duplications'}.
+		{#featureEnvy. 'Feature Envy'. 'Evaluates wether there is Feature Envy'}.
 		"{#intenseCoupling. 'Intense Coupling'. ''}."
 	}

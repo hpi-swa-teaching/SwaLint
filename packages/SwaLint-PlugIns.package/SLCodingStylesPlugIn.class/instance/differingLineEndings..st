@@ -3,5 +3,5 @@ differingLineEndings: aSLClassTestObject
 
 	aSLClassTestObject shouldBeClass.
 	^ self summarizeNumberOf: aSLClassTestObject methods
-		withResultOf: #methodLineEnding
+		withResultOf: #csMethodLineEnding
 		satisfying: [ :result | (result = 1) not ].

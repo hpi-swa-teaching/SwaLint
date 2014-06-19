@@ -13,8 +13,8 @@ significantStandaloneExactClone: aSLMethodTestObject with: anotherSLMethodTestOb
 		[:testIndex |(1 to: compLines size) do:
 			[:compIndex | currentClone := self searchCloneIn: testLines from: testIndex
 							comparedWith: compLines from: compIndex range: maxLines.
-			currentClone ifNotNil: [((currentClone at: #cloneSize)
-					> (self preference: #SignificantStandaloneExactCloneSize)) ifTrue:
-						[^true]]
+			currentClone ifNotNil: [((currentClone at: #cloneSize) >
+							(self preference: #SignificantStandaloneExactCloneSize)) ifTrue:
+							[^true]]
 			]].
 	^false

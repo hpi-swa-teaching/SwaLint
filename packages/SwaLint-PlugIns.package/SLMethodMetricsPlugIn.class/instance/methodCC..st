@@ -5,4 +5,4 @@ methodCC: aSLMethodTestObject
 
 	callers := aSLMethodTestObject resultOf: #methodCallers.
 	callingClasses := (callers itemsCollect: [ :each | each parent ]) asSet.
-	^ self fewManyResult: callingClasses size.
+	^ self fewManyResult: callingClasses size
