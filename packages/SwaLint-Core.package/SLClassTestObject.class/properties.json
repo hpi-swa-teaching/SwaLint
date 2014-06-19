@@ -12,7 +12,11 @@
 		"instanceVariables",
 		"classVariables",
 		"variables",
-		"testClass" ],
+		"testClass",
+		"superClassVariables",
+		"superInstanceVariables",
+		"superVariables",
+		"allVariables" ],
 	"name" : "SLClassTestObject",
 	"pools" : [
 		 ],
