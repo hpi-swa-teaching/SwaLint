@@ -8,6 +8,6 @@ testRunner testDictionary addAll:
 		(#differingLineEndings ->
 			(SLTestData newFromArray: (SLCodingStylesPlugIn offeredTestsData at: 11)
 				plugin: SLCodingStylesPlugIn)).
-		(#methodLineEnding ->
-			(SLTestData newFromArray: (SLMethodMetricsPlugIn offeredTestsData at: 8)
-				plugin: SLMethodMetricsPlugIn)).}.
+		(#csMethodLineEnding ->
+			(SLTestData newFromArray: (SLCodingStylesPlugIn offeredTestsData at: 12)
+				plugin: SLCodingStylesPlugIn)).}.

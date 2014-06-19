@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"configureTestDictionaryForLineEndingTest" : "MB 5/15/2014 12:52",
-		"plugInClass" : "MB 5/15/2014 09:40",
-		"test00MethodLineEndingTest" : "MT 5/16/2014 16:14",
-		"test01LineEndingConsistencyTest" : "MT 5/16/2014 16:04" } }
+		"configureTestDictionaryForLineEndingTest" : "MB 6/19/2014 10:59",
+		"plugInClass" : "MB 6/19/2014 10:34",
+		"test00MethodLineEndingTest" : "MB 6/19/2014 11:02",
+		"test01LineEndingConsistencyTest" : "MB 6/19/2014 10:42" } }

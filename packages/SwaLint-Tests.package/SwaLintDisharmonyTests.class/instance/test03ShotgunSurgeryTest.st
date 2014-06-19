@@ -3,7 +3,7 @@ test03ShotgunSurgeryTest
 
 	| shotgunSurgery |
 	
-	self configureTestDictionaryForShotgunSurgery.
+	self resetTestSystem.
 	
 	shotgunSurgery := SLMethodTestObject newFrom: (SLTestMethodCaller01 														lookupSelector: #beingCalled).
 	testSystem

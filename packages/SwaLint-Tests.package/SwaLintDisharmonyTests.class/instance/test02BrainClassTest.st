@@ -2,8 +2,8 @@ testing
 test02BrainClassTest
 
 	| brainMethod brainClass |
-
-	self loadAllTests.
+	
+	self resetTestSystem.
 	
 	brainClass := SLClassTestObject newFrom: SLTestBrainClass.
 	brainClass parent: testSystem.

@@ -1,9 +1,9 @@
 testing
 test05SignificantDuplication
 
-	| duplicationClass duplicationMethod |
+	| duplicationClass duplicationMethod |.
 	
-	self configureTestDictionaryForSignificantDuplication.
+	self resetTestSystem.
 	
 	duplicationClass := SLClassTestObject newFrom: SLTestSignificantDuplication.
 	testSystem addClass: duplicationClass.

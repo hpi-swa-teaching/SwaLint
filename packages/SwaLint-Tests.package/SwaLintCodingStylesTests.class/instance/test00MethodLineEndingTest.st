@@ -5,11 +5,11 @@ test00MethodLineEndingTest
 	
 	self configureTestDictionaryForLineEndingTest.
 	
-	emptyResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('').
-	squeakResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character 						cr, 'bar').
-	unixResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character lf, 						'bar').
-	windowsResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', 						Character cr, Character lf, 'bar').
-	mixResult := (SLMethodMetricsPlugIn new) methodLineEndingHelper: ('foo', Character cr, 						Character lf, 'bar', Character cr, 'baz').
+	emptyResult := plugIn methodLineEndingHelper: ('').
+	squeakResult := plugIn methodLineEndingHelper: ('foo', Character cr, 'bar').
+	unixResult := plugIn methodLineEndingHelper: ('foo', Character lf, 'bar').
+	windowsResult := plugIn methodLineEndingHelper: ('foo', Character cr, Character lf, 'bar').
+	mixResult := plugIn methodLineEndingHelper: ('foo', Character cr, Character lf, 'bar', Character cr, 'baz').
 	
 	self assert: emptyResult equals: 0;
 		assert: squeakResult equals: 1;

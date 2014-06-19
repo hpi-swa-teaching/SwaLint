@@ -21,6 +21,5 @@ setUp
 	testDictionary := (Dictionary new).	
 	testRunner := (SLTestRunner new) testDictionary: testDictionary.
 	
-	testSystem := SLSystemTestObject new.
-	testSystem testRunner: testRunner.
+	self resetTestSystem.
 	

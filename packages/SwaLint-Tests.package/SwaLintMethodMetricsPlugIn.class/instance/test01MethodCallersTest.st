@@ -9,6 +9,6 @@ test01MethodCallersTest
 	testSystem addClass: (SLClassTestObject newFrom: (SLTestMethodCaller01)).
 				
 	aSLMethodTestObject parent: testSystem.
-	aSLCollectionResult := (SLMethodMetricsPlugIn new) methodCallers: 																aSLMethodTestObject.
+	aSLCollectionResult := (SLMiscPlugIn new) methodCallers: aSLMethodTestObject.
 	
 	self assert: aSLCollectionResult itemCount equals: 5.
