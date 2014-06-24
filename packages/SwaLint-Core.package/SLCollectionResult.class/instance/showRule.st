@@ -1,4 +1,0 @@
-accessing
-showRule
-
-	^ [self itemsNotEmpty]
