@@ -1,0 +1,4 @@
+accessing
+showRule
+
+	^ [self itemsNotEmpty]
