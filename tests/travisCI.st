@@ -18,6 +18,6 @@ Metacello new
 
 "Run the tests"
 TravisCIHarness
-  value: #( 'ConfigurationOfSwaLint' )
+  value: #( 'BaselineOfSwaLint' )
   value: 'TravisCISuccess.txt' 
   value: 'TravisCIFailure.txt'.

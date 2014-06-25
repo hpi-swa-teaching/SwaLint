@@ -5,15 +5,13 @@ baseline: spec
 		for: #'common' 
 		do: [
 			spec
-				package: 'SwaLint-Core';
 				package: 'SwaLint-Preferences';
-				package: 'SwaLint-Plugins';
-				package: 'SwaLint-Tests' with: [spec requires: #('SwaLint-Core')];
-				yourself.
+				package: 'SwaLint-Core' with: [spec requires: 'SwaLint-Preferences'];
+				package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
+				package: 'SwaLint-TestClasses';
+				package: 'SwaLint-Tests' with: [ spec requires: #('SwaLint-Core' 'SwaLint-PlugIns' 'SwaLint-TestClasses') ].
 			spec
-				group: 'default' with: #('SwaLint-Core');
-				group: 'Preferences' with: #('SwaLint-Preferences');
-				group: 'Plugins' with: #('SwaLint-Plugins');
-				group: 'Tests' with: #('SwaLint-Tests');
-				group: 'TravisCI' with: #('Tests');
-				yourself]
+				group: 'default' with: #('SwaLint-PlugIns');
+				group: 'Core' with: #('SwaLint-Core');
+				group: 'PlugIns' with: #('SwaLint-PlugIns');
+				group: 'Tests' with: #('SwaLint-Tests')].
