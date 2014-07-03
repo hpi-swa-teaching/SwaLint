@@ -1,7 +1,8 @@
 {
 	"class" : {
+		"NoDotAfterMethodEnd" : "SO 7/3/2014 16:05",
 		"defaultCategory" : "AT 5/7/2008 21:30",
-		"initializePreferences" : "AT 5/22/2008 15:20",
+		"initializePreferences" : "SO 7/3/2014 16:12",
 		"offeredTestsData" : "MB 6/19/2014 10:46" },
 	"instance" : {
 		"classNamespaceResult:" : "AT 5/28/2008 11:23",

@@ -4,4 +4,4 @@ initializeDictionaryOfPreferences
 
 	"Preferences initializeDictionaryOfPreferences"
 
-	self  dictionaryOfPreferences:IdentityDictionary new
+	self dictionaryOfPreferences: IdentityDictionary new

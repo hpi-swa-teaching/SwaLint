@@ -1,7 +1,22 @@
 {
 	"class" : {
+		"AverageLOCperMethodAVRG" : "SO 7/3/2014 16:21",
+		"AverageLOCperMethodSTDEV" : "SO 7/3/2014 15:48",
+		"BaseClassOverridingRatioHigh" : "SO 7/3/2014 16:21",
+		"BaseClassOverridingRatioLow" : "SO 7/3/2014 16:21",
+		"ClassLOCAVRG" : "SO 7/3/2014 16:21",
+		"ClassLOCSTDEV" : "SO 7/3/2014 16:21",
+		"NumberOfClassMethodsHigh" : "SO 7/3/2014 16:21",
+		"NumberOfClassMethodsLow" : "SO 7/3/2014 16:21",
+		"NumberOfInstanceMethodsLow" : "SO 7/3/2014 16:21",
+		"NumberOfInstenceMethodsHigh" : "SO 7/3/2014 16:22",
+		"NumberOfMethodsHigh" : "SO 7/3/2014 16:22",
+		"NumberOfMethodsLow" : "SO 7/3/2014 16:22",
+		"ShowClassMetricTests" : "SO 7/3/2014 16:22",
+		"WMCAVRG" : "SO 7/3/2014 16:22",
+		"WMCSTDEV" : "SO 7/3/2014 16:22",
 		"defaultCategory" : "AT 5/7/2008 21:29",
-		"initializePreferences" : "AT 5/19/2008 11:34",
+		"initializePreferences" : "SO 7/3/2014 16:11",
 		"offeredTestsData" : "AT 5/7/2008 21:29" },
 	"instance" : {
 		"accessToForeignData:" : "AT 5/7/2008 21:33",

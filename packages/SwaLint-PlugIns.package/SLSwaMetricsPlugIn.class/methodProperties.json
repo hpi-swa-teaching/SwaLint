@@ -1,7 +1,8 @@
 {
 	"class" : {
+		"ShowSwaMetricTests" : "SO 7/3/2014 16:13",
 		"defaultCategory" : "tfel 1/10/2011 15:16",
-		"initializePreferences" : "tfel 1/10/2011 15:17",
+		"initializePreferences" : "SO 7/3/2014 16:11",
 		"maxLineSize" : "tfel 1/11/2011 11:35",
 		"offeredTestsData" : "topa 7/31/2013 10:31:16.52" },
 	"instance" : {

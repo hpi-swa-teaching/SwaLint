@@ -1,8 +1,13 @@
 {
 	"class" : {
+		"MethodCYCLOHigh" : "SO 7/3/2014 16:08",
+		"MethodCYCLOLow" : "SO 7/3/2014 16:08",
+		"MethodLOCAVRG" : "SO 7/3/2014 16:07",
+		"MethodLOCSTDEV" : "SO 7/3/2014 16:07",
+		"ShowMethodMetricTests" : "SO 7/3/2014 16:07",
 		"defaultCategory" : "AT 5/8/2008 09:41",
 		"ifAndSimilar" : "AT 5/8/2008 09:41",
-		"initializePreferences" : "AT 5/19/2008 12:09",
+		"initializePreferences" : "SO 7/3/2014 16:12",
 		"offeredTestsData" : "MB 6/19/2014 11:10" },
 	"instance" : {
 		"isAddedService:" : "AT 5/8/2008 09:35",
