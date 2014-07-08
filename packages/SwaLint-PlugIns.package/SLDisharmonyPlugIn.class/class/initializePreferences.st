@@ -1,0 +1,4 @@
+preferences
+initializePreferences 
+
+	self initializePragmaPreferences.
