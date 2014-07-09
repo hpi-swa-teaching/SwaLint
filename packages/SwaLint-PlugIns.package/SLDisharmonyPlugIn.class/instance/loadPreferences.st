@@ -1,6 +1,6 @@
 initialize-release
 loadPreferences
 
-	self loadPreferences: #(AverageLOCperMethodAVRG
+"	self loadPreferences: #(AverageLOCperMethodAVRG
 					ClassLOCAVRG ClassLOCSTDEV WMCAVRG WMCSTDEV).
-	self loadPreferenceCategory: #Disharmony.
+	self loadPreferenceCategory: #Disharmony."
