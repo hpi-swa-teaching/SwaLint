@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Preferences-Common",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "SO 7/9/2014 14:42",
+	"instvars" : [
+		"provider",
+		"getter",
+		"setter" ],
+	"name" : "SLPragmaPreference",
+	"pools" : [
+		 ],
+	"super" : "SLPreference",
+	"type" : "normal" }

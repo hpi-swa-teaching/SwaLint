@@ -1,4 +1,5 @@
 private
 isExcessivelyLarge: aSLMethodTestObject
 
-	^ (aSLMethodTestObject resultOf: #methodLOC) >= (self preference: #LargeMethodLOC)
+	^ (aSLMethodTestObject resultOf: #methodLOC) >= 
+		(SLPreferences preferenceAt: #LargeMethodLOC) preferenceValue.

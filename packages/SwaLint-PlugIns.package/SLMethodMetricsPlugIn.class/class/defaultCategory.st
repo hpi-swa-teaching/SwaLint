@@ -1,6 +1,6 @@
 defaults
 defaultCategory
 
-	^ (SLPreferences ShowMethodMetricTests) 
+	^ (self ShowMethodMetricTests) 
 		ifTrue: ['Method Metrics'] 
 		ifFalse: [SwaLint hiddenCategory]

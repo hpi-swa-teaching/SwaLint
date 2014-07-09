@@ -18,9 +18,10 @@ searchCloneIn: testLines from: testIndex comparedWith: compLines from: compIndex
 				[self lineIn: testLines at: currentIndex + cloneSize 
 					equals: compLines at: currentCompIndex + cloneSize] whileTrue:
 						[cloneSize := cloneSize + 1].
-				(cloneSize > (self preference: #MinimumExactCloneSize)) ifTrue:
-										[^Dictionary newFrom: 
-										{(#cloneSize -> cloneSize).
-										(#testCloneStart -> testCloneStart).
-										(#compCloneStart -> compCloneStart).}]]]].
+				(cloneSize > ((SLPreferences 
+					preferenceAt: #MinimumExactCloneSize) preferenceValue ))
+						ifTrue:	[^Dictionary newFrom: 
+									{(#cloneSize -> cloneSize).
+									(#testCloneStart -> testCloneStart).
+									(#compCloneStart -> compCloneStart).}]]]].
 	^nil

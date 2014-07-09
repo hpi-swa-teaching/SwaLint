@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"ShowSwaMetricTests" ],
 	"commentStamp" : "tfel 1/10/2011 15:18",
 	"instvars" : [
 		"globalSloccount" ],

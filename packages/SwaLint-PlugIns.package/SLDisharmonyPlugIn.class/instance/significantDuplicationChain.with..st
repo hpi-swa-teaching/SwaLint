@@ -18,7 +18,7 @@ significantDuplicationChain: aSLMethodTestObject with: anotherSLMethodTestObject
 				[currentTestIndex := (currentClone at: #testCloneStart) + (currentClone at: #cloneSize).
 				currentCompIndex := (currentClone at: #compCloneStart) + (currentClone at: #cloneSize).
 				currentClone := self searchCloneIn: testLines from: currentTestIndex
-							comparedWith: compLines from: currentCompIndex range: (self preference: #SmallLineBias).
+							comparedWith: compLines from: currentCompIndex range: ((SLPreferences preferenceAt: #SmallLineBias) preferenceValue).
 				currentClone ifNotNil: [chainLength := chainLength + (currentClone at: #cloneSize)].
-				(chainLength > (self preference: #MinimumDuplicationChainLength)) ifTrue: [^true]]]].
+				(chainLength > (self class MinimumDuplicationChainLength)) ifTrue: [^true]]]].
 	^false

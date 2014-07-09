@@ -9,9 +9,9 @@
 		"test05InstantiateMiscPlugIn" : "MB 5/20/2014 11:07",
 		"test06InstantiateSwaMetricsPlugIn" : "MB 5/20/2014 11:07",
 		"test07CheckExistenceOfDisharmonyPlugInClass" : "MB 5/20/2014 11:20",
-		"test08CheckExistenceOfPreferenceWMCAVRG" : "MB 5/20/2014 12:30",
-		"test09CheckExistenceOfPreferenceWMCSTDEV" : "MB 5/20/2014 12:31",
-		"test10CheckExistenceOfPreferenceClassLOCAVRG" : "MB 5/20/2014 12:31",
-		"test11CheckExistenceOfPreferenceClassLOCSTDEV" : "MB 5/20/2014 12:31",
+		"test08CheckExistenceOfPreferenceWMCAVRG" : "SO 7/9/2014 18:01",
+		"test09CheckExistenceOfPreferenceWMCSTDEV" : "SO 7/9/2014 18:01",
+		"test10CheckExistenceOfPreferenceClassLOCAVRG" : "SO 7/9/2014 17:59",
+		"test11CheckExistenceOfPreferenceClassLOCSTDEV" : "SO 7/9/2014 17:59",
 		"test12CheckExistenceOfPreferenceDictionary" : "MB 5/20/2014 12:46",
 		"test13CheckIfPreferenceDictionaryIsEmpty" : "MB 5/20/2014 12:56" } }

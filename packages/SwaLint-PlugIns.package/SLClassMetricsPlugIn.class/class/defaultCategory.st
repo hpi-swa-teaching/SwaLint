@@ -2,6 +2,6 @@ defaults
 defaultCategory
 	"hidden in final release"
 
-	^ (SLPreferences ShowClassMetricTests) 
+	^ (self ShowClassMetricTests) 
 		ifTrue: ['Class Metrics'] 
 		ifFalse: [SwaLint hiddenCategory]

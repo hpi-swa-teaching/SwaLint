@@ -1,4 +1,4 @@
 testing
 test09CheckExistenceOfPreferenceWMCSTDEV
 
-	self deny: ((SLPreferences preferenceAt: #WMCSTDEV) = nil).
+	self deny: ((SLClassMetricsPlugIn WMCSTDEV) = nil).

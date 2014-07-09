@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"NoDotAfterMethodEnd" ],
 	"commentStamp" : "NR 1/28/2008 17:00",
 	"instvars" : [
 		 ],

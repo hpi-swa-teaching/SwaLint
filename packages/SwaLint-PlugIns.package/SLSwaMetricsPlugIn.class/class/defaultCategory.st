@@ -1,6 +1,6 @@
 defaults
 defaultCategory
 
-	^ (SLPreferences ShowSwaMetricTests) 
+	^ (self ShowSwaMetricTests) 
 		ifTrue: ['Software System Metrics'] 
 		ifFalse: [SwaLint hiddenCategory]

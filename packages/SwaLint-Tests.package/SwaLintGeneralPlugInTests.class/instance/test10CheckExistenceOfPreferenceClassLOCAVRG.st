@@ -1,4 +1,4 @@
 testing
 test10CheckExistenceOfPreferenceClassLOCAVRG
 
-	self deny: ((SLPreferences preferenceAt: #ClassLOCAVRG) = nil).
+	self deny: ((SLClassMetricsPlugIn ClassLOCAVRG) = nil).

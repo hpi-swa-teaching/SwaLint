@@ -3,7 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"LargeClassLOC",
+		"LargeMethodLOC",
+		"LargeWeightedMethodCount",
+		"MinimumDuplicationChainLength",
+		"MinimumExactCloneSize",
+		"ShortMemoryCap",
+		"SignificantStandaloneExactCloneSize",
+		"SmallLineBias" ],
 	"commentStamp" : "NR 1/28/2008 17:01",
 	"instvars" : [
 		 ],

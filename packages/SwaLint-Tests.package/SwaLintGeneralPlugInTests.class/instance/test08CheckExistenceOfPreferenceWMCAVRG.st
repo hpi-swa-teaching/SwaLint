@@ -1,4 +1,4 @@
 testing
 test08CheckExistenceOfPreferenceWMCAVRG
 
-	self deny: ((SLPreferences preferenceAt: #WMCAVRG) = nil).
+	self deny: ((SLClassMetricsPlugIn WMCAVRG) = nil).

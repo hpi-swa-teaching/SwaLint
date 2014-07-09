@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"NoDotAfterMethodEnd" : "SO 7/3/2014 16:05",
+		"NoDotAfterMethodEnd" : "SO 7/9/2014 17:58",
+		"NoDotAfterMethodEnd:" : "SO 7/9/2014 17:58",
 		"defaultCategory" : "AT 5/7/2008 21:30",
-		"initializePreferences" : "SO 7/3/2014 16:12",
 		"offeredTestsData" : "MB 6/19/2014 10:46" },
 	"instance" : {
 		"classNamespaceResult:" : "AT 5/28/2008 11:23",
@@ -11,7 +11,7 @@
 		"commonStartOf:and:" : "AT 5/27/2008 18:02",
 		"complexMethods:" : "AT 5/28/2008 12:02",
 		"countDotsAfterReturn:" : "AT 5/22/2008 15:19",
-		"csMethodHasDotAfterReturn:" : "AT 5/22/2008 15:22",
+		"csMethodHasDotAfterReturn:" : "SO 7/9/2014 19:08",
 		"csMethodLineEnding:" : "MB 6/19/2014 10:28",
 		"differingLineEndings:" : "MB 6/19/2014 10:40",
 		"dotAfterReturn:" : "AT 5/22/2008 15:18",

@@ -3,7 +3,21 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"AverageLOCperMethodAVRG",
+		"AverageLOCperMethodSTDEV",
+		"BaseClassOverridingRatioHigh",
+		"BaseClassOverridingRatioLow",
+		"ClassLOCAVRG",
+		"ClassLOCSTDEV",
+		"NumberOfClassMethodsHigh",
+		"NumberOfClassMethodsLow",
+		"NumberOfInstanceMethodsLow",
+		"NumberOfInstenceMethodsHigh",
+		"NumberOfMethodsHigh",
+		"NumberOfMethodsLow",
+		"ShowClassMetricTests",
+		"WMCAVRG",
+		"WMCSTDEV" ],
 	"commentStamp" : "AT 2/8/2008 15:51",
 	"instvars" : [
 		 ],
