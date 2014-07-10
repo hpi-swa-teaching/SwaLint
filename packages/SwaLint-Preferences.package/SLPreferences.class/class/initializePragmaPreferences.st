@@ -9,6 +9,6 @@ initializePragmaPreferences
 		aClass class methodsDo: [ :aMethod | 
 			aMethod pragmas do: [ : aPragma | 
 				aPreference := 
-					self convertPragmaToPreference: aPragma of: aMethod in: aClass..	
+					self convertPragmaToPreference: aPragma of: aMethod in: aClass.
 				aPrefSymbol := aMethod selector asSymbol.			
 				self dictionaryOfPreferences at: aPrefSymbol put: aPreference. ]]].

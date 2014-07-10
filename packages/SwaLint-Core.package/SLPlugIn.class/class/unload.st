@@ -4,5 +4,4 @@ unload
 	
 	installed := false.
 	[SwaLint removePlugIn: self.
-	self unloadPreferences;
-		onUnload] ifError: [:err | ].
+	self onUnload] ifError: [:err | ].

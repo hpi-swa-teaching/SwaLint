@@ -3,7 +3,6 @@ addPreference: aName categories: categoryList default: aValue balloonHelp: helpS
 "Creates a new preference assigned to this plug in.
 type should be one of {#Boolean. #Numeric. #Color. #Font}"
 
-	self usedPreferences add: aName.
 	SLPreferences 
 		addPreference: aName
 		categories: categoryList

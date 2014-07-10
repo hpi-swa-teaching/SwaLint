@@ -1,3 +1,5 @@
-initialization
+value
 restoreDefaultValue
-	"Pragma preferences preserve their current value"
+	"restore the default value to the preference"
+
+	self preferenceValue: self defaultValue.

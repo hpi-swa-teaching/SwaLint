@@ -5,4 +5,5 @@ initialize
 		initializeDictionaryOfPreferences;
 		initializePragmaPreferences;
 		initializeParameters;
-		initializeDependentsFields.
+		initializeDependentsFields;
+		chooseInitialSettings.
