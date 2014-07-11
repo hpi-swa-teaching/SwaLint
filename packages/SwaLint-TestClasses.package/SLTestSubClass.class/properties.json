@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-TestClasses",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLTestSubClass",
+	"pools" : [
+		 ],
+	"super" : "SLTestSuperClass",
+	"type" : "normal" }

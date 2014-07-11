@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"defaultCategory" : "AT 5/8/2008 09:40",
-		"offeredTestsData" : "MB 6/19/2014 11:12" },
+		"offeredTestsData" : "MB 7/10/2014 10:24" },
 	"instance" : {
 		"accessedVar:" : "AT 5/8/2008 09:37",
 		"allAccessors:" : "AT 5/27/2008 17:29",
+		"allPublicMethods:" : "MB 7/10/2014 10:24",
 		"calledOperations:" : "AT 5/27/2008 14:06",
 		"classWidth:" : "AT 5/8/2008 09:37",
 		"collectAllVarsOf:" : "MB 6/17/2014 12:58",
@@ -15,9 +16,11 @@
 		"indirectlyAccessedVars:in:" : "MB 6/14/2014 16:10",
 		"isAccessor:" : "MB 6/12/2014 09:55",
 		"isGetter:" : "AT 5/8/2008 09:38",
+		"isPrivate:" : "MB 7/10/2014 10:25",
 		"isSetter:" : "AT 5/8/2008 09:38",
 		"methodCallers:" : "MB 6/19/2014 11:11",
 		"methodIsGetter:" : "AT 5/8/2008 09:38",
+		"methodIsPrivate:" : "MB 7/10/2014 10:26",
 		"methodIsSetter:" : "topa 10/24/2012 11:48",
 		"methodWidth:" : "AT 5/8/2008 09:38",
 		"miscTest:" : "AT 5/8/2008 09:38",

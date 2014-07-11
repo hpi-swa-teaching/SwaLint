@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allIfs" : "AT 5/8/2008 09:31",
+		"initialize" : "NR 5/7/2008 21:11",
+		"nestedIfs" : "AT 5/8/2008 09:30" } }

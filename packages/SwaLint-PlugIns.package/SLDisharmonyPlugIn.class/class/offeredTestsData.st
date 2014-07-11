@@ -9,5 +9,6 @@ offeredTestsData
 		{#shotgunSurgery. 'Shotgun Surgery'. 'Evaluates wether there are Shotgun Surgeries'}.
 		{#significantDuplication. 'Significant Duplication'. 'Evaluates wether there are Significant Duplications'}.
 		{#featureEnvy. 'Feature Envy'. 'Evaluates wether there is Feature Envy'}.
-		"{#intenseCoupling. 'Intense Coupling'. ''}."
+		{#intensiveCoupling. 'Intensive Coupling'. 'Evaluates wether there is Intensive Coupling'}.
+		{#dispersedCoupling. 'Dispersed Coupling'. 'Evaluates wether there is Dispersed Coupling'}.
 	}

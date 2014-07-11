@@ -12,14 +12,14 @@
 		"ShowMethodMetricTests:" : "SO 7/9/2014 17:56",
 		"defaultCategory" : "SO 7/9/2014 17:56",
 		"ifAndSimilar" : "AT 5/8/2008 09:41",
-		"offeredTestsData" : "MB 6/19/2014 11:10" },
+		"offeredTestsData" : "MB 7/10/2014 10:26" },
 	"instance" : {
 		"isAddedService:" : "AT 5/8/2008 09:35",
 		"maxNesting:" : "AT 5/27/2008 00:42",
 		"methodATFD:" : "MB 6/19/2014 10:00",
 		"methodCC:" : "MB 6/19/2014 10:01",
 		"methodCDISP:" : "AT 5/27/2008 14:54",
-		"methodCINT:" : "AT 5/27/2008 14:29",
+		"methodCINT:" : "MB 7/10/2014 10:21",
 		"methodCM:" : "MB 6/19/2014 10:01",
 		"methodCYCLO:" : "AT 5/28/2008 12:24",
 		"methodFDP:" : "MB 6/19/2014 10:01",
@@ -27,5 +27,5 @@
 		"methodLOC:" : "AT 5/28/2008 12:24",
 		"noavPerCint:" : "AT 5/27/2008 14:55",
 		"nodeCYCLO:" : "AT 5/8/2008 09:36",
-		"numberOfAccessedVars:" : "AT 5/28/2008 12:07",
+		"numberOfAccessedVars:" : "MB 7/10/2014 12:56",
 		"test:with:" : "AT 5/17/2008 17:05" } }

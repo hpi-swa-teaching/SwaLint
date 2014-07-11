@@ -1,4 +1,4 @@
-class tests
+method tests
 methodCallers: aSLMethodTestObject
 
 	| methods |

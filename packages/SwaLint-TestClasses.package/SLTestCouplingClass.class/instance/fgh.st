@@ -1,0 +1,4 @@
+accessing
+fgh
+
+	^ fgh

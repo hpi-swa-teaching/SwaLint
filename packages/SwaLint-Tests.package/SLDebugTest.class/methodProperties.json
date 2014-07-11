@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "topa 4/23/2010 15:35",
+		"tearDown" : "topa 4/23/2010 15:36",
+		"testDebugTryCatch" : "topa 4/23/2010 15:36" } }

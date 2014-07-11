@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"someString" : "AT 5/8/2008 09:30",
+		"someStringMorePolite" : "AT 5/8/2008 09:30" },
+	"instance" : {
+		"addUp" : "AT 5/8/2008 09:30",
+		"initialize" : "NR 5/7/2008 21:10",
+		"var1" : "AT 5/8/2008 09:30",
+		"var2" : "AT 5/8/2008 09:30" } }

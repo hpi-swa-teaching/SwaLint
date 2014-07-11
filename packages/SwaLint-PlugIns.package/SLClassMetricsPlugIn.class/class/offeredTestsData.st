@@ -16,4 +16,7 @@ offeredTestsData
 		{#tightClassCohesion. 'Tight Class Cohesion [TCC]'. 'Number of methodpairs that access similar instance variables .'}.
 		{#newlyAddedServicesRatio. 'Percentage of Newly Added Services [PNAS]'. 'Answer the number of methods of a class that are not overridden or specialized from the ancestors, divided by the total number of methods.'}.
 		{#weightOfClass. 'Weight of Class [WOC]'. 'The number of "functional" methods divided by the total number of members.'}.
+		{#classAMW. 'AMW of a class [AWM]'. 'Average Method Weight'}.
+		{#classNAS. 'NAS of a class [NAS]'. 'Number of added Services'}.
+		{#classPNAS. 'PNAS of a class [PNAS]'. 'Percentage of newly added Services'}.
 	}

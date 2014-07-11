@@ -1,0 +1,15 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 1/18/2008 16:54",
+	"instvars" : [
+		"var2",
+		"var1" ],
+	"name" : "SLFixtureClassWMCHigh",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/28/2008 18:15",
+	"instvars" : [
+		 ],
+	"name" : "SLCodingStylePlugInTest",
+	"pools" : [
+		 ],
+	"super" : "SLPluginTest",
+	"type" : "normal" }

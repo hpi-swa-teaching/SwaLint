@@ -11,4 +11,6 @@
 		"test03ShotgunSurgeryTest" : "MB 6/17/2014 13:35",
 		"test04SyntheticSignificantDuplicationTest" : "MB 6/6/2014 13:24",
 		"test05SignificantDuplication" : "MB 6/17/2014 13:35",
-		"test06FeatureEnvyTest" : "MB 6/19/2014 10:38" } }
+		"test06FeatureEnvyTest" : "MB 6/19/2014 10:38",
+		"test07DispersedCouplingTest" : "MB 7/11/2014 11:49",
+		"test08IntensiveCouplingTest" : "MB 7/11/2014 11:53" } }

@@ -2,6 +2,6 @@ tests
 methodCINT: aSLMethodTestObject
 	"Answer the number of distinct message selectors sent by a method"
 
-	^ self integerResult:
+	^ self fewManyResult:
 		(aSLMethodTestObject resultOf: #calledOperations) itemCount
 		

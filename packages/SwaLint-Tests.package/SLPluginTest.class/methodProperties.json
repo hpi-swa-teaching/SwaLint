@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"printResults:expected:if:" : "AT 2/7/2008 07:53",
+		"setUp" : "topa 1/16/2008 09:14",
+		"test:on:expectedResults:" : "NR 1/16/2008 18:11",
+		"test:on:expectedResults:debug:" : "AT 2/7/2008 08:01" } }

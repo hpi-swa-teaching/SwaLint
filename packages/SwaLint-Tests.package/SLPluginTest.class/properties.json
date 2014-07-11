@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 1/19/2008 12:18",
+	"instvars" : [
+		"testRunner" ],
+	"name" : "SLPluginTest",
+	"pools" : [
+		 ],
+	"super" : "SwaLintTest",
+	"type" : "normal" }

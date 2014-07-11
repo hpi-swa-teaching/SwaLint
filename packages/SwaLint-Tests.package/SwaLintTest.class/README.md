@@ -1,0 +1,1 @@
+I am the base class for all SwaLint tests.

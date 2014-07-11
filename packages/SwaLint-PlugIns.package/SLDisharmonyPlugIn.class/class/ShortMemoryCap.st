@@ -4,7 +4,7 @@ ShortMemoryCap
 	<slpreference:'Short memory cap'
 	type: #Numeric
 	categories: #(Disharmony)
-	defaultValue: 3
+	defaultValue: 30
 	helpText: 'The number of items, that can be memorized by the short-term memory.'>
 	
-	^ ShortMemoryCap ifNil: [3].
+	^ ShortMemoryCap ifNil: [30].

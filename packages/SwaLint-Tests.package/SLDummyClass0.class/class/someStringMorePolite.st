@@ -1,0 +1,4 @@
+accessing
+someStringMorePolite
+
+	^ self someString, ' :-)'

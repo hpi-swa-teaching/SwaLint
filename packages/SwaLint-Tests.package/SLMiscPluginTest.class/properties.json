@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NR 1/28/2008 17:08",
+	"instvars" : [
+		 ],
+	"name" : "SLMiscPluginTest",
+	"pools" : [
+		 ],
+	"super" : "SLPluginTest",
+	"type" : "normal" }

@@ -15,4 +15,3 @@ offeredTestsData
 		{#methodFDP. 'Foreign Data Providers [FDP]'}.
 		{#methodATFD. 'Access To Foreign Data [ATFD]'}.
 	}
-		

@@ -1,0 +1,1 @@
+My subclasses test SLTestObjects.
