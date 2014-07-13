@@ -1,5 +1,5 @@
 pragma-preferences
-convertPragmaToPreference: aPragma of: aMethod in: aClass
+convertPragmaToPreference: aPragma
 
 	| aPreference |
 
@@ -21,8 +21,8 @@ convertPragmaToPreference: aPragma of: aMethod in: aClass
 			changeInformee: aPragma arguments seventh
 			changeSelector: aPragma arguments eighth. ].
 		aPreference 
-			provider: aClass
-			getter: aMethod selector
-			setter: aMethod selector asMutator.
+			provider: aPragma method methodClass theNonMetaClass
+			getter: aPragma method selector
+			setter: aPragma method selector asMutator.
 		
 	^ aPreference.
