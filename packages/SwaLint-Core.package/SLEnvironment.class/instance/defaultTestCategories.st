@@ -7,7 +7,7 @@ defaultTestCategories
 		
 	tests := (SLMultipleSelectionModel 
 		withModel: self withMessage: #selectableTests 
-		withAsStringSelector: #name)
+		withAsStringSelector: #format)
 		menuGetter: #testsMenuFor:in:.
 	
 	testCategories addDependent: tests.

@@ -8,4 +8,5 @@ newFromArray: anArray plugin: aSLPlugInClass
 		description: (anArray at: 3 ifAbsent: [nil])
 		inCategory: (anArray at: 4 ifAbsent: [nil])
 		selector: (anArray at: 5 ifAbsent: [nil])
+		longRuntime: (anArray at: 6 ifAbsent: [false])
 		plugIn: aSLPlugInClass

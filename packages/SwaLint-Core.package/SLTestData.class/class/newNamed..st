@@ -5,5 +5,6 @@ newNamed: aSymbol
 		shortDescription: nil 
 		description: nil 
 		inCategory: nil 
-		selector: nil 
+		selector: nil
+		longRuntime: false
 		plugIn: nil

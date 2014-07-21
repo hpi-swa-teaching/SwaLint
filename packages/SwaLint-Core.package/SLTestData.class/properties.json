@@ -14,7 +14,8 @@
 		"method",
 		"testRunner",
 		"userSelected",
-		"hidden" ],
+		"hidden",
+		"longRuntime" ],
 	"name" : "SLTestData",
 	"pools" : [
 		 ],
