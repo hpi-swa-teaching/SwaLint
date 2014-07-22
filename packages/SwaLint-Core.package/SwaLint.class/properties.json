@@ -6,7 +6,11 @@
 		"debug",
 		"icon" ],
 	"classvars" : [
-		 ],
+		"ColorizeResults",
+		"DebugMode",
+		"MarkLongRuntimeTests",
+		"UseOBRefactoryIfAvailable",
+		"WorldMenuEntry" ],
 	"commentStamp" : "AT 2/2/2008 17:49",
 	"instvars" : [
 		 ],

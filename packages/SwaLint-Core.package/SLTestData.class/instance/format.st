@@ -4,5 +4,8 @@ format
 	| display |
 	
 	display := self name.
-	self longRuntime ifTrue: [display := '*', display].
+	(self longRuntime and: 
+		[(SLPreferences preferenceAt: #MarkLongRuntimeTests) preferenceValue]) 
+			ifTrue: [display := '*', display].
+			
 	^ display
