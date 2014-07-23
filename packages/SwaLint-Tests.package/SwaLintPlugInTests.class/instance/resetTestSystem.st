@@ -1,4 +1,4 @@
-running
+configuration
 resetTestSystem
 
 	testSystem := SLSystemTestObject new.

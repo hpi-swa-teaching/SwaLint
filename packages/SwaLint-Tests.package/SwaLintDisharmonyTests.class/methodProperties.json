@@ -2,11 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildBrainMethodFor:" : "MB 5/14/2014 19:58",
-		"plugInClass" : "MB 6/19/2014 10:34",
+		"plugInClass" : "MB 7/22/2014 12:26",
 		"setUp" : "MB 6/17/2014 13:09",
-		"test00SelfTest" : "MB 5/17/2014 14:03",
-		"test01SyntheticBrainClassTest" : "MB 6/17/2014 13:10",
+		"test01TraditionBreakerTest" : "MB 7/22/2014 12:19",
 		"test02BrainClassTest" : "MB 6/17/2014 13:35",
 		"test03ShotgunSurgeryTest" : "MB 6/17/2014 13:35",
 		"test04SyntheticSignificantDuplicationTest" : "MB 6/6/2014 13:24",

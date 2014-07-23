@@ -1,6 +1,5 @@
 configuration
 loadAllTests
-"Overkill, only use when a lot of tests is needed"
 
 	| allTests |
 	
