@@ -14,4 +14,4 @@ newNamed: aSymbol
 		description: (aDescription ifNil: ['no description']);
 		category: (aCategorySymbol ifNil: [self defaultCategoryOf: aSLPlugInClass]);
 		method: (aMethodSelector ifNil: [(aSymbol, ':') asSymbol]);
-		longRuntime: aBoolean.
+		longRuntime: aBoolean

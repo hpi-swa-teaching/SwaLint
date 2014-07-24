@@ -5,4 +5,4 @@ methodCDISP: aSLMethodTestObject
 	^ self percentageResult:
 	(((aSLMethodTestObject resultOf: #methodCINT) <= 0) 
 		ifTrue: [ 1 ]
-		ifFalse: [ (self noavPerCint: aSLMethodTestObject) * 0.9 ]).
+		ifFalse: [ (self noavPerCint: aSLMethodTestObject) * 0.9 ])

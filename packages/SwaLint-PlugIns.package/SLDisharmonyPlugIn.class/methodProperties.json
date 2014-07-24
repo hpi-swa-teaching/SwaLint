@@ -29,7 +29,7 @@
 		"godClass:" : "topa 12/7/2012 14:18",
 		"hasRelevantSuperclass:" : "MB 7/15/2014 13:01",
 		"intensiveCoupling:" : "MT 7/23/2014 23:02",
-		"isExcessivelyLarge:" : "SO 7/9/2014 19:06",
+		"isExcessivelyLarge:" : "MT 7/24/2014 23:46",
 		"lineIn:at:equals:at:" : "MT 7/23/2014 23:02",
 		"loadPreferences" : "HD 7/9/2014 19:36",
 		"looksLikeBrainClass:" : "MT 7/23/2014 23:03",
@@ -41,7 +41,7 @@
 		"searchCloneIn:from:comparedWith:from:range:" : "MT 7/23/2014 23:10",
 		"shotgunSurgery:" : "MT 7/23/2014 23:09",
 		"significantDuplication:" : "MT 7/23/2014 23:09",
-		"significantDuplicationChain:with:" : "MT 7/23/2014 23:11",
+		"significantDuplicationChain:with:" : "MT 7/24/2014 23:39",
 		"significantStandaloneExactClone:with:" : "MT 7/23/2014 23:12",
 		"substantialSizeAndComplexity:" : "MT 7/23/2014 23:13",
 		"traditionBreaker:" : "MT 7/23/2014 23:13" } }
