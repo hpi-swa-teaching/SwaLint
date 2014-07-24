@@ -1,4 +1,4 @@
 preferences
 ShowMethodMetricTests: aBoolean
 
-	ShowMethodMetricTests := aBoolean..
+	ShowMethodMetricTests := aBoolean.

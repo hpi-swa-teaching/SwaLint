@@ -10,4 +10,4 @@ ShowSwaMetricTests
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	
-	^ ShowSwaMetricTests ifNil: [true].
+	^ ShowSwaMetricTests ifNil: [ true ]

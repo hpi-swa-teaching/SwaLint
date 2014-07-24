@@ -10,6 +10,6 @@ WorldMenuEntry
 	changeInformee: #SwaLint
 	changeSelector: #worldMenuPreferenceChanged>
 	
-	^ WorldMenuEntry ifNil: [true].
+	^ WorldMenuEntry ifNil: [true]
 
 	

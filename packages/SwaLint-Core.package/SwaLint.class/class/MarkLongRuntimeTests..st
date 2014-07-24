@@ -1,6 +1,6 @@
 preferences
 MarkLongRuntimeTests: aBoolean
 
-	MarkLongRuntimeTests := aBoolean.
+	MarkLongRuntimeTests := aBoolean
 
 	

@@ -1,4 +1,4 @@
 preferences
 WMCAVRG: aNumber
 
-	WMCAVRG := aNumber.
+	WMCAVRG := aNumber

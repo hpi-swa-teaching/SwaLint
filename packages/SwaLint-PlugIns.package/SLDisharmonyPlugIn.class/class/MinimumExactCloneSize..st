@@ -1,4 +1,4 @@
 preferences
 MinimumExactCloneSize: aNumber
 
-	MinimumExactCloneSize := aNumber.
+	MinimumExactCloneSize := aNumber

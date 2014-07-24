@@ -10,4 +10,4 @@ testRunner testDictionary addAll:
 				plugin: SLCodingStylesPlugIn)).
 		(#csMethodLineEnding ->
 			(SLTestData newFromArray: (SLCodingStylesPlugIn offeredTestsData at: 12)
-				plugin: SLCodingStylesPlugIn)).}.
+				plugin: SLCodingStylesPlugIn)).}

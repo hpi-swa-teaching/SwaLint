@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 test01MethodCallersTest
 	
 	| aSLMethodTestObject aSLCollectionResult |
@@ -9,4 +9,4 @@ test01MethodCallersTest
 	aSLMethodTestObject parent: testSystem.
 	aSLCollectionResult := (SLMiscPlugIn new) methodCallers: aSLMethodTestObject.
 	
-	self assert: aSLCollectionResult itemCount equals: 5.
+	self assert: aSLCollectionResult itemCount equals: 5

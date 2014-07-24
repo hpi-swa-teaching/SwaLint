@@ -5,7 +5,7 @@ classAMW: aSLClassTestObject
 	
 	methodNumber := (aSLClassTestObject resultOf: #numberOfMethods) result.
 	totalWeight := (aSLClassTestObject resultOf: #weightedMethodCount) result.
-	amw := (methodNumber = 0) ifTrue: [0]
-								   ifFalse: [totalWeight / methodNumber].
+	amw := (methodNumber = 0) ifTrue: [ 0 ]
+								   ifFalse: [ totalWeight / methodNumber ].
 	
 	^ self numericResult: amw withThresholdFor: #MethodCYCLO

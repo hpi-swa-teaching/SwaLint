@@ -1,4 +1,4 @@
 preferences
 NoDotAfterMethodEnd: aBoolean
 
-	NoDotAfterMethodEnd := aBoolean.
+	NoDotAfterMethodEnd := aBoolean

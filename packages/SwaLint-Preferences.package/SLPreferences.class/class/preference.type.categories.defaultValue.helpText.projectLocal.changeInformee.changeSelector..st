@@ -1,5 +1,12 @@
 pragma-preferences
-preference: aPrefName type: aType categories: aArrayOfCategories defaultValue: anObject helpText: aHelpText projectLocal: aBoolean changeInformee: aSymbol changeSelector: anotherSymbol
+preference: aPrefName
+	type: aType
+	categories: aArrayOfCategories
+	defaultValue: anObject
+	helpText: aHelpText
+	projectLocal: aBoolean
+	changeInformee: aSymbol
+	changeSelector: anotherSymbol
 
 	| aPreference |
 	
@@ -14,4 +21,4 @@ preference: aPrefName type: aType categories: aArrayOfCategories defaultValue: a
 		changeSelector: anotherSymbol
 		viewRegistry: (SLPreferences viewRegisteryFor: aType).
 		
-	^ aPreference.
+	^ aPreference

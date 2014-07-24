@@ -1,4 +1,4 @@
 preferences
 NumberOfClassMethodsHigh: aNumber
 
-	NumberOfClassMethodsHigh := aNumber.
+	NumberOfClassMethodsHigh := aNumber

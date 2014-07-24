@@ -1,4 +1,4 @@
 preferences
 NumberOfMethodsLow: aNumber
 
-	NumberOfMethodsLow := aNumber.
+	NumberOfMethodsLow := aNumber

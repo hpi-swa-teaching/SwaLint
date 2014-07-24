@@ -7,4 +7,4 @@ ClassLOCAVRG
 	defaultValue: 200
 	helpText: 'The average of lines of code of a class'>
 	
-	^ ClassLOCAVRG ifNil: [200].
+	^ ClassLOCAVRG ifNil: [ 200 ]

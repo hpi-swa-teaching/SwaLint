@@ -7,4 +7,4 @@ ShortMemoryCap
 	defaultValue: 30
 	helpText: 'The number of items, that can be memorized by the short-term memory.'>
 	
-	^ ShortMemoryCap ifNil: [30].
+	^ ShortMemoryCap ifNil: [ 30 ]

@@ -10,4 +10,4 @@ ShowMethodMetricTests
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	
-	^ ShowMethodMetricTests ifNil: [false].
+	^ ShowMethodMetricTests ifNil: [ false ]

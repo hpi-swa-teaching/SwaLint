@@ -7,4 +7,4 @@ MethodLOCSTDEV
 	defaultValue: 3
 	helpText: 'The standard deviation of the lines of code of a method'>
 	
-	^ MethodLOCSTDEV ifNil: [3].
+	^ MethodLOCSTDEV ifNil: [ 3 ]

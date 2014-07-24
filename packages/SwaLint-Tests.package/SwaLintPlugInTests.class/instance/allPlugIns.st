@@ -1,5 +1,5 @@
 accessing
 allPlugIns
 
-	^{SLMethodMetricsPlugIn. SLClassMetricsPlugIn. SLCodingStylesPlugIn.
+	^ {SLMethodMetricsPlugIn. SLClassMetricsPlugIn. SLCodingStylesPlugIn.
 			SLDisharmonyPlugIn.  SLMiscPlugIn.  SLSwaMetricsPlugIn.} asSet

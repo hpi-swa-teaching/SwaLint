@@ -13,4 +13,4 @@ test01LineEndingConsistencyTest
 	self assert: (testClass resultOf: #numberOfMethods) equals: 2.
 	
 	testResult := testClass resultOf: #differingLineEndings.
-	self assert: testResult equals: 1.
+	self assert: testResult equals: 1

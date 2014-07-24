@@ -1,4 +1,4 @@
 preferences
 removePreferences
 
-	SLPreferences removePragmaPreferencesOf: (self class).
+	SLPreferences removePragmaPreferencesOf: (self class)

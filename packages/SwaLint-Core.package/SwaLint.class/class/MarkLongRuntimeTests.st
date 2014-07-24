@@ -10,6 +10,6 @@ MarkLongRuntimeTests
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	
-	^ MarkLongRuntimeTests ifNil: [true].
+	^ MarkLongRuntimeTests ifNil: [true]
 
 	

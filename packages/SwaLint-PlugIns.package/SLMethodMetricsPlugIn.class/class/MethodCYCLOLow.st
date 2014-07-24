@@ -7,4 +7,4 @@ MethodCYCLOLow
 	defaultValue: 1
 	helpText: 'The low border of method CYCLO'>
 	
-	^ MethodCYCLOLow ifNil: [1].
+	^ MethodCYCLOLow ifNil: [ 1 ]

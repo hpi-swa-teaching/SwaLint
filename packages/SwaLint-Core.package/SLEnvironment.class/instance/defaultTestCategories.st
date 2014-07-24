@@ -12,4 +12,4 @@ defaultTestCategories
 	
 	testCategories addDependent: tests.
 	testCategories addDependent: self.
-	tests addDependent: self.
+	tests addDependent: self

@@ -7,4 +7,4 @@ MinimumExactCloneSize
 	defaultValue: 3
 	helpText: 'The minimum size of exact clones.'>
 	
-	^ MinimumExactCloneSize ifNil: [3].
+	^ MinimumExactCloneSize ifNil: [ 3 ]

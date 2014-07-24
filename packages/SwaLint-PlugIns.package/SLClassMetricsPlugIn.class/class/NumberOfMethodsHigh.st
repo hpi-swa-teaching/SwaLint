@@ -7,4 +7,4 @@ NumberOfMethodsHigh
 	defaultValue: 60
 	helpText: 'The high border of number of methods for a class'>
 	
-	^ NumberOfMethodsHigh ifNil: [60].
+	^ NumberOfMethodsHigh ifNil: [ 60 ]

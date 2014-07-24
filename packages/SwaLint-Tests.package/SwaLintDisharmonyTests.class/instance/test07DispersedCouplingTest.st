@@ -20,4 +20,4 @@ test07DispersedCouplingTest
 	
 	self assert: (dispersedCoupling resultOf: #methodCINT) equals: 31.
 
-	self assert: (dispersedCoupling resultOf: #dispersedCoupling) equals: true.
+	self assert: (dispersedCoupling resultOf: #dispersedCoupling) equals: true

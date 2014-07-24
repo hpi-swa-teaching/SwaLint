@@ -3,6 +3,7 @@ unload
 	"Clean this up. If you want to do something in your plug-in, overwrite onUnload"
 	
 	installed := false.
-	[self removePreferences.
-	SwaLint removePlugIn: self.
-	self onUnload] ifError: [:err | ].
+	[ self removePreferences.
+		SwaLint removePlugIn: self.
+		self onUnload ]
+	ifError: [ :err | ]

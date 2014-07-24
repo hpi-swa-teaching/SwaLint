@@ -7,4 +7,4 @@ NoDotAfterMethodEnd
 	defaultValue: true
 	helpText: 'If true, dots behind a return statement are a bad thing, if false, they are good.'>
 	
-	^ NoDotAfterMethodEnd ifNil: [true].
+	^ NoDotAfterMethodEnd ifNil: [ true ]

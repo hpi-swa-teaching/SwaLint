@@ -1,6 +1,6 @@
 preferences
 WorldMenuEntry: aBoolean
 
-	WorldMenuEntry := aBoolean.
+	WorldMenuEntry := aBoolean
 
 	

@@ -5,4 +5,4 @@ initialize
 		initializeDictionaryOfPreferences;
 		initializeParameters;
 		initializeDependentsFields;
-		chooseInitialSettings.
+		chooseInitialSettings

@@ -5,4 +5,4 @@ allPublicMethods: aSLClassTestObject
 
 	^ SLCollectionResult 
 		newWith: aSLClassTestObject methods
-		select: [ :method | (method resultOf: #isPrivate) isNegative]
+		select: [ :method | (method resultOf: #isPrivate) isNegative ]

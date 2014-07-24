@@ -1,4 +1,4 @@
 preferences
 LargeWeightedMethodCount: aNumber
 
-	LargeWeightedMethodCount := aNumber.
+	LargeWeightedMethodCount := aNumber

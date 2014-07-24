@@ -1,7 +1,8 @@
 converting
 asPreference
 	| preference |
-	preference := Preference new.
+	
+	preference := SLPreference new.
 	preference
 		name: name
 		defaultValue: defaultValue
@@ -10,6 +11,6 @@ asPreference
 		categoryList: categoryList
 		changeInformee: changeInformee
 		changeSelector:  changeSelector
-		type: type.
+		viewRegistry: viewRegistry.
 	preference rawValue: self preferenceValue.
-	^preference
+	^ preference

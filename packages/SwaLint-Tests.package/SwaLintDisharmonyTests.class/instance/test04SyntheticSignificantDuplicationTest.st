@@ -15,4 +15,4 @@ test04SyntheticSignificantDuplicationTest
 	testCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #aCloneChainMessage).
 	compCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #anotherCloneChainMessage).
 	
-	self assert:(plugIn significantDuplicationChain: testCloneChainMethod with: compCloneChainMethod).
+	self assert:(plugIn significantDuplicationChain: testCloneChainMethod with: compCloneChainMethod)

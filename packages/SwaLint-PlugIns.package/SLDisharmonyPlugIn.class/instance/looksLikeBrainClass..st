@@ -2,12 +2,12 @@ private
 looksLikeBrainClass: aSLClassTestObject
 
 	^ 	(((aSLClassTestObject methods select: 
-				[:method | (method resultOf: #brainMethod) isPositive]) size > 1) and:
-		[(aSLClassTestObject resultOf: #classLOC) >= #veryHigh])
+				[ :method | (method resultOf: #brainMethod) isPositive ]) size > 1) and:
+		[ (aSLClassTestObject resultOf: #classLOC) >= #veryHigh ])
 		or:
 		(((aSLClassTestObject methods select: 
-				[:method | (method resultOf: #brainMethod) isPositive]) size = 1)and:
-		[(aSLClassTestObject resultOf: #classLOC) >= 
+				[ :method | (method resultOf: #brainMethod) isPositive ]) size = 1)and:
+		[ (aSLClassTestObject resultOf: #classLOC) >= 
 			(SLPreferences preferenceAt: #LargeClassLOC) preferenceValue ] and:
-			[(aSLClassTestObject resultOf: #weightedMethodCount) >= 
-				(SLPreferences preferenceAt: #LargeWeightedMethodCount) preferenceValue])
+			[ (aSLClassTestObject resultOf: #weightedMethodCount) >= 
+				(SLPreferences preferenceAt: #LargeWeightedMethodCount) preferenceValue ])

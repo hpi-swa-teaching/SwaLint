@@ -10,6 +10,6 @@ DebugMode
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	
-	^ DebugMode ifNil: [false].
+	^ DebugMode ifNil: [false]
 
 	

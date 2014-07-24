@@ -1,4 +1,4 @@
 initialize-release
 initializePreferences
 
-	SLPreferences initializePragmaPreferencesOf: (self class).
+	SLPreferences initializePragmaPreferencesOf: (self class)

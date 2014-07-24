@@ -1,4 +1,4 @@
 preferences
 WMCSTDEV: aNumber
 
-	WMCSTDEV := aNumber.
+	WMCSTDEV := aNumber

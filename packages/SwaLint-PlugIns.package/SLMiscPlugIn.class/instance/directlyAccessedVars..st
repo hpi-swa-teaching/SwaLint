@@ -9,7 +9,7 @@ directlyAccessedVars: aSLMethodTestObject
 	instVars := method methodClass allInstVarNames.
 	
 	1 to: instVars size do: [ :i |
-	 ((method writesField: i) or: [method readsField: i]) ifTrue:[
-		usedVars add: (classTestObject variableForSelector: (instVars at: i))]].
+	 ((method writesField: i) or: [ method readsField: i ]) ifTrue: [
+		usedVars add: (classTestObject variableForSelector: (instVars at: i)) ] ].
 	
 	^ usedVars

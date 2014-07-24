@@ -7,4 +7,4 @@ MethodCYCLOHigh
 	defaultValue: 3
 	helpText: 'The high border of method CYCLO'>
 	
-	^ MethodCYCLOHigh ifNil: [3].
+	^ MethodCYCLOHigh ifNil: [ 3 ]

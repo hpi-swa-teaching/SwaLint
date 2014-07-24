@@ -7,4 +7,4 @@ NumberOfInstenceMethodsHigh
 	defaultValue: 40
 	helpText: 'The high border of number of instance methods for a class'>
 	
-	^ NumberOfInstenceMethodsHigh ifNil: [40].
+	^ NumberOfInstenceMethodsHigh ifNil: [ 40 ]

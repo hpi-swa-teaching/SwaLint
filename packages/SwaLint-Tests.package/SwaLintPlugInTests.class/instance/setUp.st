@@ -8,5 +8,5 @@ setUp
 	testDictionary := (Dictionary new).	
 	testRunner := (SLTestRunner new) testDictionary: testDictionary.
 	
-	self resetTestSystem.
+	self resetTestSystem
 	

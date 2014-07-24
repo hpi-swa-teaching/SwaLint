@@ -1,4 +1,4 @@
 preferences
 SignificantStandaloneExactCloneSize: aNumber
 
-	SignificantStandaloneExactCloneSize := aNumber.
+	SignificantStandaloneExactCloneSize := aNumber

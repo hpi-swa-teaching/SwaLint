@@ -1,6 +1,6 @@
 preferences
 UseOBRefactoryIfAvailable: aBoolean
 
-	UseOBRefactoryIfAvailable := aBoolean.
+	UseOBRefactoryIfAvailable := aBoolean
 
 	

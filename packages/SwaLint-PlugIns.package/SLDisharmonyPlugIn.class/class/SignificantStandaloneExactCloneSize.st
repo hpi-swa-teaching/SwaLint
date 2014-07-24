@@ -7,4 +7,4 @@ SignificantStandaloneExactCloneSize
 	defaultValue: 7
 	helpText: 'The siginificant size of exact standalone clones.'>
 	
-	^ SignificantStandaloneExactCloneSize ifNil: [7].
+	^ SignificantStandaloneExactCloneSize ifNil: [ 7 ]

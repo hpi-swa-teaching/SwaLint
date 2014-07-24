@@ -1,5 +1,9 @@
 pragma-preferences
-preference: aPrefName type: aType categories: aArrayOfCategories defaultValue: anObject helpText: aHelpText
+preference: aPrefName
+	type: aType
+	categories: aArrayOfCategories
+	defaultValue: anObject
+	helpText: aHelpText
 	
 	^ self 
 		preference: aPrefName
@@ -9,4 +13,4 @@ preference: aPrefName type: aType categories: aArrayOfCategories defaultValue: a
 		helpText: aHelpText 
 		projectLocal: false
 		changeInformee: nil
-		changeSelector: nil.
+		changeSelector: nil

@@ -1,5 +1,12 @@
 preferences
-addPreference: aName categories: categoryList default: aValue balloonHelp: helpString projectLocal: localBoolean changeInformee: informeeSymbol changeSelector: aChangeSelector type: aSymbol
+addPreference: aName
+	categories: categoryList
+	default: aValue
+	balloonHelp: helpString
+	projectLocal: localBoolean
+	changeInformee: informeeSymbol
+	changeSelector: aChangeSelector
+	type: aSymbol
 "Creates a new preference assigned to this plug in.
 type should be one of {#Boolean. #Numeric. #Color. #Font}"
 

@@ -1,4 +1,4 @@
 preferences
 ShowSwaMetricTests: aBoolean
 
-	ShowSwaMetricTests := aBoolean.
+	ShowSwaMetricTests := aBoolean

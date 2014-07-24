@@ -10,9 +10,9 @@ indirectlyAccessedVars: aSLMethodTestObject in: aSLClassTestObject
 	
 	usedVars addAll: (accessorsOfClass 
 		select: [ :a | 
-			literals includes: a methodSelector]
+			literals includes: a methodSelector ]
 		thenCollect: [ :a | 
 			aSLClassTestObject variableForSelector: 
-				(instVars at: (a resultValueOf: #accessedVar))]).
+				(instVars at: (a resultValueOf: #accessedVar)) ]).
 	
 	^ usedVars

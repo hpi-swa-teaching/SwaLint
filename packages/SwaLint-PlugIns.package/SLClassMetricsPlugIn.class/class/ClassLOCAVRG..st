@@ -1,4 +1,4 @@
 preferences
 ClassLOCAVRG: aNumber
 
-	ClassLOCAVRG := aNumber.
+	ClassLOCAVRG := aNumber

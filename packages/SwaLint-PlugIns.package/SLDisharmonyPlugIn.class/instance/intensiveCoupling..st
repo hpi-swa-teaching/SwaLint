@@ -5,4 +5,4 @@ intensiveCoupling: aSLMethodTestObject
 	aSLMethodTestObject shouldBeMethod.	
 	^ self successResult: 
 		((self looksLikeIntensiveCoupling: aSLMethodTestObject) and:
-		[(aSLMethodTestObject resultOf: #maxNesting) > #one])
+		[ (aSLMethodTestObject resultOf: #maxNesting) > #one ])

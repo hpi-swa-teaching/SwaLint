@@ -7,4 +7,4 @@ shotgunSurgery: aSLMethodTestObject
 	^ self successResult: 
 		(((aSLMethodTestObject resultOf: #methodCM) > 
 			(SLPreferences preferenceAt: #ShortMemoryCap) preferenceValue ) and:
-				[(aSLMethodTestObject resultOf: #methodCC) > #many])
+				[ (aSLMethodTestObject resultOf: #methodCC) > #many ])

@@ -1,6 +1,6 @@
 preferences
 DebugMode: aBoolean
 
-	DebugMode := aBoolean.
+	DebugMode := aBoolean
 
 	

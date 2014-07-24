@@ -10,6 +10,6 @@ ColorizeResults
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	
-	^ ColorizeResults ifNil: [false].
+	^ ColorizeResults ifNil: [false]
 
 	

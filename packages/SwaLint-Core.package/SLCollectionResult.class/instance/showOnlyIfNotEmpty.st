@@ -1,4 +1,4 @@
 accessing
 showOnlyIfNotEmpty
 
-	self showRule: [:v | v notEmpty].
+	self showRule: [:v | v notEmpty]

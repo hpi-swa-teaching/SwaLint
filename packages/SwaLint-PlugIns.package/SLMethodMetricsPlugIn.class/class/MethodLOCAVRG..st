@@ -1,4 +1,4 @@
 preferences
 MethodLOCAVRG: aNumber
 
-	MethodLOCAVRG := aNumber.
+	MethodLOCAVRG := aNumber

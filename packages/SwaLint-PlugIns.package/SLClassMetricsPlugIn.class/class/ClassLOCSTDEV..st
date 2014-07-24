@@ -1,4 +1,4 @@
 preferences
 ClassLOCSTDEV: aNumber
 
-	ClassLOCSTDEV := aNumber.
+	ClassLOCSTDEV := aNumber

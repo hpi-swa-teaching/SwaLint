@@ -7,4 +7,4 @@ WMCSTDEV
 	defaultValue: 10
 	helpText: 'The standard deviation of the weighted method count for a class'>
 	
-	^ WMCSTDEV ifNil: [10].
+	^ WMCSTDEV ifNil: [ 10 ]

@@ -6,4 +6,4 @@ methodCallers: aSLMethodTestObject
 	aSLMethodTestObject shouldBeMethod.
 	
 	methods := aSLMethodTestObject testSystem allMethods.
-	^ self collectionResult: methods select: [:each | each testObject messages includes: aSLMethodTestObject methodSelector]
+	^ self collectionResult: methods select: [ :each | each testObject messages includes: aSLMethodTestObject methodSelector ]

@@ -1,4 +1,4 @@
 preferences
 NumberOfInstenceMethodsHigh: aNumber
 
-	NumberOfInstenceMethodsHigh := aNumber.
+	NumberOfInstenceMethodsHigh := aNumber

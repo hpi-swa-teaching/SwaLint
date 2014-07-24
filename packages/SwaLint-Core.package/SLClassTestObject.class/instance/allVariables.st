@@ -1,4 +1,4 @@
 accessing
 allVariables
 
-	^ allVariables ifNil: [self fetchAllVariables]
+	^ allVariables ifNil: [ self fetchAllVariables ]

@@ -5,10 +5,11 @@ parentNeitherSmallNorDumb: aSLClassTestObject
 	| parent |
 	
 	(self hasRelevantSuperclass: aSLClassTestObject) 
-						ifTrue: [parent := aSLClassTestObject testClassSuperclass]
-						ifFalse: [^ false].
-	parent ifNil: [^ false]
-				ifNotNil: [^ 
-				(((parent resultOf: #classAMW) > #average) or:
-				[(parent resultOf: #weightedMethodCount) >= #veryHigh]) and:
-				[(parent resultOf: #numberOfMethods) >= #high]]
+						ifTrue: [ parent := aSLClassTestObject testClassSuperclass ]
+						ifFalse: [ ^ false ].
+	parent ifNil: [ ^ false ]
+				ifNotNil: [
+				^ 
+					(((parent resultOf: #classAMW) > #average) or:
+					[ (parent resultOf: #weightedMethodCount) >= #veryHigh ]) and:
+					[ (parent resultOf: #numberOfMethods) >= #high ] ]

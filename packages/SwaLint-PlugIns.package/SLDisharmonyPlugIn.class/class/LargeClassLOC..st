@@ -1,4 +1,4 @@
 preferences
 LargeClassLOC: aNumber
 
-	LargeClassLOC := aNumber.
+	LargeClassLOC := aNumber

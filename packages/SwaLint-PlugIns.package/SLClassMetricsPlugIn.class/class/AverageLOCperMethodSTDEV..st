@@ -1,4 +1,4 @@
 preferences
 AverageLOCperMethodSTDEV: aNumber
 
-	AverageLOCperMethodSTDEV := aNumber.
+	AverageLOCperMethodSTDEV := aNumber

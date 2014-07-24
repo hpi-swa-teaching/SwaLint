@@ -1,4 +1,4 @@
 preferences
 AverageLOCperMethodAVRG: aNumber
 
-	AverageLOCperMethodAVRG := aNumber.
+	AverageLOCperMethodAVRG := aNumber

@@ -1,4 +1,4 @@
 preferences
 BaseClassOverridingRatioLow: aNumber
 
-	BaseClassOverridingRatioLow := aNumber.
+	BaseClassOverridingRatioLow := aNumber

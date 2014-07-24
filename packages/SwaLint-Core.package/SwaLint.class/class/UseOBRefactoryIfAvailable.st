@@ -10,6 +10,6 @@ UseOBRefactoryIfAvailable
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	
-	^ UseOBRefactoryIfAvailable ifNil: [true].
+	^ UseOBRefactoryIfAvailable ifNil: [true]
 
 	

@@ -6,4 +6,4 @@ methodIsPrivate: aCompiledMethod
 	selector :=  aCompiledMethod selector.
 	category := aCompiledMethod methodClass categoryForSelector: selector.
 	
-	^ (selector beginsWith: '_') or: [category includesSubString: 'private']
+	^ (selector beginsWith: '_') or: [ category includesSubString: 'private' ]

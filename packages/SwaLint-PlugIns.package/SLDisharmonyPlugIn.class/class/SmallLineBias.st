@@ -7,4 +7,4 @@ SmallLineBias
 	defaultValue: 3
 	helpText: 'The maximum distance between two exact clones.'>
 	
-	^ SmallLineBias ifNil: [3].
+	^ SmallLineBias ifNil: [ 3 ]

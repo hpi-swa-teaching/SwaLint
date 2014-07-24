@@ -1,4 +1,4 @@
 preferences
 MethodLOCSTDEV: aNumber
 
-	MethodLOCSTDEV := aNumber.
+	MethodLOCSTDEV := aNumber

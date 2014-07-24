@@ -15,4 +15,4 @@ test00MethodLineEndingTest
 		assert: squeakResult equals: 1;
 		assert: unixResult equals: 2;
 		assert: windowsResult equals: 3;
-		assert: mixResult equals: 4.
+		assert: mixResult equals: 4

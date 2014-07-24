@@ -1,6 +1,6 @@
 preferences
 ColorizeResults: aBoolean
 
-	ColorizeResults := aBoolean.
+	ColorizeResults := aBoolean
 
 	

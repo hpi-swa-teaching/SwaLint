@@ -1,4 +1,4 @@
 preferences
 MethodCYCLOHigh: aNumber
 
-	MethodCYCLOHigh := aNumber.
+	MethodCYCLOHigh := aNumber

@@ -5,4 +5,4 @@ dispersedCoupling: aSLMethodTestObject
 	aSLMethodTestObject shouldBeMethod.	
 	^ self successResult: 
 		((self looksLikeDispersedCoupling: aSLMethodTestObject) and:
-		[(aSLMethodTestObject resultOf: #maxNesting) > #one])
+		[ (aSLMethodTestObject resultOf: #maxNesting) > #one ])

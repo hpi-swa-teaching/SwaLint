@@ -6,6 +6,6 @@ preferencePragmasOf: aClass
 	pragmas := OrderedCollection new.
 	aClass methodsDo: [ :aMethod | 
 		pragmas addAll: 
-			(aMethod pragmas select: [ :aPragma | self isPreferencePragma: aPragma.])].
+			(aMethod pragmas select: [ :aPragma | self isPreferencePragma: aPragma ]) ].
 		
-	^ pragmas.
+	^ pragmas

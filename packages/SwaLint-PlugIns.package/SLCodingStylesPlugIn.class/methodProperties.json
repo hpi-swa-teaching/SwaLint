@@ -1,7 +1,7 @@
 {
 	"class" : {
-		"NoDotAfterMethodEnd" : "SO 7/9/2014 17:58",
-		"NoDotAfterMethodEnd:" : "SO 7/9/2014 17:58",
+		"NoDotAfterMethodEnd" : "MT 7/23/2014 23:34",
+		"NoDotAfterMethodEnd:" : "MT 7/23/2014 23:34",
 		"defaultCategory" : "AT 5/7/2008 21:30",
 		"offeredTestsData" : "MB 6/19/2014 10:46" },
 	"instance" : {
@@ -21,7 +21,7 @@
 		"hasDotAfterReturn:" : "AT 5/22/2008 15:18",
 		"isComplexMethod:" : "AT 5/28/2008 12:02",
 		"longMethods:" : "AT 5/7/2008 21:30",
-		"methodLineEndingHelper:" : "MB 6/19/2014 10:28",
+		"methodLineEndingHelper:" : "MT 7/23/2014 22:58",
 		"methodsOf:" : "AT 5/7/2008 21:30",
 		"namespaceDictResult:" : "AT 5/27/2008 19:17",
 		"namespaceSimulation:" : "AT 5/27/2008 21:42",

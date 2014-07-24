@@ -7,4 +7,4 @@ MinimumDuplicationChainLength
 	defaultValue: 9
 	helpText: 'The minimum length of the duplication chain.'>
 	
-	^ MinimumDuplicationChainLength ifNil: [9].
+	^ MinimumDuplicationChainLength ifNil: [ 9 ]

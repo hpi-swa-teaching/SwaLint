@@ -8,5 +8,5 @@ LargeWeightedMethodCount
 	helpText: 'The weight of large methods'>
 	
 	^ LargeWeightedMethodCount 
-		ifNil: [(((SLPreferences preferenceAt: #WMCAVRG) preferenceValue) +
-			((SLPreferences preferenceAt: #WMCSTDEV) preferenceValue)) * 3].
+		ifNil: [ (((SLPreferences preferenceAt: #WMCAVRG) preferenceValue) +
+			((SLPreferences preferenceAt: #WMCSTDEV) preferenceValue)) * 3 ]

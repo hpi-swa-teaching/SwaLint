@@ -1,4 +1,4 @@
 preferences
 MinimumDuplicationChainLength: aNumber
 
-	MinimumDuplicationChainLength := aNumber.	
+	MinimumDuplicationChainLength := aNumber

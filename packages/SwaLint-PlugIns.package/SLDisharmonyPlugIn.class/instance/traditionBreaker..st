@@ -5,5 +5,5 @@ traditionBreaker: aSLClassTestObject
 	
 	^ self successResult: 
 		((self excessiveInterfaceIncrease: aSLClassTestObject) and:
-		[self substantialSizeAndComplexity: aSLClassTestObject] and:
-		[self parentNeitherSmallNorDumb: aSLClassTestObject])
+		[ self substantialSizeAndComplexity: aSLClassTestObject ] and:
+		[ self parentNeitherSmallNorDumb: aSLClassTestObject ])

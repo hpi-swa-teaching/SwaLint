@@ -1,4 +1,4 @@
 preferences
 ShowClassMetricTests: aBoolean
 
-	ShowClassMetricTests := aBoolean.
+	ShowClassMetricTests := aBoolean

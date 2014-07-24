@@ -2,4 +2,4 @@ configuration
 resetTestSystem
 
 	testSystem := SLSystemTestObject new.
-	testSystem testRunner: testRunner.
+	testSystem testRunner: testRunner

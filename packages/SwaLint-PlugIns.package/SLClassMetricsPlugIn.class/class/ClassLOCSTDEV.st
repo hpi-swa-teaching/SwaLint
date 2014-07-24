@@ -7,4 +7,4 @@ ClassLOCSTDEV
 	defaultValue: 100
 	helpText: 'The standard deviation of the lines of code of a class'>
 	
-	^ ClassLOCSTDEV ifNil: [100].
+	^ ClassLOCSTDEV ifNil: [ 100 ]

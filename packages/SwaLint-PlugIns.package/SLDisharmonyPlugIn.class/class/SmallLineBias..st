@@ -1,4 +1,4 @@
 preferences
 SmallLineBias: aNumber
 	
-	SmallLineBias := aNumber.
+	SmallLineBias := aNumber

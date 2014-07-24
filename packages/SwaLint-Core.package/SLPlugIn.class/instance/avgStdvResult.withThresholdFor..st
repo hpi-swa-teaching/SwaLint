@@ -4,4 +4,4 @@ avgStdvResult: aNumber withThresholdFor: aSymbol
 	
 	^ SLNumericResult newWithValue: aNumber 
 		average: (SLPreferences preferenceAt: (aSymbol, 'AVRG') asSymbol) preferenceValue
-		stdev: (SLPreferences preferenceAt: (aSymbol, 'STDEV') asSymbol) preferenceValue.
+		stdev: (SLPreferences preferenceAt: (aSymbol, 'STDEV') asSymbol) preferenceValue

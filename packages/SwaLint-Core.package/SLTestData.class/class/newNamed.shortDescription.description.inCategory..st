@@ -4,7 +4,8 @@ newNamed: aSymbol
 	description: aDescription 
 	inCategory: aCategorySymbol 
 	
-	^ self newNamed: aSymbol 
+	^ self
+		newNamed: aSymbol 
 		shortDescription: aShortDescription 
 		description: aDescription 
 		inCategory: aCategorySymbol 

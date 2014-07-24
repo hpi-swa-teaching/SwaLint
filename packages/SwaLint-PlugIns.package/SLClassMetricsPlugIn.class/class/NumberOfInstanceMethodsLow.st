@@ -7,4 +7,4 @@ NumberOfInstanceMethodsLow
 	defaultValue: 5
 	helpText: 'The low border of number of instance methods for a class'>
 	
-	^ NumberOfInstanceMethodsLow ifNil: [5].
+	^ NumberOfInstanceMethodsLow ifNil: [ 5 ]

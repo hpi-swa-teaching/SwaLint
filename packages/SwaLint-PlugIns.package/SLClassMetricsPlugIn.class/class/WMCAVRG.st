@@ -7,4 +7,4 @@ WMCAVRG
 	defaultValue: 25
 	helpText: 'The average weighted method count for a class'>
 	
-	^ WMCAVRG ifNil: [25].
+	^ WMCAVRG ifNil: [ 25 ]

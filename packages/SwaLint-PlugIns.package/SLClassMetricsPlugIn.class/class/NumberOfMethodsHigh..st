@@ -1,4 +1,4 @@
 preferences
 NumberOfMethodsHigh: aNumber
 
-	NumberOfMethodsHigh := aNumber.
+	NumberOfMethodsHigh := aNumber

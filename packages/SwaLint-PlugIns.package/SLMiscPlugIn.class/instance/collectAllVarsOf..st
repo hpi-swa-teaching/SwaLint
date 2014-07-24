@@ -7,7 +7,7 @@ collectAllVarsOf: aSLMethodTestObject
 	allClasses := aSLMethodTestObject testSystem allClasses.
 	
 	allUsedVars addAll: (self collectInstVarsOf: aSLMethodTestObject).
-	allClasses do: [:class | allUsedVars addAll: 
-			(self indirectlyAccessedVars: aSLMethodTestObject in: class)].
+	allClasses do: [ :class | allUsedVars addAll: 
+			(self indirectlyAccessedVars: aSLMethodTestObject in: class) ].
 	
 	^ allUsedVars

@@ -12,4 +12,4 @@ test02BrainClassTest
 				(SLTestBrainClass methodDict at: #brainMethod).
 	brainMethod parent: brainClass.
 	
-	self assert: ((brainClass resultOf: #brainClass) = true).
+	self assert: ((brainClass resultOf: #brainClass) = true)

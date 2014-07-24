@@ -7,4 +7,4 @@ NumberOfClassMethodsLow
 	defaultValue: 3
 	helpText: 'The low border of number of class methods for a class'>
 	
-	^ NumberOfClassMethodsLow ifNil: [3].
+	^ NumberOfClassMethodsLow ifNil: [ 3 ]

@@ -11,4 +11,4 @@ test01TraditionBreakerTest
 				addClass: traditionBreaker;
 				addClass: (SLClassTestObject newFrom: (SLTestSuperClass)).
 
-	self assert: (traditionBreaker resultOf: #traditionBreaker) equals: true.
+	self assert: (traditionBreaker resultOf: #traditionBreaker) equals: true

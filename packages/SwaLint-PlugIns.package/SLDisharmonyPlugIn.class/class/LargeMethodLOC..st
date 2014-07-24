@@ -1,4 +1,4 @@
 preferences
 LargeMethodLOC: aNumber
 
-	LargeMethodLOC := aNumber.
+	LargeMethodLOC := aNumber

@@ -1,4 +1,4 @@
 preferences
 MethodCYCLOLow: aNumber
 
-	MethodCYCLOLow := aNumber.
+	MethodCYCLOLow := aNumber
