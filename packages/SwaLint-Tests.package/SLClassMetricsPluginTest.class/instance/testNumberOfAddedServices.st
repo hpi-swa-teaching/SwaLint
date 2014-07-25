@@ -1,7 +1,7 @@
 testing
 testNumberOfAddedServices
 
-	self test: #numberOfAddedServices
+	self test: #classNAS
 		on: { SLFixtureClassNASTen.
 				SLFixtureClassNASOne.
 				SLFixtureClassZeroNew }

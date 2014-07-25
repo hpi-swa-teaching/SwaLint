@@ -4,7 +4,7 @@ test04SyntheticSignificantDuplicationTest
 	| testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod |
 	
 	testCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #aCloneMessage).
-	compCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #anotherCloneMessage).
+	compCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 													lookupSelector: #anotherCloneMessage).
 
 	self assert: (6) equals: 
 		((plugIn searchCloneIn: testCloneMethod sourceString lines from: 1
@@ -12,7 +12,8 @@ test04SyntheticSignificantDuplicationTest
 		
 	self deny:(plugIn significantDuplicationChain: testCloneMethod with: compCloneMethod).
 	
-	testCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #aCloneChainMessage).
-	compCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #anotherCloneChainMessage).
+	testCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 												lookupSelector: #aCloneChainMessage).
+	compCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 												lookupSelector: #anotherCloneChainMessage).
 	
-	self assert:(plugIn significantDuplicationChain: testCloneChainMethod with: compCloneChainMethod)
+	self assert:(plugIn significantDuplicationChain: testCloneChainMethod
+						with: compCloneChainMethod)
