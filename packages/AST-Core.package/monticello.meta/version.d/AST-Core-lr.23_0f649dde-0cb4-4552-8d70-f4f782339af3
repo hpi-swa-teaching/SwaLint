@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.23'message '- fixed RBScanner so that it properly parses degraded literals such as	# foo -> #foo	##foo -> #foo	### ##foo -> #foo'id '0f649dde-0cb4-4552-8d70-f4f782339af3'date '16 November 2009'time '1:53:36 pm'author 'lr'ancestors ((id '9881215e-1d1a-4028-8f85-cf7fdee497f8'))stepChildren ())

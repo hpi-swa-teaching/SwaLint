@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.35'message '- use SqNumberParser for parsing and converting numbers, that solves some more bugs'id '741b7047-05d4-43c9-ace2-a663f303e415'date '16 December 2009'time '7:31:48 pm'author 'lr'ancestors ((id '6ee87ce0-5293-4157-a338-f0fe7c273a8c'))stepChildren ())

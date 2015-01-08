@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.61'message '- Fixed issue 2108: Pragma are not visited with custom ProgramNodeVisitor'id '17ff6c9a-4ae9-4a42-bca2-15dd62d1789f'date '6 March 2010'time '11:40:50 pm'author 'lr'ancestors ((id '59c4c1b4-e1a7-4aa5-882b-da2ba36b003a'))stepChildren ())

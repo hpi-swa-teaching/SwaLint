@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.9'message '- started porting the configurable formatter (from john)- fixed the array node- fixed the parser- fixed and hardened the tests'id '640a2053-5f40-4514-8833-4015e489a90d'date '27 October 2009'time '2:37:25 pm'author 'lr'ancestors ((id '7d244335-24c9-411d-bf83-401fae4a40f1'))stepChildren ())

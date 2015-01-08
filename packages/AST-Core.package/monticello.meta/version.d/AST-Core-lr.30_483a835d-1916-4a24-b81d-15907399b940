@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.30'message '- copy the receiver in cascade messages, so that the parent infromation is correct'id '483a835d-1916-4a24-b81d-15907399b940'date '23 November 2009'time '8:16:32 am'author 'lr'ancestors ((id 'aa636ba8-8987-4a2c-9ccd-b55e88c5af6d'))stepChildren ())

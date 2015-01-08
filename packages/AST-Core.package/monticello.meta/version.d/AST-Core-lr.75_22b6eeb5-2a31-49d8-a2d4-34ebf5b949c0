@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.75'message '- do not copy the receiver of cascaded messages, this has some strange side-effects'id '22b6eeb5-2a31-49d8-a2d4-34ebf5b949c0'date '26 May 2010'time '7:06:50 pm'author 'lr'ancestors ((id '49b79339-40ed-469a-a0b7-10b3d4ed356e'))stepChildren ())

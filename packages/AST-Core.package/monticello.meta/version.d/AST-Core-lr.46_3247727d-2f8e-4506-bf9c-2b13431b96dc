@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.46'message '- added two more settings to formatter for selectors that are forced to stay on one line (to:do:by:) and for selectors that are forced to stay on multiple lines (ifTrue:ifFalse:)'id '3247727d-2f8e-4506-bf9c-2b13431b96dc'date '27 December 2009'time '1:41:14 pm'author 'lr'ancestors ((id '117d5168-f819-4471-878e-49a3aa1fb60e'))stepChildren ())

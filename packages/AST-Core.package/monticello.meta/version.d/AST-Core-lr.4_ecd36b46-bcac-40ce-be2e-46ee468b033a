@@ -1,1 +1,0 @@
-(name 'AST-Core-lr.4'message '- the parser test has dependencies on the refactoring tools, so move it back to the refactoring package'id 'ecd36b46-bcac-40ce-be2e-46ee468b033a'date '20 October 2009'time '6:25:26 pm'author 'lr'ancestors ((id 'a174e15d-c650-4650-9942-a237296bc8a7'))stepChildren ())
