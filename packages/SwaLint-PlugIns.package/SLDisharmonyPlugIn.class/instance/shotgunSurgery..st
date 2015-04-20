@@ -5,6 +5,5 @@ shotgunSurgery: aSLMethodTestObject
 	aSLMethodTestObject shouldBeMethod.	
 	
 	^ self successResult: 
-		(((aSLMethodTestObject resultOf: #methodCM) > 
-			(SLPreferences preferenceAt: #ShortMemoryCap) preferenceValue ) and:
-				[ (aSLMethodTestObject resultOf: #methodCC) > #many ])
+		((aSLMethodTestObject resultOf: #methodCM) > self class ShortMemoryCap and:
+		[(aSLMethodTestObject resultOf: #methodCC) > #many])

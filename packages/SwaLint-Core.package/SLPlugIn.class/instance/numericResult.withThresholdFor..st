@@ -3,7 +3,6 @@ numericResult: aNumber withThresholdFor: aSymbol
 	"Create a numeric result with threshold, using avrg-stdev
 	preferences or high-low preferences"
 
-	
-	SLPreferences preferenceAt: (aSymbol, 'AVRG') asSymbol ifAbsent: 
-		[^ self highLowResult: aNumber withThresholdFor: aSymbol].
-	^ self avgStdvResult: aNumber withThresholdFor: aSymbol
+	^ (self hasPreference: (aSymbol, 'AVRG') asSymbol) 
+		ifTrue: [self avgStdvResult: aNumber withThresholdFor: aSymbol]
+		ifFalse: [self highLowResult: aNumber withThresholdFor: aSymbol]

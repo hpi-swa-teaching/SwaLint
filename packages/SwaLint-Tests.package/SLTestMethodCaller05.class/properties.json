@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLTestMethodCaller05",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

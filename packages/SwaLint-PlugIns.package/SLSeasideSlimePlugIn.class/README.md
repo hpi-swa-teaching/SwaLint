@@ -1,1 +1,0 @@
-This is a plugin for integrating the slime extensions for smalllint into SwaLint.NNre 

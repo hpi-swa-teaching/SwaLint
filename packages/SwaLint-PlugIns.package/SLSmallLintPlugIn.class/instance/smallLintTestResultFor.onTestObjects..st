@@ -5,7 +5,7 @@ smallLintTestResultFor: aTest onTestObjects: aCollection
 	class where SmallLint found problems"
 	
 	| rule |
-	rule := (Smalltalk at: #SmalllintChecker ifAbsent: [Smalltalk at: #RBSmalllintChecker])
+	rule := (self rbClass: #RBSmalllintChecker)
 		runRule: (self ruleFor: aTest) 
 		onEnvironment: (self environmentFor: aCollection).
 	^ rule result

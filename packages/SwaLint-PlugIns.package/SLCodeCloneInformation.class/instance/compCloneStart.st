@@ -1,0 +1,4 @@
+accessing
+compCloneStart
+
+	^ compCloneStart

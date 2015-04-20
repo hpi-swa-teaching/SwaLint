@@ -1,4 +1,4 @@
 accessing
 methodName
 
-	^ self testObject sourceSelector asString
+	^ self testObject selector asString

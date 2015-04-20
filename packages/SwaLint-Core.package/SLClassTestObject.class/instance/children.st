@@ -1,7 +1,4 @@
 accessing
 children
 	
-	^ (OrderedCollection new)
-		addAll: self methods;
-		addAll: self variables;
-		yourself
+	^ self methods, self variables

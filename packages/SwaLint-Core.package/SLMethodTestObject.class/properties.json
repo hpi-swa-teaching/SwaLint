@@ -8,7 +8,10 @@
 	"instvars" : [
 		"method",
 		"cleanSource",
+		"normalizedSource",
+		"normalizedSourceLines",
 		"parseTree",
+		"sourceCode",
 		"classSide" ],
 	"name" : "SLMethodTestObject",
 	"pools" : [

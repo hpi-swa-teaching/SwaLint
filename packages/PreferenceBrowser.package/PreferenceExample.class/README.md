@@ -1,0 +1,1 @@
+This class provides an example for how to use preference pragmas.

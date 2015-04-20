@@ -13,7 +13,7 @@ withoutLiteralCharacters: noCharacters
 	^ String streamContents: [:stream | |inString inComment sourceStream bodyStart |
 		bodyStart := noPattern ifFalse: [1] ifTrue: [self bodyStartIn: source onError: [^ '']].
 		inString := inComment  :=  false.
-		sourceStream := ReadStream on: source  from: bodyStart to: source size.
+		sourceStream := ReadStream on: source from: bodyStart to: source size.
 		sourceStream do: [:c | |wasInComment wasInString |
 			wasInComment := inComment.
 			wasInString := inString.
@@ -25,7 +25,7 @@ withoutLiteralCharacters: noCharacters
 					ifFalse: [inString := wasInString not]].
 
 			"skip comments"
-			(c =$" & wasInString not) 
+			(c = $" & wasInString not) 
 				ifTrue: [inComment := wasInComment not].
 
 			"skip literal characters, replace with $$"

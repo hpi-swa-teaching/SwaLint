@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-Helper",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "topa 4/17/2015 13:10",
+	"instvars" : [
+		"string" ],
+	"name" : "SLCodeLine",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

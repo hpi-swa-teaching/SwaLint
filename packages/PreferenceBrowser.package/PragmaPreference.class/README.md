@@ -1,0 +1,1 @@
+Differs from superclass by redirecting all queries to preference provider.

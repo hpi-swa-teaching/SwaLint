@@ -8,5 +8,4 @@ LargeMethodLOC
 	helpText: 'Lines of code for large methods. '>
 	
 	^ LargeMethodLOC 
-		ifNil: [ (((SLPreferences preferenceAt: #ClassLOCAVRG) preferenceValue) + 
-			((SLPreferences preferenceAt: #ClassLOCSTDEV) preferenceValue)) / 3 ]
+		ifNil: [SLClassMetricsPlugIn ClassLOCAVRG + SLClassMetricsPlugIn ClassLOCSTDEV / 3]

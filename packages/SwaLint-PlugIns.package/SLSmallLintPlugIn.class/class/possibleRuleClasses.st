@@ -1,5 +1,6 @@
 tests
 possibleRuleClasses
 
-	^ (RBBlockLintRule allSubclasses, RBParseTreeLintRule allSubclasses)
+	^ (self subclassesIfAvailable: #RBBlockLintRule),
+	   (self subclassesIfAvailable: #RBParseTreeLintRule)
 		select: [:cls | cls name beginsWith: 'RB']

@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asPreference" : "laza 4/7/2010 16:02",
+		"preferenceValue" : "ar 3/9/2009 21:31",
+		"preferenceValue:" : "ar 3/9/2009 21:30",
+		"printOn:" : "ar 3/9/2009 21:28",
+		"provider" : "kb 11/28/2009 12:17",
+		"provider:getter:setter:" : "ar 3/9/2009 21:35",
+		"rawValue:" : "ar 3/9/2009 21:29",
+		"restoreDefaultValue" : "ar 3/9/2009 21:28",
+		"selectors" : "bf 3/4/2010 11:45",
+		"togglePreferenceValue" : "ar 3/9/2009 21:31" } }

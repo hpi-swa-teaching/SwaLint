@@ -1,0 +1,4 @@
+accessing
+cde
+
+	^ cde

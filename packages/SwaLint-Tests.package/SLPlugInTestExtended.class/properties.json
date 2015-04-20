@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testSystem",
+		"testRunner",
+		"plugIn",
+		"avrgValueRules",
+		"highLowValueRules" ],
+	"name" : "SLPlugInTestExtended",
+	"pools" : [
+		 ],
+	"super" : "SLTestCase",
+	"type" : "normal" }

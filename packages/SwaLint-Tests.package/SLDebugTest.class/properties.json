@@ -10,5 +10,5 @@
 	"name" : "SLDebugTest",
 	"pools" : [
 		 ],
-	"super" : "SwaLintTest",
+	"super" : "SLTestCase",
 	"type" : "normal" }

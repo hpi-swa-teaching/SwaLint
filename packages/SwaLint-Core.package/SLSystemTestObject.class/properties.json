@@ -10,7 +10,8 @@
 		"allClasses",
 		"allMethods",
 		"allTestObjects",
-		"selectedTestObjects" ],
+		"selectedTestObjects",
+		"properties" ],
 	"name" : "SLSystemTestObject",
 	"pools" : [
 		 ],

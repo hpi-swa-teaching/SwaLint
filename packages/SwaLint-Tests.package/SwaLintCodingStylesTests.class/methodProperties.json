@@ -1,8 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"configureTestDictionaryForLineEndingTest" : "MT 7/23/2014 22:37",
-		"plugInClass" : "MB 7/22/2014 12:26",
-		"test00MethodLineEndingTest" : "MT 7/23/2014 22:37",
-		"test01LineEndingConsistencyTest" : "MT 7/23/2014 22:37" } }

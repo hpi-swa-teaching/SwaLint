@@ -1,19 +1,27 @@
 testing
 test04SyntheticSignificantDuplicationTest
 
-	| testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod |
+	| testSize testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod sys|
 	
 	testCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #aCloneMessage).
 	compCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 													lookupSelector: #anotherCloneMessage).
+	sys := (SLSystemTestObject newFromTestObjects: {testCloneMethod . compCloneMethod})
+		testRunner: SLTestRunner new;
+		yourself.
 
-	self assert: (6) equals: 
-		((plugIn searchCloneIn: testCloneMethod sourceString lines from: 1
-		comparedWith: compCloneMethod sourceString lines from: 1 range: 7) at: #cloneSize).
+	testSize := 0.
+	plugIn searchCloneIn: testCloneMethod normalizedSourceLines from: 1
+		comparedWith: compCloneMethod normalizedSourceLines from: 1 range: 7
+		ifFound: [:clone | testSize := clone cloneSize ].
+	self assert: 5 equals: testSize.
 		
 	self deny:(plugIn significantDuplicationChain: testCloneMethod with: compCloneMethod).
 	
 	testCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 												lookupSelector: #aCloneChainMessage).
 	compCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 												lookupSelector: #anotherCloneChainMessage).
-	
+	sys := (SLSystemTestObject newFromTestObjects: {testCloneChainMethod . compCloneChainMethod})
+		testRunner: SLTestRunner new;
+		yourself.
+
 	self assert:(plugIn significantDuplicationChain: testCloneChainMethod
 						with: compCloneChainMethod)

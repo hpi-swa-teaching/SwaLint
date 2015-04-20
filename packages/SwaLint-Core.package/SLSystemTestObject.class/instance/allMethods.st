@@ -1,4 +1,5 @@
 accessing
 allMethods
 
-	^ allMethods ifNil: [self fetchAllMethods]
+	^ allMethods ifNil: [
+		allMethods := (self allClasses gather: [ :each | each methods]) asOrderedCollection]

@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"environment",
+		"builder",
+		"window" ],
+	"name" : "SLSelectionDialog",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

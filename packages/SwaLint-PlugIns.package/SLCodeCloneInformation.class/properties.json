@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-PlugIns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"cloneSize",
+		"testCloneStart",
+		"compCloneStart" ],
+	"name" : "SLCodeCloneInformation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

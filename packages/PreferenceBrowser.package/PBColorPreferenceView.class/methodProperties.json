@@ -1,0 +1,7 @@
+{
+	"class" : {
+		"initialize" : "hpt 12/6/2004 20:49",
+		"unload" : "ar 1/2/2010 16:33" },
+	"instance" : {
+		"colorSwatch" : "hpt 12/6/2004 21:24",
+		"representativeButtonWithColor:inPanel:" : "hpt 12/6/2004 21:12" } }

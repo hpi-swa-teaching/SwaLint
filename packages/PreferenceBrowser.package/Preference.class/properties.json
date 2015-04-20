@@ -1,0 +1,22 @@
+{
+	"category" : "PreferenceBrowser-PharoSupport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"name",
+		"value",
+		"defaultValue",
+		"helpString",
+		"localToProject",
+		"categoryList",
+		"changeInformee",
+		"changeSelector",
+		"type" ],
+	"name" : "Preference",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

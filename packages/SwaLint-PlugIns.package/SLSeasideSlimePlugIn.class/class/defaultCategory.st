@@ -1,4 +1,0 @@
-defaults
-defaultCategory
-
-	^ 'Slime: Seaside'

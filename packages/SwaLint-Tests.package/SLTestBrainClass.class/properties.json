@@ -1,0 +1,22 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"foo",
+		"bar",
+		"foobar",
+		"wololo",
+		"roggan",
+		"let",
+		"it",
+		"go",
+		"yo" ],
+	"name" : "SLTestBrainClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

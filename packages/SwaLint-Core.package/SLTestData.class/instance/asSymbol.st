@@ -1,0 +1,4 @@
+queries
+asSymbol
+
+	^ self symbol

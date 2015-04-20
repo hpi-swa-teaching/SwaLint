@@ -1,0 +1,17 @@
+{
+	"category" : "PreferenceBrowser-PharoSupport",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"BooleanPref",
+		"ColorPref",
+		"NumericPref",
+		"TextPref" ],
+	"commentStamp" : "ar 3/3/2009 22:40",
+	"instvars" : [
+		 ],
+	"name" : "PreferenceExample",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

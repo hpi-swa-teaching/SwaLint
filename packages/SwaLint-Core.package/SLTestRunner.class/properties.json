@@ -10,7 +10,8 @@
 		"progressMorph",
 		"processedItems",
 		"testDictionary",
-		"testSystem" ],
+		"testSystem",
+		"runSpecificData" ],
 	"name" : "SLTestRunner",
 	"pools" : [
 		 ],

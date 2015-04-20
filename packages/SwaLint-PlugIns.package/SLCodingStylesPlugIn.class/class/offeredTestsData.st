@@ -12,6 +12,4 @@ offeredTestsData
 		{#nsTotal. 'Total namespaces'. 'Number of all found namespaces'. SwaLint hiddenCategory}.
 		{#nsFreeClasses. 'Classes without namespace'. 'Number of all classes which don''t seem to have a namespace'. SwaLint hiddenCategory}.
 		{#nsClass. 'Namespace'. 'The detected namespace of a class'. SwaLint hiddenCategory}.
-		{#differingLineEndings. 'Squeak conform line endings'}.
-		{#csMethodLineEnding. nil. 'Line ending code of the method'. SwaLint hiddenCategory}.
 	}

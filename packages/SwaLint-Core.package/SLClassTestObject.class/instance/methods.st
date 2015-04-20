@@ -1,4 +1,4 @@
 accessing
 methods
 
-	^ methods ifNil: [self fetchMethods]
+	^ methods ifNil: [methods := self instanceMethods, self classMethods]

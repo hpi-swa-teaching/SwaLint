@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"foo6",
+		"bar6",
+		"foobar6" ],
+	"name" : "SLTestCoupledClass6",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

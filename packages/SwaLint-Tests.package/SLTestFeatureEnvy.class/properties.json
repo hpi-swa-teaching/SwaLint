@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"foo",
+		"bar",
+		"roggan",
+		"wololo",
+		"abc" ],
+	"name" : "SLTestFeatureEnvy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
