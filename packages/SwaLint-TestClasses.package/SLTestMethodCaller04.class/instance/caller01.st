@@ -1,4 +1,0 @@
-caller
-caller01
-
-	SLTestMethodCaller01 beingCalled
