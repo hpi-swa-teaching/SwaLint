@@ -13,7 +13,7 @@ install:
    - cd $HOME
    - wget -q -O builderCI.zip https://github.com/dalehenrich/builderCI/archive/master.zip
    - unzip -q builderCI.zip
-   - cd dalehenrich-builderCI*
+   - cd builderCI*
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
