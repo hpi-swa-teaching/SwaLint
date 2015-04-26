@@ -32,7 +32,7 @@ baseline30: spec
 					repository: 'http://www.squeaksource.com/MetacelloRepository'].
 		spec
 			package: 'SwaLint-Preferences';
-			package: 'SwaLint-Core' with: [spec requires: #('Refactoring-Core' 'SwaLint-Preferences')];
+			package: 'SwaLint-Core' with: [spec requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
 			package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
 			package: 'SwaLint-Slime-Grease' with: [spec requires: #('SwaLint-PlugIns' 'Grease')];
 			package: 'SwaLint-Slime-Seaside' with: [spec requires: #('SwaLint-PlugIns' 'Seaside3')];
@@ -44,7 +44,8 @@ baseline30: spec
 			group: 'Core' with: #('SwaLint-Core');
 			group: 'All' with: #('Tests' 'web');
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
-			group: 'Tests' with: #('SwaLint-Tests')].
+			group: 'Tests' with: #('SwaLint-Tests');
+			group: 'TravisCI' with: #('Tests')].
 	spec for: #'pharo' do: [
 		spec
 			package: 'PreferenceBrowser';
