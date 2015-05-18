@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Slime-Grease",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLGreaseSlimePlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLSmallLintPlugIn",
+	"type" : "normal" }

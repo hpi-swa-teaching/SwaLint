@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Slime-Seaside",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "NRe 5/26/2008 23:41",
+	"instvars" : [
+		 ],
+	"name" : "SLSeasideSlimePlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLSmallLintPlugIn",
+	"type" : "normal" }
