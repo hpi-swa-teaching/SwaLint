@@ -6,11 +6,11 @@ version301: spec
 		spec blessing: #'stable'.
 		spec description: 'SwaLint 2015: Adding missing plugins.'.
 		spec author: 'topa'.
-		spec timestamp: "MetacelloPlatform current timestamp" '5/18/2015 08:46'  .
+		spec timestamp: "MetacelloPlatform current timestamp" '5/19/2015 09:37'.
 		spec project: 'Refactoring-Core' with: #'stable'.
 		spec 
 			package: 'SwaLint-Core' with: 'SwaLint-Core-topa.42';
-			package: 'SwaLint-PlugIns' with: 'SwaLint-PlugIns-topa.44';
+			package: 'SwaLint-PlugIns' with: 'SwaLint-PlugIns-topa.45';
 			package: 'SwaLint-Preferences' with: 'SwaLint-Preferences-topa.16';
 			package: 'SwaLint-Slime-Grease' with: 'SwaLint-Slime-Grease-topa.1';
 			package: 'SwaLint-Slime-Seaside' with: 'SwaLint-Slime-Seaside-topa.1';
