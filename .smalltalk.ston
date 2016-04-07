@@ -1,0 +1,10 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #configuration : 'SwaLint',
+      #directory : 'packages',
+      #load : 'Tests',
+      #platforms : [ #squeak ]
+    }
+  ]
+}

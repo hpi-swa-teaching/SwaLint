@@ -44,8 +44,7 @@ baseline30: spec
 			group: 'Core' with: #('SwaLint-Core');
 			group: 'All' with: #('Tests' 'web');
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
-			group: 'Tests' with: #('SwaLint-Tests');
-			group: 'TravisCI' with: #('Tests')].
+			group: 'Tests' with: #('SwaLint-Tests')].
 	spec for: #'pharo' do: [
 		spec
 			package: 'PreferenceBrowser';
