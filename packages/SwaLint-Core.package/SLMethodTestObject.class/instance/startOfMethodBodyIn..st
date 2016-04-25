@@ -5,5 +5,7 @@ startOfMethodBodyIn: aString
 	tree :=	(RBParser new)
 		initializeParserWith: aString;
 		parseMethod: aString.
-	^ (tree arguments ifEmpty: [tree selectorParts])
-		last stop + 1
+	^ 	aString size 
+	min: 
+		(tree arguments ifEmpty: [tree selectorParts])
+			last stop + 1

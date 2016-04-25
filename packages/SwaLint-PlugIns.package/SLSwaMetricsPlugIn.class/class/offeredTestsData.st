@@ -5,15 +5,22 @@ offeredTestsData
 		{#sloccount. 'Overall lines of code'}.
 		{#classcount. 'Overall number of classes'}.
 		{#methodcount. 'Overall number of methods'}.
+		{#namespaceCount. 'Namespaces'}.
+		{#instanceVariableAccessIsConsistent. 'Instance var access'}.
 		{#globalState. 'Occurances of global state on the class side'}.
+		{#interestingMethods. 'Long or complex methods'}.
+		{#badlyFormattedMethods. 'Methods with very long lines'}.
 		{#unclassifiedMethods. 'Unclassified methods'}.
 		{#noClassComments. 'Missing class comments'}.
-		{#metaProgramming. 'Hints of meta-programming'}.
-		{#nilProgramming. 'Handling of nil-values'}.
-		{#interestingMethods. 'Long or complex methods'}.
 		{#commentedMethods. 'Methods with comments'}.
-		{#badlyFormattedMethods. 'Methods with very long lines'}.
+		{#redundantCode. 'Redundant code'}.
+		{#deadCode. 'Dead code'}.
+		{#metaProgramming. 'Hints of meta-programming'}.
+		"{#stdLibUse. 'Handling of Stdlib'}."
+		{#nilProgramming. 'Handling of nil-values'}.
+		{#magicNumbers. 'Magic numbers'}.
 		"Hidden helper tests"
+		{#instanceVariableAccess. nil. nil. SwaLint hiddenCategory}.
 		{#isUnclassifiedMethod . nil . nil . SwaLint hiddenCategory}.
 		{#methodUsesMetaprogramming . nil . nil . SwaLint hiddenCategory}.
 		{#methodHandlesNil . nil . nil . SwaLint hiddenCategory}.

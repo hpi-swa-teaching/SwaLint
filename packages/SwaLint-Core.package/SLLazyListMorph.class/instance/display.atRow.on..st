@@ -9,4 +9,5 @@ display: item  atRow: row on: canvas
 			col := (item attributesAt: 1) detect: [:a | a isKindOf: TextColor] ifNone: [].
 			c := col ifNil: [self colorForRow: row] ifNotNil: [col color].
 			canvas drawString: item in: drawBounds font: (font emphasized: (item emphasisAt: 1)) color: c ]
-		ifFalse: [ canvas drawString: item in: drawBounds font: font color: (self colorForRow: row) ].
+		ifFalse: [ 
+			super display: item  atRow: row on: canvas].
