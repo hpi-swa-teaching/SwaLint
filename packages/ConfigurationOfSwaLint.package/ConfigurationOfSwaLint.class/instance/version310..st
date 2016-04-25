@@ -9,8 +9,8 @@ version310: spec
 		spec timestamp: "MetacelloPlatform current timestamp" '4/25/2016 16:33'.
 		spec project: 'Refactoring-Core' with: #'stable'.
 		spec 
-			package: 'SwaLint-Core' with: 'SwaLint-Core-topa.44';
-			package: 'SwaLint-PlugIns' with: 'SwaLint-PlugIns-topa.49';
+			package: 'SwaLint-Core' with: 'SwaLint-Core-fn.45';
+			package: 'SwaLint-PlugIns' with: 'SwaLint-PlugIns-fn.50';
 			package: 'SwaLint-Preferences' with: 'SwaLint-Preferences-topa.16';
 			package: 'SwaLint-Slime-Grease' with: 'SwaLint-Slime-Grease-topa.1';
 			package: 'SwaLint-Slime-Seaside' with: 'SwaLint-Slime-Seaside-topa.1';
