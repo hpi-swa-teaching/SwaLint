@@ -2,6 +2,7 @@
 	"class" : {
 		"onEnvironment:" : "AT 5/7/2008 19:43" },
 	"instance" : {
+		"buttonBarLayoutHeight" : "pre 12/7/2017 15:37",
 		"close" : "NR 5/28/2008 14:40",
 		"createButtonBar:" : "AT 5/7/2008 14:55",
 		"createButtonLabeled:getState:action:" : "AT 5/7/2008 14:54",

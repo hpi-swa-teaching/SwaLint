@@ -1,5 +1,4 @@
 summarizing
 selectForSummary: aSLTestObject
 
-	^ self summarizingCondition value:
-		(aSLTestObject resultOf: self summarizedTest)
+	^ self summarizingCondition value: (aSLTestObject resultOf: self summarizedTest)

@@ -18,10 +18,10 @@ drawUserInterface
 			fullFrame: (LayoutFrame fractions: (0.5 @ 0.3 extent: 0.5 @ 0.3));
 		addMorph: resultsPane
 			fullFrame: (LayoutFrame fractions: (0.0 @ 0.6 extent: 1 @ 0.4)
-				offsets: (0 @ 0 corner: 0 @ -30));
+				offsets: (0 @ 0 corner: 0 @ self buttonBarLayoutHeight));
 		addMorph: buttonBar
 			fullFrame: (LayoutFrame fractions: (0 @ 1 corner: 1 @ 1)
-				offsets: (0 @ -35 corner: 0 @ 0)).
+				offsets: (0 @ self buttonBarLayoutHeight corner: 0 @ 0)).
 
 	resultsPane addDependent: self.  
 	self removeStyle: buttonBar.
