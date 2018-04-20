@@ -1,8 +1,0 @@
-{
-	"class" : {
-		"initialize" : "hpt 9/26/2004 15:47",
-		"unload" : "laza 3/19/2010 14:02" },
-	"instance" : {
-		"enabledButton" : "tfel 5/26/2012 01:30",
-		"localToProjectButton" : "tfel 5/26/2012 01:30",
-		"representativeButtonWithColor:inPanel:" : "hpt 9/26/2004 00:25" } }
