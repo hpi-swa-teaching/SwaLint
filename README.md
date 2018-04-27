@@ -1,4 +1,4 @@
-SwaLint [![Build Status](https://travis-ci.org/hpi-swa-teaching/SwaLint.svg?branch=develop)](https://travis-ci.org/hpi-swa-teaching/SwaLint)
+SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor]
 ===================
 A code critics tool for Smalltalk projects. Install it with:
 
@@ -14,3 +14,8 @@ A code critics tool for Smalltalk projects. Install it with:
     load
 ```
 Now you can open the **SwaLint Code Critics** via *Apps*.
+
+[appveyor]: https://ci.appveyor.com/project/hpi-swa-teaching/swalint
+[appveyor_badge]: https://ci.appveyor.com/api/projects/status/uj2j9trw2x6yq9iy?svg=true
+[travis]: https://travis-ci.org/hpi-swa-teaching/SwaLint
+[travis_badge]: https://travis-ci.org/hpi-swa-teaching/SwaLint.svg?branch=develop
