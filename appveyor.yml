@@ -4,7 +4,7 @@ environment:
   CYG_CACHE: C:\cygwin\var\cache\setup
   CYG_EXE: C:\cygwin\setup-x86.exe
   CYG_MIRROR: http://cygwin.mirror.constant.com
-  SCI_RUN: /cygdrive/c/swalint-develop/bin/swalint
+  SCI_RUN: /cygdrive/c/smalltalkCI-master/bin/smalltalkci
   matrix:
     - SMALLTALK: Squeak-trunk
     - SMALLTALK: Squeak-5.0
@@ -14,8 +14,8 @@ platform:
 
 install:
   - '%CYG_EXE% -dgnqNO -R "%CYG_ROOT%" -s "%CYG_MIRROR%" -l "%CYG_CACHE%" -P unzip'
-  - ps: Start-FileDownload "https://github.com/hpi-swa-teaching/SwaLint/archive/develop.zip" "C:\swalint.zip"
-  - 7z x C:\swalint.zip -oC:\ -y > NULL
+  - ps: Start-FileDownload "https://github.com/hpi-swa/smalltalkCI/archive/master.zip" "C:\smalltalkCI.zip"
+  - 7z x C:\smalltalkCI.zip -oC:\ -y > NULL
 
 build: false
 
