@@ -1,4 +1,5 @@
 SmalltalkCISpec {
+  #preLoading : 'preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
       #configuration : 'SwaLint',
