@@ -32,5 +32,5 @@ restoreDefaultMenuParameters
 	Parameters
 		at: #menuLineColor
 		put: ((Smalltalk at: #UITheme ifAbsent: [])
-				ifNil: [Preferences menuBorderColor lighter]
+				ifNil: [(UserInterfaceTheme current get: #borderColor for: #MenuMorph) lighter]
 				ifNotNilDo: [:uiTheme | uiTheme current settings menuBorderColor lighter])

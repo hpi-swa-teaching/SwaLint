@@ -9,7 +9,7 @@ createButtonLabeled: aString getState: aState action: anAction
 	
 	^ button
 		label: (' ',aString,' ');
-		onColor: self defaultBackgroundColor lighter
-		offColor: self defaultBackgroundColor muchDarker;
+		onColor: self windowColorToUse lighter
+		offColor: self windowColorToUse muchDarker;
 		vResizing: #spaceFill;
 		yourself
