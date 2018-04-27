@@ -2,4 +2,4 @@ menu parameters
 menuLineColor
 	^ Parameters
 		at: #menuLineColor
-		ifAbsentPut: [Preferences menuBorderColor lighter]
+		ifAbsentPut: [(UserInterfaceTheme current get: #borderColor for: #MenuMorph) lighter]
