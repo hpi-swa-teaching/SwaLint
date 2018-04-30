@@ -1,5 +1,8 @@
 SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor] [![Coverage Status][coveralls_badge]][coveralls]
 ===================
+
+## Checkout the master branch for the stable version of SwaLint!
+
 A code critics tool for Smalltalk projects. Install it with:
 
 ## Installation
