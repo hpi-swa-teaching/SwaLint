@@ -7,5 +7,10 @@ SmalltalkCISpec {
       #load : 'Tests',
       #platforms : [ #squeak ]
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #categories : [ 'SwaLint-*' ]
+    }
+  }
 }
