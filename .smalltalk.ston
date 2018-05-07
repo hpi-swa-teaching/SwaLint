@@ -11,7 +11,7 @@ SmalltalkCISpec {
   #testing : {
     #coverage : {
       #categories : [ 'SwaLint-*' ]
-    }
+    },
     #exclude : {
       #categories : [ 'SwaLint-Tests*' ],
     }
