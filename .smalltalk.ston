@@ -13,7 +13,7 @@ SmalltalkCISpec {
       #categories : [ 'SwaLint-*' ]
     },
     #exclude : {
-      #categories : [ 'SwaLint-Tests*' ],
+      #categories : [ 'SwaLint-Tests*' ]
     }
   }
 }
