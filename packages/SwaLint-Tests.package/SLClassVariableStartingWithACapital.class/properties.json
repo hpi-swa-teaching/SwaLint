@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"test" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLClassVariableStartingWithACapital",
+	"pools" : [
+		"test" ],
+	"super" : "Object",
+	"type" : "normal" }

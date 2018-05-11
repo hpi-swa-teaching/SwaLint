@@ -11,4 +11,5 @@
 		"test05SignificantDuplication" : "topa 1/16/2015 12:52",
 		"test06FeatureEnvyTest" : "MB 6/19/2014 10:38",
 		"test07DispersedCouplingTest" : "MT 7/23/2014 22:38",
-		"test08IntensiveCouplingTest" : "MT 7/23/2014 22:38" } }
+		"test08IntensiveCouplingTest" : "MT 7/23/2014 22:38",
+		"test09DataClassTest" : "BD 5/11/2018 15:32" } }
