@@ -1,4 +1,3 @@
 accessing
 someMethod: anObject
-
 	^ anObject
