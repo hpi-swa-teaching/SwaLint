@@ -10,7 +10,7 @@ methodHasMagicNumber: aSLMethodTestObject
 	^self booleanResult: (statements anySatisfy: [ :statement | 
 		(statement isReturn) 
 			ifFalse: [
-				statement formattedCode matchesRegex: '(.)*(\d)+(.)*']
+				statement formattedCode matchesRegex: '(.)*([2-9]\d*|\d(\d)+)(.)*']
 			ifTrue: [
 				false
 			]
