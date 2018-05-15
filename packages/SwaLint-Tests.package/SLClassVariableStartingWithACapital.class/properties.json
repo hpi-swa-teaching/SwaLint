@@ -9,6 +9,6 @@
 		 ],
 	"name" : "SLClassVariableStartingWithACapital",
 	"pools" : [
-		"test" ],
+		"a Dictionary()" ],
 	"super" : "Object",
 	"type" : "normal" }

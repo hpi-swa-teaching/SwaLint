@@ -4,7 +4,7 @@
 	"instance" : {
 		"testImplementsEqualsButNoHash" : "BD 5/11/2018 15:13",
 		"testLiteralValuesSpelling" : "Lars Seifert 5/4/2018 15:36",
-		"testMagicNumbers" : "Lars Seifert 5/4/2018 15:39",
+		"testMagicNumbers" : "BD 5/15/2018 15:27",
 		"testMethodSelectors" : "Lars Seifert 5/4/2018 15:39",
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",
 		"testRuleFor" : "topa 4/23/2010 15:40" } }

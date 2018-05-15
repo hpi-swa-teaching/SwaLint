@@ -20,6 +20,7 @@ offeredTestsData
 		{#nilProgramming. 'Handling of nil-values'}.
 		{#magicNumbers. 'Magic numbers'}.
 		"Hidden helper tests"
+		{#methodHasMagicNumber. nil. nil. SwaLint hiddenCategory}.
 		{#instanceVariableAccess. nil. nil. SwaLint hiddenCategory}.
 		{#isUnclassifiedMethod . nil . nil . SwaLint hiddenCategory}.
 		{#methodUsesMetaprogramming . nil . nil . SwaLint hiddenCategory}.
