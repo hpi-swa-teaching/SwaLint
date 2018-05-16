@@ -1,17 +1,24 @@
 private
 methodHasMagicNumber: aSLMethodTestObject
 	
-	| methodNode statements |
+	| methodNode statements formattedCodeStatement allNumbersExcept0And1RegEx singleNumberreturnRegEx floatingPointNumberRegEx |
 	
 	aSLMethodTestObject shouldBeMethod.
+	
+	allNumbersExcept0And1RegEx := '(.)*([2-9]\d*|\d(\d)+)(.)*'.
+	singleNumberreturnRegEx := '\^( )*(\d)+( )*(\.)?'.
+	floatingPointNumberRegEx := '(.)*(\d)+(\.)(\d)+(.)*'.
 	
 	methodNode := RBParser parseMethod: (aSLMethodTestObject sourceCode).
 	statements := methodNode body statements.
 	^self booleanResult: (statements anySatisfy: [ :statement | 
+		formattedCodeStatement := statement formattedCode.
 		(statement isReturn) 
 			ifFalse: [
-				statement formattedCode matchesRegex: '(.)*([2-9]\d*|\d(\d)+)(.)*']
+				(formattedCodeStatement matchesRegex: allNumbersExcept0And1RegEx) or: [formattedCodeStatement matchesRegex: floatingPointNumberRegEx]
+				]
 			ifTrue: [
-				false
+				(formattedCodeStatement matchesRegex: allNumbersExcept0And1RegEx) and: [
+				(formattedCodeStatement matchesRegex: singleNumberreturnRegEx) not]
 			]
 		])
