@@ -6,8 +6,8 @@ methodHasMagicNumber: aSLMethodTestObject
 	aSLMethodTestObject shouldBeMethod.
 	
 	allNumbersExcept0And1RegEx := '(.)*([2-9]\d*|\d(\d)+)(.)*'.
-	singleNumberreturnRegEx := '\^( )*(\d)+(\.)(\d)+( )*(\.)?'.
-	floatingPointNumberRegEx := '(.)*(\d)+(\.)(\d)+(.)*'.
+	singleNumberreturnRegEx := '\^( )*(\d)+(\.)?(\d)*( )*(\.)?'.
+	floatingPointNumberRegEx := '(.)*(\d)+(\.)(\d)(.)*'.
 	
 	methodNode := RBParser parseMethod: (aSLMethodTestObject sourceCode).
 	statements := methodNode body statements.

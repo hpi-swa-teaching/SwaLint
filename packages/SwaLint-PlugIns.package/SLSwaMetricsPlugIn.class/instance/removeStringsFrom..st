@@ -1,12 +1,12 @@
 private
-removeStringsFrom: code
+removeStringsFrom: aCodeString
 
 | opening copiedString |
 
 opening := false.
 copiedString := ''.
 
-code do: [ :each | 
+aCodeString do: [ :each | 
 	(opening = false) ifTrue: [
 		(each = '''' asCharacter) ifTrue: [
 			opening := true.
