@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"test" ],
-	"commentStamp" : "",
+		 ],
+	"commentStamp" : "fm 5/17/2018 20:31",
 	"instvars" : [
 		 ],
-	"name" : "SLClassVariableStartingWithACapital",
+	"name" : "SLDummyClass031111",
 	"pools" : [
-		"a Dictionary()" ],
-	"super" : "Object",
+		 ],
+	"super" : "SLDummyClass03111",
 	"type" : "normal" }

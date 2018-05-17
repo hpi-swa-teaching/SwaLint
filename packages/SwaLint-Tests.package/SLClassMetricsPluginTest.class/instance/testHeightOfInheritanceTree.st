@@ -3,5 +3,5 @@ testHeightOfInheritanceTree
 
 	self 
 		test: #heightOfInheritanceTree
-		on: {SLDummyClass0. SLDummyClass01}
-		expectedResults: {2. 0}.
+		on: {SLDummyClass0. SLDummyClass02. SLDummyClass021}
+		expectedResults: {8. 1. 0}.

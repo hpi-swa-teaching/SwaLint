@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 1/19/2008 12:18",
+	"commentStamp" : "fm 5/17/2018 20:30",
 	"instvars" : [
 		 ],
-	"name" : "SLDummyClass03",
+	"name" : "SLDummyClass03111",
 	"pools" : [
 		 ],
-	"super" : "SLDummyClass0",
+	"super" : "SLDummyClass0311",
 	"type" : "normal" }

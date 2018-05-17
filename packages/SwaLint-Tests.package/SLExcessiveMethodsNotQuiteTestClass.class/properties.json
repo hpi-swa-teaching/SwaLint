@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "topa 1/19/2008 12:18",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SLDummyClass03",
+	"name" : "SLExcessiveMethodsNotQuiteTestClass",
 	"pools" : [
 		 ],
-	"super" : "SLDummyClass0",
+	"super" : "Object",
 	"type" : "normal" }
