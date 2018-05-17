@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLInstVarInSubclassesSub21TestClass",
+	"pools" : [
+		 ],
+	"super" : "SLInstVarInSubclassesSub2TestClass",
+	"type" : "normal" }
