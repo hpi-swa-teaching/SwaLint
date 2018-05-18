@@ -31,6 +31,4 @@ restoreDefaultMenuParameters
 	Parameters at: #menuTitleBorderWidth put: 1.
 	Parameters
 		at: #menuLineColor
-		put: ((Smalltalk at: #UITheme ifAbsent: [])
-				ifNil: [(UserInterfaceTheme current get: #borderColor for: #MenuMorph) lighter]
-				ifNotNilDo: [:uiTheme | uiTheme current settings menuBorderColor lighter])
+		put: Color gray
