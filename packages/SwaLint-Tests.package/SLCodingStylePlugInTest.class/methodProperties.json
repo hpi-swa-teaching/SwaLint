@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
+		"testLongMethodsWithEmptyAndComment" : "Lars Seifert 5/18/2018 14:52",
 		"testNoPointAfterReturn" : "AT 5/26/2008 20:35" } }
