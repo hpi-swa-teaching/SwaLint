@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #preLoading : 'preLoading.st',
   #loading : [
     SCIMetacelloLoadSpec {
-      #configuration : 'SwaLint',
+      #baseline : 'SwaLint',
       #directory : 'packages',
       #load : 'Tests',
       #platforms : [ #squeak ]
