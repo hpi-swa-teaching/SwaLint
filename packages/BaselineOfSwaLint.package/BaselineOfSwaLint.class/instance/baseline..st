@@ -28,7 +28,7 @@ baseline: spec
 		spec
 			package: 'SwaLint-Preferences';
 			package: 'SwaLint-Core' with: [spec requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
-				postLoadDoIt: #postLoadFor200;
+				postLoadDoIt: #postLoad;
 			package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
 			package: 'SwaLint-Slime-Grease' with: [spec requires: #('SwaLint-PlugIns' 'Grease')];
 			package: 'SwaLint-Slime-Seaside' with: [spec requires: #('SwaLint-PlugIns' 'Seaside3')];
