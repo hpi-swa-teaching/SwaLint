@@ -17,7 +17,9 @@
 		"testLiteralValuesSpelling" : "Lars Seifert 5/4/2018 15:36",
 		"testMagicNumbers" : "BD 5/16/2018 21:43",
 		"testMethodSelectors" : "Lars Seifert 5/4/2018 15:39",
+		"testQuestionableMessages" : "Lars Seifert 5/18/2018 15:54",
 		"testReferenceAbstractClass" : "Lars Seifert 5/18/2018 15:28",
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",
+		"testRemoveDependentsRule" : "Lars Seifert 5/18/2018 15:44",
 		"testRuleFor" : "topa 4/23/2010 15:40",
 		"testStringExclusion" : "BD 5/16/2018 21:49" } }
