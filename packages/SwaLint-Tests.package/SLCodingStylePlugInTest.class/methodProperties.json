@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"tesComplexMethods" : "BD 5/20/2018 14:55",
 		"testLongMethodsWithEmptyAndComment" : "Lars Seifert 5/18/2018 14:52",
 		"testNoPointAfterReturn" : "AT 5/26/2008 20:35" } }
