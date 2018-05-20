@@ -1,7 +1,7 @@
 testing
-test08IntensiveCouplingTest
+test08IntensiveAndDispersedCouplingTest
 
-	| couplingClass intensiveCoupling |
+	| couplingClass intensiveCoupling dispersedCoupling |
 	
 	self resetTestSystem.
 	
@@ -17,7 +17,11 @@ test08IntensiveCouplingTest
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass5));
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass6)).
 	intensiveCoupling := couplingClass methodForSelector: #intensiveCoupling.
+	dispersedCoupling := couplingClass methodForSelector: #dispersedCoupling.
+	
 	
 	self assert: (intensiveCoupling resultOf: #methodCINT) equals: 32.
 
-	self assert: (intensiveCoupling resultOf: #intensiveCoupling) equals: true
+	self assert: (intensiveCoupling resultOf: #intensiveCoupling) equals: true.
+	
+	self assert: (dispersedCoupling resultOf: #dispersedCoupling) equals: true.
