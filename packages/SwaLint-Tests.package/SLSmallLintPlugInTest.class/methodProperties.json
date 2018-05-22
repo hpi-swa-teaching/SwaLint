@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"testArgumentVariableNamesSpelling" : "LG 5/18/2018 09:06",
+		"testClassCommentsSpelling" : "LG 5/22/2018 22:30",
+		"testClassNamesSpelling" : "LG 5/22/2018 22:45",
+		"testClassVariableNamesSpelling" : "LG 5/22/2018 22:45",
 		"testExcessiveVariables" : "LG 5/17/2018 22:27",
 		"testFloatEqualityComparison" : "LG 5/17/2018 22:43",
 		"testImplementsEqualsButNoHash" : "BD 5/11/2018 15:13",
