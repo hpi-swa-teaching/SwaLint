@@ -1,7 +1,7 @@
 testing
 testMethodModifierFinal
 
-	"self 
-		test: #MethodModifierFinal
-		on: {SLTestMethodModifierFinal01}
-		expectedResults: {1}."
+	self 
+		test: #smallLintMethodModifierFinal
+		on: { SLTestMethodModifierFinal01 . SLTestMethodModifierFinal02 }
+		expectedResults: { 0 . 1 }.
