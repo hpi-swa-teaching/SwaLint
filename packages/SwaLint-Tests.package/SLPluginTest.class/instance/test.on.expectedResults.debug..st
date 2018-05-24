@@ -1,7 +1,7 @@
 testing
 test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBoolean
 
-	| testObjects |
+	| testObjects realResult|
 	testObjects := aObjectArray collect: [ :aClass | aClass as: SLTestObject ].
 
 	self shouldnt: [
@@ -9,6 +9,7 @@ test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBo
 	] raise: Error description: 'Error while test execution'.
 	
 	testObjects withIndexDo: [ :aTestObject :index |
+		realResult := aTestObject resultOf: aTestSymbol.
 		self printResults: (aTestObject resultOf: aTestSymbol)
 			expected: (aResultValueArray at: index) if: aBoolean.
 		
@@ -20,5 +21,5 @@ test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBo
 		self assert: 
 			(aTestObject resultValueOf: aTestSymbol) = 
 			(aResultValueArray at: index)
-			description: 'Test answered wrong value'].
+			description: 'Test answered wrong value: ', realResult asString].
 
