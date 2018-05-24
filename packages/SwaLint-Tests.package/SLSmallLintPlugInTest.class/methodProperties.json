@@ -24,6 +24,7 @@
 		"testNoClassComment" : "LG 5/24/2018 11:09",
 		"testOverridesSpecialMessage" : "LG 5/24/2018 11:17",
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",
+		"testReturnsBooleanAndOther" : "LG 5/24/2018 11:38",
 		"testRuleFor" : "topa 4/23/2010 15:40",
 		"testStringExclusion" : "BD 5/16/2018 21:49",
 		"testTempVarOverridesInstVarRule" : "LG 5/18/2018 08:56" } }
