@@ -16,6 +16,7 @@
 		"testMagicNumbers" : "BD 5/16/2018 21:43",
 		"testMethodModifierFinal" : "LG 5/24/2018 09:46",
 		"testMethodModifierOverride" : "LG 5/24/2018 09:45",
+		"testMethodModifierSuper" : "LG 5/24/2018 10:06",
 		"testMethodSelectors" : "Lars Seifert 5/4/2018 15:39",
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",
 		"testRuleFor" : "topa 4/23/2010 15:40",
