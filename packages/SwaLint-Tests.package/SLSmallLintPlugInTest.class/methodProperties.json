@@ -22,6 +22,7 @@
 		"testMissingSubclassResponsibility" : "LG 5/24/2018 10:26",
 		"testMissingSuperSends" : "LG 5/24/2018 10:41",
 		"testNoClassComment" : "LG 5/24/2018 11:09",
+		"testOverridesSpecialMessage" : "LG 5/24/2018 11:17",
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",
 		"testRuleFor" : "topa 4/23/2010 15:40",
 		"testStringExclusion" : "BD 5/16/2018 21:49",
