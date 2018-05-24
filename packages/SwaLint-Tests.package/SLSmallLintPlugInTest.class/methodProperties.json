@@ -31,4 +31,5 @@
 		"testStringExclusion" : "BD 5/16/2018 21:49",
 		"testSubclassResponsibilityNotDefined" : "LG 5/24/2018 12:06",
 		"testSuperSendsNew" : "LG 5/24/2018 12:29",
-		"testTempVarOverridesInstVarRule" : "LG 5/18/2018 08:56" } }
+		"testTempVarOverridesInstVarRule" : "LG 5/18/2018 08:56",
+		"testTemporaryVariableCapitalization" : "LG 5/24/2018 14:33" } }
