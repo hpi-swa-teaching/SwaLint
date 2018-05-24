@@ -26,6 +26,7 @@
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",
 		"testReturnsBooleanAndOther" : "LG 5/24/2018 11:40",
 		"testRuleFor" : "topa 4/23/2010 15:40",
-		"testSendsDifferentSuper" : "LG 5/24/2018 11:49",
+		"testSendsDifferentSuper" : "LG 5/24/2018 11:50",
+		"testSentNotImplemented" : "LG 5/24/2018 11:56",
 		"testStringExclusion" : "BD 5/16/2018 21:49",
 		"testTempVarOverridesInstVarRule" : "LG 5/18/2018 08:56" } }
