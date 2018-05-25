@@ -31,7 +31,7 @@
 		"testLiteralArrayContainsComma" : "LG 5/22/2018 23:01",
 		"testLiteralValuesSpelling" : "Lars Seifert 5/4/2018 15:36",
 		"testLongMethods" : "LG 5/22/2018 23:13",
-		"testMagicNumbers" : "BD 5/16/2018 21:43",
+		"testMagicNumbers" : "fm 5/24/2018 19:50",
 		"testMethodModifierFinal" : "LG 5/24/2018 09:46",
 		"testMethodModifierOverride" : "LG 5/24/2018 09:45",
 		"testMethodModifierSuper" : "LG 5/24/2018 10:06",
@@ -57,4 +57,7 @@
 		"testSuperSendsNew" : "LG 5/24/2018 12:29",
 		"testTempVarOverridesInstVarRule" : "LG 5/18/2018 08:56",
 		"testTemporaryVariableCapitalization" : "LG 5/24/2018 14:33",
+		"testTempsReadBeforeWritten" : "fm 5/24/2018 19:29",
+		"testUnclassifiedMethods" : "fm 5/25/2018 08:26",
+		"testUncommonMessageSend" : "fm 5/25/2018 08:52",
 		"testYourselfNotUsed" : "Lars Seifert 5/24/2018 14:10" } }
