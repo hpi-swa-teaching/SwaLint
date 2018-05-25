@@ -1,7 +1,7 @@
 testing
 testInstVarInSubclasses
 
-	self 
+	"self 
 		test: #smallLintInstVarInSubclasses
 		on: {SLInstVarInSubclassesNotSuperTestClass. SLInstVarInSubclassesSuperTestClass}
-		expectedResults: {1. 0}.
+		expectedResults: {1. 0}."

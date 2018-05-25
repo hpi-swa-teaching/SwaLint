@@ -3,5 +3,5 @@ testLiteralValuesSpelling
 
 	self 
 		test: #smallLintLiteralValuesSpelling
-		on: {SLDummyClass03}
+		on: {SLLiteralValuesSpelling}
 		expectedResults: {1}.
