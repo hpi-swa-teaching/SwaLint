@@ -10,7 +10,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #coverage : {
-      #categories : [ 'SwaLint-*' ]
+      #categories : [ 'SwaLint-Core*' , 'SwaLint-PlugIns*', 'SwaLint-Prefernces*', 'SwaLint-Slime*']
     }
   }
 }
