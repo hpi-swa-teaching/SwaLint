@@ -1,5 +1,5 @@
 testing
-testDefinesEqualNotHash
+testBooleanPrecedence
 	
 	self 
 		test: #smallLintBooleanPrecedence
