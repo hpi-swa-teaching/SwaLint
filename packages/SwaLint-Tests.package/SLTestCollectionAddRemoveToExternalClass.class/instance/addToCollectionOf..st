@@ -1,3 +1,3 @@
 as yet unclassified
 addToCollectionOf: anObject
-	anObject foo add: 5.
+	(anObject size = 0) ifTrue: [anObject foo add: 5].

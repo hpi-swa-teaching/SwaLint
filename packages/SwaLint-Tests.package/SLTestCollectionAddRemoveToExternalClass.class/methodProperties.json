@@ -4,7 +4,17 @@
 	"instance" : {
 		"addManyTo:" : "Lars Seifert 5/25/2018 16:14",
 		"addToCollection" : "Lars Seifert 5/25/2018 16:02",
-		"addToCollectionOf:" : "Lars Seifert 5/25/2018 15:58",
+		"addToCollectionOf:" : "Lars Seifert 5/25/2018 16:33",
 		"addToObject:" : "Lars Seifert 5/25/2018 16:05",
 		"addToSelf" : "Lars Seifert 5/25/2018 16:14",
-		"removeFromCollectionOf:" : "Lars Seifert 5/25/2018 16:03" } }
+		"equalsFalseTest" : "Lars Seifert 5/25/2018 17:06",
+		"equalsTrueTest" : "Lars Seifert 5/25/2018 16:57",
+		"foo:" : "Lars Seifert 5/25/2018 16:34",
+		"foobar:" : "Lars Seifert 5/25/2018 16:35",
+		"foobarbar:" : "Lars Seifert 5/25/2018 16:35",
+		"foobarfoo:" : "Lars Seifert 5/25/2018 16:36",
+		"myAnySatisfy:" : "Lars Seifert 5/25/2018 16:45",
+		"myContains:" : "Lars Seifert 5/25/2018 16:53",
+		"myDetect:" : "Lars Seifert 5/25/2018 16:53",
+		"removeFromCollectionOf:" : "Lars Seifert 5/25/2018 16:03",
+		"trueBlocks" : "Lars Seifert 5/25/2018 17:05" } }
