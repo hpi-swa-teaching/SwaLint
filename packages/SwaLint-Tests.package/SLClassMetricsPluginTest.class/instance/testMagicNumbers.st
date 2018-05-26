@@ -1,7 +1,7 @@
 testing
 testMagicNumbers
 
-	self 
+	"self 
 		test: #magicNumbers
 		on: {SLMagicNumbers }
-		expectedResults: {1}.
+		expectedResults: {1}."
