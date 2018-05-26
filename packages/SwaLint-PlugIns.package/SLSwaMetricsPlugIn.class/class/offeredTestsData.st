@@ -12,13 +12,13 @@ offeredTestsData
 		{#badlyFormattedMethods. 'Methods with very long lines'}.
 		{#unclassifiedMethods. 'Unclassified methods'}.
 		{#noClassComments. 'Missing class comments'}.
-		{#commentedMethods. 'Methods with comments'}.
-		{#redundantCode. 'Redundant code'}.
-		{#deadCode. 'Dead code'}.
+		{#commentedMethods. 'Methods with comments'. 'This test finds all methods, which contain a comment.'}.
+		{#redundantCode. 'Redundant code'. nil . nil. nil. true}.
+		{#deadCode. 'Dead code'. 'DUPLICATION of SignifiantDuplication test in Disharmonies'.}.
 		{#metaProgramming. 'Hints of meta-programming'}.
 		"{#stdLibUse. 'Handling of Stdlib'}."
 		{#nilProgramming. 'Handling of nil-values'}.
-		{#magicNumbers. 'Magic numbers'}.
+		{#magicNumbers. 'Magic numbers'. 'A simple magic number test. Magic numbers defined by this test are all numbers, which are not a -1, 0 or 1 and do not appear as the single return in a return statement. Numbers in strings are ignored.'}.
 		"Hidden helper tests"
 		{#methodHasMagicNumber. nil. nil. SwaLint hiddenCategory}.
 		{#instanceVariableAccess. nil. nil. SwaLint hiddenCategory}.
