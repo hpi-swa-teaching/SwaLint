@@ -4,4 +4,4 @@ testMagicNumbers
 	self 
 		test: #magicNumbers
 		on: {SLMagicNumbers }
-		expectedResults: {2}.
+		expectedResults: {1}.
