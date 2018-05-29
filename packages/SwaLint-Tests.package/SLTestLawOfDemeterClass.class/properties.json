@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"someObject" ],
+	"name" : "SLTestLawOfDemeterClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
