@@ -66,6 +66,7 @@
 		"testRuleFor" : "topa 4/23/2010 15:40",
 		"testSendsDifferentSuper" : "LG 5/24/2018 11:50",
 		"testSentNotImplemented" : "LG 5/24/2018 11:56",
+		"testSizeCheck" : "LG 5/30/2018 00:50",
 		"testSpelling" : "BD 5/25/2018 15:52",
 		"testStringExclusion" : "BD 5/16/2018 21:49",
 		"testSubclassResponsibilityNotDefined" : "LG 5/24/2018 12:06",
