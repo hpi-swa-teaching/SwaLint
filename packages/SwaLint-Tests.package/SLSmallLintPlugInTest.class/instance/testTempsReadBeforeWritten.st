@@ -2,6 +2,6 @@ testing
 testTempsReadBeforeWritten
 
 	self 
-		test: #smallLintTempsReadBeforeWritten
-		on: { SLTestTempsReadBeforeWritten }
-		expectedResults: { 2 }.
+		test: #smallLintTempsReadBeforeWritten 
+		on: { SLTestTempsReadBeforeWritten01 }
+		expectedResults: { 1 }.
