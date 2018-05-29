@@ -62,6 +62,7 @@
 		"testRemoveDependentsRule" : "Lars Seifert 5/18/2018 15:44",
 		"testReturnInEnsure" : "Lars Seifert 5/24/2018 14:18",
 		"testReturnsBooleanAndOther" : "LG 5/24/2018 11:40",
+		"testReturnsIfTrue" : "LG 5/29/2018 21:25",
 		"testRuleFor" : "topa 4/23/2010 15:40",
 		"testSendsDifferentSuper" : "LG 5/24/2018 11:50",
 		"testSentNotImplemented" : "LG 5/24/2018 11:56",
