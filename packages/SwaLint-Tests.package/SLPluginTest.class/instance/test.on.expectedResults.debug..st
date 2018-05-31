@@ -3,7 +3,7 @@ test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBo
 
 	| testObjects realResult |
 	testObjects := aObjectArray collect: [ :aObject |
-		aObject isCollection
+		aObject isList
 			ifFalse: [aObject as: SLTestObject]
 			ifTrue: [
 				| sysobj |
