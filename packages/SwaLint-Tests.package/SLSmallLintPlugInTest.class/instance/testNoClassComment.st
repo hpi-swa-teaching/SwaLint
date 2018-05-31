@@ -1,7 +1,7 @@
 testing
 testNoClassComment
 
-	"self 
+	self 
 		test: #smallLintNoClassComment
-		on: {SLTestNoClassComment01}
-		expectedResults: {1}."
+		on: {SLTestNoClassCommentFail. SLTestNoClassCommentPass}
+		expectedResults: {1. 0}.

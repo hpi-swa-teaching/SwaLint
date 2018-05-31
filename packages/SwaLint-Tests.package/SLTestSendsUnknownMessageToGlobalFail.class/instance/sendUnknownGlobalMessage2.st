@@ -1,0 +1,4 @@
+as yet unclassified
+sendUnknownGlobalMessage2
+
+	SLTestSendsUnknownMessageToGlobalFail doSomethingBad2.
