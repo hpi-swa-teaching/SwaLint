@@ -81,6 +81,7 @@
 		"testToDoWithIncrement" : "LG 5/31/2018 12:01",
 		"testUnclassifiedMethods" : "fm 5/25/2018 08:26",
 		"testUncommonMessageSend" : "fm 5/25/2018 08:52",
+		"testUnconditionalRecursion" : "LG 5/31/2018 12:07",
 		"testUndeclaredReferenceRule" : "BD 5/25/2018 14:17",
 		"testUnreferencedVaraibles" : "BD 5/25/2018 14:55",
 		"testUtilityMethods" : "BD 5/25/2018 15:11",
