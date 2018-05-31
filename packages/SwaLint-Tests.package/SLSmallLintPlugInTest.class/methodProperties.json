@@ -75,6 +75,7 @@
 		"testTempVarOverridesInstVarRule" : "LG 5/18/2018 08:56",
 		"testTemporaryVariableCapitalization" : "LG 5/24/2018 14:33",
 		"testTempsReadBeforeWritten" : "LG 5/29/2018 21:22",
+		"testThreeElementPoint" : "LG 5/31/2018 09:48",
 		"testUnclassifiedMethods" : "fm 5/25/2018 08:26",
 		"testUncommonMessageSend" : "fm 5/25/2018 08:52",
 		"testUndeclaredReferenceRule" : "BD 5/25/2018 14:17",
