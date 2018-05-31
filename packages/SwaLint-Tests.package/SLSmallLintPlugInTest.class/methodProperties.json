@@ -85,6 +85,7 @@
 		"testUndeclaredReferenceRule" : "BD 5/25/2018 14:17",
 		"testUnnecessaryAssignment" : "LG 5/31/2018 12:31",
 		"testUnoptimizedAndOr" : "LG 5/31/2018 12:48",
+		"testUnoptimizedToDo" : "LG 5/31/2018 13:00",
 		"testUnreferencedVaraibles" : "BD 5/25/2018 14:55",
 		"testUtilityMethods" : "BD 5/25/2018 15:11",
 		"testVariableAssignedLiteral" : "BD 5/25/2018 15:12",
