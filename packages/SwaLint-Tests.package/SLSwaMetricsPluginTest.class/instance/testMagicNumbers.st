@@ -3,5 +3,5 @@ testMagicNumbers
 
 	"self 
 		test: #magicNumbers
-		on: {SLMagicNumbers }
+		on: {SLMagicNumbers}
 		expectedResults: {1}."

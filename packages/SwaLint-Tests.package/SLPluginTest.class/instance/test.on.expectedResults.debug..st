@@ -1,8 +1,18 @@
 testing
 test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBoolean
 
-	| testObjects realResult|
-	testObjects := aObjectArray collect: [ :aClass | aClass as: SLTestObject ].
+	| testObjects realResult |
+	testObjects := aObjectArray collect: [ :aObject |
+		aObject isList
+			ifFalse: [aObject as: SLTestObject]
+			ifTrue: [
+				| sysobj |
+				sysobj := SLSystemTestObject newFromTestObjects: (aObject collect:
+					[ :aNestedObject | aNestedObject as: SLTestObject ]).
+				sysobj testRunner: testRunner.
+				sysobj
+			]
+	].
 
 	self shouldnt: [
 		testRunner runOnTests: {aTestSymbol} andTestObjects: testObjects.
