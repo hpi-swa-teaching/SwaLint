@@ -3,5 +3,5 @@ testPrecedence
 
 	self 
 		test: #smallLintPrecedence
-		on: {SLTestPrecedenceClass  }
-		expectedResults: {1}
+		on: {SLTestPrecedenceClass }
+		expectedResults: {3}

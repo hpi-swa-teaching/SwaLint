@@ -55,7 +55,7 @@
 		"testNoClassComment" : "fm 6/1/2018 00:09",
 		"testOnlyReadOrWrittenVariable" : "BD 5/20/2018 15:51",
 		"testOverridesSpecialMessage" : "LG 5/24/2018 11:17",
-		"testPrecedence" : "Lars Seifert 5/24/2018 14:22",
+		"testPrecedence" : "BD 6/1/2018 13:57",
 		"testQuestionableMessages" : "Lars Seifert 5/18/2018 15:54",
 		"testReferenceAbstractClass" : "Lars Seifert 5/18/2018 15:28",
 		"testRefersToClassNameInsteadOfSelfClass" : "topa 4/23/2010 15:41",

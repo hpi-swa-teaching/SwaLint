@@ -4,7 +4,7 @@ offeredTestsData
 	^ {
 		{#dotAfterReturn. 'Dot after Return Consistency'. 'Evaluates how consistently dots were put after a return statement.'}.
 		{#csMethodHasDotAfterReturn. nil. '(private) Test a single method for dotAfterReturn'. SwaLint hiddenCategory}.
-		{#longMethods. 'Long Methods'}.
+		{#longMethods. 'Long Methods (with empty lines)' . 'Returns all methods that have too much lines. This does count blank lines and comments. You can adjust the threshold in the SwaLint options.'}.
 		{#complexMethods. 'Complex Methods'. 'Methods with a high nesting or complex structure are hard to understand and maintain and can cause bugs'}.
 		{#isComplexMethod. nil. '(private) Test a single method whether it is complex'. SwaLint hiddenCategory}.
 		{#namespaceSimulation. 'Namespace Simulation'. 'Within a project, all classes should start with a prefix.'}.		

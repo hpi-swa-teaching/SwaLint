@@ -14,7 +14,6 @@ offeredTestsData
 		{#noClassComments. 'Missing class comments'}.
 		{#commentedMethods. 'Methods with comments'. 'This test finds all methods, which contain a comment.'}.
 		{#redundantCode. 'Redundant code'. nil . nil. nil. true}.
-		{#deadCode. 'Dead code'. 'DUPLICATION of SignifiantDuplication test in Disharmonies'.}.
 		{#metaProgramming. 'Hints of meta-programming'}.
 		"{#stdLibUse. 'Handling of Stdlib'}."
 		{#nilProgramming. 'Handling of nil-values'}.

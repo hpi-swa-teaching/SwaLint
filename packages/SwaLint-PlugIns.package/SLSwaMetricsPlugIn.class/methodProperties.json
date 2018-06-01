@@ -4,12 +4,11 @@
 		"ShowSwaMetricTests:" : "MT 7/23/2014 23:24",
 		"defaultCategory" : "MT 7/23/2014 23:24",
 		"maxLineSize" : "tfel 1/11/2011 11:35",
-		"offeredTestsData" : "BD 5/26/2018 11:58" },
+		"offeredTestsData" : "BD 6/1/2018 14:11" },
 	"instance" : {
 		"badlyFormattedMethods:" : "tfel 1/11/2011 11:38",
 		"classcount:" : "topa 7/31/2013 10:30:31.84",
 		"commentedMethods:" : "tfel 1/10/2011 14:24",
-		"deadCode:" : "tfel 8/6/2015 15:44",
 		"evilMethods" : "tfel 3/3/2011 13:24",
 		"globalState:" : "tfel 1/10/2011 14:26",
 		"instanceVariableAccess:" : "BD 5/15/2018 15:14",

@@ -19,7 +19,7 @@ test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBo
 	] raise: Error description: 'Error while test execution'.
 	
 	testObjects withIndexDo: [ :aTestObject :index |
-		realResult := aTestObject resultOf: aTestSymbol.
+		realResult := (aTestObject resultValueOf: aTestSymbol).
 		self printResults: (aTestObject resultOf: aTestSymbol)
 			expected: (aResultValueArray at: index) if: aBoolean.
 		
@@ -31,5 +31,5 @@ test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBo
 		self assert: 
 			(aTestObject resultValueOf: aTestSymbol) = 
 			(aResultValueArray at: index)
-			description: 'Test answered wrong value: ', realResult asString].
+			description: 'Test answered wrong value: ', realResult asString, ' expected: ', (aResultValueArray at: index)].
 
