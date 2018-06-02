@@ -1,0 +1,21 @@
+{
+	"category" : "SwaLint-PlugIns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LargeClassLOC",
+		"LargeMethodLOC",
+		"LargeWeightedMethodCount",
+		"MinimumDuplicationChainLength",
+		"MinimumExactCloneSize",
+		"ShortMemoryCap",
+		"SignificantStandaloneExactCloneSize",
+		"SmallLineBias" ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		 ],
+	"name" : "SLOtherPlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLPlugIn",
+	"type" : "normal" }
