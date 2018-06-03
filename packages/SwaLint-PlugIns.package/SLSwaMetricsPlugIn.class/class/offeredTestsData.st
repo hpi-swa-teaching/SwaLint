@@ -8,12 +8,10 @@ offeredTestsData
 		{#namespaceCount. 'Namespaces'}.
 		{#instanceVariableAccessIsConsistent. 'Instance var access'}.
 		{#globalState. 'Occurances of global state on the class side'}.
-		{#interestingMethods. 'Long or complex methods'}.
 		{#badlyFormattedMethods. 'Methods with very long lines'}.
-		{#unclassifiedMethods. 'Unclassified methods'}.
+		"{#unclassifiedMethods. 'Unclassified methods'}."
 		{#noClassComments. 'Missing class comments'}.
 		{#commentedMethods. 'Methods with comments'. 'This test finds all methods, which contain a comment.'}.
-		{#redundantCode. 'Redundant code'. nil . nil. nil. true}.
 		{#metaProgramming. 'Hints of meta-programming'}.
 		"{#stdLibUse. 'Handling of Stdlib'}."
 		{#nilProgramming. 'Handling of nil-values'}.
@@ -21,7 +19,7 @@ offeredTestsData
 		"Hidden helper tests"
 		{#methodHasMagicNumber. nil. nil. SwaLint hiddenCategory}.
 		{#instanceVariableAccess. nil. nil. SwaLint hiddenCategory}.
-		{#isUnclassifiedMethod . nil . nil . SwaLint hiddenCategory}.
+		"{#isUnclassifiedMethod . nil . nil . SwaLint hiddenCategory}."
 		{#methodUsesMetaprogramming . nil . nil . SwaLint hiddenCategory}.
 		{#methodHandlesNil . nil . nil . SwaLint hiddenCategory}.
 		{#methodHasComment . nil . nil . SwaLint hiddenCategory}.

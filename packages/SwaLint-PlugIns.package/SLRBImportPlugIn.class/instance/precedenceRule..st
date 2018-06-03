@@ -1,7 +1,7 @@
 tests
-myPrecedence: aSLClassTestObject
+precedenceRule: aSLClassTestObject
 	aSLClassTestObject shouldBeClass.
 	^ self
 		summarizeNumberOf: aSLClassTestObject methods 
-		withResultOf: #myTest
+		withResultOf: #precedenceRuleMethod
 		satisfying: [:result | result isPositive]

@@ -11,10 +11,10 @@
 		"ShortMemoryCap",
 		"SignificantStandaloneExactCloneSize",
 		"SmallLineBias" ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "BD 6/3/2018 15:58",
 	"instvars" : [
 		 ],
-	"name" : "SLOtherPlugIn",
+	"name" : "SLRBImportPlugIn",
 	"pools" : [
 		 ],
 	"super" : "SLPlugIn",
