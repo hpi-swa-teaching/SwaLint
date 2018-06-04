@@ -7,10 +7,8 @@
 		"testCommentedMethods" : "fm 5/31/2018 22:45",
 		"testGlobalState" : "fm 5/31/2018 23:08",
 		"testInstanceVariableAccessIsConsistent" : "fm 5/31/2018 22:52",
-		"testInterestingMethods" : "fm 5/31/2018 23:17",
-		"testMagicNumbers" : "fm 5/31/2018 22:47",
+		"testMagicNumbers" : "BD 6/4/2018 21:25",
 		"testMetaPrograming" : "fm 5/31/2018 22:53",
 		"testMethodcount" : "fm 5/31/2018 22:42",
 		"testNoClassComments" : "fm 5/31/2018 23:38",
-		"testSloccount" : "fm 5/31/2018 22:38",
-		"testUnclassifiedMethods" : "fm 5/31/2018 23:31" } }
+		"testSloccount" : "fm 5/31/2018 22:38" } }

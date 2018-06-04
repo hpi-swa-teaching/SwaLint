@@ -3,7 +3,7 @@ magicNumbers: aSLClassTestObject
 
 	aSLClassTestObject shouldBeClass.
 	^ self
-		summarizeNumberOf: aSLClassTestObject methods 
+		summarizeNumberOf: aSLClassTestObject methods
 		withResultOf: #methodHasMagicNumber
 		satisfying: [:result | result isPositive]
 
