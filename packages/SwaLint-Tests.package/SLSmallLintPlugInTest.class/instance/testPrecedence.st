@@ -2,6 +2,6 @@ testing
 testPrecedence
 
 	self 
-		test: #smallLintPrecedence
+		test: #precedenceRule
 		on: {SLTestPrecedenceClass }
 		expectedResults: {3}
