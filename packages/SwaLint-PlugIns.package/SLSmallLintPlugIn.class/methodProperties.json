@@ -2,11 +2,12 @@
 	"class" : {
 		"defaultCategory" : "topa 4/21/2010 08:54",
 		"description" : "AT 5/8/2008 12:21",
+		"excludedTests" : "Lars Seifert 6/6/2018 13:22",
 		"externalTests" : "topa 4/21/2010 08:53",
 		"initializePreferences" : "topa 4/21/2010 08:55",
 		"looksLikeLintRule:" : "topa 4/21/2010 08:24",
 		"namespacePrefix" : "topa 4/21/2010 08:18",
-		"offeredTestsData" : "BD 5/11/2018 13:27",
+		"offeredTestsData" : "Lars Seifert 6/6/2018 13:21",
 		"possibleRuleClasses" : "topa 1/19/2015 14:16",
 		"postfix" : "topa 4/21/2010 08:18",
 		"smallLintTests" : "BD 5/11/2018 12:40",
