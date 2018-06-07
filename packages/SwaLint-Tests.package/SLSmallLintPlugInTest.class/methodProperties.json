@@ -35,7 +35,6 @@
 		"testImplementedNotSent" : "BD 5/18/2018 15:36",
 		"testImplementsEqualsButNoHash" : "BD 5/11/2018 15:13",
 		"testInconsistentMethodClassification" : "fm 5/17/2018 22:48",
-		"testInstVarInSubclasses" : "BD 5/25/2018 15:36",
 		"testJustSendsSuper" : "LG 5/22/2018 22:51",
 		"testLawOfDemeter" : "Lars Seifert 5/29/2018 17:04",
 		"testLiteralArrayCharacters" : "Lars Seifert 5/29/2018 17:14",

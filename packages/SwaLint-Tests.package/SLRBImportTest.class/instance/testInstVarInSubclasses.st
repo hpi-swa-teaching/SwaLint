@@ -1,7 +1,7 @@
-testing
+as yet unclassified
 testInstVarInSubclasses
 
-	"self 
-		test: #smallLintInstVarInSubclasses
+	self 
+		test: #instVarInAllSubclasses
 		on: {SLInstVarInSubclassesNotSuperTestClass. SLInstVarInSubclassesSuperTestClass}
-		expectedResults: {1. 0}."
+		expectedResults: {false . true}.
