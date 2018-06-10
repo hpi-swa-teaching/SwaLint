@@ -7,6 +7,6 @@ offeredTestsData
 		{#unreferencedVariable. 'Unreferenced variables' . 'Check for (class and instannce) variables not referenced. If a variable is not used in a class, it should be deleted.'}.
 		{#longMethod. 'Long Methods (without empty lines)' . 'Checks for long methods. A methd is long if it has more then SLRBImportPlugIn >> longMethodSize (by default 10) statements. This method counts staments and not lines!'}.
 		
-		{#longMethodsMethod . nil .nil . SwaLint hiddenCategory}.
+		{#longMethodMethod . nil .nil . SwaLint hiddenCategory}.
 		{#precedenceRuleMethod . nil .nil . SwaLint hiddenCategory}
 	}

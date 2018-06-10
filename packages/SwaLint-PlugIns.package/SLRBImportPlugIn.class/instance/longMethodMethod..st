@@ -2,6 +2,7 @@ tests
 longMethodMethod: aMethodTestObject
 
 | rbMethodNode matches |
+aMethodTestObject shouldBeMethod.
 rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).
 matches := ( RBParseTreeSearcher new
        matchesAnyOf: #('`.Stmt')
