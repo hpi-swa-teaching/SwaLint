@@ -3,10 +3,13 @@
 		"basicClasses" : "topa 1/9/2015 16:17",
 		"classNamesNotUnderTest" : "BD 5/25/2018 12:35",
 		"defaultCategory" : "BD 6/3/2018 11:51",
-		"offeredTestsData" : "BD 6/8/2018 21:29" },
+		"offeredTestsData" : "BD 6/10/2018 17:44" },
 	"instance" : {
 		"instVarInAllSubclasses:" : "BD 6/7/2018 14:24",
 		"loadPreferences" : "HD 7/9/2014 19:36",
+		"longMethod:" : "BD 6/10/2018 17:44",
+		"longMethodMethod:" : "BD 6/10/2018 17:44",
+		"longMethodSize" : "BD 6/10/2018 17:38",
 		"precedenceRule:" : "BD 6/3/2018 11:53",
 		"precedenceRuleMethod:" : "BD 6/3/2018 11:52",
 		"unreferencedVariable:" : "BD 6/8/2018 21:25" } }

@@ -1,0 +1,4 @@
+tests
+longMethodSize
+	
+	^10
