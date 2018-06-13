@@ -3,11 +3,12 @@
 		"basicClasses" : "topa 1/9/2015 16:17",
 		"classNamesNotUnderTest" : "BD 5/25/2018 12:35",
 		"defaultCategory" : "BD 6/3/2018 11:51",
-		"offeredTestsData" : "Lars Seifert 6/13/2018 19:15" },
+		"offeredTestsData" : "Lars Seifert 6/13/2018 20:03" },
 	"instance" : {
 		"classNameInSelector:" : "Lars Seifert 6/10/2018 19:38",
 		"classNameInSelectorMethod:" : "Lars Seifert 6/10/2018 19:37",
 		"instVarInAllSubclasses:" : "BD 6/7/2018 14:24",
+		"instanceVariableCapitalizationRule:" : "Lars Seifert 6/13/2018 20:00",
 		"loadPreferences" : "HD 7/9/2014 19:36",
 		"longMethod:" : "BD 6/10/2018 18:28",
 		"longMethodMethod:" : "Lars Seifert 6/10/2018 19:38",
