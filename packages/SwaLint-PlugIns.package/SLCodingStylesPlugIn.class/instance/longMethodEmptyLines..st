@@ -1,5 +1,5 @@
 tests
-longMethod: aSLClassTestObject
+longMethodEmptyLines: aSLClassTestObject
 
 	aSLClassTestObject shouldBeClass.
 	^ self 

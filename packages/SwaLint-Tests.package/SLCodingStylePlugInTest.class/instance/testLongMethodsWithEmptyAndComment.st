@@ -2,6 +2,6 @@ tests
 testLongMethodsWithEmptyAndComment
 
 	self 
-		test: #longMethods
-		on: {SLDummyClass03. SLTestBrainClass}
-		expectedResults: {2. 3}.
+		test: #longMethodEmptyLines
+		on: {SLTestLongMethods01}
+		expectedResults: {6}.
