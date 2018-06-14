@@ -3,7 +3,7 @@
 		"basicClasses" : "topa 1/9/2015 16:17",
 		"classNamesNotUnderTest" : "BD 5/25/2018 12:35",
 		"defaultCategory" : "BD 6/3/2018 11:51",
-		"offeredTestsData" : "Lars Seifert 6/13/2018 20:03" },
+		"offeredTestsData" : "Lars Seifert 6/14/2018 14:57" },
 	"instance" : {
 		"classNameInSelector:" : "Lars Seifert 6/10/2018 19:38",
 		"classNameInSelectorMethod:" : "Lars Seifert 6/10/2018 19:37",
@@ -15,6 +15,8 @@
 		"longMethodSize" : "BD 6/10/2018 17:38",
 		"precedenceRule:" : "BD 6/3/2018 11:53",
 		"precedenceRuleMethod:" : "BD 6/3/2018 11:52",
+		"toDoCollectRule:" : "Lars Seifert 6/14/2018 14:56",
+		"toDoCollectRuleMethod:" : "Lars Seifert 6/14/2018 15:06",
 		"toDoRule:" : "Lars Seifert 6/13/2018 19:07",
 		"toDoRuleMethod:" : "Lars Seifert 6/13/2018 19:20",
 		"unreferencedVariable:" : "BD 6/8/2018 21:25" } }
