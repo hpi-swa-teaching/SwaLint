@@ -10,9 +10,11 @@ offeredTestsData
 		{#toDoRule. 'Uses to:do: instead of do:, with:do:' . 'Checks for people using to:do: when a do:, with:do: should be used. Looks for methods using #to: anObject size do: [:index], that do access anObject using #at: index.'}.
 		{#instanceVariableCapitalizationRule . 'Instance variable capitalization' . 'Instance variable names on the instance- and class-side should start with a lowercase letter. Searches for classes that do not follow this convention (have at least one variable that does not)' }.
 		{#toDoCollectRule . 'to:do: doesn''t use collect:' . 'Checks for users of to:do: when the shorter collect: would work.' }.
+		{#collectionProtocolRule . 'Uses do: instead of collect: or select: [RBImport]' . 'Checks for people using the do: method instead of using the collect: or select: methods. The collect: and select: variants express the source code''s intentions better.' }.
 		{#toDoCollectRuleMethod . nil . nil. SwaLint hiddenCategory }.
 		{#toDoRuleMethod . nil . nil. SwaLint hiddenCategory }.
 		{#classNameInSelectorMethod. nil . nil. SwaLint hiddenCategory}.
 		{#longMethodMethod . nil .nil . SwaLint hiddenCategory}.
-		{#precedenceRuleMethod . nil .nil . SwaLint hiddenCategory}
+		{#precedenceRuleMethod . nil .nil . SwaLint hiddenCategory}.
+		{#collectionProtocolRuleMethod . nil . nil. SwaLint hiddenCategory }
 	}

@@ -3,6 +3,7 @@
 		 },
 	"instance" : {
 		"testClassNameInSelector" : "Lars Seifert 6/10/2018 19:47",
+		"testCollectionProtocol" : "LG 6/14/2018 20:59",
 		"testInstVarInSubclasses" : "BD 6/7/2018 14:31",
 		"testInstanceVariableCapitalization" : "Lars Seifert 6/13/2018 20:02",
 		"testLongMethodsWithoutEmtpyLines" : "Lars Seifert 6/13/2018 18:49",
