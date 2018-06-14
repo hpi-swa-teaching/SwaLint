@@ -15,7 +15,7 @@ offeredTestsData
 		{#metaProgramming. 'Hints of meta-programming' . 'Meta-programming is certainly not a good practise and should only be used, if there are clear benefits that cannot be reached otherwise.'}.
 		"{#stdLibUse. 'Handling of Stdlib'}."
 		{#nilProgramming. 'Handling of nil-values' . 'Consider using the Nil-Object pattern instead. Often times, nil values actually have a meaning and can therefore be replaced with a domain specific object. This makes the code more intuitive and makes debugging easier.'}.
-		{#magicNumbers. 'Magic numbers'. 'Magic numbers'. 'A simple magic number test. Magic numbers defined by this test are all numbers, which are not a -1, 0 or 1 and do not appear as the single value in a return statement or in an assignment. Numbers in strings are ignored.'}.
+		{#magicNumbers. 'Magic numbers'. 'A simple magic number test. Magic numbers defined by this test are all numbers, which are not a -1, 0 or 1 and do not appear as the single value in a return statement or in an assignment. Numbers in strings are ignored.'}.
 		"Hidden helper tests"
 		{#methodHasMagicNumber. nil. nil. SwaLint hiddenCategory}.
 		{#instanceVariableAccess. nil. nil. SwaLint hiddenCategory}.
