@@ -2,6 +2,6 @@ testing
 testExcessiveVariables
 
 	self 
-		test: #smallLintExcessiveVariables 
-		on: { SLTestExcessiveVariables01 . SLTestExcessiveVariablesNotQuite01 }
-		expectedResults: { 1 . 0 }.
+		test: #smallLintEmptyExceptionHandler
+		on: { SLTestEmptyExceptionHandler01 }
+		expectedResults: { 1 }.
