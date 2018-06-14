@@ -1,5 +1,5 @@
 as yet unclassified
-method
+methodValid
 
 	[ 1 / 0 ]
 		on: Exception
