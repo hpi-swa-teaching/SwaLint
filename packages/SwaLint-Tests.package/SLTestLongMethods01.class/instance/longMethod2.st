@@ -1,9 +1,8 @@
 as yet unclassified
-longMethod
+longMethod2
 
 	| var |
 	var := 0.
-	var := var + 1.
 	var := var + 1.
 	var := var + 1.
 	var := var + 1.

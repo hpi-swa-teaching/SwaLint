@@ -1,7 +1,7 @@
 testing
 testSubclassResponsibilityNotDefined
 
-	"self 
+	self 
 		test: #smallLintSubclassResponsibilityNotDefined
-		on: {SLTestSubclassResponsibilityNotDefined02}
-		expectedResults: {1}."
+		on: {SLTestSubclassResponsibilityNotDefined01 . SLDummyClass03}
+		expectedResults: {1 . 0}.

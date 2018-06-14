@@ -3,7 +3,7 @@
 		"NoDotAfterMethodEnd" : "BD 6/7/2018 15:09",
 		"NoDotAfterMethodEnd:" : "MT 7/23/2014 23:34",
 		"defaultCategory" : "AT 5/7/2008 21:30",
-		"offeredTestsData" : "BD 6/1/2018 14:01" },
+		"offeredTestsData" : "Lars Seifert 6/13/2018 18:46" },
 	"instance" : {
 		"classNamespaceResult:" : "AT 5/28/2008 11:23",
 		"collectNamespaces:" : "AT 5/27/2008 18:14",
@@ -18,7 +18,7 @@
 		"freeClassesColorRule" : "AT 5/28/2008 11:28",
 		"hasDotAfterReturn:" : "AT 5/22/2008 15:18",
 		"isComplexMethod:" : "AT 5/28/2008 12:02",
-		"longMethod:" : "BD 6/10/2018 17:44",
+		"longMethodEmptyLines:" : "Lars Seifert 6/13/2018 18:46",
 		"methodLineEndingHelper:" : "MT 7/23/2014 22:58",
 		"methodsOf:" : "AT 5/7/2008 21:30",
 		"namespaceDictResult:" : "AT 5/27/2008 19:17",
