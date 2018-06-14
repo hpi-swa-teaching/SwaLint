@@ -2,6 +2,6 @@ as yet unclassified
 testToDoCollect
 	
 	self 
-		test: #smallLintToDoCollect
+		test: #toDoCollectRule
 		on: {SLTestToDoCollect01}
 		expectedResults: {1}.
