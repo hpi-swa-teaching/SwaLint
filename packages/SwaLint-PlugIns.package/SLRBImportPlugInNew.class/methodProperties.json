@@ -5,5 +5,18 @@
 		"defaultCategory" : "LS 6/15/2018 16:37",
 		"maxLineSize" : "tfel 1/11/2011 11:35" },
 	"instance" : {
+		"classNameInSelector:" : "BD 6/15/2018 16:55",
+		"classNameInSelectorMethod:" : "BD 6/15/2018 16:56",
+		"collectionProtocolRule:" : "BD 6/15/2018 17:00",
+		"collectionProtocolRuleMethod:" : "BD 6/15/2018 17:00",
+		"instVarInAllSubclasses:" : "BD 6/15/2018 16:51",
+		"longMethod:" : "BD 6/15/2018 16:54",
+		"longMethodMethod:" : "BD 6/15/2018 16:54",
+		"longMethodSize" : "BD 6/15/2018 16:54",
 		"precedenceRule:" : "LS 6/15/2018 16:36",
-		"precedenceRuleMethod:" : "LS 6/15/2018 16:13" } }
+		"precedenceRuleMethod:" : "BD 6/15/2018 16:56",
+		"toDoCollectRule:" : "BD 6/15/2018 16:59",
+		"toDoCollectRuleMethod:" : "BD 6/15/2018 16:59",
+		"toDoRule:" : "BD 6/15/2018 16:57",
+		"toDoRuleMethod:" : "BD 6/15/2018 16:58",
+		"unreferencedVariable:" : "BD 6/15/2018 16:53" } }

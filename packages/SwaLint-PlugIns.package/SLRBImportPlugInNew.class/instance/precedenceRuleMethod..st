@@ -1,5 +1,6 @@
 as yet unclassified
 precedenceRuleMethod: aMethodTestObject
+
 	<slTestHidden: true
 	longRuntime: nil>
 
