@@ -2,7 +2,7 @@ tests
 commentedMethods: aSLClassTestObject
 
 	<slTestName: 'Methods with comments'
-	description: nil>
+	description: 'This test finds all methods, which contain a comment.'>
 
 	aSLClassTestObject shouldBeClass.
 	^ self

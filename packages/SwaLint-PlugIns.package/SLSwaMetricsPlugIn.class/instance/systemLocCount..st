@@ -2,7 +2,7 @@ tests
 systemLocCount: aSLSystemTestObject
 
 	<slTestName: 'Overall lines of code'
-	description: nil>
+	description: 'Lines of code including blank lines and comments.'>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ self integerResult:

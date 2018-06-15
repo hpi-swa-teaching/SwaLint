@@ -2,7 +2,7 @@ tests
 systemMethodCount: aSLSystemTestObject
 
 	<slTestName: 'Overall number of methods' 
-	description: nil >
+	description: 'Number of methods'>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ self integerResult: aSLSystemTestObject allMethods size
