@@ -1,4 +1,0 @@
-list
-listItems
-	
-	^ list

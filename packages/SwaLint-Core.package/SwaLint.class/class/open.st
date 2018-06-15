@@ -1,4 +1,4 @@
-initialize-release
+finalization
 open
 
 	SLDefaultDialog open.

@@ -7,11 +7,9 @@
 	"commentStamp" : "AT 2/2/2008 17:52",
 	"instvars" : [
 		"loadedPlugIns",
-		"progressMorph",
-		"processedItems",
 		"testDictionary",
 		"testSystem",
-		"runSpecificData" ],
+		"environment" ],
 	"name" : "SLTestRunner",
 	"pools" : [
 		 ],

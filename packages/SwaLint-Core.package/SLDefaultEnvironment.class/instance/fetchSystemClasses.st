@@ -1,4 +1,4 @@
-initialize-release
+accessing
 fetchSystemClasses
 	
 	systemClasses := Dictionary new.

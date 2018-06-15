@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLClassBUROneThird",
+	"pools" : [
+		 ],
+	"super" : "SLClassBURBase",
+	"type" : "normal" }

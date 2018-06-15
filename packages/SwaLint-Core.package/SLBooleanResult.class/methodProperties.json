@@ -4,9 +4,6 @@
 	"instance" : {
 		"hasDetails" : "AT 5/7/2008 14:28",
 		"ifNegative:" : "AT 5/7/2008 14:29",
-		"ifNegative:ifPositive:" : "AT 5/7/2008 14:29",
-		"ifPositive:" : "AT 5/7/2008 14:29",
-		"ifPositive:ifNegative:" : "AT 5/7/2008 14:29",
 		"initialize" : "topa 2/7/2008 21:39",
 		"isNegative" : "AT 5/7/2008 14:29",
 		"isPositive" : "AT 5/7/2008 14:29",

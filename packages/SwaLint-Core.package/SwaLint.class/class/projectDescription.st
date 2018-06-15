@@ -9,6 +9,11 @@ projectDescription
 	Johannes Dyck,
 	Tobias Pape,
 	Nico Rehwaldt and
-	Arian Treffer.
+	Arian Treffer,
+	Jan-Tobias Matysik,
+	Siegfried Horschig,
+	Nico Aechtner,
+	Toni Stachewicz and
+	Niklas Hoffmann.
 	
      See http://swalint.netshed.de for more information.'

@@ -1,4 +1,4 @@
 accessing
 testSystem
 
-	[^ self classes listItems anyOne testSystem] ifError: [ ^ nil]
+	[^ self classes anyOne parent parent] ifError: [ ^ nil]

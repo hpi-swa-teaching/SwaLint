@@ -1,4 +1,4 @@
-categories
+preferences
 hiddenCategory
 
 	^ 'hidden'

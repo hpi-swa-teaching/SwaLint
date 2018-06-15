@@ -1,4 +1,4 @@
 accessing
-tests: anObject
+tests: aDictionary
 
-	tests := anObject.
+	tests := aDictionary.

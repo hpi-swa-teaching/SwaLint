@@ -1,0 +1,4 @@
+positioning
+defaultMorphEntryWidth
+
+	^ 80

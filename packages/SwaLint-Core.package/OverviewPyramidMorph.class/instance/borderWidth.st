@@ -1,0 +1,4 @@
+initialization
+borderWidth
+
+	^ 1

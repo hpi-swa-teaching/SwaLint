@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"anotherMethodNeverCalled" : "TS 7/29/2015 00:00",
+		"anotherOnceCalledMethod" : "TS 7/29/2015 00:00",
+		"methodNeverCalled" : "TS 7/29/2015 00:00",
+		"onceCalledMethod" : "TS 7/29/2015 00:00" } }

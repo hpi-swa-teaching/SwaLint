@@ -1,0 +1,4 @@
+actions
+openConfigureDialog
+
+	SLPreferenceBrowser open

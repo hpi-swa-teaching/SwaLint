@@ -1,5 +1,5 @@
 test selections
 testObjectsSelectedForTestRun
 	
-	^ self classes selectedItems collect: [ :element | 
-		(Smalltalk at: element) as: SLTestObject]
+	^ self selectedClasses collect: [ :element | 
+		element as: SLTestObject]

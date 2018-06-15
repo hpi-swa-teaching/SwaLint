@@ -1,0 +1,4 @@
+initialization
+defaultBackgroundColor
+
+	^ Color white

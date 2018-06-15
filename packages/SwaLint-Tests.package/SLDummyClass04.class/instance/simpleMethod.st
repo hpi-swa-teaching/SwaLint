@@ -1,0 +1,4 @@
+methodFormat
+simpleMethod 
+
+	^self

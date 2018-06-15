@@ -5,7 +5,7 @@ initializePreferences
 		SLPreferences
 			addBooleanPreference: each first asSymbol
 			categories: {self defaultCategory, ' Tests'}
-			default: true
+			default: (self defaultPreferenceOf: each first asSymbol)
 			balloonHelp: each third
 			projectLocal: false
 			changeInformee: SwaLint

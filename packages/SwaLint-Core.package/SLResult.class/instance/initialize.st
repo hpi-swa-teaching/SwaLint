@@ -5,4 +5,5 @@ initialize
 	self
 		initializeFormatRule;
 		initializeShowRule;
-		initializeColorRule.
+		initializeColorRule;
+		initializeIcon.

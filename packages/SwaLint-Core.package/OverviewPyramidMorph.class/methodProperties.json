@@ -1,0 +1,22 @@
+{
+	"class" : {
+		"newWithResults:" : "NA 7/30/2015 11:05" },
+	"instance" : {
+		"addCalcMorphWith:to:at:" : "NA 7/31/2015 22:03",
+		"addNameMorphWith:to:at:" : "NA 7/31/2015 21:41",
+		"addResultMorphWith:to:at:" : "NA 7/31/2015 21:41",
+		"borderWidth" : "NA 7/30/2015 13:30",
+		"buildEntries" : "NA 7/30/2015 14:12",
+		"buildMorphs" : "NA 7/30/2015 14:13",
+		"createMorphFor:withValue:andValForCalc:andOffsetX:Y:addCalculation:" : "NA 7/31/2015 22:01",
+		"defaultBackgroundColor" : "NA 7/30/2015 13:43",
+		"defaultMorphEntryHeight" : "NH 7/28/2015 11:43",
+		"defaultMorphEntryWidth" : "NA 7/30/2015 13:48",
+		"defaultMorphEntryWidthExtension" : "NA 7/31/2015 21:00",
+		"formatSymbol:" : "NH 7/28/2015 13:41",
+		"getMainMorphCenterX" : "NA 7/31/2015 21:00",
+		"initialize" : "NA 7/31/2015 20:26",
+		"newRectangleMorph" : "NA 7/31/2015 21:41",
+		"results" : "NH 7/28/2015 13:06",
+		"results:" : "NH 7/28/2015 13:06",
+		"setupContainerMorphWith:at:" : "NA 7/31/2015 21:42" } }

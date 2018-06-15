@@ -1,0 +1,4 @@
+building
+resultsPanelName
+
+	 ^ 'SwaLintResultsPanelForMorphic'

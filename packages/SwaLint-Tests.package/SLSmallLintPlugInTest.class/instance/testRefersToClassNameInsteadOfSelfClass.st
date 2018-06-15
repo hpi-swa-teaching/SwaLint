@@ -1,6 +1,6 @@
 testing
 testRefersToClassNameInsteadOfSelfClass
-	"I am an representative test. If I am carried out successfull the whole plugin works. (Optimistic assumtion)"
+	"I am an representative test. If I am carried out successfull the whole plugin works. (Optimistic assumption)"
 
 	self 
 		test: #smallLintRefersToClass

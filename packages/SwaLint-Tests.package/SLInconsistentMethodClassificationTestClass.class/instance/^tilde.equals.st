@@ -1,3 +1,0 @@
-accessing
-~= anObject
-	^ super ~= anObject

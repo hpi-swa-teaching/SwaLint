@@ -35,4 +35,4 @@ withoutLiteralCharacters: noCharacters
 			
 			(noComments & wasInComment) | (noStrings & inString) ifFalse: [
 				(noComments and: [wasInComment ~~ inComment]) 
-					ifFalse: [stream nextPut: c]]]].
+					ifFalse: [stream nextPut: c]]]]

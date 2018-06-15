@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCalcMorphWith:to:at:" : "NA 7/31/2015 22:03",
+		"addNameMorphWith:to:at:" : "NA 7/31/2015 21:30",
+		"addResultMorphWith:to:at:" : "NA 7/31/2015 21:31",
+		"buildDictionary" : "NH 7/28/2015 13:48",
+		"createMorphFor:withValue:andValForCalc:andOffsetX:Y:addCalculation:" : "NA 7/31/2015 22:05",
+		"setupContainerMorphWith:at:" : "NA 7/31/2015 21:39",
+		"xOffset" : "NH 7/28/2015 13:47",
+		"yOffset" : "NH 7/28/2015 13:49" } }

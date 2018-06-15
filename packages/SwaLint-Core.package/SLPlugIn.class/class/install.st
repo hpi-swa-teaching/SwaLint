@@ -3,7 +3,6 @@ install
 	"If you want to do something during installation, overwrite #onInstall"
 	
 	installed := true.
-	[self initializePreferences;
+	self 
+		initializePreferences;
 		onInstall.
-	SwaLint installPlugIn: self] ifError: [ :err |
-		self unload]

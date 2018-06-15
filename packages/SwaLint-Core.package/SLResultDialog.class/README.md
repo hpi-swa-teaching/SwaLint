@@ -1,1 +1,1 @@
-I am a the SwaLint dialog which formats the results of a code checking.
+I am a the SwaLint dialog, in which the user can choose what to check and how to check. I am also responsible for launching test (I suppose).

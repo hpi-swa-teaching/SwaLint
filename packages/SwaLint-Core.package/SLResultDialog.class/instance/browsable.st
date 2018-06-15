@@ -1,0 +1,4 @@
+browsing
+browsable
+
+	^ resultsSelected notEmpty

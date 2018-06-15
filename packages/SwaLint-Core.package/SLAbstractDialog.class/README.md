@@ -1,1 +1,0 @@
-I am the abstract dialog for all complex dialogues in SwaLint.

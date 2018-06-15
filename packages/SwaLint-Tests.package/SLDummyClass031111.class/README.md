@@ -1,1 +1,0 @@
-This class is for testing purpose only.

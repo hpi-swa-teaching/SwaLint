@@ -4,7 +4,7 @@ initializeTestDictionary
 	
 	| dictionary |
 	dictionary := Dictionary new.
-	SwaLint tests do: [ :test | 
+	environment testDict do: [ :test | 
 		dictionary 
 			at: test symbol 
 			put: (test copy testRunner: self)].

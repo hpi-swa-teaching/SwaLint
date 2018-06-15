@@ -1,4 +1,4 @@
 actions
 runnable
 
-	^ self environment testsAndClassesChoosen
+	^ classesSelected notEmpty and: testsSelected notEmpty

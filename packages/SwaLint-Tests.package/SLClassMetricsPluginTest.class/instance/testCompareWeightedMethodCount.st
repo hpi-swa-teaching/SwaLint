@@ -2,7 +2,7 @@ testing
 testCompareWeightedMethodCount
 	| object tests |
 	object := SLFixtureClassBase as: SLTestObject.
-	tests :=  {#numberOfMethods. #weightedMethodCount}.
+	tests :=  {#numberOfMethods:. #weightedMethodCount:}.
 
 	testRunner runOnTests: tests andTestObjects: {object}.
 	

@@ -1,0 +1,4 @@
+building
+resultPanel
+
+	^ resultPanel

@@ -2,7 +2,7 @@ tests
 testIsGetter
 
 	self 
-		test: #isGetter
+		test: #isGetter:
 		on:{	SLAccessorTestClass methodDict at: #initialize.
 		 		SLAccessorTestClass methodDict at: #var1.
 				SLAccessorTestClass methodDict at: #var2.

@@ -1,0 +1,15 @@
+{
+	"category" : "ConfigurationOfSwaLint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"LastVersionLoad" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"project",
+		"storedDeprecationSetting" ],
+	"name" : "ConfigurationOfSwaLint",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

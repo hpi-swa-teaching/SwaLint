@@ -1,6 +1,6 @@
 private
 methodIsPrivate: aCompiledMethod
-	
+
 	| category selector |
 	
 	selector :=  aCompiledMethod selector.
@@ -8,4 +8,4 @@ methodIsPrivate: aCompiledMethod
 	
 	^ (selector beginsWith: '_') or: [
 	   (selector beginsWith: 'pvt') or: [
-	  category includesSubstring: 'private']]
+	  category includesSubString: 'private']]

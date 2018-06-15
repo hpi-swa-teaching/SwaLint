@@ -2,7 +2,7 @@ testing
 testBaseClassOverridingRatio
 
 	self 
-		test: #baseClassOverridingRatio
+		test: #baseClassOverridingRatio:
 		on: { SLFixtureClassBOvRFull.
 				SLFixtureClassBOvRHalf.
 				SLFixtureClassBOvRHighThird.

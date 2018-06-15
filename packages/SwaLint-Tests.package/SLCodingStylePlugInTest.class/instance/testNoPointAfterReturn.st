@@ -2,6 +2,6 @@ tests
 testNoPointAfterReturn
 
 	self 
-		test: #dotAfterReturn
+		test: #dotAfterReturn:
 		on: {SLPointAtMethodEndDummy. SLEmptyClass}
 		expectedResults: {2/3. 1}.

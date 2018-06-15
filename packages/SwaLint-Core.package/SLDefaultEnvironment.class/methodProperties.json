@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"fetchSystemClasses" : "AT 2/3/2008 21:13",
-		"initialize" : "AT 2/3/2008 20:48",
-		"selectableTestCategories" : "tfel 5/26/2012 01:43",
-		"selectableTests" : "AT 5/8/2008 09:29",
-		"testObjectsSelectedForTestRun" : "AT 5/8/2008 09:29",
-		"testsAndClassesChoosen" : "AT 5/8/2008 09:29",
-		"testsSelectedForTestRun" : "AT 5/8/2008 09:29" } }
+		"fetchSystemClasses" : "NA 6/30/2015 15:10",
+		"initialize" : "NA 7/31/2015 18:56",
+		"initializeInstanceVariables" : "NA 7/29/2015 16:27",
+		"selectableTestCategories" : "NA 7/28/2015 13:16",
+		"selectableTests" : "NA 7/28/2015 12:09",
+		"selectedClasses" : "NA 6/30/2015 15:21",
+		"selectedClasses:" : "NA 6/30/2015 15:21",
+		"selectedTests" : "NA 6/30/2015 15:21",
+		"selectedTests:" : "NA 6/30/2015 15:21",
+		"testObjectsSelectedForTestRun" : "JTM 7/22/2015 12:30",
+		"testsSelectedForTestRun" : "JTM 7/22/2015 12:28" } }

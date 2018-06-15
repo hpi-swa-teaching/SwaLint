@@ -3,7 +3,7 @@ test: aTestObject with: aTest
 	
 	| plugIn |
 	plugIn := self plugInForTest: aTest.
-	^ SwaLint 
+	^ environment 
 		try: [
 			plugIn tryTest: aTestObject with: aTest]
 		catch: [ :error | 

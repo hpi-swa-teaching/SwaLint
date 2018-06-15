@@ -1,4 +1,0 @@
-as yet unclassified
-sendKnownGlobalMessage
-
-	SLTestSendsUnknownMessageToGlobalPass doSomething.

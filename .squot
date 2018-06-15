@@ -1,5 +1,5 @@
 OrderedDictionary {
-	'packages\/BaselineOfSwaLint.package' : #SquotCypressCodeSerializer,
+	'packages\/ConfigurationOfSwaLint.package' : #SquotCypressCodeSerializer,
 	'packages\/SwaLint-Core.package' : #SquotCypressCodeSerializer,
 	'packages\/SwaLint-PlugIns.package' : #SquotCypressCodeSerializer,
 	'packages\/SwaLint-Preferences.package' : #SquotCypressCodeSerializer,

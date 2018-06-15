@@ -9,6 +9,7 @@
 		"ColorizeResults",
 		"DebugMode",
 		"MarkLongRuntimeTests",
+		"OrderByTests",
 		"UseOBRefactoryIfAvailable",
 		"WorldMenuEntry" ],
 	"commentStamp" : "AT 2/2/2008 17:49",
