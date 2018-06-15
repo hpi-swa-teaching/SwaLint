@@ -1,0 +1,1 @@
+This class actually has a class comment! And that's its whole purpose!

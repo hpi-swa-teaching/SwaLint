@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ThisIsWhatTheTestCallsGlobalState" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLTestGlobalStateFail",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -3,4 +3,4 @@ initialize
 	
 	super initialize.
 	
-	var3 := 10+5*4
+	var3 := 10

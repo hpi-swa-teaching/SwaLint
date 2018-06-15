@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"collection" ],
+	"name" : "SLTestSizeCheck01",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"bar" : "Lars Seifert 5/24/2018 14:22",
+		"barDivision" : "BD 6/1/2018 13:47",
+		"barIntegerDivision" : "BD 6/1/2018 13:57",
+		"foo" : "Lars Seifert 5/24/2018 14:22",
+		"fooDivision" : "BD 6/1/2018 13:46",
+		"fooIntegerDivision" : "BD 6/1/2018 13:57" } }
