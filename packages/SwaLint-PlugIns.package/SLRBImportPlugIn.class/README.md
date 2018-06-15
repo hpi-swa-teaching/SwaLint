@@ -1,1 +1,1 @@
-The SLRBImportPlugIn is needed for improvement or fixing of relevant SmallLint tests to be able to access them natively via SwaLint and do not have to touch the RB package.
+I contain some high-level tests for a very general assessment of source code quality.

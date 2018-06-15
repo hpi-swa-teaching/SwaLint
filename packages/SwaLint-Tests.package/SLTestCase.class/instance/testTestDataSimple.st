@@ -1,13 +1,15 @@
 tests
 testTestDataSimple
 	| td |
+	self 
+		should: [SLTestData newFrom: Object] 
+		raise: Error. "test nil data"
 	
-	td := SLTestData newFromDefault.
-	td setSelector: #test name: 'test' description: 'test2' hidden: true longRuntime: true.
+	td := SLTestData newNamed: #test. "test for explicitly named empty"
 	self
-		assert: td plugIn = nil;
+		assert: td  plugIn = nil;
 		assert: td symbol = #test;
 		assert: td name = 'test';
-		assert: td description = 'test2';
-		assert: td category = SwaLint hiddenCategory;
-		assert: td method = #test. 
+		assert: td description = 'no description';
+		assert: td category = nil;
+		assert: td method = #test:. 

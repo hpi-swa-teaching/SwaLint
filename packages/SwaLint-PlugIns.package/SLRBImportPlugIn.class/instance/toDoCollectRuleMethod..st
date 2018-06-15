@@ -1,5 +1,8 @@
-tests
+as yet unclassified
 toDoCollectRuleMethod: aMethodTestObject
+
+	<slTestHidden: true
+	longRuntime: nil>
 
 | rbMethodNode isMatching |
 rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).

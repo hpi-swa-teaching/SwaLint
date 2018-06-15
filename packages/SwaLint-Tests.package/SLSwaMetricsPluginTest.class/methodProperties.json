@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBadlyFormattedMethods" : "fm 5/31/2018 23:27",
+		"testClasscount" : "fm 5/31/2018 22:40",
+		"testCommentedMethods" : "fm 5/31/2018 22:45",
+		"testGlobalState" : "fm 5/31/2018 23:08",
+		"testInstanceVariableAccessIsConsistent" : "fm 5/31/2018 22:52",
+		"testMagicNumbers" : "BD 6/4/2018 21:25",
+		"testMetaPrograming" : "fm 5/31/2018 22:53",
+		"testMethodcount" : "fm 5/31/2018 22:42",
+		"testNoClassComments" : "fm 5/31/2018 23:38",
+		"testSloccount" : "fm 5/31/2018 22:38" } }

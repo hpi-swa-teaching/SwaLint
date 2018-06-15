@@ -1,6 +1,9 @@
-tests
+as yet unclassified
 collectionProtocolRuleMethod: aMethodTestObject
 
+	<slTestHidden: true
+	longRuntime: nil>
+	
 | rbMethodNode isMatching |
 rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).
 isMatching := ( RBParseTreeSearcher new

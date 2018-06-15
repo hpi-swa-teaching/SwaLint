@@ -1,6 +1,14 @@
 defaults
 defaultPreferenceOf: aTestSymbol
 	^ Dictionary new
+		at: #LongMethods put: false;
+		at: #InstanceVariableCapitalization put: false;
+		at: #CollectSelectNotUsed put: false;
+		at: #SendsDeprecatedMethodToGlobal put: false;
+		at: #ToDo put: false;
+		at: #ToDoCollect put: false;
+		at: #ClassNameInSelector put: false;
+		at: #NoClassComment put: false;
 		at: #CollectionCopyEmpty put: false;
 		at: #DefinesEqualNotHash put: false;
 		at: #EquivalentSuperclassMethods put: false;

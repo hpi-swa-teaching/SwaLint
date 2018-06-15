@@ -1,4 +1,0 @@
-methodFormat
-simpleMethod 
-
-	^self

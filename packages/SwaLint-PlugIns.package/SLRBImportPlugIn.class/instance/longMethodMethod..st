@@ -1,5 +1,8 @@
-tests
+as yet unclassified
 longMethodMethod: aMethodTestObject
+
+	<slTestHidden: true
+	longRuntime: nil>
 
 | rbMethodNode matches |
 aMethodTestObject shouldBeMethod.

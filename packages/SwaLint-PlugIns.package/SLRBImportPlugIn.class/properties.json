@@ -3,17 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"LargeClassLOC",
-		"LargeMethodLOC",
-		"LargeWeightedMethodCount",
-		"MinimumDuplicationChainLength",
-		"MinimumExactCloneSize",
-		"ShortMemoryCap",
-		"SignificantStandaloneExactCloneSize",
-		"SmallLineBias" ],
-	"commentStamp" : "LG 6/7/2018 11:20",
+		"ShowSwaMetricTests" ],
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"globalSloccount" ],
 	"name" : "SLRBImportPlugIn",
 	"pools" : [
 		 ],

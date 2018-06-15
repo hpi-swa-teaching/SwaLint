@@ -1,4 +1,0 @@
-unsentMethods
-anotherMethodNeverCalled
-
-	^ self
