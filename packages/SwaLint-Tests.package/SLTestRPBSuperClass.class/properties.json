@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"a",
+		"var1",
+		"var2" ],
+	"name" : "SLTestRPBSuperClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -9,7 +9,7 @@ defaultPreferenceOf: aTestSymbol
 		at: #ToDoCollect put: false;
 		at: #ClassNameInSelector put: false;
 		at: #NoClassComment put: false;
-		at: #CollectionCopyEmpty put: false;
+		"at: #CollectionCopyEmpty put: false;
 		at: #DefinesEqualNotHash put: false;
 		at: #EquivalentSuperclassMethods put: false;
 		at: #ExcessiveInheritance put: false;
@@ -32,5 +32,5 @@ defaultPreferenceOf: aTestSymbol
 		at: #GuardingClause put: false;
 		at: #LiteralArrayCharacters put: false;
 		at: #PlatformDependentUserInteraction put: false;
-		at: #SendsUnknownMessageToGlobal put: false;
+		at: #SendsUnknownMessageToGlobal put: false;"
 		at: aTestSymbol ifAbsent: true
