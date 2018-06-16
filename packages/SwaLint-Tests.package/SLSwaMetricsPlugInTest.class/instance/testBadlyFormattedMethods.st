@@ -3,5 +3,5 @@ testBadlyFormattedMethods
 
 	self 
 		test: #badlyFormattedMethods:
-		on: {SLDummyClass04. SLDummyClass0}
-		expectedResults: {2. 0}.
+		on: {SLTestBadlyFormattedMethodsFail. SLTestBadlyFormattedMethodsPass}
+		expectedResults: {2. 0}

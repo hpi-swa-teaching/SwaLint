@@ -3,5 +3,5 @@ testCommentedMethods
 
 	self 
 		test: #commentedMethods:
-		on: {SLDummyClass0. SLDummyClass03}
-		expectedResults: {0 . 2}.
+		on: {SLAccessorTestClass . SLFixtureClassWMCHigh. SLDummyClass0 }
+		expectedResults: {1. 2. 0}.

@@ -3,5 +3,5 @@ testGlobalState
 
 	self 
 		test: #globalState:
-		on: {SLDummyClass04. SLDummyClass0}
+		on: {SLTestGlobalStateFail. SLEmptyClass}
 		expectedResults: {true. false}
