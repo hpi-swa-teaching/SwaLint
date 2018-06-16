@@ -79,7 +79,6 @@
 		"testUnnecessaryAssignment" : "LS 6/16/2018 14:21",
 		"testUnoptimizedAndOr" : "LS 6/16/2018 14:20",
 		"testUnoptimizedToDo" : "LS 6/16/2018 14:20",
-		"testUnreferencedVariables" : "LS 6/16/2018 14:21",
 		"testUsesAdd" : "LS 6/16/2018 14:21",
 		"testUtilityMethods" : "LS 6/16/2018 14:21",
 		"testVariableAssignedLiteral" : "LS 6/16/2018 14:21",

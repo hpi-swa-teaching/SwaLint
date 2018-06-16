@@ -3,7 +3,6 @@ defaultPreferenceOf: aTestSymbol
 	^ Dictionary new
 		at: #LongMethods put: false;
 		at: #InstanceVariableCapitalization put: false;
-		at: #CollectSelectNotUsed put: false;
 		at: #SendsDeprecatedMethodToGlobal put: false;
 		at: #ToDo put: false;
 		at: #ToDoCollect put: false;

@@ -10,6 +10,8 @@
 		"commentedMethods:" : "BD 6/15/2018 18:53",
 		"evilMethods" : "JTM 5/27/2015 11:05",
 		"globalState:" : "BD 6/15/2018 18:53",
+		"instanceVariableAccess:" : "BD 6/16/2018 19:51",
+		"instanceVariableAccessIsConsistent:" : "BD 6/16/2018 19:51",
 		"magicNumbers:" : "BD 6/15/2018 18:09",
 		"metaProgramming:" : "BD 6/15/2018 18:53",
 		"methodHandlesNil:" : "JTM 5/27/2015 14:01",
