@@ -10,5 +10,5 @@
 	"name" : "SwaLintDisharmonyTests",
 	"pools" : [
 		 ],
-	"super" : "SLPlugInTestExtended",
+	"super" : "SLPluginTest",
 	"type" : "normal" }

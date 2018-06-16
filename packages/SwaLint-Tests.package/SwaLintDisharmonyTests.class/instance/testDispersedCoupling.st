@@ -1,9 +1,10 @@
 testing
 testDispersedCoupling
 
-	| couplingClass dispersedCoupling |
+	| couplingClass dispersedCoupling testSystem |
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	couplingClass := SLClassTestObject newFrom: (SLTestCouplingClass).
 	
@@ -16,8 +17,8 @@ testDispersedCoupling
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass4));
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass5));
 				addClass: (SLClassTestObject newFrom: (SLTestCoupledClass6)).
-	dispersedCoupling := couplingClass methodForSelector: #dispersedCoupling.
+	dispersedCoupling := couplingClass methodForSelector: #'dispersedCoupling'.
 	
-	self assert: (dispersedCoupling resultOf: #methodCINT:) equals: 31.
+	self assert: (dispersedCoupling resultOf: #'methodCINT:') equals: 31.
 
-	self assert: (dispersedCoupling resultOf: #dispersedCoupling:) equals: true
+	self assert: (dispersedCoupling resultOf: #'dispersedCoupling:') equals: true
