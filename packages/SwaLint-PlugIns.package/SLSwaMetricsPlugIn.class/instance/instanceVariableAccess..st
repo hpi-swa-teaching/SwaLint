@@ -1,8 +1,9 @@
 private
 instanceVariableAccess: aSLThing
-
-	<slTestName:'Instance var access'
-	description:  'Checks for consistent access to instance variables. Direct access to instance variables is a bad practise. You should rather use self #instanceVariableName to access it.'>
+	
+		
+	<slTestHidden: true
+	longRuntime: nil>
 	
 	| ivars |
 	aSLThing shouldBeMethod.

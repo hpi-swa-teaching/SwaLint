@@ -1,10 +1,10 @@
 testing
 test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBoolean
 
-	| testObjects realResult|
+	| testObjects realResult tmp |
 	testObjects := aObjectArray collect: [ :aObject |
 		aObject isArray
-			ifFalse: [aObject as: SLTestObject]
+			ifFalse: [tmp := aObject as: SLTestObject. tmp testRunner: testRunner. tmp]
 			ifTrue: [
 				| sysobj |
 				sysobj := SLSystemTestObject newFromTestObjects: (aObject collect:
