@@ -1,5 +1,5 @@
 doits
-postLoadFor200
+postLoad
 
 	(((Smalltalk respondsTo: #globals) 
 		ifTrue: [Smalltalk globals] "Squeak >=4.1"

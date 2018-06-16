@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSwaLint",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSwaLint",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

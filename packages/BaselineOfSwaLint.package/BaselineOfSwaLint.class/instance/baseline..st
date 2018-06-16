@@ -1,13 +1,8 @@
-baselines
-baseline31: spec 
-	<version: '3.1-baseline'>
+baseline
+baseline: spec 
+	<baseline>
 	
 	spec for: #common do: [
-		spec
-			blessing: #baseline;
-			repository: 'github://HPI-SWA-Teaching/SwaLint:master/packages';
-			description: 'Baseline for SwaLint 3.1';
-			postLoadDoIt: #postLoadFor200.
 		"Requirements"
 		spec 
 			project: 'RefactoringBrowser' with: [
@@ -33,6 +28,7 @@ baseline31: spec
 		spec
 			package: 'SwaLint-Preferences';
 			package: 'SwaLint-Core' with: [spec requires: #('RefactoringBrowser' 'SwaLint-Preferences')];
+				postLoadDoIt: #postLoad;
 			package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
 			package: 'SwaLint-Slime-Grease' with: [spec requires: #('SwaLint-PlugIns' 'Grease')];
 			package: 'SwaLint-Slime-Seaside' with: [spec requires: #('SwaLint-PlugIns' 'Seaside3')];
