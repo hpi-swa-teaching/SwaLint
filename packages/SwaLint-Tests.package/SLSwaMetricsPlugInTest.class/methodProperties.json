@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testBadlyFormattedMethods" : "TS 7/1/2015 11:51",
+		"testCommentedMethods" : "TS 7/1/2015 11:15",
+		"testGlobalState" : "TS 7/1/2015 12:54",
+		"testInterestingMethods" : "TS 7/1/2015 13:23",
+		"testMetaProgramming" : "TS 7/1/2015 13:34",
+		"testMethodsWithOutSenders" : "NA 7/29/2015 15:37",
+		"testNilProgramming" : "TS 7/29/2015 00:10",
+		"testNoClassComments" : "TS 7/1/2015 14:36",
+		"testUnclassifiedMethods" : "TS 7/1/2015 14:44" } }

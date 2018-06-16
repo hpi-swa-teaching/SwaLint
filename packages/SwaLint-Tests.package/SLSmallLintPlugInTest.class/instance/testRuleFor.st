@@ -4,7 +4,7 @@ testRuleFor
 	| plugin rule |
 	plugin := SLSmallLintPlugIn new.
 	rule := plugin ruleFor: 
-		(SwaLint testDataFor: #smallLintClassInstVarNotInitialized).
+		(SLTestCase dummyEnvironment testDataFor: #smallLintClassInstVarNotInitialized).
 	
 	self assert: [ 
 		rule name = 'Has class instance variables but no initialize method' ].

@@ -2,7 +2,7 @@ tests
 testIsSetter
 
 	self 
-		test: #isSetter
+		test: #isSetter:
 		on: {	SLAccessorTestClass methodDict at: #initialize.
 				SLAccessorTestClass methodDict at: #var1.
 				SLAccessorTestClass methodDict at: #var2.

@@ -2,6 +2,6 @@ testing
 testHeightOfInheritanceTree
 
 	self 
-		test: #heightOfInheritanceTree
+		test: #heightOfInheritanceTree:
 		on: {SLDummyClass0. SLDummyClass02. SLDummyClass021}
 		expectedResults: {8. 1. 0}.

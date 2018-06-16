@@ -1,4 +1,4 @@
 running
 setUp
 	
-	testRunner := SLTestRunner new.
+	testRunner := SLTestRunner new environment: (SLTestCase dummyEnvironment copy).
