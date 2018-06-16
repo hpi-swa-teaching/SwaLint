@@ -3,7 +3,7 @@ overviewPyramidMetric: aSLSystemTestObject
 
 	<slTestName: 'Overview Pyramid'
 	description: 'Shows the overview pyramid in morphic.' >
-	<slTestHidden: false
+	<slTestHidden: true
 	longRuntime: true>
 
 	aSLSystemTestObject shouldBeSystem.

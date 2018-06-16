@@ -7,7 +7,7 @@ buildResultsListForMorphicWith: aBuilder
 			(self buildResultsListWith: aBuilder)
 				frame: self resultsFrameInPanel;
 				yourself.
-			aBuilder pluggableScrollPaneSpec new
+			"aBuilder pluggableScrollPaneSpec new
 				name: self overviewPyramidScrollPaneName;
 				frame: (self overviewPyramidScrollFrame);
 				children: ({
@@ -15,4 +15,4 @@ buildResultsListForMorphicWith: aBuilder
 						name: self resultsPanelName;
 						frame: (self overviewPyramidFrame);
 						yourself.});
-				yourself})
+				yourself"})
