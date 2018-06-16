@@ -1,9 +1,10 @@
 testing
 testSignificantDuplication
 
-	| duplicationClass duplicationMethod |.
+	| duplicationClass duplicationMethod testSystem|.
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	duplicationClass := SLClassTestObject newFrom: SLTestSignificantDuplication.
 	testSystem addClass: duplicationClass.

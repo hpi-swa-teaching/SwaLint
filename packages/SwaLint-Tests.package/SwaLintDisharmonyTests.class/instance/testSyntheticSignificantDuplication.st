@@ -1,7 +1,9 @@
 testing
 testSyntheticSignificantDuplication
 
-	| testSize testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod sys|
+	| testSize testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod sys plugIn |
+	
+	plugIn := self plugInClass new.
 	
 	testCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #aCloneMessage).
 	compCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 													lookupSelector: #anotherCloneMessage).

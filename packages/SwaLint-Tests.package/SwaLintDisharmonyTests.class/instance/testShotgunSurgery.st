@@ -1,9 +1,10 @@
 testing
 testShotgunSurgery
 
-	| shotgunSurgery |
+	| shotgunSurgery testSystem|
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	shotgunSurgery := SLMethodTestObject newFrom: (SLTestMethodCaller01 														lookupSelector: #beingCalled).
 	testSystem
