@@ -9,6 +9,8 @@
 		"classNameInSelectorMethod:" : "BD 6/15/2018 16:56",
 		"collectionProtocolRule:" : "BD 6/15/2018 17:00",
 		"collectionProtocolRuleMethod:" : "BD 6/16/2018 11:21",
+		"ifTrueReturnsRule:" : "LG 6/17/2018 17:49",
+		"ifTrueReturnsRuleMethod:" : "LG 6/17/2018 17:54",
 		"instVarInAllSubclasses:" : "BD 6/16/2018 11:21",
 		"instanceVariableCapitalizationRule:" : "BD 6/15/2018 18:12",
 		"longMethod:" : "BD 6/15/2018 16:54",
