@@ -1,6 +1,5 @@
 private
 instanceVariableAccess: aSLThing
-	
 		
 	<slTestHidden: true
 	longRuntime: nil>
