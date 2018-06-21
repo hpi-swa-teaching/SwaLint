@@ -31,7 +31,7 @@
 		"testFloatEqualityComparison" : "LS 6/16/2018 13:51",
 		"testGuardingClause" : "LS 6/16/2018 13:51",
 		"testIfTrueBlocks" : "LS 6/16/2018 13:51",
-		"testIfTrueReturns" : "LS 6/16/2018 13:51",
+		"testIfTrueReturns" : "BD 6/21/2018 19:43",
 		"testImplementedNotSent" : "LS 6/16/2018 13:51",
 		"testImplementsEqualsButNoHash" : "LS 6/16/2018 13:51",
 		"testInconsistentMethodClassification" : "LS 6/16/2018 13:51",

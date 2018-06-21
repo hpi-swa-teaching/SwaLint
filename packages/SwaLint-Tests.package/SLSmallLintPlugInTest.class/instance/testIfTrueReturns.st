@@ -2,7 +2,7 @@ testing
 testIfTrueReturns
 	
 	self 
-		test: #smallLintIfTrueReturns
+		test: #ifTrueReturnsRule:
 		on: {SLTestIfTrueReturns }
 		expectedResults: {1}.
 
