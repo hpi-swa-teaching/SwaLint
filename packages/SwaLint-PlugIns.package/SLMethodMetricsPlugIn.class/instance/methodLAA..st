@@ -2,7 +2,7 @@ tests
 methodLAA: aSLMethodTestObject
 
 	<slTestName: 'Locality of Attribute Accesses [LAA]'
-	description: nil>
+	description: 'LAA: Locality of Attribute Accesses. To measure if the method uses more attributes from other classes than its own'>
 	
 	| instVars allVars |
 	

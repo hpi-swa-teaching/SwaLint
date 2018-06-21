@@ -2,7 +2,7 @@ tests
 methodCC: aSLMethodTestObject
 
 	<slTestName: 'Changing Classes [CC]'
-	description: nil>
+	description: 'Counts number of classes that call this one.'>
 
 	| callers callingClasses |
 

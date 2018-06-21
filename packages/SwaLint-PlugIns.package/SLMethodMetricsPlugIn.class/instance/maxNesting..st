@@ -2,7 +2,7 @@ tests
 maxNesting: aSLMethodTestObject
 
 	<slTestName: 'Maximum Nesting Level'
-	description: nil>
+	description: 'Measures how much nesting a method uses. High amounts of nesting make the code more difficult to understand.'>
 
 	| max current i c |
 	max := 0.

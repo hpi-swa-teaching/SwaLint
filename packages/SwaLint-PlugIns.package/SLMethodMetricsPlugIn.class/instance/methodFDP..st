@@ -2,7 +2,7 @@ tests
 methodFDP: aSLMethodTestObject
 
 	<slTestName: 'Foreign Data Providers [FDP]'
-	description: nil>
+	description: 'FDP: Foreign Data Providers. To measure the number of classes that the foreign attributes belong to'>
 	
 	| allVars |
 	
