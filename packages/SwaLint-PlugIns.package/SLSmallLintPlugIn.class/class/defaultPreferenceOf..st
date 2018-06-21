@@ -8,6 +8,7 @@ defaultPreferenceOf: aTestSymbol
 		at: #ToDoCollect put: false;
 		at: #ClassNameInSelector put: false;
 		at: #NoClassComment put: false;
+		at: #IfTrueReturns put: false;
 		"at: #CollectionCopyEmpty put: false;
 		at: #DefinesEqualNotHash put: false;
 		at: #EquivalentSuperclassMethods put: false;
