@@ -1,4 +1,4 @@
 accessing-ui
 testCategoriesBottom
 
-	^ 0.2
+	^ 0.35

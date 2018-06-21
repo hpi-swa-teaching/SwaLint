@@ -2,7 +2,8 @@ as yet unclassified
 unreferencedVariable: aSLClassTestObject
 
 	<slTestName:  'Unreferenced variables'
-	description: 'Check for (class and instannce) variables not referenced. If a variable is not used in a class, it should be deleted'>
+	description: 'Check for (class and instannce) variables not referenced. If a variable is not used in a class, it should be deleted'
+	category: 'Unnecessary code'>
 	
 	| allSubclasses |
 	aSLClassTestObject shouldBeClass.
