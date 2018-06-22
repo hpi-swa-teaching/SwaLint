@@ -12,6 +12,7 @@ defaultPreferenceOf: aTestSymbol
 		at: #UnnecessaryAssignment put: false;
 		at: #LawOfDemeter put: false;
 		at: #CollectionProtocol put: false;
+		at: #ClassNotReferenced put: false;
 		"at: #CollectionCopyEmpty put: false;
 		at: #DefinesEqualNotHash put: false;
 		at: #EquivalentSuperclassMethods put: false;

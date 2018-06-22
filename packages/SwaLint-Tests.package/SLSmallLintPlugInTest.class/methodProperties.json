@@ -36,7 +36,7 @@
 		"testImplementsEqualsButNoHash" : "LS 6/16/2018 13:51",
 		"testInconsistentMethodClassification" : "LS 6/16/2018 13:51",
 		"testJustSendsSuper" : "LS 6/16/2018 13:51",
-		"testLawOfDemeter" : "LS 6/16/2018 13:51",
+		"testLawOfDemeter" : "BD 6/22/2018 13:51",
 		"testLiteralArrayCharacters" : "LS 6/16/2018 14:02",
 		"testLiteralArrayContainsComma" : "LS 6/16/2018 14:02",
 		"testLiteralValuesSpelling" : "LS 6/16/2018 14:02",

@@ -2,6 +2,6 @@ testing
 testLawOfDemeter
 	
 	self 
-		test: #smallLintLawOfDemeter
+		test: #lawOfDemeterRule:
 		on: {SLTestLawOfDemeterClass}
-		expectedResults: {3}.
+		expectedResults: {2}.
