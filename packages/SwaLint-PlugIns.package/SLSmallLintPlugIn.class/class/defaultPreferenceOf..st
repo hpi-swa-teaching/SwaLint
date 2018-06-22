@@ -10,6 +10,8 @@ defaultPreferenceOf: aTestSymbol
 		at: #NoClassComment put: false;
 		at: #IfTrueReturns put: false;
 		at: #UnnecessaryAssignment put: false;
+		at: #LawOfDemeter put: false;
+		at: #CollectionProtocol put: false;
 		"at: #CollectionCopyEmpty put: false;
 		at: #DefinesEqualNotHash put: false;
 		at: #EquivalentSuperclassMethods put: false;
