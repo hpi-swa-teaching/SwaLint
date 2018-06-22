@@ -13,7 +13,8 @@ projectDescription
 	Jan-Tobias Matysik,
 	Siegfried Horschig,
 	Nico Aechtner,
-	Toni Stachewicz and
-	Niklas Hoffmann.
+	Toni Stachewicz,
+	Niklas Hoffmann and
+	Björn Daase.
 	
      See http://swalint.netshed.de for more information.'
