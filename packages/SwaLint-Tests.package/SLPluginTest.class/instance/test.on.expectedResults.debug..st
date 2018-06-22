@@ -1,7 +1,7 @@
 testing
 test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBoolean
 
-	| testObjects realResult|
+	| testObjects realResult |
 	testObjects := aObjectArray collect: [ :aObject |
 		aObject isArray
 			ifFalse: [aObject as: SLTestObject]

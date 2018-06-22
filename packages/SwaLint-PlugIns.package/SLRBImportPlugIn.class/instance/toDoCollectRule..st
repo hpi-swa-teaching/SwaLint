@@ -2,7 +2,8 @@ as yet unclassified
 toDoCollectRule: aSLClassTestObject
 
 	<slTestName:  'to:do: doesn''t use collect:'
-	description: 'Checks for users of to:do: when the shorter collect: would work'>
+	description: 'Checks for users of to:do: when the shorter collect: would work'
+	category: 'Intention revealing'>
 	
 	aSLClassTestObject shouldBeClass.
 	^ self

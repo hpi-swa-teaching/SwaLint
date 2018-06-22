@@ -2,7 +2,7 @@ tests
 methodCM: aSLMethodTestObject
 
 	<slTestName: 'Changing Methods [CM]'
-	description: nil>
+	description: 'Counts number of methods that call this one'>
 
 	| callers |
 

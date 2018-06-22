@@ -1,5 +1,5 @@
 preference-object access
-allPreferenceObjects
+allPreferences
 	"Answer a list of all the Preference objects registered in the system"
 
 	^ self dictionaryOfPreferences values

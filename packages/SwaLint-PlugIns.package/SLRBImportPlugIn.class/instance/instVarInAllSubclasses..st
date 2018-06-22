@@ -1,8 +1,9 @@
 as yet unclassified
 instVarInAllSubclasses: aSLClassTestObject
 
-	<slTestName:  'Instance varaible defined in all subclasses'
-	description: 'This test checks whether an instance variable is defined in all subclasses which could be moved to the superclass'>
+	<slTestName:  'Instance variable defined in all subclasses'
+	description: 'This test checks whether an instance variable is defined in all subclasses which could be moved to the superclass'
+	category: 'Miscellaneous'>
 	
 	| subclasses |
 	aSLClassTestObject shouldBeClass.

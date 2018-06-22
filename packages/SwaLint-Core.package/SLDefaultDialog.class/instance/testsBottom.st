@@ -1,4 +1,4 @@
 accessing-ui
 testsBottom
 
-	^  0.80
+	^  0.72

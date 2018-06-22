@@ -1,7 +1,7 @@
-testing
+as yet unclassified
 testUnreferencedVariables
 
 	self 
-		test: #unreferencedVariable
+		test: #unreferencedVariable:
 		on: { SLUnreferencedVariables }
 		expectedResults: { true }.

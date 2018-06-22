@@ -11,4 +11,5 @@
 		"testLongMethodsWithoutEmtpyLines" : "LS 6/16/2018 14:41",
 		"testTestToDo" : "LS 6/16/2018 14:41",
 		"testToDoCollect" : "LS 6/16/2018 14:41",
-		"testUnnecessaryAssignment" : "LG 6/21/2018 11:12" } }
+		"testUnnecessaryAssignment" : "LG 6/21/2018 11:12",
+		"testUnreferencedVariables" : "BD 6/16/2018 19:54" } }

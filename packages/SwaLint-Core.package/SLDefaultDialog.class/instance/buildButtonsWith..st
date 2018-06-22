@@ -9,6 +9,6 @@ buildButtonsWith: aBuilder
 				model: self; 
 				label: each first;
 				action: each second;
-				enabled: each third;
+				"enabled: each third;"
 				yourself ]);
 		yourself

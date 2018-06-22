@@ -1,9 +1,10 @@
 testing
 testIntensiveCoupling
 
-	| couplingClass intensiveCoupling |
+	| couplingClass intensiveCoupling testSystem |
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	couplingClass := SLClassTestObject newFrom: (SLTestCouplingClass).
 	

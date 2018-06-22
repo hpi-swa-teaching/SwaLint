@@ -10,5 +10,5 @@
 	"name" : "SwaLintMetricPlugInTests",
 	"pools" : [
 		 ],
-	"super" : "SLPlugInTestExtended",
+	"super" : "SLPluginTest",
 	"type" : "normal" }

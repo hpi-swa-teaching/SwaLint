@@ -1,9 +1,10 @@
 testing
 testFeatureEnvy
 
-	| enviousClass |
+	| enviousClass testSystem|
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	enviousClass := SLClassTestObject newFrom: SLTestEnviousClass.
 	testSystem addClass: enviousClass.

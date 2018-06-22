@@ -1,4 +1,4 @@
 actions
 runnable
 
-	^ classesSelected notEmpty and: testsSelected notEmpty
+	^ classesSelected notEmpty and: [testsSelected notEmpty]

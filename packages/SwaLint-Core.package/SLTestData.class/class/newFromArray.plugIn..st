@@ -5,5 +5,7 @@ newFromArray: anArray plugIn: aSLPlugInClass
 	^ self newFromDefault
 		symbol: (anArray at: 1);
 		name: (anArray at: 2);
-		plugIn: aSLPlugInClass;
-		category: aSLPlugInClass defaultCategory
+		description: (anArray at: 3);
+		category: (anArray at: 4);
+		plugIn: aSLPlugInClass";	
+		category: aSLPlugInClass defaultCategory"

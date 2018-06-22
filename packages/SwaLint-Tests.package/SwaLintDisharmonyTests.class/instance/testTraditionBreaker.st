@@ -1,9 +1,10 @@
 testing
 testTraditionBreaker
 
-	| traditionBreaker |
+	| traditionBreaker testSystem |
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	traditionBreaker := SLClassTestObject newFrom: (SLTestTraditionBreaker).
 	

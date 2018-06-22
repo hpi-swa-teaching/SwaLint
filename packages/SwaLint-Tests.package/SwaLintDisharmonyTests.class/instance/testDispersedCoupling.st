@@ -1,9 +1,10 @@
 testing
 testDispersedCoupling
 
-	| couplingClass dispersedCoupling |
+	| couplingClass dispersedCoupling testSystem |
 	
-	self resetTestSystem.
+	testSystem := SLSystemTestObject new.
+	testSystem testRunner: testRunner.
 	
 	couplingClass := SLClassTestObject newFrom: (SLTestCouplingClass).
 	

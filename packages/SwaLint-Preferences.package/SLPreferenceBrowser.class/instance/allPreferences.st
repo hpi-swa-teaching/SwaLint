@@ -1,6 +1,6 @@
 updating
 allPreferences
-	^ Preferences allPreferences sort:
+	^ preferences allPreferences sort:
 			[:pref1 :pref2 | 
 			pref1 viewRegistry viewOrder  <pref2 viewRegistry viewOrder  or:
 					[pref1 viewRegistry viewOrder  =pref2 viewRegistry viewOrder 

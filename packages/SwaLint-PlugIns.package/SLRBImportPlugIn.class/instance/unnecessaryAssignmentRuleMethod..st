@@ -29,8 +29,8 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 						each isVariable ifTrue: each name]].
 				node isMessage ifTrue: [
 					variableNames := Set new.
-					node receiver isVariable ifTrue: [
-						variableNames add: node receiver name].
+					variableNames addAll: (node receiver allChildren collect: [:each |
+						each name]).
 					node arguments do: [:argument |
 						variableNames addAll: (argument allChildren collect: [:each |
 						each name])] ].
