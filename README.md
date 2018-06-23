@@ -1,13 +1,13 @@
 SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor] [![Coverage Status][coveralls_badge]][coveralls]
 ===================
 
-## Checkout the master branch for the stable version of SwaLint!
+<!-- ## Checkout the master branch for the stable version of SwaLint! -->
 
 A code critics tool for Smalltalk projects. Install it with:
 
 ## Installation
 
-1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
+<!-- 1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
 2. Load the project with:
 ```Smalltalk
   Metacello new
@@ -16,6 +16,10 @@ A code critics tool for Smalltalk projects. Install it with:
     onConflict: [:ex | ex allow];
     load
 ```
+-->
+
+Go to the [latest release of SwaLint](https://github.com/hpi-swa-teaching/SwaLint/releases/latest), download the .sar file, drag and drop it into your image and choose "install SAR".  
+
 Now you can open the **SwaLint Code Critics** via *Apps*.
 
 [appveyor]: https://ci.appveyor.com/project/hpi-swa-teaching/swalint
