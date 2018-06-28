@@ -3,5 +3,5 @@ testUnreferencedVariables
 
 	self 
 		test: #unreferencedVariable:
-		on: { SLUnreferencedVariables }
-		expectedResults: { true }.
+		on: { SLUnreferencedVariablesInstVarsPass. SLUnreferencedVariablesInstVarsFail. SLUnreferencedVariablesClassVarsPass. SLUnreferencedVariablesClassVarsFail }
+		expectedResults: { false. true. false. true }.
