@@ -10,6 +10,7 @@
 		"saveTestsSelected:" : "BD 6/29/2018 14:37",
 		"windowColorSpecification" : "NA 6/30/2015 13:23" },
 	"instance" : {
+		"autoLint" : "LS 6/29/2018 16:57",
 		"browsable" : "NA 7/1/2015 17:05",
 		"buildButtonsWith:" : "fm 6/29/2018 03:17",
 		"buildCategoriesWith:" : "NA 7/2/2015 18:28",
@@ -20,7 +21,7 @@
 		"buildWindowWith:" : "TS 7/8/2015 11:59",
 		"buildWith:" : "BD 6/17/2018 21:09",
 		"buttonHeight" : "NA 6/30/2015 22:32",
-		"buttons" : "fm 6/29/2018 03:14",
+		"buttons" : "LS 6/29/2018 16:07",
 		"buttonsBottom" : "BD 6/17/2018 21:10",
 		"buttonsFrame" : "BD 6/29/2018 12:49",
 		"buttonsLeft" : "NA 6/30/2015 22:39",
