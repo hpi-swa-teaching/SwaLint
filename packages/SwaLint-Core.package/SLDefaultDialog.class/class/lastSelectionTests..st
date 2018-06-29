@@ -1,4 +1,4 @@
 instance-creation
 lastSelectionTests: testsSelected
 
-	LastSelectionTests := testsSelected.
+	LastSelectionTests := testsSelected asSet.

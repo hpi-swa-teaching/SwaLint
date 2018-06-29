@@ -1,0 +1,4 @@
+instance-creation
+defaultFastSelectionTests
+	
+	^ { #smallLintUnconditionalRecursion . #instanceVariableAccessIsConsistent: . #collectionProtocolRule: . #smallLintJustSendsSuper . #smallLintTempsReadBeforeWritten . #unnecessaryAssignmentRule: . #smallLintConsistencyCheck . #longMethods: . #smallLintDetectContains . #smallLintToDoWithIncrement . #smallLintEqualNotUsed . #smallLintModifiesCollection . #smallLintOverridesSpecialMessage . #lawOfDemeterRule: . #smallLintAbstractClass . #smallLintCollectSelectNotUsed . #smallLintOnlyReadOrWrittenVariable . #smallLintMethodModifierFinal . #smallLintMissingYourself . #smallLintUndeclaredReference . #smallLintOnlyReadOrWrittenTemporary . #smallLintUsesTrue . #dotAfterReturn: . #smallLintFloatEqualityComparison } asSet

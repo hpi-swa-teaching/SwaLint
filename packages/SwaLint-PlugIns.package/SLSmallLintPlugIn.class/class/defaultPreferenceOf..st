@@ -14,6 +14,7 @@ defaultPreferenceOf: aTestSymbol
 		at: #CollectionProtocol put: false;
 		at: #ClassNotReferenced put: false;
 		at: #Precedence put: false;
+		at: #InstVarInSubclasses put: false;
 		"at: #CollectionCopyEmpty put: false;
 		at: #DefinesEqualNotHash put: false;
 		at: #EquivalentSuperclassMethods put: false;

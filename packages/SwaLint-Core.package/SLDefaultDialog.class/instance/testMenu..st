@@ -14,5 +14,7 @@ testMenu: aMenu
 		add: 'Refresh' action: #updateTests;
 		addLine;
 		add: 'Save selection' action: #saveSelectionTests;
-		add: 'Load selection' action: #loadSelectionTests;
+		add: 'Load saved selection' action: #loadSelectionTests;
+		add: 'Load default profile: ''Fast''' action: #loadFastTests;
+		add: 'Load default profile: ''Full''' action: #loadFullTests;
 		yourself
