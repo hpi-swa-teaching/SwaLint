@@ -3,4 +3,5 @@ newRectangleMorph
 
 	^ RectangleMorph new
 		color: self defaultBackgroundColor;
-		borderWidth: self borderWidth
+		borderWidth: self borderWidth;
+		yourself

@@ -1,4 +1,4 @@
 accessing-ui
 categoriesOffsetBottom
 
-	^ self buttonsOffsetTop + 5
+	^ self buttonsOffsetTop

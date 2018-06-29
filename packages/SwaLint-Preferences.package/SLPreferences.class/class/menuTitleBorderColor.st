@@ -1,4 +1,4 @@
 menu parameters
 menuTitleBorderColor
-	Display depth <= 2 ifTrue: [^ Color black].
-	^ Parameters at: #menuTitleBorderColor
+	
+	^ Color r: 0.333 g: 0.667 b: 0.751

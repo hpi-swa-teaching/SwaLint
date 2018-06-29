@@ -5,5 +5,6 @@ selectors
 	fullNameWithoutSpaces := ''.
 	"filter out whitespaces"
 	self name asSymbol do: [ :each | (each ~= Character space) ifTrue: [ fullNameWithoutSpaces := fullNameWithoutSpaces, each] ].
+	
 	^ fullNameWithoutSpaces
 	

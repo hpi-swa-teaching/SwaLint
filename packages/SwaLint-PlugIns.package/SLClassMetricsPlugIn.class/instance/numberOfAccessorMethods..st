@@ -7,4 +7,6 @@ numberOfAccessorMethods: aSLClassTestObject
 	| n |
 	n := (aSLClassTestObject resultOf: #allAccessors:) itemCount.
 	^ (self fewManySummaryResult: n summarizing: #isAccessor:)
-		formatAsInteger; showAlways
+			formatAsInteger;
+			showAlways;
+			yourself

@@ -7,6 +7,8 @@
 	"commentStamp" : "BD 6/21/2018 19:38",
 	"instvars" : [
 		"loadedPlugIns",
+		"progressMorph",
+		"processedItems",
 		"testDictionary",
 		"testSystem",
 		"environment" ],

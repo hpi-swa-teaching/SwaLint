@@ -6,4 +6,5 @@ qualityResult: percentage
 			[:v| (v result ifNil: [true]) not];
 		formatAsPercentage;
 		showRule: [:p | p < 1 ];
-		colorLowIsBad
+		colorLowIsBad;
+		yourself

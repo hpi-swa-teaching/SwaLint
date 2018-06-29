@@ -15,7 +15,7 @@ lawOfDemeterRuleMethod: aMethodTestObject
 			selectors add: node receiver receiver selector. "msg2"
 			selectors add: node receiver receiver receiver selector. "msg1"
 			(self lawOfDemeterAllowedSelectors includesAnyOf: selectors) not
-				or: answer.])
+				or: [answer]])
 	               executeTree: rbMethodNode initialAnswer: false. 
 	
 	^self booleanResult: isMatching

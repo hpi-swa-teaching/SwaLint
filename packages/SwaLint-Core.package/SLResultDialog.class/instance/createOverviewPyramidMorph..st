@@ -3,6 +3,6 @@ createOverviewPyramidMorph: aTool
 
 	| overviewResults |
 	overviewResults := self getOverviewPyramidResults.
-	(overviewResults = nil)
+	overviewResults isNil
 		ifFalse: [ self createOverviewPyramidMorphWith: overviewResults and: aTool ]
 		ifTrue: [ self hideOverviewPyramid ]

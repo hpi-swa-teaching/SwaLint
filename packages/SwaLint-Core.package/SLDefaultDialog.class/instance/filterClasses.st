@@ -3,7 +3,7 @@ filterClasses
 	| pattern |
 	pattern := UIManager default 
 					request: 'Pattern(s) to select tests:\  (separate patterns with '';'')' withCRs
-					initialAnswer: (classPattern ifNil: '*').
+					initialAnswer: (classPattern ifNil: ['*']).
 	(pattern isNil or: [pattern isEmpty]) ifTrue:
 		[^self].
 	classesSelected := ((classPattern := pattern) subStrings: ';')

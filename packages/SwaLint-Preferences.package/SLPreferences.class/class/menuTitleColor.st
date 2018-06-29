@@ -1,5 +1,4 @@
 menu parameters
 menuTitleColor
-	Display depth = 1 ifTrue: [^ Color white].
-	Display depth = 2 ifTrue: [^ Color gray].
-	^ Parameters at: #menuTitleColor
+	
+	^ Color r: 0.4 g: 0.8 b: 0.9

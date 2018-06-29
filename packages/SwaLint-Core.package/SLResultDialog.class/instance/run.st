@@ -2,6 +2,6 @@ actions
 run
 	
 	self runnable ifFalse: [^ self].
-	SLResultDialog onEnvironment: 
+	self class onEnvironment: 
 		(SLTestRunner onEnvironment: self environment).
 	self close.

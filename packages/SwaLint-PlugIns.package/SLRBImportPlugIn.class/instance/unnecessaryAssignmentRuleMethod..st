@@ -12,7 +12,7 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 			matches: '`@name := `@something'
 		do: [ :node :answer |
 				answer add: node variable name.
-				answer.])
+				answer])
 	               executeTree: rbMethodNode initialAnswer: Set new.
 	
 	"Select only temporary variables from that list"
@@ -21,12 +21,12 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 	
 	"Remove all variables that were used from that list."
 	( RBParseTreeSearcher new
-			matches: '`{:node | node isAssignment or: [node isMessage or: node isReturn]}'
-		do: [ :node :answer || variableNames |
+			matches: '`{:node | node isAssignment or: [node isMessage or: [node isReturn]]}'
+		do: [ :node :answer | | variableNames |
 				variableNames := #().
-				(node isAssignment or: node isReturn)ifTrue: [
+				(node isAssignment or: [node isReturn]) ifTrue: [
 					variableNames := node value allChildren collect: [:each |
-						each isVariable ifTrue: each name]].
+						each isVariable ifTrue: [each name]]].
 				node isMessage ifTrue: [
 					variableNames := Set new.
 					variableNames addAll: (node receiver allChildren collect: [:each |
@@ -34,7 +34,7 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 					node arguments do: [:argument |
 						variableNames addAll: (argument allChildren collect: [:each |
 						each name])] ].
-				unusedVariables removeAllFoundIn: variableNames.])
+				unusedVariables removeAllFoundIn: variableNames])
 	               executeTree: rbMethodNode initialAnswer: false.
 	
 	"If all variables were used, this collection should be empty."

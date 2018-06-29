@@ -5,4 +5,5 @@ buildMorphs
 		self addMorph: 
 			(each new 
 				results: self results;
-				buildEntries)]
+				buildEntries;
+				yourself)]

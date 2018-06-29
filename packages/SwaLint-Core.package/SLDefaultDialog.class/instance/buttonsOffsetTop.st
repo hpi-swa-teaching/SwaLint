@@ -1,4 +1,4 @@
 accessing-ui
 buttonsOffsetTop
 
-	^ self buttonHeight negated * 1.7
+	^ self buttonHeight negated * 1.7 + 5

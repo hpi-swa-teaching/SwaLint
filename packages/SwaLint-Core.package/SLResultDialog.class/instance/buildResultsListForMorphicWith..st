@@ -6,7 +6,10 @@ buildResultsListForMorphicWith: aBuilder
 		children: ({
 			(self buildResultsListWith: aBuilder)
 				frame: self resultsFrameInPanel;
-				yourself.
+				yourself});
+		yourself
+				
+			"This is commented out to prevent the dialog from showing the , atm, broken pyramid."
 			"aBuilder pluggableScrollPaneSpec new
 				name: self overviewPyramidScrollPaneName;
 				frame: (self overviewPyramidScrollFrame);
@@ -15,4 +18,4 @@ buildResultsListForMorphicWith: aBuilder
 						name: self resultsPanelName;
 						frame: (self overviewPyramidFrame);
 						yourself.});
-				yourself"})
+				yourself"
