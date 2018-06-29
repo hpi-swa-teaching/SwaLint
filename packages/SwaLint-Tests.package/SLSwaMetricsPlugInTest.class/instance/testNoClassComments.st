@@ -3,5 +3,5 @@ testNoClassComments
 
 	self 
 		test: #noClassComments:
-		on: {SLDummyClass04}
-		expectedResults: {false}
+		on: {SLDummyClass0. SLDummyClass04}
+		expectedResults: {true. false}
