@@ -65,7 +65,7 @@
 		"testSizeCheck" : "LS 6/16/2018 14:19",
 		"testSpelling" : "LS 6/16/2018 14:19",
 		"testStringConcatenation" : "LS 6/16/2018 14:19",
-		"testSubclassResponsibilityNotDefined" : "LS 6/16/2018 14:19",
+		"testSubclassResponsibilityNotDefined" : "fm 6/29/2018 03:01",
 		"testSuperSendsNew" : "LS 6/16/2018 14:20",
 		"testTempVarOverridesInstVarRule" : "LS 6/16/2018 14:20",
 		"testTemporaryVariableCapitalization" : "LS 6/16/2018 14:20",

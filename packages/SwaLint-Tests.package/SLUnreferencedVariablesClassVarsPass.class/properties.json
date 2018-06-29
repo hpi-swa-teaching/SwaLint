@@ -1,13 +1,13 @@
 {
 	"category" : "SwaLint-Tests-Data",
 	"classinstvars" : [
-		 ],
+		"ctest" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SLTestSubclassResponsibilityNotDefined01",
+	"name" : "SLUnreferencedVariablesClassVarsPass",
 	"pools" : [
 		 ],
 	"super" : "Object",
