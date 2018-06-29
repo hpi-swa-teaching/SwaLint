@@ -1,4 +1,4 @@
 initialize-release
 selectableTests
-	
-	^self subclassResponsibility
+
+	self subclassResponsibility

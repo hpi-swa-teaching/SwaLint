@@ -1,9 +1,9 @@
-initialize-release
+test selections
 selectableTests
 
-	^ self testCategories
-		inject: OrderedCollection new
+	^ self testCategories 
+		inject: OrderedCollection new 
 		into: [ :selectableTests :each |
-				selectableTests
-					addAll: (self testsFromCategory: each);
-						yourself]
+			selectableTests 
+				addAll: (self testsFromCategory: each);
+				yourself]

@@ -12,4 +12,7 @@ testMenu: aMenu
 		add: 'Filter...' action: #filterTests;
 		addLine;
 		add: 'Refresh' action: #updateTests;
+		addLine;
+		add: 'Save selection' action: #saveSelectionTests;
+		add: 'Load selection' action: #loadSelectionTests;
 		yourself
