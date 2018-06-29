@@ -6,4 +6,4 @@ updateTests
 	testIndex := 0.
 	testsSelected := testsSelected select: [ :each | testsForCategories includes: each ].
 	descriptionCollection := descriptionCollection intersection: testsSelected.
-	self changed: #testList; changed: #testSelected; changed: #testDescription; changed: #runnable.
+	self changed: #testList; changed: #testSelected; changed: #testDescription.

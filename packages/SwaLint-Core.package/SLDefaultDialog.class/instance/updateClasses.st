@@ -6,4 +6,4 @@ updateClasses
 	classes := classesForCategories asArray sorted: [ :first :second | first name <= second name ].
 	classIndex := 0.
 	classesSelected := classesSelected select: [ :each | classesForCategories includes: each ].
-	self changed: #classList; changed: #classSelected; changed: #runnable.
+	self changed: #classList; changed: #classSelected.

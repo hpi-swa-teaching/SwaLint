@@ -1,4 +1,5 @@
 updating
 saveSelectionTests
-
-	self class saveTestsSelected: self testsSelected.
+	| selectedTestSymbols |
+	selectedTestSymbols := self testsSelected collect: [:each | each symbol].
+	self class saveTestsSelected: selectedTestSymbols.

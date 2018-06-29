@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"itest" ],
-	"name" : "SLUnreferencedVariablesInstVarsPass",
+		"test" ],
+	"name" : "SLUnreferencedVariables",
 	"pools" : [
 		 ],
 	"super" : "Object",

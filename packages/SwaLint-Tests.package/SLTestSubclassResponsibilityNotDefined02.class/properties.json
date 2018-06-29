@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "SLTestSubclassResponsibilityNotDefinedFail1",
+	"name" : "SLTestSubclassResponsibilityNotDefined02",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SLTestSubclassResponsibilityNotDefined01",
 	"type" : "normal" }
