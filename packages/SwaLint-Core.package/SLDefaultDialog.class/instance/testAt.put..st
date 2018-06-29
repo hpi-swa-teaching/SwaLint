@@ -6,4 +6,4 @@ testAt: anInteger put: aBoolean
 	testsSelected := aBoolean 
 		ifTrue: [descriptionCollection addLast: target. testsSelected copyWith: target]
 		ifFalse: [descriptionCollection removeAllSuchThat: [ :each | each symbol = target symbol]. testsSelected copyWithout: target.].
-	self changed: #testSelected; changed: #testDescription; changed: #hasRunnable.
+	self changed: #testSelected; changed: #testDescription; changed: #runnable.
