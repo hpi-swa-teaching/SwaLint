@@ -7,6 +7,6 @@ resultCount
 	count := 0.
 	
 	resultDialog ifNil: [^0].
-	resultDialog results do: [ :each | each value ifNotNil: [count := count + each value]].
+	resultDialog results do: [ :each | each value ifNotNil: [count := count + (self calculateResultWeight: (each value))]].
 		
 	^ count
