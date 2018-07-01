@@ -1,8 +1,13 @@
 as yet unclassified
 buildDescriptionWith: aBuilder
 
-	^ aBuilder pluggableTextSpec new
+	^ "aBuilder pluggableTextSpec new
 		model: self;
 		getText: #text;
 		readOnly: true;
-		yourself
+		yourself"
+		aBuilder pluggableRadioButtonSpec new
+				model: self;
+				label: '5';
+				action: #run;
+				yourself 
