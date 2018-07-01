@@ -9,7 +9,8 @@
 		"classesSelected",
 		"testsSelected",
 		"environment",
-		"window" ],
+		"window",
+		"resultDialog" ],
 	"name" : "SLTestAutoRunner",
 	"pools" : [
 		 ],

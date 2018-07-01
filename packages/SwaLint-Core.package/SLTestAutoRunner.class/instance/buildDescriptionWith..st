@@ -6,8 +6,9 @@ buildDescriptionWith: aBuilder
 		getText: #text;
 		readOnly: true;
 		yourself"
-		aBuilder pluggableRadioButtonSpec new
+		aBuilder pluggableButtonSpec new
 				model: self;
-				label: '5';
+				label: #resultCount;
+				changeLabelWhen: #resultCountLabel;
 				action: #run;
 				yourself 
