@@ -11,7 +11,8 @@
 		"environment",
 		"window",
 		"resultDialog",
-		"callingWindow" ],
+		"callingWindow",
+		"callingDialog" ],
 	"name" : "SLTestAutoRunner",
 	"pools" : [
 		 ],

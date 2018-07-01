@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"build" : "LS 6/29/2018 16:28",
-		"on:with:calledBy:" : "BD 7/1/2018 14:27",
+		"on:with:calledBy:reopens:" : "BD 7/1/2018 17:18",
 		"open" : "LS 6/29/2018 16:38" },
 	"instance" : {
 		"buildButtonsWith:" : "LS 6/29/2018 16:56",
@@ -17,6 +17,8 @@
 		"buttonsRight" : "LS 6/29/2018 16:45",
 		"buttonsTop" : "LS 6/29/2018 16:46",
 		"calculateResultWeight:" : "BD 7/1/2018 12:53",
+		"callingDialog" : "BD 7/1/2018 17:16",
+		"callingDialog:" : "BD 7/1/2018 17:17",
 		"callingWindow" : "BD 7/1/2018 14:26",
 		"callingWindow:" : "BD 7/1/2018 14:26",
 		"classesSelected" : "LS 6/29/2018 16:15",
@@ -32,6 +34,6 @@
 		"testsSelected" : "LS 6/29/2018 16:15",
 		"testsSelected:" : "LS 6/29/2018 16:15",
 		"text" : "LS 6/29/2018 16:49",
-		"toOverview" : "BD 7/1/2018 16:53",
+		"toOverview" : "BD 7/1/2018 17:19",
 		"toggleAutoLint" : "LS 6/29/2018 17:04",
 		"windowTitle" : "LS 6/29/2018 16:27" } }
