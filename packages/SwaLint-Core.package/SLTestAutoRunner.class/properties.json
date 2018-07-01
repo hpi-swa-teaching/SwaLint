@@ -10,7 +10,8 @@
 		"testsSelected",
 		"environment",
 		"window",
-		"resultDialog" ],
+		"resultDialog",
+		"callingWindow" ],
 	"name" : "SLTestAutoRunner",
 	"pools" : [
 		 ],

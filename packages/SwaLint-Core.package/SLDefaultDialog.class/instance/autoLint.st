@@ -3,4 +3,4 @@ autoLint
 	
 	|autoLinter|
 	self runnable ifFalse: [^ self].
-	autoLinter := SLTestAutoRunner on: classesSelected with: testsSelected.
+	autoLinter := SLTestAutoRunner on: classesSelected with: testsSelected calledBy: (self dependents first).
