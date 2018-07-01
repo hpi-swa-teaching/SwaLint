@@ -4,6 +4,6 @@ toOverview
 	
 	(callingWindow owner)
 		ifNotNil: [callingWindow comeToFront]
-		ifNil: [SwaLint open].
+		ifNil: [callingWindow openInWorld].
 	
 	window closeBoxHit.
