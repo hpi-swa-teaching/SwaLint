@@ -1,5 +1,5 @@
 as yet unclassified
-descriptionFrame
+resultsFrame
 
 	^ LayoutFrame new
 		leftFraction: self buttonsLeft offset: 0;

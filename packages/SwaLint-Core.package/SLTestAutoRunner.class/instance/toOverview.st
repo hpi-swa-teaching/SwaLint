@@ -1,7 +1,5 @@
 as yet unclassified
-toOverview
-	"SwaLint open."
-	
+toOverview	
 
 	(callingWindow owner)
 		ifNotNil: [callingWindow comeToFront]

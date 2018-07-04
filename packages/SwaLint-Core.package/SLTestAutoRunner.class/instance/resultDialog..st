@@ -1,4 +1,4 @@
 accessing
 resultDialog: aSLResultDialog
 
-	resultDialog := aSLResultDialog
+	resultDialog := aSLResultDialog.

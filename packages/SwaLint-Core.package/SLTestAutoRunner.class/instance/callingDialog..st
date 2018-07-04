@@ -1,4 +1,4 @@
 accessing
 callingDialog: aSLDialog
 
-	callingDialog := aSLDialog
+	callingDialog := aSLDialog.

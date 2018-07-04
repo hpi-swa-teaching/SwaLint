@@ -1,4 +1,4 @@
 accessing
 callingWindow: anObject
 
-	callingWindow := anObject
+	callingWindow := anObject.
