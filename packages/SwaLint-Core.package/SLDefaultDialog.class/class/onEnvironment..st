@@ -1,7 +1,6 @@
 instance-creation
 onEnvironment: anEnvironment
 	
-	^ (self new)
-		onEnvironment: anEnvironment;
+	^ (self onEnvironmentWithoutOpening: anEnvironment)
 		open;
-	     yourself
+		yourself

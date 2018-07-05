@@ -1,6 +1,8 @@
 initialization
 initialize 
 
+	self lintingEnabled: true.
+
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #method change: #Added 
 			using: #reactToChange:;

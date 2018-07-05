@@ -1,3 +1,4 @@
 actions
 toggleAutoLint
-	"to do: turn linting on and of"
+	
+	self lintingEnabled: self lintingEnabled not.

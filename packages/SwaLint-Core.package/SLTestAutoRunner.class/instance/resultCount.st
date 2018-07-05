@@ -1,4 +1,4 @@
-private
+observer
 resultCount
 	
 	| count resultDialog |

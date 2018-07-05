@@ -8,7 +8,8 @@ run
 		selectedClasses: self classesSelected;
 		yourself.
 		
-	self environment: (SLTestRunner onEnvironment: environment).
+	self resultDialog: (SLResultDialog onEnvironmentWithoutOpening: 
+		(SLTestRunner onEnvironment: environment)).
 	self changed: #resultCountLabel.
 
 	
