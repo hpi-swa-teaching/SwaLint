@@ -1,0 +1,4 @@
+building
+toggleAutoLintDescription
+	
+	^ 'Autolint enabled'

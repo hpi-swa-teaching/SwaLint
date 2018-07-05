@@ -13,7 +13,8 @@
 		"resultDialog",
 		"callingWindow",
 		"callingDialog",
-		"lintingEnabled" ],
+		"lintingEnabled",
+		"toggleButton" ],
 	"name" : "SLTestAutoRunner",
 	"pools" : [
 		 ],
