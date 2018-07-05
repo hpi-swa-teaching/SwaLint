@@ -5,5 +5,5 @@ buildDescriptionWith: aBuilder
 				model: self;
 				label: #resultCount;
 				changeLabelWhen: #resultCountLabel;
-				action: #run;
+				action: #openResultsDialog;
 				yourself 
