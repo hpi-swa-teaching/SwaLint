@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildDescriptionWith: aBuilder
 
 	^ aBuilder pluggableButtonSpec new

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 classesSelected: classes
 
 	classesSelected := classes.

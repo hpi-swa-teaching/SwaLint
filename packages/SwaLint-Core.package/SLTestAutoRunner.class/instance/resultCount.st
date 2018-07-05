@@ -1,4 +1,4 @@
-as yet unclassified
+private
 resultCount
 	
 	| count resultDialog |

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 openResultsDialog
 
 	self environment ifNotNil: [

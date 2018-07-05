@@ -1,4 +1,4 @@
-as yet unclassified
+private
 calculateResultWeight: anObject
 
 	anObject isInteger ifTrue: [^anObject].
