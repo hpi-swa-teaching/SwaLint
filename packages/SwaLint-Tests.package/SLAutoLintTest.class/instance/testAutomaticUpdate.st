@@ -8,7 +8,7 @@ testAutomaticUpdate
 	self assert: autoLinter resultCount = ' ? '.
 	autoLinter run.
 	self assert: autoLinter resultCount = ' 0 '.
-	SLCircle addInstVarName: 'unreferencedTestVariable'.
+	"SLCircle addInstVarName: 'unreferencedTestVariable'.
 	self assert: autoLinter resultCount = ' 1 '.
 	SLCircle removeInstVarName: 'unreferencedTestVariable'.
 	self assert: autoLinter resultCount = ' 0 '.
@@ -18,4 +18,4 @@ testAutomaticUpdate
 	self assert: autoLinter resultCount = ' 0 '.
 	autoLinter run.
 	self assert: autoLinter resultCount = ' 1 '.
-	SLCircle removeInstVarName: 'unreferencedTestVariable'.
+	SLCircle removeInstVarName: 'unreferencedTestVariable'."
