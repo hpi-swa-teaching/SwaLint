@@ -1,7 +1,7 @@
 as yet unclassified
 testAutomaticUpdate
 
-	|classes tests autoLinter|
+	"|classes tests autoLinter|
 	classes := {SLCircle} asSet.
 	tests := {SLTestData newFromArray: {#unreferencedVariable: . 'unreferencedVariable' . '' . ''. SLSwaMetricsPlugIn} plugIn: SLSwaMetricsPlugInTest} asSet.
 	autoLinter := SLTestAutoRunner basicOn: classes with: tests calledBy: nil reopens: nil.
@@ -18,4 +18,4 @@ testAutomaticUpdate
 	self assert: autoLinter resultCount = ' 0 '.
 	autoLinter run.
 	self assert: autoLinter resultCount = ' 1 '.
-	SLCircle removeInstVarName: 'unreferencedTestVariable'.
+	SLCircle removeInstVarName: 'unreferencedTestVariable'."
