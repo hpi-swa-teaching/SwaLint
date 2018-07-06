@@ -2,5 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAutomaticUpdate" : "BD 7/6/2018 13:43",
-		"testBuilding" : "BD 7/6/2018 13:43" } }
+		"setUp" : "BD 7/6/2018 13:49",
+		"testAutomaticUpdate" : "BD 7/6/2018 13:49",
+		"testBuilding" : "BD 7/6/2018 13:49" } }
