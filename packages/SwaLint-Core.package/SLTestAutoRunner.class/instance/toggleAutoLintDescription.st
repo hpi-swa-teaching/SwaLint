@@ -1,4 +1,4 @@
 building
 toggleAutoLintDescription
 	
-	^ 'Autolint enabled'
+	^ (self lintingEnabled) ifTrue: ['Enabled'] ifFalse: ['Disabled']

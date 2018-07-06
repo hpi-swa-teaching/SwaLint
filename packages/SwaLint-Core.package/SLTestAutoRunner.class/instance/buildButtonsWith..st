@@ -6,10 +6,11 @@ buildButtonsWith: aBuilder
 		layout: #horizontal;
 		children: (self buttons collect: [ :each |
 			(each second = #toggleAutoLint) ifTrue:[
-				aBuilder pluggableCheckBoxSpec new
+				aBuilder pluggableButtonSpec new
 				model: self;
-				state: #toggleAutoLintState;
+				state: #lintingEnabled;
 				label: #toggleAutoLintDescription;
+				changeLabelWhen: #autolintEnabledLabel;
 				action: each second;
 				yourself]
 			ifFalse:[
@@ -17,6 +18,5 @@ buildButtonsWith: aBuilder
 				model: self; 
 				label: each first;
 				action: each second;
-				color: Color red;
 				yourself]]);
 		yourself

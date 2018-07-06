@@ -1,4 +1,4 @@
 building
 initialExtent
 
-	^ 300 @ 300
+	^ 200 @ 300

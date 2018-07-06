@@ -1,9 +1,11 @@
 building
 buildWith: aBuilder
 
-	window := self buildWindowWith: aBuilder specs: {
+	| windowSpec |
+	windowSpec := self buildWindowWith: aBuilder specs: {
 		self buttonsFrame -> [self buildButtonsWith: aBuilder].	
 		self resultsFrame -> [self buildDescriptionWith: aBuilder].
 	}.
-	window := aBuilder build: window.
+	windowSpec closeAction: #close.
+	window := aBuilder build: windowSpec.
 	^ window

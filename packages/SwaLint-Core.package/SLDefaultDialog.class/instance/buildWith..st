@@ -1,7 +1,9 @@
 building
 buildWith: aBuilder
-	| window |
-	window := self buildWindowWith: aBuilder specs: {
+
+	| windowSpec |
+	
+	windowSpec := self buildWindowWith: aBuilder specs: {
 		self buttonsFrame -> [self buildButtonsWith: aBuilder].	
 		self categoriesFrame -> [self buildCategoriesWith: aBuilder].
 		self classesFrame -> [self buildClassesWith: aBuilder].
@@ -9,4 +11,5 @@ buildWith: aBuilder
 		self testCategoriesFrame -> [self buildTestCategoryListWith: aBuilder].	
 		self testsFrame -> [self buildTestListWith: aBuilder].
 	}.
-	^ aBuilder build: window
+	
+	^aBuilder build: windowSpec

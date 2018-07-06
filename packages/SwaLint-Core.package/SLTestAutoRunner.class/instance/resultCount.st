@@ -6,7 +6,7 @@ resultCount
 	resultDialog := self resultDialog.
 	count := 0.
 	
-	resultDialog ifNil: [^0].
-	resultDialog results do: [ :each | each value ifNotNil: [count := count + (self calculateResultWeight: (each value))]].
+	resultDialog ifNotNil: [
+	resultDialog results do: [ :each | each value ifNotNil: [count := count + (self calculateResultWeight: (each value))]]].
 		
-	^ count
+	^ (count asString asText addAttribute: (TextFontReference toFont: (TextStyle default fontOfPointSize: 54)))

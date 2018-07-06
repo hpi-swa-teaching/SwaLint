@@ -1,6 +1,6 @@
 building
 buttons
 	
-	^ #(( 'Back to SwaLint' #toOverview false)
-		('Run again' #run false)
-		('Toggle AutoLint' #toggleAutoLint true))
+	^ #(( 'Back to SwaLint' #toOverview)
+		('Run again' #run)
+		('Toggle AutoLint' #toggleAutoLint))
