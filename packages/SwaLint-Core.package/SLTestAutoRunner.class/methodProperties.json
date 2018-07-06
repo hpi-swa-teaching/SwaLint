@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"on:with:calledBy:reopens:" : "BD 7/6/2018 11:07" },
+		"basicOn:with:calledBy:reopens:" : "BD 7/6/2018 11:58",
+		"on:with:calledBy:reopens:" : "BD 7/6/2018 12:00" },
 	"instance" : {
 		"buildButtonsWith:" : "BD 7/6/2018 10:38",
 		"buildResultCountWith:" : "BD 7/6/2018 11:19",
 		"buildWindowWith:" : "LS 6/29/2018 16:28",
-		"buildWith:" : "BD 7/6/2018 11:19",
+		"buildWith:" : "BD 7/6/2018 11:57",
 		"buttonHeight" : "LS 6/29/2018 16:47",
 		"buttons" : "BD 7/6/2018 11:20",
 		"buttonsBottom" : "LS 6/29/2018 16:46",
@@ -32,7 +33,7 @@
 		"open" : "LS 6/29/2018 16:34",
 		"openResultsDialog" : "BD 7/6/2018 11:22",
 		"reactToChange:" : "BD 7/6/2018 11:23",
-		"resultCount" : "BD 7/6/2018 11:18",
+		"resultCount" : "BD 7/6/2018 12:40",
 		"resultDialog" : "BD 7/1/2018 12:23",
 		"resultDialog:" : "BD 7/3/2018 12:18",
 		"resultsFrame" : "BD 7/3/2018 12:17",
@@ -43,4 +44,6 @@
 		"toggleAutoLint" : "BD 7/6/2018 10:37",
 		"toggleAutoLintDescription" : "BD 7/6/2018 10:37",
 		"toggleAutoLintState" : "BD 7/5/2018 22:39",
+		"window" : "BD 7/6/2018 11:56",
+		"window:" : "BD 7/6/2018 11:56",
 		"windowTitle" : "BD 7/3/2018 12:15" } }
