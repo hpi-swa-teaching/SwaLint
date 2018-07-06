@@ -7,7 +7,7 @@ buildWith: aBuilder
 		self buttonsFrame -> [self buildButtonsWith: aBuilder].	
 		self categoriesFrame -> [self buildCategoriesWith: aBuilder].
 		self classesFrame -> [self buildClassesWith: aBuilder].
-		self descriptionFrame -> [self buildDescriptionWith: aBuilder].
+		self descriptionFrame -> [self buildResultCountWith: aBuilder].
 		self testCategoriesFrame -> [self buildTestCategoryListWith: aBuilder].	
 		self testsFrame -> [self buildTestListWith: aBuilder].
 	}.

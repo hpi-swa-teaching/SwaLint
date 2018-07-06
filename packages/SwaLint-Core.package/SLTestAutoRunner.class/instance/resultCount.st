@@ -9,4 +9,4 @@ resultCount
 	resultDialog ifNotNil: [
 	resultDialog results do: [ :each | each value ifNotNil: [count := count + (self calculateResultWeight: (each value))]]].
 		
-	^ (count asString asText addAttribute: (TextFontReference toFont: (TextStyle default fontOfPointSize: 54)))
+	^ (count asString asText addAttribute: (TextFontReference toFont: (TextStyle default fontOfPointSize: 20)))

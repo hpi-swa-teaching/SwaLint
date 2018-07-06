@@ -7,4 +7,5 @@ on: classes with: tests calledBy: aSystemWindow reopens: aSLDialog
 		callingWindow: aSystemWindow;
 		callingDialog: aSLDialog;
 		open;
+		createEnvironment;
 		yourself

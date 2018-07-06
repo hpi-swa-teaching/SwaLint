@@ -1,5 +1,5 @@
 building
-buildDescriptionWith: aBuilder
+buildResultCountWith: aBuilder
 
 	^ aBuilder pluggableTextSpec new
 		model: self;

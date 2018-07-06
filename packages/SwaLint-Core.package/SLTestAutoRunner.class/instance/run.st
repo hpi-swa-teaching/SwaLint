@@ -1,15 +1,14 @@
 actions
 run
-	
-	|environment|
-	
-	environment := SLDefaultEnvironment new
+
+	self environment
 		selectedTests: self testsSelected;
 		selectedClasses: self classesSelected;
 		yourself.
 		
 	self resultDialog: (SLResultDialog onEnvironmentWithoutOpening: 
-		(SLTestRunner onEnvironment: environment)).
+		(SLTestRunner onEnvironment: self environment)).
+		
 	self changed: #resultCountLabel.
 
 	

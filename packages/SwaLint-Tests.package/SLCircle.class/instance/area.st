@@ -1,3 +1,4 @@
 accesing
 area
-	^ self radius * 3.14159  squared
+
+	^ self radius * 3.1415  squared
