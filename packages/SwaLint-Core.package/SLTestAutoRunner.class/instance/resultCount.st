@@ -8,7 +8,7 @@ resultCount
 	
 	resultDialog ifNotNil: [
 		resultDialog results do: [ :each |
-			each value ifNotNil:
+			(each value isNil not and: [each isNumeric not]) ifTrue:
 				[count := count + (self calculateResultWeight: (each value))]].
 				returnCount := (count asString)]
 		ifNil: [returnCount := '?'].

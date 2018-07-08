@@ -1,6 +1,6 @@
 private
 calculateResultWeight: anObject
-
+	
 	anObject isInteger ifTrue: [^anObject].
 	anObject isLiteral ifTrue: [anObject ifTrue: [^1]].
 

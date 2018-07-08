@@ -1,8 +1,8 @@
 actions
 toOverview	
 
-	(callingWindow owner)
-		ifNotNil: [callingWindow comeToFront]
-		ifNil: [callingDialog open].
+	(self callingWindow owner)
+		ifNotNil: [self callingWindow comeToFront]
+		ifNil: [self callingDialog open].
 	
-	window closeBoxHit.
+	self window closeBoxHit.

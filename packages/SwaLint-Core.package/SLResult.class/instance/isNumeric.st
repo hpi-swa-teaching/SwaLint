@@ -1,0 +1,4 @@
+identity
+isNumeric
+	
+	^ false
