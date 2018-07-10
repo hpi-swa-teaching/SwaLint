@@ -3,7 +3,7 @@ newFromDefault
 
 	^ self new
 		name: nil; 
-		description: nil; 
+		description: 'no description'; 
 		category: nil; 
 		method: nil;
 		longRuntime: false;

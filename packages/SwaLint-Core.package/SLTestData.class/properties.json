@@ -14,7 +14,8 @@
 		"method",
 		"testRunner",
 		"userSelected",
-		"longRuntime" ],
+		"longRuntime",
+		"dontLintClasses" ],
 	"name" : "SLTestData",
 	"pools" : [
 		 ],

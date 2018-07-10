@@ -1,8 +1,7 @@
 as yet unclassified
 ifTrueReturnsRuleMethod: aMethodTestObject
 
-	<slTestHidden: true
-	longRuntime: nil>
+	<slTestHidden: true>
 	
 	| rbMethodNode isMatching |
 	rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).

@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"newFromArray:plugIn:" : "BD 6/21/2018 15:56",
-		"newFromDefault" : "NA 6/3/2015 16:37",
+		"newFromDefault" : "FM 7/11/2018 00:55",
 		"newFromPlugIn:" : "NA 7/2/2015 18:29" },
 	"instance" : {
 		"asSymbol" : "topa 1/10/2015 15:37",
@@ -9,8 +9,9 @@
 		"category:" : "NR 1/10/2008 11:58",
 		"description" : "AT 5/8/2008 12:25",
 		"description:" : "NR 1/10/2008 11:58",
+		"dontLintClasses" : "FM 7/11/2018 00:38",
+		"dontLintClasses:" : "FM 7/11/2018 00:38",
 		"format" : "topa 1/9/2015 20:19",
-		"hide" : "NA 6/3/2015 16:37",
 		"isHidden" : "NA 6/3/2015 16:38",
 		"isUserSelected" : "AT 5/8/2008 12:25",
 		"longRuntime" : "NA 7/1/2015 14:27",
@@ -23,9 +24,9 @@
 		"plugIn" : "AT 5/8/2008 12:25",
 		"plugIn:" : "AT 5/23/2008 22:33",
 		"printOn:" : "NA 7/31/2015 01:24",
-		"setSelector:name:description:hidden:longRuntime:" : "NA 7/1/2015 13:58",
+		"setHidden:" : "FM 7/11/2018 00:59",
 		"showInResultDialog" : "AT 5/27/2008 19:13",
 		"symbol" : "AT 5/8/2008 12:25",
-		"symbol:" : "AT 5/23/2008 21:21",
+		"symbol:" : "FM 7/11/2018 00:54",
 		"testRunner" : "AT 5/8/2008 12:25",
 		"testRunner:" : "NR 1/29/2008 13:49" } }

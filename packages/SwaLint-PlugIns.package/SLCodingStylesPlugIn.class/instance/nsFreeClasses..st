@@ -3,8 +3,7 @@ nsFreeClasses: aSLSystemTestObject
 
 	<slTestName: 'Classes without namespace'
 	description: 'Number of all classes which don''t seem to have a namespace' >
-	<slTestHidden: true
-	longRuntime: nil>
+	<slTestHidden: true>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ (self integerResult:

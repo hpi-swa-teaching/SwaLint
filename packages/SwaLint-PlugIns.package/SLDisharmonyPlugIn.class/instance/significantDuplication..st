@@ -3,8 +3,7 @@ significantDuplication: aSLMethodTestObject
 
 	<slTestName: 'Significant Duplication' 
 	description: 'A Significant Duplication is either a large standalone clone or a chain of exact clones considered to be one exact clone.'>
-	<slTestHidden: nil
-	longRuntime: true>
+	<slTestLongRuntime: true>
 
 	| significantDuplications |
 

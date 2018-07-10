@@ -3,8 +3,7 @@ nsClass: aSLClassTestObject
 
 	<slTestName: 'Namespace'
 	description: 'The detected namespace of a class.' >
-	<slTestHidden: true
-	longRuntime: nil>
+	<slTestHidden: true>
 
 	aSLClassTestObject shouldBeClass.
 	^ self classNamespaceResult: 

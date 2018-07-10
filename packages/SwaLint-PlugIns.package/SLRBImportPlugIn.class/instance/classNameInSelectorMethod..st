@@ -1,8 +1,7 @@
 as yet unclassified
 classNameInSelectorMethod: aMethodTestObject
 
-	<slTestHidden: true
-	longRuntime: nil>
+	<slTestHidden: true>
 
 	|class|
 	aMethodTestObject shouldBeMethod.

@@ -3,8 +3,7 @@ nsTotal: aSLSystemTestObject
 
 	<slTestName: 'Namespace'
 	description: 'The detected namespace of a class' >
-	<slTestHidden: true
-	longRuntime: nil>
+	<slTestHidden: true>
 
 	| set |
 	aSLSystemTestObject shouldBeSystem.

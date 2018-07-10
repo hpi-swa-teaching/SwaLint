@@ -3,8 +3,8 @@ overviewPyramidMetric: aSLSystemTestObject
 
 	<slTestName: 'Overview Pyramid'
 	description: 'Shows the overview pyramid in morphic.' >
-	<slTestHidden: true
-	longRuntime: true>
+	<slTestHidden: true>
+	<slTestLongRuntime: true>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ (self collectionResult: (Dictionary newFrom:
