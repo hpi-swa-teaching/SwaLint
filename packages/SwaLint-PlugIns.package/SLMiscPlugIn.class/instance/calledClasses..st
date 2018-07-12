@@ -3,8 +3,8 @@ calledClasses: aSLMethodTestObject
 
 	<slTestName: nil
 	description: nil>
-	<slTestHidden: true>
-	<slTestLongRuntime: true>
+	<slTestHidden: true
+	longRuntime: true>
 
 	| classNames |
 	aSLMethodTestObject shouldBeMethod.

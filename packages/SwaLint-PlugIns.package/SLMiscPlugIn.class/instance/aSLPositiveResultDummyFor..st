@@ -1,6 +1,7 @@
 method tests
 aSLPositiveResultDummyFor: aSLTestObject
 
-	<slTestHidden: true>
+	<slTestHidden: true
+	longRuntime: false>
 
 	^ self booleanResult: true
