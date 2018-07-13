@@ -1,4 +1,6 @@
 updating
 refresh
-	self removePlugIn: SLPlugIn.
-	self addPlugIn: SLPlugIn.
+
+	self
+		removePlugIn: SLPlugIn;
+		addPlugIn: SLPlugIn.

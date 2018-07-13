@@ -2,7 +2,7 @@ browsing
 selectorEnvironmentForResults	
 	
 	| environment selectedTests |
-	environment :=(Smalltalk
+	environment := (Smalltalk
 		at: #SelectorEnvironment
 		ifAbsent: [Smalltalk at: #RBSelectorEnvironment]) new.
 	selectedTests := Set new.

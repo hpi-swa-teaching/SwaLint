@@ -1,7 +1,8 @@
 actions
 changeResultOrdering
 
-	self toggleResultOrdering.
-	self updateResults.
-	self toggleResultView.
+	self
+		toggleResultOrdering;
+		updateResults;
+		toggleResultView.
 	

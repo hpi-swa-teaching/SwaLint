@@ -6,8 +6,8 @@ valueAsString
 	dotsAfterReturnPreferencesString := ''.
 	(self testData symbol = #dotAfterReturn:) ifTrue: [
 		(SLCodingStylesPlugIn NoDotAfterMethodEnd) ifTrue: [
-			dotsAfterReturnPreferencesString := '; Dots are bad']
+			dotsAfterReturnPreferencesString := '; Due to your preferences, dots are treated as bad thing']
 		ifFalse: [
-			dotsAfterReturnPreferencesString := '; Dots are good']].
+			dotsAfterReturnPreferencesString := '; Due to your preferences, dots are treated as good thing']].
 		
 	^ (self valueFormatRule valueWithPossibleArgs: {self result. self thresholdSymbol}), dotsAfterReturnPreferencesString

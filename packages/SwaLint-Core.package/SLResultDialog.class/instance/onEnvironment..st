@@ -2,8 +2,9 @@ initialization
 onEnvironment: anEnvironment
 
 	super onEnvironment: anEnvironment.
-	self selectAllCategories.
-	self selectAllClasses.
-	self selectAllTestCategories.
-	self selectAllTests.
-	self update.
+	self 
+		selectAllCategories;
+		selectAllClasses;
+		selectAllTestCategories;
+		selectAllTests;
+		update.

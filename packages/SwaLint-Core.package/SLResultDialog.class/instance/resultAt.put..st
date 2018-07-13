@@ -1,5 +1,6 @@
 accessing-results
 resultAt: anInteger put: aBoolean
+
 	| target |
 	target := self results at: anInteger ifAbsent: [^ self].
 	target hasDetails ifTrue: [
