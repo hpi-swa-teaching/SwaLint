@@ -3,30 +3,29 @@ offeredTests
 
 	| allTestData |
 	allTestData := Dictionary new.
-
-	(Pragma allNamed: #slTestName:description:category: in: self),
-	(Pragma allNamed: #slTestName:description: in: self),
-	(Pragma allNamed: #slTestHidden: in: self),
-	(Pragma allNamed: #slTestLongRuntime: in: self),
-	(Pragma allNamed: #slTestDontLintClasses: in: self) do: [ :aPragma | | aTestData |
-		aTestData := allTestData at: aPragma selector asString ifAbsentPut: [
-			(SLTestData newFromPlugIn: self) symbol: aPragma selector; yourself. ].
+	(Pragma allNamed: #slTestName:description:category: in: self), (Pragma allNamed: #slTestName:description: in: self),
+	(Pragma allNamed: #slTestHidden:longRuntime: in: self) do: [ :aPragma | | aTestData |
+		aTestData := allTestData at: aPragma selector asString ifAbsentPut: [ SLTestData newFromPlugIn: self ].
 		aPragma keyword == #slTestName:description:category: ifTrue: [ 
-			aTestData
-				name: aPragma arguments first;
-				description: aPragma arguments second;
-				category: aPragma arguments third. ].
-		aPragma keyword == #slTestName:description: ifTrue: [ 
-			aTestData
-				name: aPragma arguments first;
-				description: aPragma arguments second. ].
-		aPragma keyword == #slTestHidden: ifTrue: [ 
-			aTestData setHidden: aPragma arguments first. ].
-		aPragma keyword == #slTestLongRuntime: ifTrue: [ 
-			aTestData longRuntime: aPragma arguments first. ].
-		aPragma keyword == #slTestDontLintClasses: ifTrue: [
-			aTestData
-				dontLintClasses: aPragma arguments first. ].
+				aTestData setSelector: aPragma selector 
+					name: aPragma arguments first 
+					description: aPragma arguments second 
+					hidden: nil 
+					longRuntime: nil.
+				aTestData category: aPragma arguments third.
+					].
+			aPragma keyword == #slTestName:description: ifTrue: [ 
+				aTestData setSelector: aPragma selector 
+					name: aPragma arguments first 
+					description: aPragma arguments second 
+					hidden: nil 
+					longRuntime: nil
+					].
+			aPragma keyword == #slTestHidden:longRuntime: ifTrue: [ 
+				aTestData setSelector: aPragma selector 
+					name: nil 
+					description: nil 
+					hidden: aPragma arguments first 
+					longRuntime: aPragma arguments second ].
 	].
-
 	^ allTestData values

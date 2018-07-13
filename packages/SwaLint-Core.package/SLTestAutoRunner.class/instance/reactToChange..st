@@ -1,6 +1,6 @@
 observer
-reactToChange: aChangedItem
+reactToChange: anEvent
 
 	(self lintingEnabled 
-		and: [self classesSelected includes: aChangedItem itemClass])
+		and: [self classesSelected includes: anEvent itemClass])
 		ifTrue: [self run].

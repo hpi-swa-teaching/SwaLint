@@ -2,11 +2,11 @@
 	"class" : {
 		"defaultCategory" : "AT 5/8/2008 09:40" },
 	"instance" : {
-		"aSLPositiveResultDummyFor:" : "FM 7/11/2018 01:08",
+		"aSLPositiveResultDummyFor:" : "NA 7/31/2015 10:40",
 		"accessedVar:" : "JTM 5/27/2015 11:13",
 		"allAccessors:" : "JTM 5/26/2015 22:59",
 		"allPublicMethods:" : "JTM 5/27/2015 15:09",
-		"calledClasses:" : "FM 7/11/2018 01:10",
+		"calledClasses:" : "NA 6/18/2015 15:45",
 		"calledOperations:" : "JTM 5/27/2015 11:13",
 		"classWidth:" : "JTM 5/27/2015 11:18",
 		"collectAllVarsOf:" : "MT 7/23/2014 23:17",

@@ -3,7 +3,8 @@ csMethodHasDotAfterReturn: aSLMethodTestObject
 
 	<slTestName: nil
 	description: 'Test a single method for dotAfterReturn'>
-	<slTestHidden: true>
+	<slTestHidden: true
+	longRuntime: false>
 
 	| result |
 	aSLMethodTestObject shouldBeMethod.

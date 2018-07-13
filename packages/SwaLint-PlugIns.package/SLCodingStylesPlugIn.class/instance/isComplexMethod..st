@@ -3,7 +3,8 @@ isComplexMethod: aSLMethodTestObject
 
 	<slTestName: nil
 	description: 'Test a single method whether it is complex.'>
-	<slTestHidden: true>
+	<slTestHidden: true
+	longRuntime: false>
 
 	aSLMethodTestObject shouldBeMethod.
 	^ self booleanResult:

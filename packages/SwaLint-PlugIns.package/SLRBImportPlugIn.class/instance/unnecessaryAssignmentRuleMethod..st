@@ -1,7 +1,8 @@
 as yet unclassified
 unnecessaryAssignmentRuleMethod: aMethodTestObject
 
-	<slTestHidden: true>
+	<slTestHidden: true
+	longRuntime: nil>
 	
 	| rbMethodNode unusedVariables |
 

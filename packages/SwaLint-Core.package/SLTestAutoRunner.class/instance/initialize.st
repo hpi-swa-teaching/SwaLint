@@ -1,6 +1,7 @@
 initialization
 initialize 
-
+	
+	super initialize.
 	self lintingEnabled: true.
 	
 	SystemChangeNotifier uniqueInstance 

@@ -1,7 +1,8 @@
 as yet unclassified
 lawOfDemeterRuleMethod: aMethodTestObject
 
-	<slTestHidden: true>
+	<slTestHidden: true
+	longRuntime: nil>
 	
 	| rbMethodNode isMatching |
 	rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).

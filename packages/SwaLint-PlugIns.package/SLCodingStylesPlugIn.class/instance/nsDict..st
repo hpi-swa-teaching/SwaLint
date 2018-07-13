@@ -3,7 +3,8 @@ nsDict: aSLSystemTestObject
 
 	<slTestName: nil
 	description: 'Dictionary class -> namespace' >
-	<slTestHidden: true>
+	<slTestHidden: true
+	longRuntime: nil>
 
 	| namespaces |
 	aSLSystemTestObject shouldBeSystem.
