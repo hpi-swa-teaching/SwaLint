@@ -1,27 +1,49 @@
-SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor] [![Coverage Status][coveralls_badge]][coveralls]
+SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor] <!-- [![Coverage Status][coveralls_badge]][coveralls] -->
 ===================
 
 <!-- ## Checkout the master branch for the stable version of SwaLint! -->
 
-A code critics tool for Smalltalk projects. Install it with:
+A code critics tool for Smalltalk projects. After installation you can open the **SwaLint Code Critics** via *Apps*.
 
 ## Installation
 
-<!-- 1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
-2. Load the project with:
-```Smalltalk
-  Metacello new
-    configuration: 'SwaLint';
-    repository: 'github://hpi-swa-teaching/SwaLint:master/packages';
-    onConflict: [:ex | ex allow];
-    load
-```
--->
+### Latest release
 
+There are two ways of installing the latest release. You can either use a SAR file or Metacello.
+
+#### SAR file
 Go to the [latest release of SwaLint](https://github.com/hpi-swa-teaching/SwaLint/releases/latest), download the .sar file, drag and drop it into your image and choose "install SAR".  
 
-Now you can open the **SwaLint Code Critics** via *Apps*.
+#### Metaclleo
+1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
+2. Load the project with (it might ask you to click "Proceed" several times):
+```Smalltalk
+[Metacello new
+  baseline: 'SwaLint';
+  repository: 'github://hpi-swa-teaching/SwaLint:release/packages';
+  get;
+  load: #default]
+    on: MetacelloSkipDirtyPackageLoad
+    do: [:e | e resume: false]
+```
 
+
+
+### Latest develop version
+
+#### Metaclleo
+1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
+2. Load the project with (it might ask you to click "Proceed" several times):
+```Smalltalk
+[Metacello new
+  baseline: 'SwaLint';
+  repository: 'github://hpi-swa-teaching/SwaLint:develop/packages';
+  get;
+  load: #default]
+    on: MetacelloSkipDirtyPackageLoad
+    do: [:e | e resume: false]
+ ```
+ 
 [appveyor]: https://ci.appveyor.com/project/hpi-swa-teaching/swalint
 [appveyor_badge]: https://ci.appveyor.com/api/projects/status/uj2j9trw2x6yq9iy?svg=true
 [travis]: https://travis-ci.org/hpi-swa-teaching/SwaLint
