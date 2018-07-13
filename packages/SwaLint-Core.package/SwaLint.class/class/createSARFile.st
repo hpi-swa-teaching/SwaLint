@@ -3,7 +3,7 @@ createSARFile
 
 	| package zip mczStream workingCopy version |
 
-	package := self className.
+	package := self name.
 
 	zip := ZipArchive new.
 	mczStream := RWBinaryOrTextStream on: (String new: 10000).
