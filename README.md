@@ -1,4 +1,4 @@
-SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor] [![Coverage Status][coveralls_badge]][coveralls]
+SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]][appveyor] <!-- [![Coverage Status][coveralls_badge]][coveralls] -->
 ===================
 
 <!-- ## Checkout the master branch for the stable version of SwaLint! -->
