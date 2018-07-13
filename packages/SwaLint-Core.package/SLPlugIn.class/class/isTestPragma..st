@@ -1,4 +1,4 @@
 tests
 isTestPragma: aPragma
 
-	 ^(aPragma keyword == #name:description:)
+	 ^ (aPragma keyword == #name:description:)

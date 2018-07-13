@@ -1,4 +1,4 @@
 accessing
 versionString
 
-	^ '4.0.0'
+	^ '4.2.0'

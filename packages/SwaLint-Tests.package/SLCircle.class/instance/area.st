@@ -1,3 +1,4 @@
 accesing
 area
-	^ self radius * Float pi squared
+
+	^ self radius * 3.1415  squared

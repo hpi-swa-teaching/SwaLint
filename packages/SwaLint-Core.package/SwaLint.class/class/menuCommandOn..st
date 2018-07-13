@@ -1,5 +1,6 @@
 world menu
-menuCommandOn: aBuilder 
+menuCommandOn: aBuilder
+
 	<worldMenu>
 	(aBuilder item: #SwaLint)
 		parent: #Tools;

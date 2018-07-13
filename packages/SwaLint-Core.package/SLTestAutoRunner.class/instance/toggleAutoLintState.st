@@ -1,0 +1,4 @@
+building
+toggleAutoLintState
+	
+	^ self lintingEnabled

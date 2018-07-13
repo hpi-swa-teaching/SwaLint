@@ -9,6 +9,7 @@
 		"formatAsSummary" : "NR 1/28/2008 14:25",
 		"initializeFormatRule" : "AT 2/2/2008 12:13",
 		"initializeShowRule" : "AT 2/2/2008 12:13",
+		"isNumeric" : "BD 7/8/2018 10:54",
 		"isSummary" : "AT 5/8/2008 12:21",
 		"selectForSummary:" : "AT 5/8/2008 12:21",
 		"selectForSummary:ifTrue:" : "AT 2/2/2008 11:32",
@@ -18,4 +19,4 @@
 		"summarizing:condition:" : "topa 2/7/2008 21:49",
 		"summarizingCondition" : "AT 5/8/2008 12:21",
 		"testObject:" : "AT 5/8/2008 12:21",
-		"valueAsString" : "AT 5/8/2008 12:20" } }
+		"valueAsString" : "BD 7/13/2018 11:36" } }

@@ -1,6 +1,5 @@
 finalization
 unload
 
-	SLDefaultDialog allInstancesDo: [ :i | i close].
-	SLResultDialog allInstancesDo: [ :i | i close].
+	SLDefaultDialog allSubInstancesDo: [ :instance | instance close].
 	self unregisterInWorldMenu.

@@ -1,4 +1,7 @@
 initialize-release
 refresh
 	
-	self refreshAllEnvironments.
+	self
+		cleanUpOldEnviroments;
+		refreshAllEnvironments.
+	

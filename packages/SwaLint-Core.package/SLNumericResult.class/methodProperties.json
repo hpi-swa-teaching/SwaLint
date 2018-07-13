@@ -35,6 +35,7 @@
 		"ifThreshold:then:else:" : "AT 5/8/2008 09:42",
 		"initialize" : "topa 5/11/2008 01:13",
 		"initializeFormatRule" : "AT 2/2/2008 12:13",
+		"isNumeric" : "BD 7/8/2018 10:54",
 		"threshold" : "AT 5/8/2008 09:42",
 		"threshold:" : "AT 1/19/2008 13:48",
 		"thresholdSymbol" : "AT 5/8/2008 09:42",

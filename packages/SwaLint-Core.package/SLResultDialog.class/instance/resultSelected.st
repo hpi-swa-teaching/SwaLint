@@ -1,4 +1,4 @@
 accessing-results
 resultSelected
 
-	^0
+	^ 0

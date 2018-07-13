@@ -41,6 +41,7 @@
 		"initializeIcon" : "NA 7/16/2015 18:13",
 		"initializeShowRule" : "AT 2/2/2008 12:12",
 		"isError" : "AT 5/8/2008 10:07",
+		"isNumeric" : "BD 7/8/2018 10:53",
 		"isSLResult" : "AT 5/17/2008 16:53",
 		"isSummary" : "AT 5/8/2008 10:07",
 		"printOn:" : "BD 6/29/2018 12:57",
@@ -53,6 +54,7 @@
 		"testData:" : "NR 1/13/2008 22:33",
 		"testObject" : "AT 5/8/2008 10:08",
 		"testObject:" : "AT 2/2/2008 17:02",
+		"value" : "BD 7/1/2018 12:18",
 		"valueAsString" : "NH 6/24/2015 14:45",
 		"valueFormatRule" : "AT 5/8/2008 10:08",
 		"valueFormatRule:" : "AT 5/27/2008 14:10" } }
