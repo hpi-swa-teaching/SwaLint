@@ -12,4 +12,5 @@ buildWith: aBuilder
 		self testsFrame -> [self buildTestListWith: aBuilder].
 	}.
 	
-	^aBuilder build: windowSpec
+	window := aBuilder build: windowSpec.
+	^window

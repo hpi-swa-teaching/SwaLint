@@ -20,7 +20,7 @@
 		"buildTestCategoryListWith:" : "NA 7/14/2015 11:52",
 		"buildTestListWith:" : "NA 7/14/2015 11:52",
 		"buildWindowWith:" : "TS 7/8/2015 11:59",
-		"buildWith:" : "BD 7/6/2018 11:19",
+		"buildWith:" : "LS 7/13/2018 10:59",
 		"buttonHeight" : "NA 6/30/2015 22:32",
 		"buttons" : "LS 6/29/2018 16:07",
 		"buttonsBottom" : "BD 6/17/2018 21:10",
@@ -50,6 +50,7 @@
 		"classes" : "NA 7/15/2015 10:58",
 		"classesFrame" : "BD 6/29/2018 12:49",
 		"classesRight" : "NA 6/30/2015 23:02",
+		"classesSelected:" : "LS 7/13/2018 10:45",
 		"classesTop" : "NA 6/30/2015 22:49",
 		"close" : "NA 7/17/2015 00:35",
 		"defaultBackgroundColor" : "NA 6/30/2015 11:58",
@@ -119,5 +120,6 @@
 		"updateClasses" : "fm 6/29/2018 03:50",
 		"updateTestCategories" : "NA 7/30/2015 14:36",
 		"updateTests" : "fm 6/29/2018 03:50",
+		"window" : "LS 7/13/2018 10:59",
 		"windowIsClosing" : "NA 6/30/2015 11:59",
 		"windowTitle" : "TS 7/8/2015 12:00" } }

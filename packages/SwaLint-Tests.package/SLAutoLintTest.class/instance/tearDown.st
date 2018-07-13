@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 tearDown
 
 	self automaticUpdateClass ifNotNil: [self automaticUpdateClass removeFromSystem].

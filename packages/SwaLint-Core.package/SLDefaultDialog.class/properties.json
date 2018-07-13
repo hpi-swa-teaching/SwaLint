@@ -20,7 +20,8 @@
 		"testCategoryPattern",
 		"environment",
 		"selectByCategory",
-		"descriptionCollection" ],
+		"descriptionCollection",
+		"window" ],
 	"name" : "SLDefaultDialog",
 	"pools" : [
 		 ],
