@@ -7,6 +7,7 @@ environment:
   SCI_RUN: /cygdrive/c/smalltalkCI-master/bin/smalltalkci
   matrix:
     - SMALLTALK: Squeak-trunk
+    - SMALLTALK: Squeak-5.1
 
 platform:
   - x86
