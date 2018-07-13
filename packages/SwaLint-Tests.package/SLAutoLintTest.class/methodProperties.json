@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"automaticUpdateClass" : "BD 7/13/2018 10:43",
+		"automaticUpdateClass:" : "BD 7/13/2018 10:44",
 		"categoryNameForTemporaryClasses" : "BD 7/13/2018 10:34",
-		"setUp" : "BD 7/13/2018 10:30",
-		"tearDown" : "BD 7/13/2018 10:33",
-		"testAutomaticUpdate" : "BD 7/13/2018 10:32",
-		"testAutomaticUpdateClass" : "BD 7/13/2018 10:30",
-		"testAutomaticUpdateClass:" : "BD 7/13/2018 10:30",
-		"testBuilding" : "BD 7/13/2018 10:31" } }
+		"setUp" : "BD 7/13/2018 10:44",
+		"tearDown" : "BD 7/13/2018 10:44",
+		"testAutomaticUpdate" : "BD 7/13/2018 10:43",
+		"testBuilding" : "BD 7/13/2018 10:43" } }

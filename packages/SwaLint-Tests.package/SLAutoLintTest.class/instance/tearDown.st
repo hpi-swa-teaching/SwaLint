@@ -1,5 +1,5 @@
 as yet unclassified
 tearDown
 
-	self testAutomaticUpdateClass ifNotNil: [self testAutomaticUpdateClass removeFromSystem].
-	self testAutomaticUpdateClass: nil.
+	self automaticUpdateClass ifNotNil: [self automaticUpdateClass removeFromSystem].
+	self automaticUpdateClass: nil.

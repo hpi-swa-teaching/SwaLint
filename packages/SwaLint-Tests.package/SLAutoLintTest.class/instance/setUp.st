@@ -1,7 +1,7 @@
 as yet unclassified
 setUp
 
-	self testAutomaticUpdateClass:
+	self automaticUpdateClass:
 		(Object subclass: #SLTestAutomaticUpdate
 			instanceVariableNames: ''
 			classVariableNames: ''
