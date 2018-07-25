@@ -1,15 +1,14 @@
 testing
 testSyntheticSignificantDuplication
 
-	| testSize testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod sys plugIn |
+	| testSize testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod plugIn |
 	
 	plugIn := self plugInClass new.
 	
 	testCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 														lookupSelector: #aCloneMessage).
 	compCloneMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 													lookupSelector: #anotherCloneMessage).
-	sys := (SLSystemTestObject newFromTestObjects: {testCloneMethod . compCloneMethod})
-		testRunner: SLTestRunner new;
-		yourself.
+	(SLSystemTestObject newFromTestObjects: {testCloneMethod . compCloneMethod})
+		testRunner: SLTestRunner new.
 
 	testSize := 0.
 	plugIn searchCloneIn: testCloneMethod normalizedSourceLines from: 1
@@ -21,9 +20,8 @@ testSyntheticSignificantDuplication
 	
 	testCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 												lookupSelector: #aCloneChainMessage).
 	compCloneChainMethod := SLMethodTestObject newFrom: (SLTestSignificantDuplication 												lookupSelector: #anotherCloneChainMessage).
-	sys := (SLSystemTestObject newFromTestObjects: {testCloneChainMethod . compCloneChainMethod})
-		testRunner: SLTestRunner new;
-		yourself.
+	(SLSystemTestObject newFromTestObjects: {testCloneChainMethod . compCloneChainMethod})
+		testRunner: SLTestRunner new.
 
 	self assert:(plugIn significantDuplicationChain: testCloneChainMethod
 						with: compCloneChainMethod)

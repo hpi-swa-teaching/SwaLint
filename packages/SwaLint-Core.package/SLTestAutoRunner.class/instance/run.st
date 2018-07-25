@@ -3,8 +3,7 @@ run
 
 	self environment
 		selectedTests: self testsSelected;
-		selectedClasses: self classesSelected;
-		yourself.
+		selectedClasses: self classesSelected.
 		
 	self resultDialog: (SLResultDialog onEnvironmentWithoutOpening: 
 		(SLTestRunner onEnvironment: self environment)).
