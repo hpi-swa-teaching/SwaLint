@@ -3,7 +3,7 @@ test: aTestObject with: aTest
 	
 	| plugIn |
 	plugIn := self plugInForTest: aTest.
-	(SwaLint class: aTestObject testObjectClass ignoresRule: aTest method asSymbol) ifTrue: [
+	(self shouldSkipRuleOf: aTest for: aTestObject) ifTrue: [
 		^ SLNoResult new].
 	^ environment 
 		try: [
