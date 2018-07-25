@@ -4,10 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "LG 7/25/2018 15:23",
+	"commentStamp" : "",
 	"instvars" : [
-		"automaticUpdateClass" ],
-	"name" : "SLAutoLintTest",
+		"automaticUpdateClass",
+		"rule" ],
+	"name" : "SLIgnoringTest",
 	"pools" : [
 		 ],
 	"super" : "SLTestCase",
