@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 ifTrueReturnsRule: aSLClassTestObject
 
 	<slTestName:  'ifTrue:/ifFalse: returns instead of and:/or:''s'

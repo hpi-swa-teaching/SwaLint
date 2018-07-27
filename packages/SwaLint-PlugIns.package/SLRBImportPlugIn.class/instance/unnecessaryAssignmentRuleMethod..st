@@ -1,4 +1,4 @@
-as yet unclassified
+methodTests
 unnecessaryAssignmentRuleMethod: aMethodTestObject
 
 	<slTestHidden: true

@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 unreferencedVariable: aSLClassTestObject
 
 	<slTestName:  'Unreferenced variables'

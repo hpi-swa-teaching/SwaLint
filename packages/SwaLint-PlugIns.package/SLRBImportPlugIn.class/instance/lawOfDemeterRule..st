@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 lawOfDemeterRule: aSLClassTestObject
 
 	<slTestName:  'Law of Demeter'

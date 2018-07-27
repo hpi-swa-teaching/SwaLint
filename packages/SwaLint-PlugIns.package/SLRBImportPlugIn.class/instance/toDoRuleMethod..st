@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 toDoRuleMethod: aMethodTestObject
 
 	<slTestHidden: true

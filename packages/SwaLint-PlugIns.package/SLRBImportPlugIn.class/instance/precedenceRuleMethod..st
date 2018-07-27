@@ -1,4 +1,4 @@
-as yet unclassified
+methodTests
 precedenceRuleMethod: aMethodTestObject
 
 	<slTestHidden: true

@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 instVarInAllSubclasses: aSLClassTestObject
 
 	<slTestName:  'Instance variable defined in all subclasses'

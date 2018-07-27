@@ -1,4 +1,4 @@
-as yet unclassified
+methodTests
 collectionProtocolRuleMethod: aMethodTestObject
 
 	<slTestHidden: true

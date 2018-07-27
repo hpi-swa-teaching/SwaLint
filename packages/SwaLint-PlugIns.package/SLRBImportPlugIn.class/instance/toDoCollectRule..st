@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 toDoCollectRule: aSLClassTestObject
 
 	<slTestName:  'to:do: doesn''t use collect:'

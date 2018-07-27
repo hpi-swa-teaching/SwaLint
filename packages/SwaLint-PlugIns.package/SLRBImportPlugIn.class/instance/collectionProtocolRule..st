@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 collectionProtocolRule: aSLClassTestObject
 
 	<slTestName:  'Uses do: instead of collect: or select:'

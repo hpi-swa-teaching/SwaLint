@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 instanceVariableCapitalizationRule: aSLClassTestObject
 
 	<slTestName:  'Instance variable capitalization'

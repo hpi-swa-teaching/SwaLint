@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 longMethod: aSLClassTestObject
 
 	<slTestName:  'Long Methods (without empty lines)'

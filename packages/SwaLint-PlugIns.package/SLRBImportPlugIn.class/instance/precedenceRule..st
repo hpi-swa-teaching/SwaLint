@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 precedenceRule: aSLClassTestObject
 
 	<slTestName:  'Possible occurences of A + B * C should be A + (B * C) (Precedence)'

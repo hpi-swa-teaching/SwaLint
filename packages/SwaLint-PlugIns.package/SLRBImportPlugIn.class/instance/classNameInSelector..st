@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 classNameInSelector: aSLClassTestObject
 
 	<slTestName:  'Redundant class name in selector'

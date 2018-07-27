@@ -1,4 +1,4 @@
-as yet unclassified
+classTests
 toDoRule: aSLClassTestObject
 
 	<slTestName:  'Uses to:do: instead of do:, with:do:'

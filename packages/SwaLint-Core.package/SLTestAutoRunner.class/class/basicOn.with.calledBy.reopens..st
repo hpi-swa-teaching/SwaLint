@@ -1,4 +1,4 @@
-as yet unclassified
+instance-creation
 basicOn: classes with: tests calledBy: aSystemWindow reopens: aSLDialog
 
 	^ self new 
