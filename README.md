@@ -17,7 +17,7 @@ There are two ways of installing the latest release. You can either use a SAR fi
 Go to the [latest release of SwaLint](https://github.com/hpi-swa-teaching/SwaLint/releases/latest), download the .sar file, drag and drop it into your image and choose "install SAR".  
 
 #### Metaclleo
-1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
+1. Make sure you have [metacello](https://github.com/Metacello/metacello) installed.
 2. Load the project with (it might ask you to click "Proceed" several times):
 ```Smalltalk
 [Metacello new
@@ -34,7 +34,7 @@ Go to the [latest release of SwaLint](https://github.com/hpi-swa-teaching/SwaLin
 ### Latest develop version
 
 #### Metaclleo
-1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
+1. Make sure you have [metacello](https://github.com/Metacello/metacello) installed.
 2. Load the project with (it might ask you to click "Proceed" several times):
 ```Smalltalk
 [Metacello new
