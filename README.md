@@ -5,6 +5,8 @@ SwaLint [![Build Status][travis_badge]][travis] [![Build status][appveyor_badge]
 
 A code critics tool for Smalltalk projects. After installation you can open the **SwaLint Code Critics** via *Apps*.
 
+**Please visit the [SwaLint wiki](https://github.com/hpi-swa-teaching/SwaLint/wiki) for further information, future plans and technical advice.**
+
 ## Installation
 
 ### Latest release
