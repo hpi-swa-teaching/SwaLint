@@ -1,4 +1,0 @@
-accessing
-windowLabel
-
-	self subclassResponsibility.

@@ -7,4 +7,4 @@ BaseClassOverridingRatioHigh
 	defaultValue: 2
 	helpText: 'The high border of base class method overriding ratio for a class'>
 
-	^ BaseClassOverridingRatioHigh ifNil: [ 2 ]
+	^ BaseClassOverridingRatioHigh ifNil: [ 3/4 ]

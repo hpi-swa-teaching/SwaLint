@@ -1,4 +1,4 @@
 accessing
 isHidden
 
-	^ hidden ifNil: [false]
+	^ (self category) = (SwaLint hiddenCategory)

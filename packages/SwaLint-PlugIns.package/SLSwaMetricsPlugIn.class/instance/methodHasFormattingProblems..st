@@ -1,6 +1,9 @@
 private
 methodHasFormattingProblems: aSLMethodTestObject
 
+	<slTestHidden: true
+	longRuntime: nil>
+
 	| src |
 	aSLMethodTestObject shouldBeMethod.
 	src := aSLMethodTestObject sourceString.

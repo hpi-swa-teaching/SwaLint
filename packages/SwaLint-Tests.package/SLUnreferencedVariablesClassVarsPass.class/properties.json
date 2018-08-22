@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		"ctest" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SLUnreferencedVariablesClassVarsPass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

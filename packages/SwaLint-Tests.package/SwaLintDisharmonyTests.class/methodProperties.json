@@ -3,12 +3,12 @@
 		 },
 	"instance" : {
 		"plugInClass" : "MB 7/22/2014 12:26",
-		"setUp" : "MT 7/23/2014 22:37",
-		"test01TraditionBreakerTest" : "MT 7/23/2014 22:37",
-		"test02BrainClassTest" : "MT 7/23/2014 22:37",
-		"test03ShotgunSurgeryTest" : "MT 7/23/2014 22:37",
-		"test04SyntheticSignificantDuplicationTest" : "topa 1/16/2015 22:24",
-		"test05SignificantDuplication" : "topa 1/16/2015 12:52",
-		"test06FeatureEnvyTest" : "MB 6/19/2014 10:38",
-		"test07DispersedCouplingTest" : "MT 7/23/2014 22:38",
-		"test08IntensiveCouplingTest" : "MT 7/23/2014 22:38" } }
+		"testBrainClass" : "BD 6/16/2018 18:53",
+		"testDispersedCoupling" : "BD 6/16/2018 19:46",
+		"testFeatureEnvy" : "BD 6/16/2018 19:34",
+		"testIntensiveCoupling" : "BD 6/16/2018 19:40",
+		"testRefusedParentBequest" : "NA 7/29/2015 16:55",
+		"testShotgunSurgery" : "BD 6/16/2018 19:40",
+		"testSignificantDuplication" : "BD 6/16/2018 19:40",
+		"testSyntheticSignificantDuplication" : "BD 7/25/2018 16:22",
+		"testTraditionBreaker" : "BD 6/16/2018 19:42" } }

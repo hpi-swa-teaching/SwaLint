@@ -1,0 +1,4 @@
+accessing
+plugInClass
+
+	^ SLSwaMetricsPlugIn

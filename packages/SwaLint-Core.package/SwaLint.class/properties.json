@@ -4,14 +4,16 @@
 		"tests",
 		"categories",
 		"debug",
-		"icon" ],
+		"icon",
+		"classesIgnoringRules" ],
 	"classvars" : [
 		"ColorizeResults",
 		"DebugMode",
 		"MarkLongRuntimeTests",
+		"OrderByTests",
 		"UseOBRefactoryIfAvailable",
 		"WorldMenuEntry" ],
-	"commentStamp" : "AT 2/2/2008 17:49",
+	"commentStamp" : "LG 7/24/2018 20:38",
 	"instvars" : [
 		 ],
 	"name" : "SwaLint",

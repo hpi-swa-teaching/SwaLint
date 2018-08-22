@@ -9,4 +9,4 @@ rbClass: aSymbol
 				ifTrue: [(aSymbol asString allButFirst: 2) asSymbol]
 				ifFalse: [('RB', aSymbol asString) asSymbol].
 			self class environment
-				at: otherName].
+				at: otherName]

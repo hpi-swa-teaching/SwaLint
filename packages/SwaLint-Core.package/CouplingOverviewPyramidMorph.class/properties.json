@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "CouplingOverviewPyramidMorph",
+	"pools" : [
+		 ],
+	"super" : "OverviewPyramidMorph",
+	"type" : "normal" }

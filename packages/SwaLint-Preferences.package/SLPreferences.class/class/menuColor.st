@@ -1,4 +1,4 @@
 menu parameters
 menuColor
-	Display depth <= 2 ifTrue: [^ Color white].
-	^ Parameters at: #menuColor
+	
+	^ Color r: 0.97 g: 0.97 b: 0.97

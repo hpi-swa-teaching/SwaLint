@@ -1,0 +1,22 @@
+{
+	"category" : "SwaLint-Core-UserInterface",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BD 7/27/2018 19:09",
+	"instvars" : [
+		"classesSelected",
+		"testsSelected",
+		"environment",
+		"window",
+		"resultDialog",
+		"callingWindow",
+		"callingDialog",
+		"lintingEnabled",
+		"toggleButton" ],
+	"name" : "SLTestAutoRunner",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

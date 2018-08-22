@@ -1,0 +1,1 @@
+I am a result which is returned, if there is no result.

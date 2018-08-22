@@ -1,12 +1,14 @@
 running
 setUp
 	
-	|testDictionary|
+	| testDictionary |
 	
 	plugIn := self plugInClass new.
 	
-	testDictionary := (Dictionary new).	
-	testRunner := (SLTestRunner new) testDictionary: testDictionary.
+	testDictionary := (Dictionary new).
+	testRunner := SLTestRunner new 
+		environment: (SLTestCase dummyEnvironment copy);
+		testDictionary: testDictionary.
 	
 	self resetTestSystem
 	

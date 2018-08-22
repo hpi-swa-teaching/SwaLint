@@ -1,0 +1,1 @@
+I offer some test data for testing significant duplication.

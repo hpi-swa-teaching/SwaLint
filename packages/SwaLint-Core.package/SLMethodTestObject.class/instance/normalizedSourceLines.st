@@ -4,5 +4,5 @@ normalizedSourceLines
 	
 	^ normalizedSourceLines ifNil: [normalizedSourceLines := 
 		self normalizedSource lines collect: [:line | 
-			(self testSystem propertyAt: #allNormalizedLines ifAbsentPut: [Dictionary new])
+			(self testSystem propertyAt: #allNormalizedLines: ifAbsentPut: [Dictionary new])
 				at: line ifAbsentPut: [SLCodeLine new string: line; yourself]]]

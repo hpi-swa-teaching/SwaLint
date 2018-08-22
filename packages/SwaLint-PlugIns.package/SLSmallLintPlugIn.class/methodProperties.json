@@ -1,12 +1,14 @@
 {
 	"class" : {
 		"defaultCategory" : "topa 4/21/2010 08:54",
+		"defaultPreferenceOf:" : "BD 6/29/2018 15:59",
 		"description" : "AT 5/8/2008 12:21",
-		"externalTests" : "topa 4/21/2010 08:53",
-		"initializePreferences" : "topa 4/21/2010 08:55",
+		"externalTests" : "BD 6/21/2018 15:54",
+		"initializePreferences" : "JTM 7/1/2015 11:21",
 		"looksLikeLintRule:" : "topa 4/21/2010 08:24",
 		"namespacePrefix" : "topa 4/21/2010 08:18",
-		"offeredTestsData" : "topa 4/21/2010 16:49",
+		"offeredTests" : "NH 6/24/2015 11:44",
+		"offeredTestsData" : "BD 6/21/2018 15:48",
 		"possibleRuleClasses" : "topa 1/19/2015 14:16",
 		"postfix" : "topa 4/21/2010 08:18",
 		"smallLintTests" : "topa 4/21/2010 08:51",
@@ -20,8 +22,9 @@
 		"lintTestSymbolFor:" : "topa 4/21/2010 16:50",
 		"prepareForTests:onTestObjects:" : "NR 1/30/2008 15:01",
 		"prepareForTests:onTestSystem:" : "AT 1/28/2008 23:01",
-		"rbClass:" : "topa 1/19/2015 14:29",
+		"printOn:" : "NH 6/24/2015 14:11",
+		"rbClass:" : "TS 7/29/2015 11:28",
 		"ruleFor:" : "topa 5/19/2015 09:36",
 		"smallLintTest:onTestObjects:" : "NR 1/31/2008 18:00",
 		"smallLintTestResultFor:onTestObjects:" : "topa 1/19/2015 14:30",
-		"test:with:" : "tfel 8/6/2015 15:52" } }
+		"test:with:" : "AT 5/8/2008 12:20" } }

@@ -1,0 +1,2 @@
+I am responsible for the autolinting of your code. You can not open me by hand but can access me when clicking the "Start Autolinting" button, when running the default linter.
+I will register on code changes and update the number of shown defects whenever a corresponding class is changed.

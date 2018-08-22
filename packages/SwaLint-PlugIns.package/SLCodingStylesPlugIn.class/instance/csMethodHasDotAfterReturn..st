@@ -1,6 +1,11 @@
 tests
 csMethodHasDotAfterReturn: aSLMethodTestObject
 
+	<slTestName: nil
+	description: 'Test a single method for dotAfterReturn'>
+	<slTestHidden: true
+	longRuntime: false>
+
 	| result |
 	aSLMethodTestObject shouldBeMethod.
 	result := self hasDotAfterReturn: aSLMethodTestObject cleanSource.

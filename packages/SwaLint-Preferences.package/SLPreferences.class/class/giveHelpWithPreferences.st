@@ -23,7 +23,7 @@ Also, you can use "themes" to set multiple preferences all at once; click on the
 
 	aStream cr; cr; nextPutAll: '-----------------------------------------------------------------';
 		cr; cr; nextPutAll:  'Alphabetical listing of all Preferences' translated; cr; cr.
-   (Preferences allPreferenceObjects asSortedCollection: [:a :b | a name < b name]) do:
+   (Preferences allPreferences asSortedCollection: [:a :b | a name < b name]) do:
 	[:pref |
 		aStream nextPutAll: pref name; cr.
 		aHelpString := pref helpString translated.

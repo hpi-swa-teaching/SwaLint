@@ -1,4 +1,4 @@
 menu parameters
 menuBorderColor
-	Display depth <= 2 ifTrue: [^ Color black].
-	^ Parameters at: #menuBorderColor
+	
+	^ Color r: 0.167 g: 0.167 b: 1.0

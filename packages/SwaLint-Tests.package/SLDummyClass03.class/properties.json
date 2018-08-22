@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "topa 1/19/2008 12:18",
 	"instvars" : [
-		"var1",
-		"var2" ],
+		 ],
 	"name" : "SLDummyClass03",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "SLDummyClass0",
 	"type" : "normal" }

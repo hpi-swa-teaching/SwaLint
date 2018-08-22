@@ -1,5 +1,9 @@
 private
 instanceVariableAccess: aSLThing
+		
+	<slTestHidden: true
+	longRuntime: nil>
+	
 	| ivars |
 	aSLThing shouldBeMethod.
 	ivars := aSLThing testObject referredInstVars.
@@ -7,3 +11,4 @@ instanceVariableAccess: aSLThing
 		ivars notEmpty and: [aSLThing testObject referredInstVars size > 1
 							or: [aSLThing testObject selector ~= ivars anyOne
 									and: [aSLThing testObject selector ~= ivars anyOne asSymbol asMutator]]])
+	

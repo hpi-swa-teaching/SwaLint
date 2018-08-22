@@ -1,4 +1,4 @@
 accessing
 testRunner: aSLTestRunner
 
-	^ testRunner := aSLTestRunner.
+	^ testRunner := aSLTestRunner

@@ -3,7 +3,9 @@ test: aTestObject with: aTest
 	
 	| plugIn |
 	plugIn := self plugInForTest: aTest.
-	^ SwaLint 
+	(self shouldSkipRuleOf: aTest for: aTestObject) ifTrue: [
+		^ SLNoResult new].
+	^ environment 
 		try: [
 			plugIn tryTest: aTestObject with: aTest]
 		catch: [ :error | 

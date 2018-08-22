@@ -1,0 +1,16 @@
+{
+	"category" : "SwaLint-Tests-Data",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dep1",
+		"dep2",
+		"dep3" ],
+	"name" : "SLTestDependentClass2",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

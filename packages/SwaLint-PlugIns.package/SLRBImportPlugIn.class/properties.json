@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLint-PlugIns",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ShowSwaMetricTests" ],
+	"commentStamp" : "BD 7/27/2018 19:11",
+	"instvars" : [
+		"globalSloccount" ],
+	"name" : "SLRBImportPlugIn",
+	"pools" : [
+		 ],
+	"super" : "SLPlugIn",
+	"type" : "normal" }

@@ -1,6 +1,5 @@
-dialogue-components
+actions
 browseSelection
 
-	self browseable ifFalse: [^ self].
-	
-	self environment results resultsBrowserForSelection
+	self browsable ifFalse: [^ self].
+	self resultsBrowserForSelection

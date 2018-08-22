@@ -9,7 +9,7 @@ DebugMode
 	projectLocal: false
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
-	
+
 	^ DebugMode ifNil: [false]
 
 	

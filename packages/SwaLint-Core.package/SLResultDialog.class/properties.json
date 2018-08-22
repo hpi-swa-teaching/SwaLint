@@ -4,11 +4,17 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "NR 12/7/2007 19:27",
+	"commentStamp" : "<historical>",
 	"instvars" : [
-		 ],
+		"isMultiSelectable",
+		"isOrderedByTests",
+		"results",
+		"resultsSelected",
+		"mainMorph",
+		"resultPanel",
+		"overviewpyramidMorph" ],
 	"name" : "SLResultDialog",
 	"pools" : [
 		 ],
-	"super" : "SLAbstractDialog",
+	"super" : "SLDefaultDialog",
 	"type" : "normal" }

@@ -1,6 +1,6 @@
 private
 methodIsPrivate: aCompiledMethod
-	
+
 	| category selector |
 	
 	selector :=  aCompiledMethod selector.

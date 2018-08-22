@@ -1,4 +1,4 @@
 accessing
 selectableTestCategories
 
-	^ SwaLint categories keys sorted asArray
+	^ self categoryDict keys sorted asArray

@@ -1,4 +1,0 @@
-accessing
-multipleSelections
-
-	^ multipleSelections

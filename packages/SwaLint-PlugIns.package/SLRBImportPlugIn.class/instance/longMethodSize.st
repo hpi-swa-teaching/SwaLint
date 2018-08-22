@@ -1,0 +1,4 @@
+helper
+longMethodSize
+	
+	^10

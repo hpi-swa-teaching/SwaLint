@@ -1,0 +1,4 @@
+initialization
+buildDictionary
+
+	^ { #andc . #ahh }

@@ -1,6 +1,9 @@
 method tests
 methodCallers: aSLMethodTestObject
 
+	<slTestName: nil
+	description: 'Collection of all callers of a method'>
+
 	| methods |
 	
 	aSLMethodTestObject shouldBeMethod.

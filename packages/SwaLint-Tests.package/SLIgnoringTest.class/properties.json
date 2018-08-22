@@ -1,0 +1,15 @@
+{
+	"category" : "SwaLint-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"automaticUpdateClass",
+		"rule" ],
+	"name" : "SLIgnoringTest",
+	"pools" : [
+		 ],
+	"super" : "SLTestCase",
+	"type" : "normal" }

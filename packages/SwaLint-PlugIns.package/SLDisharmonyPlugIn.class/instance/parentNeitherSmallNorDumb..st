@@ -10,6 +10,6 @@ parentNeitherSmallNorDumb: aSLClassTestObject
 	parent ifNil: [ ^ false ]
 				ifNotNil: [
 				^ 
-					(((parent resultOf: #classAMW) > #average) or:
-					[ (parent resultOf: #weightedMethodCount) >= #veryHigh ]) and:
-					[ (parent resultOf: #numberOfMethods) >= #high ] ]
+					(((parent resultOf: #classAMW:) > #average) or:
+					[ (parent resultOf: #weightedMethodCount:) >= #veryHigh ]) and:
+					[ (parent resultOf: #numberOfMethods:) >= #high ] ]

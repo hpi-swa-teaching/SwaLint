@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "NR 12/21/2007 14:38",
 	"instvars" : [
-		 ],
+		"selectedTests",
+		"selectedClasses" ],
 	"name" : "SLDefaultEnvironment",
 	"pools" : [
 		 ],

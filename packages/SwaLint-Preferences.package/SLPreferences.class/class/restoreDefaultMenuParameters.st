@@ -7,30 +7,18 @@ restoreDefaultMenuParameters
 	"
 	Parameters
 		at: #menuColor
-		put: (Color
-				r: 0.97
-				g: 0.97
-				b: 0.97).
+		put: (self menuColor).
 	Parameters
 		at: #menuBorderColor
-		put: (Color
-				r: 0.167
-				g: 0.167
-				b: 1.0).
+		put: (self menuBorderColor).
 	Parameters at: #menuBorderWidth put: 2.
-	Parameters at: #menuTitleColor put: (Color
-			r: 0.4
-			g: 0.8
-			b: 0.9) twiceDarker.
+	Parameters at: #menuTitleColor put: (self menuTitleColor) twiceDarker.
 	Parameters
 		at: #menuTitleBorderColor
-		put: (Color
-				r: 0.333
-				g: 0.667
-				b: 0.751).
+		put: (self menuTitleBorderColor).
 	Parameters at: #menuTitleBorderWidth put: 1.
 	Parameters
 		at: #menuLineColor
 		put: ((Smalltalk at: #UITheme ifAbsent: [])
-				ifNil: [Preferences menuBorderColor lighter]
+				ifNil: [(UserInterfaceTheme current get: #borderColor for: #MenuMorph) lighter]
 				ifNotNilDo: [:uiTheme | uiTheme current settings menuBorderColor lighter])

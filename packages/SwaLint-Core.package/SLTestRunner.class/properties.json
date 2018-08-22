@@ -4,14 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AT 2/2/2008 17:52",
+	"commentStamp" : "BD 6/21/2018 19:38",
 	"instvars" : [
 		"loadedPlugIns",
 		"progressMorph",
 		"processedItems",
 		"testDictionary",
 		"testSystem",
-		"runSpecificData" ],
+		"environment" ],
 	"name" : "SLTestRunner",
 	"pools" : [
 		 ],

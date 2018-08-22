@@ -3,7 +3,7 @@ initialize
 
 	super initialize.
 	self
-		defaultClassCategories;
-		defaultTestCategories;
-		fetchSystemClasses;		
-		reload.
+		initializeInstanceVariables;
+		addPlugIn: SLPlugIn;
+		fetchSystemClasses;
+		loadDefaults.

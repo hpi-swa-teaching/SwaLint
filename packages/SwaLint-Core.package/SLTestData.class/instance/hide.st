@@ -1,4 +1,4 @@
 accessing
 hide
 
-	hidden := true
+	self category: (SwaLint hiddenCategory).

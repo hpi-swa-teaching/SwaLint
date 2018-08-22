@@ -1,4 +1,3 @@
 accessing
 someMethod
-
-	^ nil
+	^ #nil

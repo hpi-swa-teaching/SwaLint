@@ -9,4 +9,5 @@ externalTests
 				stream nextPut: (Array
 					with: (self testSymbolForLintClassName: cls name)
 					with: test name
-					with: test rationale)]]
+					with: test rationale
+					with: test group)]]

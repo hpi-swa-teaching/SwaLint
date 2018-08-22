@@ -1,6 +1,9 @@
 private
 methodHasComment: aSLMethodTestObject
 
+	<slTestHidden: true
+	longRuntime: nil>
+
 	| src tree |
 	aSLMethodTestObject shouldBeMethod.
 	src := aSLMethodTestObject sourceString.

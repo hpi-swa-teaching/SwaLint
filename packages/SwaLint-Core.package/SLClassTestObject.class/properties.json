@@ -16,7 +16,10 @@
 		"superClassVariables",
 		"superInstanceVariables",
 		"superVariables",
-		"allVariables" ],
+		"allVariables",
+		"superMethods",
+		"superInstanceMethods",
+		"superClassMethods" ],
 	"name" : "SLClassTestObject",
 	"pools" : [
 		 ],

@@ -8,12 +8,12 @@ name: aName defaultValue: aValue helpString: aString localToProject: projectBool
 	aValue = #false ifTrue: [defaultValue := false].
 	value := defaultValue.
 	helpString := aString.
-	localToProject := projectBoolean == true or: [projectBoolean = #true].
+	localToProject := projectBoolean or: [projectBoolean = #true].
 	viewRegistry := aViewRegistry.
 	categoryList := (aList ifNil: [OrderedCollection with: #unclassified]) collect:
 		[:elem | elem asSymbol].
 
-	changeInformee := (informee == nil or: [informee == #nil])
+	changeInformee := (informee isNil or: [informee == #nil])
 						ifTrue: [nil]
 						ifFalse:	[(informee isKindOf: Symbol)
 							ifTrue:

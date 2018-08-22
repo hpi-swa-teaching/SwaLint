@@ -7,10 +7,14 @@
 	"commentStamp" : "NR 1/9/2008 16:04",
 	"instvars" : [
 		"systemClasses",
-		"tests",
+		"debug",
+		"testDict",
+		"classDict",
+		"categoryDict",
 		"classes",
-		"testCategories",
-		"classCategories" ],
+		"classCategories",
+		"tests",
+		"testCategories" ],
 	"name" : "SLEnvironment",
 	"pools" : [
 		 ],

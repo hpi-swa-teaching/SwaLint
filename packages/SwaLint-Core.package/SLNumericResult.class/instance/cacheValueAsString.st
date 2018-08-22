@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 cacheValueAsString
 	"Use the value format rule to convert my value into a string."
 

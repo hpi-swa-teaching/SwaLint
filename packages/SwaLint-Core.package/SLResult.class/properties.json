@@ -13,7 +13,8 @@
 		"testObject",
 		"showRule",
 		"valueFormatRule",
-		"colorRule" ],
+		"colorRule",
+		"icon" ],
 	"name" : "SLResult",
 	"pools" : [
 		 ],

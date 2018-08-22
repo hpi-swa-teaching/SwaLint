@@ -1,0 +1,4 @@
+building
+buttonsRight
+
+	^ 1

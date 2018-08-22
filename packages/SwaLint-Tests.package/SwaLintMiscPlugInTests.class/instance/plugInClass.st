@@ -1,4 +1,4 @@
 running
 plugInClass
 
-	^ SLMethodMetricsPlugIn
+	^ SLSwaMetricsPlugIn
