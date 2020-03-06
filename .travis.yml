@@ -8,5 +8,7 @@ os:
 
 # Select compatible Smalltalk image(s)
 smalltalk:
-  - Squeak-5.3
-  - Squeak-5.2
+  - Squeak64-5.3
+  - Squeak64-5.2
+  - Squeak32-5.3
+  - Squeak32-5.2
