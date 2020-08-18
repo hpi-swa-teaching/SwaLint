@@ -2,8 +2,8 @@ preferences
 rejectMethodByDate: aSLMethod  
 	| splitString dateString |
 	SLPreferences DateFilter ifEmpty: [^ false].
-	splitString := (SLPreferences DateFilter splitBy: ' ').
-	dateString := (splitString allButFirst inject: '' into: [:str :next | str, ' ', next]) trimBoth.
+	splitString := SLPreferences DateFilter splitBy: ' '.
+	dateString := (splitString allButFirst inject: '' into: [:str :next | str, ' ', next]) withBlanksTrimmed.
 	^ aSLMethod testObject dateMethodLastSubmitted
 			ifNil: [false]
 			ifNotNilDo: [:dateAndTime | (dateAndTime asDate
