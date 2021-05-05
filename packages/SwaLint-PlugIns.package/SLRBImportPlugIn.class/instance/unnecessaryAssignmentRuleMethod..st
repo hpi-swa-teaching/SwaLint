@@ -20,7 +20,7 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 		aMethodTestObject testObject tempNames.
 	
 	"Remove all variables that were used from that list."
-	( RBParseTreeSearcher new
+	(RBParseTreeSearcher new
 			matches: '`{:node | node isAssignment or: [node isMessage or: [node isReturn]]}'
 		do: [ :node :answer | | variableNames |
 				variableNames := #().
@@ -38,4 +38,4 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 	               executeTree: rbMethodNode initialAnswer: false.
 	
 	"If all variables were used, this collection should be empty."
-	^self booleanResult: unusedVariables notEmpty
+	^ self booleanResult: unusedVariables notEmpty

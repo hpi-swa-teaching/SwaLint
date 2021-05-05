@@ -21,7 +21,7 @@ toDoRuleMethod: aMethodTestObject
 							ifTrue: [ node ]
 							ifFalse: [ nil ] ]
 					ifFalse: [ answer ] .
-					answer := true])
+					true])
 	               executeTree: rbMethodNode initialAnswer: false. 
 	
 	^self booleanResult: (isMatching)
