@@ -3,8 +3,8 @@ on:
   push: 
     branches-ignore:
       - main
-  pull_requests-ignore:
-    branches:
+  pull_request:
+    branches-ignore:
       - main
 
 # Controls when the action will run. Triggers the workflow on push or pull request
