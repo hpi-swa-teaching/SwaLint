@@ -1,7 +1,7 @@
 SwaLint [![Build Status][gh_badge]][gh_action] [![Build status][appveyor_badge]][appveyor] <!-- [![Coverage Status][coveralls_badge]][coveralls] -->
 ===================
 
-<!-- ## Checkout the master branch for the stable version of SwaLint! -->
+<!-- ## Checkout the main branch for the stable version of SwaLint! -->
 
 A code critics tool for Smalltalk projects. After installation you can open the **SwaLint Code Critics** via *Apps*.
 
@@ -49,6 +49,6 @@ Go to the [latest release of SwaLint](https://github.com/hpi-swa-teaching/SwaLin
 [appveyor]: https://ci.appveyor.com/project/hpi-swa-teaching/swalint
 [appveyor_badge]: https://ci.appveyor.com/api/projects/status/uj2j9trw2x6yq9iy?svg=true
 [gh_action]: https://github.com/hpi-swa-teaching/SwaLint/actions/workflows/main.yml
-[gh_badge]: https://img.shields.io/github/workflow/status/hpi-swa-teaching/SwaLint/tests/master?logo=github
+[gh_badge]: https://img.shields.io/github/workflow/status/hpi-swa-teaching/SwaLint/tests/main?logo=github
 [coveralls]: https://coveralls.io/github/hpi-swa-teaching/SwaLint?branch=develop
 [coveralls_badge]: https://coveralls.io/repos/github/hpi-swa-teaching/SwaLint/badge.svg?branch=develop
