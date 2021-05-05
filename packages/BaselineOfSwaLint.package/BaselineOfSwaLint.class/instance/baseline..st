@@ -8,7 +8,7 @@ baseline: spec
 			project: 'RefactoringBrowser' with: [
 				spec
 					className: 'ConfigurationOfRefactoringBrowser';
-					versionString: '3.0';
+					versionString: #'stable';
 					loads: #('Core' );
 					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
 			project: 'Grease' with: [
