@@ -52,7 +52,7 @@ toDoCollectRuleMethod: aMethodTestObject
 						`collection add: `@obj.
 						`@.BStmt2].
 				`@.Stmts3')
-	       do:[: aNode : answer | answer := true ] )
+	       do:[: aNode : answer | true ] )
 	               executeTree: rbMethodNode initialAnswer: false. 
 
 	^self booleanResult: (isMatching)

@@ -20,4 +20,4 @@ instVarInAllSubclasses: aSLClassTestObject
 			count == subclasses size ifTrue: 
 				[ ^self successResult: true ] ] ].
 	
-	^self successResult: false
+	^ self successResult: false

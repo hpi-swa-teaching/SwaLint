@@ -15,10 +15,10 @@ ifTrueReturnsRuleMethod: aMethodTestObject
 				body statements 
 				last value.	"``@value1"
 			((condition isLiteral 
-				and: [ #(true false) includes: condition value ]) 
+				and: [#(true false) includes: condition value]) 
 				or: [ 
-					condition := 	node statements last value.
-					condition isLiteral and: [ #(true false) includes: condition value ]])])
+					condition := node statements last value.
+					condition isLiteral and: [#(true false) includes: condition value]])])
 	               executeTree: rbMethodNode initialAnswer: false. 
 	
 	^self booleanResult: isMatching
