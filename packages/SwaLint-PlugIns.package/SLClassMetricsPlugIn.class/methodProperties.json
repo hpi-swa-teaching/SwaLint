@@ -34,10 +34,10 @@
 	"instance" : {
 		"accessToForeignData:" : "JTM 5/27/2015 11:41",
 		"allForeignMethodsUsedIn:" : "AT 5/7/2008 21:33",
-		"allMethodsUsedIn:" : "AT 5/7/2008 21:33",
+		"allMethodsUsedIn:" : "smalltalkCI 5/5/2021 10:52",
 		"avgLOCperMethod:" : "NA 7/25/2015 20:54",
 		"baseClassOverridingRatio:" : "NA 7/25/2015 20:54",
-		"baseClassUsageRatio:" : "NA 7/29/2015 11:21",
+		"baseClassUsageRatio:" : "smalltalkCI 5/5/2021 10:52",
 		"classAMW:" : "NA 7/25/2015 21:09",
 		"classLOC:" : "NA 7/25/2015 20:58",
 		"classNAS:" : "NA 7/25/2015 21:00",
