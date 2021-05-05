@@ -5,5 +5,5 @@ allMethodsUsedIn: aSLClassTestObject
 	^ aSLClassTestObject methods 
 		inject: Set new 
 		into: [ :set :method |
-			set addAll: method testObject allLiterals;
+			set addAll: method testObject literals;
 			yourself]
