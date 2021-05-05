@@ -10,7 +10,7 @@ rbMethodNode := RBParser parseMethod: (aSLMethodTestObject sourceCode).
 	
 isMatching := ( RBParseTreeSearcher new
        matchesAnyOf: #('`{:node | node isLiteralNode and: [((node parent isReturn) not) and: [((node parent isAssignment) not)] and: [node value isNumber] and: [(#(-1 1 0) includes: node value) not] ]}')
-       do:[: aNode : answer | answer := true ] )
+       do:[: aNode : answer | true ] )
                executeTree: rbMethodNode initialAnswer: false. 
 
 ^ self booleanResult: isMatching
