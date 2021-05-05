@@ -1,9 +1,9 @@
-name: mainTests
+name: allTests
 on: 
   push: 
-    branches:
+    branches-ignore:
       - main
-  pull_requests:
+  pull_requests-ignore:
     branches:
       - main
 
@@ -18,7 +18,7 @@ jobs:
         # Select platform(s)
         os: [ ubuntu-latest ]
         # Select compatible Smalltalk image(s)
-        smalltalk: [Squeak64-5.3, Squeak64-5.2]
+        smalltalk: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
