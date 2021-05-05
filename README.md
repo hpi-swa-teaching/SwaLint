@@ -49,6 +49,6 @@ Go to the [latest release of SwaLint](https://github.com/hpi-swa-teaching/SwaLin
 [appveyor]: https://ci.appveyor.com/project/hpi-swa-teaching/swalint
 [appveyor_badge]: https://ci.appveyor.com/api/projects/status/uj2j9trw2x6yq9iy?svg=true
 [gh_action]: https://github.com/hpi-swa-teaching/SwaLint/actions/workflows/main.yml
-[gh_badge]: https://img.shields.io/github/workflow/status/hpi-swa-teaching/SwaLint/tests/main?logo=github
+[gh_badge]: https://img.shields.io/github/workflow/status/hpi-swa-teaching/SwaLint/mainTests/main?logo=github
 [coveralls]: https://coveralls.io/github/hpi-swa-teaching/SwaLint?branch=develop
 [coveralls_badge]: https://coveralls.io/repos/github/hpi-swa-teaching/SwaLint/badge.svg?branch=develop
