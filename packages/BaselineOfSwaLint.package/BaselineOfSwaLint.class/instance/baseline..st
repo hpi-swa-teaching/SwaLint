@@ -6,11 +6,11 @@ baseline: spec
 		"Requirements"
 		spec 
 			project: 'RefactoringBrowser' with: [
-				spec
+				spec 
 					className: 'ConfigurationOfRefactoringBrowser';
 					versionString: #'stable';
-					loads: #('Core' );
-					repository: 'http://www.squeaksource.com/MetacelloRepository' ];
+					loads: #('Core');
+					repository: 'http://www.squeaksource.com/MetacelloRepository'];
 			project: 'Grease' with: [
 				spec
 					className: 'ConfigurationOfGrease';
@@ -41,6 +41,14 @@ baseline: spec
 			group: 'All' with: #('Tests' 'web');
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
 			group: 'Tests' with: #('SwaLint-Tests')].
+	spec for: #'squeak6.x' do: [
+		spec 
+			project: 'RefactoringBrowser' with: [
+				spec 
+					className: 'ConfigurationOfRefactoringBrowser';
+					versionString: '3.0';
+					loads: #('Core');
+					repository: 'http://www.squeaksource.com/MetacelloRepository']].
 	spec for: #'pharo' do: [
 		spec
 			package: 'PreferenceBrowser';
