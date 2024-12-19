@@ -1,5 +1,4 @@
-finalization
+initialize-release
 unload
 
-	SLDefaultDialog allSubInstancesDo: [ :instance | instance close].
 	self unregisterInWorldMenu.
