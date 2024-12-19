@@ -1,12 +1,8 @@
 app - self-updating
 selfUpdateBranch
 	<slpreference: 'SwaLint self-update branch'
-	type: #Text
-	categories: #(SwaLint)
-	defaultValue: ''
-	helpText: 'The branch used for installing updates for SwaLint from the GitHub repository.'
-	projectLocal: false
-	changeInformee: #SwaLint
-	changeSelector: #refresh>
+		categoryList: #(SwaLint)
+		description: 'The branch used for installing updates for SwaLint from the GitHub repository.'
+		type: #String>
 	
 	^ SelfUpdateBranch ifNil: [self defaultSelfUpdateBranch]

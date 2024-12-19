@@ -2,11 +2,9 @@ preferences
 WorldMenuEntry
 
 	<slpreference: 'World Menu Entry'
+	categoryList: #(SwaLint)
+	description: 'Show SwaLint entry in WorldMenu > open.'
 	type: #Boolean
-	categories: #(SwaLint)
-	defaultValue: true
-	helpText: 'Show SwaLint entry in WorldMenu > open.'
-	projectLocal: false
 	changeInformee: #SwaLint
 	changeSelector: #worldMenuPreferenceChanged>
 	

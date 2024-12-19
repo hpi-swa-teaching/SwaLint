@@ -2,9 +2,8 @@ preferences
 MethodCYCLOLow
 
 	<slpreference: 'Method CYCLO low'
-	type: #Numeric
-	categories: #(MethodMetrics)
-	defaultValue: 1
-	helpText: 'The low border of method CYCLO'>
+	categoryList: #(MethodMetrics)
+	description: 'The low border of method CYCLO'
+	type: #Numeric>
 	
 	^ MethodCYCLOLow ifNil: [ 1 ]

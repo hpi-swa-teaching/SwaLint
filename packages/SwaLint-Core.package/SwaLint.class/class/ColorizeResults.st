@@ -2,11 +2,9 @@ preferences
 ColorizeResults
 
 	<slpreference: 'Colorize Results'
+	categoryList: #(SwaLint)
+	description: 'Show Colors in the Resultdialog'
 	type: #Boolean
-	categories: #(SwaLint)
-	defaultValue: false
-	helpText: 'Show Colors in the Resultdialog'
-	projectLocal: false
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	

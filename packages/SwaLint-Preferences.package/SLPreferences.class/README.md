@@ -1,26 +1,12 @@
 ### I am a copy of the Preferences class ###
 
-A general mechanism to store preference choices.  The default setup treats any symbol as a potential boolean flag; flags unknown to the preference dictionary are always returned as false.  
+The following changes have been made based on the Preferences class:
+* updated references to Preferences and Preference & subclasses in methods and do-it comments
+* prefixed pragma selector with sl prefix (preference constructors + addPragmaPreference:)
+* added addBooleanPreference:categories:default:balloonHelp:projectLocal:changeInformee:changeSelector: and slpreference:categoryList:description:type:changeInformee:changeSelector:
+* removed domain-specific preferences (including personalization)
+* removed etoys/flaps support
+* removed standard values
+* removed themes
 
-	To open the control panel:		Preferences openFactoredPanel
-	To read how to use the panel (and how to make a preference be per-project):
-		 Preferences giveHelpWithPreferences
-
-All messages are on the class side.
-
-To query a a preference:
-	Preferences logDebuggerStackToFile
-or some people prefer the more verbose
-	Preferences valueOfFlag: #logDebuggerStackToFile
-
-You can make up a new preference any time.  Do not define a new message in Preferences class. Accessor methods are compiled automatically when you add a preference as illustrated below:
-
-To add a preference (e.g. in the Postscript of a fileout):
-	Preferences addPreference: #samplePreference categories: #(general browsing)
-		default: true balloonHelp: 'This is an example of a preference added by a do-it'
-		projectLocal: false changeInformee: nil changeSelector: nil.
-
-To change a preference programatically:
-	Preferences disable: #logDebuggerStackToFile.
-Or to turn it on,
-	Preferences enable: #logDebuggerStackToFile.
+When maintaining this class, merge all new changes from the Preferences class into this class, considering the above exceptions (please preserve the old timestamps when copying methods by using Shift + Drag!). In the future, this implementation should reuse the default Preferences instead, perhaps by subclassing.

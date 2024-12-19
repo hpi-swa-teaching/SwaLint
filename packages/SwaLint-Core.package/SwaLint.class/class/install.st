@@ -6,6 +6,6 @@ install
 		ifTrue: [TheWorldMenu unregisterOpenCommand: self swaLint].
 	TheWorldMenu registerOpenCommand: {self swaLint. {SwaLint. #open}}.
 	self initializePreferences.
-	self debugMode: SLPreferences DebugMode.
+	self debugMode: self DebugMode.
 	SLPreferences OrderByTests.
 	self registerPlugIn: SLPlugIn.

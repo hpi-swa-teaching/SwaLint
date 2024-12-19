@@ -2,9 +2,8 @@ preferences
 NumberOfMethodsLow
 
 	<slpreference: 'Number of methods low' 
-	type: #Numeric
-	categories: #(ClassMetrics)
-	defaultValue: 8
-	helpText: 'The low border of number of methods for a class'>
+	categoryList: #(ClassMetrics)
+	description: 'The low border of number of methods for a class'
+	type: #Numeric>
 	
 	^ NumberOfMethodsLow ifNil: [ 8 ]

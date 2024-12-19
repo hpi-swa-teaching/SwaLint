@@ -5,8 +5,8 @@ newButtonRow
 	
 	^ BorderedMorph new
 		color: Color transparent;
-		cellInset: 2;
-		layoutInset: 2;
+		borderWidth: 0;
+		cellGap: ToolBuilder default panelSpacing;
 		layoutPolicy: TableLayout new;
 		listDirection: #leftToRight;
 		listCentering: #topLeft;

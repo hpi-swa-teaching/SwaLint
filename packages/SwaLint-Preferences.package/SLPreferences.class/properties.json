@@ -1,12 +1,10 @@
 {
 	"category" : "SwaLint-Preferences-Common",
 	"classinstvars" : [
-		"DesktopColor",
-		"DictionaryOfPreferences",
-		"Parameters" ],
+		"preferencesDictionary" ],
 	"classvars" : [
-		 ],
-	"commentStamp" : "AT 2/8/2008 12:04",
+		"Parameters" ],
+	"commentStamp" : "ct 12/19/2024 23:48",
 	"instvars" : [
 		 ],
 	"name" : "SLPreferences",

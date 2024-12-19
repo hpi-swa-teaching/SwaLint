@@ -2,9 +2,8 @@ preferences
 MinimumExactCloneSize
 
 	<slpreference: 'Minimum exact clone size'
-	type: #Numeric
-	categories: #(Disharmony)
-	defaultValue: 3
-	helpText: 'The minimum size of exact clones.'>
+	categoryList: #(Disharmony)
+	description: 'The minimum size of exact clones.'
+	type: #Numeric>
 	
 	^ MinimumExactCloneSize ifNil: [ 3 ]

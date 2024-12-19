@@ -18,4 +18,4 @@ type should be one of {#Boolean. #Numeric. #Color. #Font}"
 		projectLocal: (localBoolean ifNil: [false])  
 		changeInformee: (informeeSymbol "ifNil: [nil]") 
 		changeSelector: (aChangeSelector "ifNil: [nil]") 
-		viewRegistry: (SLPreferences viewRegisteryFor: aSymbol).
+		type: aSymbol.

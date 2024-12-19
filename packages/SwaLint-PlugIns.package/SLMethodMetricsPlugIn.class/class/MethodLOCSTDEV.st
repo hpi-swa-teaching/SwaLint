@@ -2,9 +2,8 @@ preferences
 MethodLOCSTDEV
 
 	<slpreference: 'Method LOC STDEV'
-	type: #Numeric
-	categories: #(MethodMetrics)
-	defaultValue: 3
-	helpText: 'The standard deviation of the lines of code of a method'>
+	categoryList: #(MethodMetrics)
+	description: 'The standard deviation of the lines of code of a method'
+	type: #Numeric>
 	
 	^ MethodLOCSTDEV ifNil: [ 3 ]

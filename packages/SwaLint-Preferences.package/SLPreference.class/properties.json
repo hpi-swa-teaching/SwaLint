@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AT 2/8/2008 12:03",
+	"commentStamp" : "ct 12/19/2024 23:45",
 	"instvars" : [
 		"name",
 		"value",
@@ -14,7 +14,7 @@
 		"categoryList",
 		"changeInformee",
 		"changeSelector",
-		"viewRegistry" ],
+		"type" ],
 	"name" : "SLPreference",
 	"pools" : [
 		 ],

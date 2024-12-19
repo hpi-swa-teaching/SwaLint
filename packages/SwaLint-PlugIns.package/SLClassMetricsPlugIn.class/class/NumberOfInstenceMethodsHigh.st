@@ -2,9 +2,8 @@ preferences
 NumberOfInstenceMethodsHigh
 
 	<slpreference: 'Number of instance methods high' 
-	type: #Numeric
-	categories: #(ClassMetrics)
-	defaultValue: 40
-	helpText: 'The high border of number of instance methods for a class'>
+	categoryList: #(ClassMetrics)
+	description: 'The high border of number of instance methods for a class'
+	type: #Numeric>
 	
 	^ NumberOfInstenceMethodsHigh ifNil: [ 40 ]

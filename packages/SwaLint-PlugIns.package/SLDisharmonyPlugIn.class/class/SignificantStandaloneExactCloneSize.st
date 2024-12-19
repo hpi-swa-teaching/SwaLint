@@ -2,9 +2,8 @@ preferences
 SignificantStandaloneExactCloneSize
 
 	<slpreference: 'Significant standalone Exact clone size'
-	type: #Numeric
-	categories: #(Disharmony)
-	defaultValue: 7
-	helpText: 'The siginificant size of exact standalone clones.'>
+	categoryList: #(Disharmony)
+	description: 'The siginificant size of exact standalone clones.'
+	type: #Numeric>
 	
 	^ SignificantStandaloneExactCloneSize ifNil: [ 7 ]

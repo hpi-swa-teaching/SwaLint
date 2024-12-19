@@ -5,9 +5,4 @@ setPreferencesFrom: listOfPairs
 	listOfPairs do:
 		[:aPair |
 			(aPair second == #noOpinion) ifFalse:
-				[Preferences setPreference: aPair first toValue: ((aPair second == #true) or: [aPair second == true])]]
-
-"
-Preferences setPreferencesFrom: #(( mouseOverForKeyboardFocus false))
-Preferences setPreferencesFrom: {{  #mouseOverForKeyboardFocus. true}}
-"
+				[self setPreference: aPair first toValue: ((aPair second == #true) or: [aPair second == true])]]

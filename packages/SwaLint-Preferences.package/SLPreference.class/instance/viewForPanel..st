@@ -1,4 +1,4 @@
-user interface
+PreferenceBrowser
 viewForPanel: aPreferencePanel
 	| viewClass |
 	viewClass := self viewClassForPanel: aPreferencePanel.

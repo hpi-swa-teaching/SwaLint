@@ -1,4 +1,4 @@
 accessing
 ifColorizeResult: aBlock
 
-	SLPreferences ColorizeResults ifTrue: aBlock.
+	self ColorizeResults ifTrue: aBlock.

@@ -1,5 +1,5 @@
-preference-object access
+accessing
 preferenceAt: aSymbol 
 	"Answer the Preference object at the given symbol, or nil if not there"
 
-	^ self dictionaryOfPreferences  at:aSymbol  ifAbsent:[nil]
+	^self preferenceAt: aSymbol ifAbsent: [ nil ]

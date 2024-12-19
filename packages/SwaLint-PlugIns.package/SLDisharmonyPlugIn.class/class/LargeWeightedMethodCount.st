@@ -2,10 +2,9 @@ preferences
 LargeWeightedMethodCount
 
 	<slpreference: 'Large weighted method count'
-	type: #Numeric
-	categories: #(Disharmony)
-	defaultValue: nil
-	helpText: 'The weight of large methods'>
+	categoryList: #(Disharmony)
+	description: 'The weight of large methods'
+	type: #Numeric>
 	
 	^ LargeWeightedMethodCount 
 		ifNil: [SLClassMetricsPlugIn WMCAVRG + SLClassMetricsPlugIn WMCSTDEV * 3]

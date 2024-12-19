@@ -1,6 +1,6 @@
 world menu
 worldMenuPreferenceChanged
 
-	SLPreferences WorldMenuEntry 
+	self WorldMenuEntry 
 		ifTrue: [self registerInWorldMenu]
 		ifFalse: [self unregisterInWorldMenu].

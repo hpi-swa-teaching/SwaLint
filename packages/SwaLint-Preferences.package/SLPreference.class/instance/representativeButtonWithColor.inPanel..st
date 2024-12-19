@@ -1,4 +1,4 @@
-user interface
+PreferenceBrowser
 representativeButtonWithColor: aColor inPanel: aPanel
 	| view |
 	view := self viewForPanel: aPanel.

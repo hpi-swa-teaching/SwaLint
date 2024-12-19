@@ -1,7 +1,9 @@
-personalization
-loadPreferencesFrom: aFileName
-	| stream params dict desktopColor |
-	stream := ReferenceStream fileNamed: aFileName.
+initialization - save/load
+loadPreferencesFrom: aFile
+
+	| stream params dict desktopColor patternsToIgnore |
+	patternsToIgnore := #('*updateMapName' '*defaultUpdateURL').
+	stream := ReferenceStream fileNamed: aFile.
 	params := stream next.
 	self assert: (params isKindOf: IdentityDictionary).
 	params removeKey: #PersonalDictionaryOfPreferences.
@@ -9,12 +11,15 @@ loadPreferencesFrom: aFileName
 	self assert: (dict isKindOf: IdentityDictionary).
 	desktopColor := stream next.
 	stream close.
-	dict keysAndValuesDo:
-		[:key :value | (self preferenceAt: key ifAbsent: [nil]) ifNotNilDo:
-			[:pref | pref preferenceValue: value preferenceValue]].
-
+	dict rehash. "See http://lists.squeakfoundation.org/pipermail/squeak-dev/2021-December/217817.html"
+	dict keys
+		reject: [:key | patternsToIgnore anySatisfy: [:pattern | pattern match: key]]
+		thenDo: [:key | | value |
+			value := dict at: key.
+			(self preferenceAt: key ifAbsent: [nil]) ifNotNil:
+				[:pref | [pref preferenceValue: value preferenceValue]
+					on: Deprecation do: [ : err | "Ignore preferences which may not be supported anymore."]]].
 	params keysAndValuesDo: [ :key :value | self setParameter: key to: value ].
-
 	Smalltalk isMorphic
-		ifTrue: [ World fillStyle: desktopColor ]
-		ifFalse: [ self desktopColor: desktopColor. ScheduledControllers updateGray ].
+		ifTrue: [ Project current world fillStyle: desktopColor ]
+		ifFalse: [ self desktopColor: desktopColor. ScheduledControllers updateGray ]
