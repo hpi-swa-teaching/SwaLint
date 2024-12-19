@@ -1,7 +1,7 @@
 progress displaying
 progressBar: aProgressBar
 
-	processedItems := 0.
+	processedItems := Set new.
 	progressMorph := aProgressBar.
 	
-	self processed: nil.
+	self resetProgress.
