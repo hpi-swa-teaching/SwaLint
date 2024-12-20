@@ -9,5 +9,5 @@ systemCategory: category select: aBoolean
 	self changed: #selectedSystemCategories.
 	
 	aBoolean
-		ifTrue: [self selectedClasses: (self selectedClasses , (self classesInSystemCategory: category)) copyWithoutDuplicates]
+		ifTrue: [self selectedClasses: (self selectedClasses , (self classesInSystemCategory: category)) withoutDuplicates]
 		ifFalse: [self selectedClasses: (self selectedClasses intersection: self availableClasses)].

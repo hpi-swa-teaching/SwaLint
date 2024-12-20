@@ -11,10 +11,14 @@ buildTestTree: builder
 		getSelected: #selectedTestNodePath;
 		setSelected: #selectTestNodePath:;
 		help: #helpForTestNode:;
-		filterMode: #all;
 		
 		menu: #testNodeMenu:;
 		
-		autoExpand: #testTreeExpanded;
+		in: [:spec |
+			">= Squeak 6.1"
+			(spec respondsTo: #filterMode:) ifTrue:
+				[spec filterMode: #all].
+			(spec respondsTo: #autoExpand:) ifTrue:
+				[spec autoExpand: #testTreeExpanded]];
 		
 		yourself
