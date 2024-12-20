@@ -2,6 +2,7 @@
 	"class" : {
 		"mapTestsFrom:" : "ct 12/12/2024 04:14" },
 	"instance" : {
+		"assert:description:" : "ct 12/20/2024 03:32",
 		"basicMakeTestFrom:" : "ct 12/18/2024 00:01",
 		"buildCategoryTree:" : "ct 12/18/2024 22:03",
 		"buildTest:" : "ct 12/18/2024 00:02",
