@@ -1,5 +1,5 @@
 private
-averageHierarchyHightOf: aSLSystemTestObject
+averageHierarchyHeightOf: aSLSystemTestObject
 
 	^ ((aSLSystemTestObject rootClasses collect: 
 		[:class | class resultOf: #heightOfInheritanceTree: ]) sum) / (aSLSystemTestObject rootClasses size)

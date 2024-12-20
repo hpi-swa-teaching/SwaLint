@@ -1,8 +1,8 @@
 tests
-averageHierarchyHight: aSLSystemTestObject
+averageHierarchyHeight: aSLSystemTestObject
 
 	<slTestName: 'Average Hierarchy Height [AHH]'
 	description: 'Answers the average hierarchy height of the tested system.'>
 
 	aSLSystemTestObject shouldBeSystem.
-	^ self numericResult: (self averageHierarchyHightOf: aSLSystemTestObject)
+	^ self numericResult: (self averageHierarchyHeightOf: aSLSystemTestObject)

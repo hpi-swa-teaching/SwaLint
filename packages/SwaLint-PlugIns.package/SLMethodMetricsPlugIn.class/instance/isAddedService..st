@@ -2,7 +2,7 @@ tests
 isAddedService: aSLMethodTestObject
 
 	<slTestName: 'Method is an added Service'
-	description: 'Answers whether method extends its class interface comapred to its superclass'>
+	description: 'Answers whether method extends its class interface compared to its superclass'>
 
 	^ self booleanResult: (
 		aSLMethodTestObject parent testObject superclass allSelectors includes:
