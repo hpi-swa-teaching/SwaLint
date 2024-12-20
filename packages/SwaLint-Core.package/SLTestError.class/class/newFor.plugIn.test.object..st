@@ -1,6 +1,6 @@
 instance creation
-newFor: anError plugIn: aSLPlugIn test: aSLTestData object: aSLTestObject
+newFor: anException plugIn: aSLPlugIn test: aSLTestData object: aSLTestObject
 
 	^ (self new) 
-		error: anError;
+		exception: anException;
 		plugIn: aSLPlugIn test: aSLTestData object: aSLTestObject

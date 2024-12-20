@@ -3,8 +3,10 @@ fetchClassVariables
 	
 	classVariables := self 
 		collect: SLVariableTestObject 
-		from: self testObject class instVarNames. 	
+		from: self testObject classVarNames. 	
+	classVariables do: [:each | each isClassVariable: true].
 	classVariables addAll: (self 
 		collect: SLVariableTestObject 
-		from: self testObject classVarNames).
+		from: self testObject class instVarNames).
+	classVariables do: [:each | each classSide: true].
 	^ classVariables
