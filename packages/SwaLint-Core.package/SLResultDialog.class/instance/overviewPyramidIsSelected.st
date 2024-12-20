@@ -1,4 +1,4 @@
 accessing
 overviewPyramidIsSelected
 	
-	^ testsSelected contains: [ :each | each symbol = #overviewPyramidMetric: ]
+	^ self testsSelected contains: [ :each | each symbol = #overviewPyramidMetric: ]

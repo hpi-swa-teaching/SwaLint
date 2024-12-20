@@ -1,11 +1,11 @@
 accessing-test
 testDescription
 	
-	| test |
-	^ descriptionCollection isEmpty
+	^ self testSelected = 0
 		ifTrue: ['There is no test chosen.']
 		ifFalse: [
-			test := descriptionCollection last.
+			| test |
+			test := self tests at: self testSelected.
 			test name, ':', Character cr,
 				(test description
 					ifNil: ['There is no description for the chosen test.']
@@ -15,4 +15,4 @@ testDescription
 					ifTrue: ['', 'This test may require more time than other tests, hence the * in the name.' asText allBold, Character cr]),
 				Character cr,
 				'PlugIn: ', test plugIn, Character cr,
-				'ID: #', (test symbol readStream upTo: $:) ]
+				'ID: #', test key ]

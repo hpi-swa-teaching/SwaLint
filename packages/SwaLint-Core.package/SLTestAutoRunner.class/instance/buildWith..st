@@ -7,6 +7,4 @@ buildWith: aBuilder
 		self resultsFrame -> [self buildResultCountWith: aBuilder].
 	}.
 	windowSpec closeAction: #close.
-	self window: (aBuilder build: windowSpec).
-	
-	 ^ self window
+	^ aBuilder build: windowSpec

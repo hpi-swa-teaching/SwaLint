@@ -1,5 +1,5 @@
 updating
 updateCategories
 
-	categoriesSelected := categoriesSelected select: [ :each | self categories includes: each ].
-	self changed: #categoryList; changed: #categorySelected.
+	self categoriesSelected:
+		(self categoriesSelected select: [ :each | self categories includes: each ]).

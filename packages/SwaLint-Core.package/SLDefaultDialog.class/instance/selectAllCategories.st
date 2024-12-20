@@ -1,5 +1,4 @@
 accessing-categories
 selectAllCategories
 
-	categoriesSelected := self categories asSet.
-	self changed: #categorySelected; update.
+	self categoriesSelected: self categories asSet.

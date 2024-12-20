@@ -2,8 +2,8 @@ updating
 findClassesForSelectedCategories
 
 	| items chosenClasses |
-	categoriesSelected isEmpty ifTrue: [ ^ Set new ].
-	items := categoriesSelected gather: [ :category |
+	self categoriesSelected isEmpty ifTrue: [ ^ Set new ].
+	items := self categoriesSelected gather: [ :category |
 		((Smalltalk organization listAtCategoryNamed: (category name))
 			collect: [ :each | Smalltalk at: each ])].
 	chosenClasses := self environment classes.

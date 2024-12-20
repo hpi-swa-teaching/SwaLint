@@ -2,5 +2,5 @@ building
 hideOverviewPyramid
 
 	| resultListPanel |
-	resultListPanel := self resultPanel children first.
-	resultListPanel frame rightFraction: 1 offset: 0.
+	resultListPanel := self resultPanel submorphs first.
+	resultListPanel layoutFrame rightFraction: 1 offset: 0.

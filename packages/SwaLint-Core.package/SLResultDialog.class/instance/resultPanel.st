@@ -1,4 +1,4 @@
 building
 resultPanel
 
-	^ resultPanel
+	^ self containingWindow deepSubpartNamed: #resultsPanel

@@ -1,5 +1,4 @@
 accessing-testCategories
 selectAllTestCategories
 
-	testCategoriesSelected := self testCategories asSet.
-	self changed: #testCategorySelected; update.
+	self testCategoriesSelected: self testCategories asSet.

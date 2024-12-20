@@ -11,6 +11,6 @@ buildWith: aBuilder
 
 	tool := aBuilder build: window.
 
-	"Smalltalk isMorphic
-		ifTrue: [ self createOverviewPyramidMorph: tool ]."
+	Smalltalk isMorphic
+		ifTrue: [ self createOverviewPyramidMorph: tool ].
 	^ tool

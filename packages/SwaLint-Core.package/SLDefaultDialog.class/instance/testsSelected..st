@@ -2,4 +2,4 @@ accessing
 testsSelected: aSet
 
 	testsSelected := aSet.
-	self changed: #testSelected; changed: #runnable.
+	self changed: #testsSelected; changed: #testAt:; changed: #runnable.

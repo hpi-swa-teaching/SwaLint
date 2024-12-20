@@ -2,4 +2,4 @@ accessing-test
 testSelected: anInteger
 
 	testIndex := anInteger.
-	self changed: #testSelected; changed: #runnable.
+	self changed: #testSelected; changed: #testDescription; changed: #runnable.

@@ -9,4 +9,3 @@ initializeInstanceVariables
 	tests := OrderedCollection new.
 	testIndex := 0.
 	selectByCategory := true.
-	descriptionCollection := OrderedCollection new.
