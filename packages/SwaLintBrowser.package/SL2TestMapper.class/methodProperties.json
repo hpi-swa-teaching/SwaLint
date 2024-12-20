@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"mapTestsFrom:" : "ct 12/12/2024 04:14" },
+	"instance" : {
+		"basicMakeTestFrom:" : "ct 12/18/2024 00:01",
+		"buildCategoryTree:" : "ct 12/18/2024 22:03",
+		"buildTest:" : "ct 12/18/2024 00:02",
+		"createCategories" : "ct 12/18/2024 02:19",
+		"makeCategoryWithPath:" : "ct 12/17/2024 23:47",
+		"makeTestFrom:" : "ct 12/18/2024 00:01",
+		"mapBasicTestFrom:" : "ct 12/19/2024 21:17",
+		"mapBasicTestsFrom:" : "ct 12/19/2024 05:04",
+		"mapTestFrom:" : "ct 12/19/2024 05:31",
+		"mapTestsFrom:" : "ct 12/18/2024 22:35",
+		"testCategoryClass" : "ct 12/17/2024 23:47",
+		"testCategoryPragmas" : "ct 12/17/2024 23:53",
+		"testClass" : "ct 12/12/2024 04:13",
+		"testPragmas" : "ct 12/13/2024 00:47",
+		"testStarPragmas" : "ct 12/19/2024 04:57" } }

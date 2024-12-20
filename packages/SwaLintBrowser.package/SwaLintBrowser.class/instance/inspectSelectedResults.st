@@ -1,0 +1,4 @@
+actions
+inspectSelectedResults
+
+	^ self resultsForTestAndMessageSelection inspect

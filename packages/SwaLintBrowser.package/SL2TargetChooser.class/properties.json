@@ -1,0 +1,20 @@
+{
+	"category" : "SwaLintBrowser-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"systemOrganizer",
+		"allSystemCategories",
+		"allClasses",
+		"accepted",
+		"selectedSystemCategory",
+		"selectedClass" ],
+	"name" : "SL2TargetChooser",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

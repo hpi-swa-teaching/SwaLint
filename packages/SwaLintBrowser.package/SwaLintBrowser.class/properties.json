@@ -1,0 +1,21 @@
+{
+	"category" : "SwaLintBrowser-UI",
+	"classinstvars" : [
+		"redundantVar2" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"tests",
+		"results",
+		"shouldDisplayAllTests",
+		"selectedClass",
+		"selectedMessageName",
+		"selectedTestNodePath",
+		"testNodePaths" ],
+	"name" : "SwaLintBrowser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"type" : "normal" }

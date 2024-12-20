@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLintBrowser-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"path",
+		"parent",
+		"title",
+		"sortKey",
+		"description" ],
+	"name" : "SL2TestCategory",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

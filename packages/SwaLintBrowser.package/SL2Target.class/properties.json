@@ -1,0 +1,15 @@
+{
+	"category" : "SwaLintBrowser-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 12/19/2024 21:22",
+	"instvars" : [
+		"systemCategories",
+		"classes" ],
+	"name" : "SL2Target",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

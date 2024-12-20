@@ -1,0 +1,1 @@
+I map traditional SwaLint tests (SLTestData) from an SLEnvironment to modern SL2Tests. My subclasses can define maps to assign each traditional test to a new test with an updated title, description, and one or multiple categories.

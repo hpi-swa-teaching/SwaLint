@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLintBrowser-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SL2GlobalResult",
+	"pools" : [
+		 ],
+	"super" : "SL2Result",
+	"type" : "normal" }
