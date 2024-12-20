@@ -32,15 +32,17 @@ baseline: spec
 			package: 'SwaLint-PlugIns' with: [ spec requires: 'SwaLint-Core' ];
 			package: 'SwaLint-Slime-Grease' with: [spec requires: #('SwaLint-PlugIns' 'Grease')];
 			package: 'SwaLint-Slime-Seaside' with: [spec requires: #('SwaLint-PlugIns' 'Seaside3')];
-			package: 'SwaLint-Tests' with: [ spec requires: #('SwaLint-Core' 'SwaLint-PlugIns') ].
+			package: 'SwaLint-Tests' with: [ spec requires: #('SwaLint-Core' 'SwaLint-PlugIns') ];
+			package: 'SwaLintBrowser' with: [ spec requires: #('SwaLint-Core' 'SwaLint-PlugIns') ].
 		spec
-			group: 'default' with: #('PlugIns');
+			group: 'default' with: #('PlugIns' 'Browser');
 			group: 'portability' with: #('PlugIns' 'SwaLint-Slime-Grease');
 			group: 'web' with: #('portability' 'SwaLint-Slime-Seaside');
 			group: 'Core' with: #('SwaLint-Core');
 			group: 'All' with: #('Tests' 'web');
 			group: 'PlugIns' with: #('SwaLint-PlugIns');
-			group: 'Tests' with: #('SwaLint-Tests')].
+			group: 'Tests' with: #('SwaLint-Tests');
+			group: 'Browser' with: #('SwaLintBrowser')].
 	spec for: #'squeak6.x' do: [
 		spec 
 			project: 'RefactoringBrowser' with: [
