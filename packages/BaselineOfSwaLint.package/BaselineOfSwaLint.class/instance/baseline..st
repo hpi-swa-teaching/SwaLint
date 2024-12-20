@@ -48,7 +48,7 @@ baseline: spec
 			project: 'RefactoringBrowser' with: [
 				spec 
 					className: 'ConfigurationOfRefactoringBrowser';
-					versionString: '3.0';
+					versionString: '3.2';
 					loads: #('Core');
 					repository: 'http://www.squeaksource.com/MetacelloRepository']].
 	spec for: #'pharo' do: [

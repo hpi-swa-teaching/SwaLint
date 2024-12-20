@@ -1,8 +1,8 @@
 app - self-updating
 selfUpdateFromMetacello
 
-	Metacello new
-		baseline: self appName;
-		repository: self selfUpdateGitHubPath;
-		get;
-		load.
+	| metacello project |
+	metacello := self metacello.
+	project := metacello get.
+	project configuration installDependencies.
+	metacello load: self basicSelfUpdateMetacelloSpec.
