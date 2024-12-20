@@ -1,4 +1,4 @@
 preferences
 preference: aSymbol
 
-	^ (SLPreferences preferenceAt: aSymbol) preferenceValue
+	^ self class perform: aSymbol

@@ -4,6 +4,6 @@ MinimumDuplicationChainLength
 	<slpreference: 'Minimum duplication chain length'
 	categoryList: #(Disharmony)
 	description: 'The minimum length of the duplication chain.'
-	type: #Numeric>
+	type: #Number>
 	
 	^ MinimumDuplicationChainLength ifNil: [ 9 ]

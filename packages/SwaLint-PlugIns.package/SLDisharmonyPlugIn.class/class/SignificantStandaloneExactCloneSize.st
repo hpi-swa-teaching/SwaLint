@@ -4,6 +4,6 @@ SignificantStandaloneExactCloneSize
 	<slpreference: 'Significant standalone Exact clone size'
 	categoryList: #(Disharmony)
 	description: 'The siginificant size of exact standalone clones.'
-	type: #Numeric>
+	type: #Number>
 	
 	^ SignificantStandaloneExactCloneSize ifNil: [ 7 ]

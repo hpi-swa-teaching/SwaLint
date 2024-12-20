@@ -4,6 +4,6 @@ WMCAVRG
 	<slpreference: 'WMC average'
 	categoryList: #(ClassMetrics)
 	description: 'The average weighted method count for a class'
-	type: #Numeric>
+	type: #Number>
 	
 	^ WMCAVRG ifNil: [ 25 ]

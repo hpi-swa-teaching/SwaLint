@@ -10,4 +10,4 @@ addNumericPreference: aName categories: categoryList default: aValue balloonHelp
 		projectLocal: nil 
 		changeInformee: nil 
 		changeSelector: nil 
-		type: #Numeric
+		type: #Number

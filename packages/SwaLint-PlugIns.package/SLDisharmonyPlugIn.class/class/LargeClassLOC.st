@@ -4,7 +4,7 @@ LargeClassLOC
 	<slpreference: 'Large class LOC'
 	categoryList: #(Disharmony)
 	description: 'Lines of code for large classes. '
-	type: #Numeric>
+	type: #Number>
 	
 	^ LargeClassLOC 
 		ifNil: [SLClassMetricsPlugIn ClassLOCAVRG + SLClassMetricsPlugIn ClassLOCSTDEV * 3 ]
