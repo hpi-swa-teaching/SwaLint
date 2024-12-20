@@ -3,12 +3,12 @@ overviewPyramidMetric: aSLSystemTestObject
 
 	<slTestName: 'Overview Pyramid'
 	description: 'Shows the overview pyramid in morphic.' >
-	<slTestHidden: true
+	<slTestHidden: false
 	longRuntime: true>
 
 	aSLSystemTestObject shouldBeSystem.
 	^ (self collectionResult: (Dictionary newFrom:
-		{#ahh->(aSLSystemTestObject resultOf: #averageHierarchyHight:) result.
+		{#ahh->(aSLSystemTestObject resultOf: #averageHierarchyHeight:) result.
 		#andc->(aSLSystemTestObject resultOf: #averageNumberOfDerivedClasses:) result.
 		#calls->(self systemCALLS: aSLSystemTestObject).
 		#cyclo->(self systemCYCLO: aSLSystemTestObject).
