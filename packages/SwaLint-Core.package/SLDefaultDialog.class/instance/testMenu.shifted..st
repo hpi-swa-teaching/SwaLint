@@ -1,6 +1,10 @@
 accessing-test
-testMenu: aMenu
+testMenu: aMenu shifted: shifted
 
+	(shifted and: [self testSelected > 0]) ifTrue:
+		[aMenu
+			add: 'Browse' action: #browseTest;
+			addLine].
 	^ aMenu
 		title: 'Tests';
 		addLine;

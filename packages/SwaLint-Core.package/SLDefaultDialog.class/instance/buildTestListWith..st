@@ -5,7 +5,7 @@ buildTestListWith: aBuilder
 		model: self;
 		name: 'Test List';
 		list: #testList;
-		menu: #testMenu:;
+		menu: #testMenu:shifted:;
 		getIndex: #testSelected; 
 		setIndex: #testSelected:;
 		getSelectionList: #testAt:;
