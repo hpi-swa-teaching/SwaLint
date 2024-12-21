@@ -1,5 +1,20 @@
 accessing
 label
 
-	self flag: #todo. "compute compact representation"
-	^ '{1} / {2}' format: {self systemCategories asCommaStringAnd. self classes asCommaStringAnd}
+	| allCategories allClasses |
+	self flag: #todo. "compute more compact representation"
+	
+	allCategories := OrderedCollection new.
+	allClasses := OrderedCollection withAll: self classes.
+	self systemCategories do: [:category |
+		| categoryClasses |
+		categoryClasses := SystemOrganizer default listAtCategoryNamed: category.
+		(allClasses includesAllOf: categoryClasses) ifTrue:
+			[allClasses removeAll: categoryClasses.
+			allCategories add: category]].
+	
+	allCategories ifEmpty:
+		[allClasses ifEmpty: [^ '(none)'].
+		^ allClasses asCommaStringAnd].
+	allClasses ifEmpty: [^ allCategories asCommaStringAnd].
+	^ '{1} + {2}' format: {allCategories asCommaStringAnd. allClasses asCommaStringAnd}

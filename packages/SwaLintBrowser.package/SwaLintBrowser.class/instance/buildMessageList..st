@@ -8,7 +8,7 @@ buildMessageList: builder
 		list: #messageLabels;
 		getIndex: #selectedMessageIndex;
 		setIndex: #selectMessageIndex:;
-		helpItem: #messageHelpAt:;
+		helpItem: #helpForMessageAt:;
 		
 		menu: #messageListMenu:shifted:;
 		keyPress: #messageListKey:from:;

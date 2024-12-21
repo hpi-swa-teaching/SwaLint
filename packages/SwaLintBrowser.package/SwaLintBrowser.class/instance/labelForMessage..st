@@ -1,8 +1,16 @@
 accessing - toolbuilder
 labelForMessage: message
 
-	| count label |
+	| label messageResults count |
 	label := message asString.
-	count := (self resultsForTestAndClassSelectionAndMessage: message) size.
-	count = 1 ifTrue: [^ label].
-	^ '{1} ({2})' format: {label. count}
+	messageResults := self resultsForTestAndClassSelectionAndMessage: message.
+	count := messageResults size.
+	count = 1 ifFalse:
+		[label := '{1} ({2})' format: {label. count}].
+	
+	(messageResults anySatisfy: [:result | result isOutOfSync]) ifTrue:
+		[label := label asText
+			addAttribute: (TextColor color: Color gray);
+			yourself].
+	
+	^ label
