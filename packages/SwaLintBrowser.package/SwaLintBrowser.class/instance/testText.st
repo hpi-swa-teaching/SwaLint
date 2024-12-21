@@ -1,6 +1,6 @@
 accessing - toolbuilder
 testText
-	<uses: #(selectedMessageName selectedTestNode results)>
+	<uses: #(selectedMessageName selectedTestNode displayedResults)>
 
 	| description resultsText |
 	description := self hasMessageSelected

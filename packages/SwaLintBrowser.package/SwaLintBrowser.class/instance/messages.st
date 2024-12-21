@@ -1,6 +1,6 @@
 accessing - toolbuilder
 messages
-	<uses: #(results selectedClass)>
+	<uses: #(displayedResults selectedClass)>
 
 	^ (self resultsForTestAndClassSelection
 		collect: [:result | result message] as: Set)

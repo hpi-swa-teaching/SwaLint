@@ -1,6 +1,6 @@
 accessing
 displayedTests
-	<uses: #(results shouldDisplayAllTests tests)>
+	<uses: #(displayedResults shouldDisplayAllTests tests)>
 
 	self shouldDisplayAllTests ifTrue: [^ self tests].
-	^ self results collect: #test as: Set
+	^ self displayedResults collect: #test as: Set

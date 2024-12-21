@@ -1,6 +1,6 @@
 accessing
 selectedMessage
-	<uses: #(results selectedMessageName)>
+	<uses: #(displayedResults selectedMessageName)>
 
 	self hasMessageSelected ifFalse: [^ ''].
 	self selectedMessageName isSymbol ifFalse:

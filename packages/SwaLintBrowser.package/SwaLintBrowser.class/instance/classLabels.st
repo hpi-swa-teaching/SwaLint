@@ -1,6 +1,6 @@
 accessing - toolbuilder
 classLabels
-	<uses: #(classes results)>
+	<uses: #(classes displayedResults)>
 
 	^ self classes collect: [:class |
 		self labelForClass: class]

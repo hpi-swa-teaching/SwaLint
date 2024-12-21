@@ -1,6 +1,6 @@
 accessing - toolbuilder
 childrenForTestNode: node
-	<uses: #(results)>
+	<uses: #(displayedResults)>
 
 	(node ifNil: ["hacked!"^ #()]) isCategory ifFalse: [^ #()].
 	

@@ -1,6 +1,6 @@
 accessing
 resultsForTestSelection
 
-	self hasTestNodeSelected ifFalse: [^ self results].
+	self hasTestNodeSelected ifFalse: [^ self displayedResults].
 	
 	^ self resultsForTestNode: self selectedTestNode

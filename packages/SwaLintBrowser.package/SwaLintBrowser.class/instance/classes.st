@@ -1,6 +1,6 @@
 accessing
 classes
-	<uses: #(results selectedTestNode)>
+	<uses: #(displayedResults selectedTestNode)>
 
 	^ (self resultsForTestSelection
 		collect: [:result | result classObject] as: Set)
