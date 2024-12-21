@@ -16,7 +16,8 @@ testText
 		['<!--<b>Results:</b><br>-->{1}' asTextFromHtml format:
 			{(self resultsForTestAndMessageSelection
 				collect: [:result | '{1}: {2}' asText format: {result test title. result valueString}])
-					inject: Text new into: #,}].
+					ifEmpty: ['(none)'] ifNotEmpty: [:results |
+						results fold: [:a :b | a asText , String cr , b]]}].
 	
 	^ Text streamContents: [:stream |
 		({resultsText. description} copyWithout: nil)
