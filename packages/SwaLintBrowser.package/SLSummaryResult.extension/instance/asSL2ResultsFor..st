@@ -10,7 +10,7 @@ asSL2ResultsFor: aSL2Test
 						(testMethod asSL2ResultFor: aSL2Test with:
 							(testMethod resultOf: self summarizedTest))].
 			(self testObject variables
-				anySatisfy: [:testMethod | self selectForSummary: testMethod])
+				anySatisfy: [:variable | self selectForSummary: variable])
 					ifTrue:
 						[stream nextPut:
 							(self testObject asSL2ResultFor: aSL2Test with: self)]].
