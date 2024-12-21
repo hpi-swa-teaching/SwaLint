@@ -10,9 +10,10 @@ buildTestTree: builder
 		getChildren: #childrenForTestNodePath:;
 		getSelected: #selectedTestNodePath;
 		setSelected: #selectTestNodePath:;
-		help: #helpForTestNode:;
+		help: #helpForTestNodePath:;
 		
 		menu: #testNodeMenu:;
+		keyPress: #testTreeKey:from:;
 		
 		in: [:spec |
 			">= Squeak 6.1"
