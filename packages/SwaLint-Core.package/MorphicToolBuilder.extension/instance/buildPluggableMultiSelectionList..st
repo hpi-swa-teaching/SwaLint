@@ -1,4 +1,4 @@
-*SwaLint-Core-UserInterface
+*SwaLint-Core-UserInterface-override
 buildPluggableMultiSelectionList: aSpec
 	| widget listClass |
 	aSpec getSelected ifNotNil:[^self error:'There is no PluggableListMorphOfManyByItem'].
@@ -17,6 +17,9 @@ buildPluggableMultiSelectionList: aSpec
 	widget getIconSelector: aSpec icon.
 	self buildHelpFor: widget spec: aSpec. 
 	self setFrame: aSpec frame in: widget.
+	self setLayoutHintsFor: widget spec: aSpec.
+	aSpec itemAlignment ifNotNil: [:alignment | widget listMorph cellPositioning: alignment].
+	aSpec itemPadding ifNotNil: [:padding | widget listMorph cellInset: padding].
 	parent ifNotNil:[self add: widget to: parent].
 	panes ifNotNil:[
 		aSpec list ifNotNil:[panes add: aSpec list].

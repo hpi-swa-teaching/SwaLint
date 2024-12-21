@@ -1,6 +1,7 @@
 building
 buildWith: aBuilder
-	| window tool |
+
+	| window |
 	window := self buildWindowWith: aBuilder specs:{
 		self buttonsFrame -> [self buildButtonsWith: aBuilder].
 		self categoriesFrame -> [self buildCategoriesWith: aBuilder].
@@ -9,8 +10,4 @@ buildWith: aBuilder
 		self testsFrame -> [self buildTestListWith: aBuilder].
 		self resultsFrame -> [self buildResultsWith: aBuilder]}.
 
-	tool := aBuilder build: window.
-
-	Smalltalk isMorphic
-		ifTrue: [ self createOverviewPyramidMorph: tool ].
-	^ tool
+	^ aBuilder build: window
