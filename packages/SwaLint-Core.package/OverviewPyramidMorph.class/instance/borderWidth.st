@@ -1,4 +1,4 @@
 initialization
 borderWidth
 
-	^ 1
+	^ 1 px

@@ -1,0 +1,4 @@
+constants
+yOffset
+
+	^ self subclassResponsibility

@@ -1,4 +1,4 @@
 positioning
 defaultMorphEntryWidthExtension
 
-	^ 35
+	^ 35 px
