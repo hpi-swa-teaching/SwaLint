@@ -15,8 +15,8 @@ testText
 	resultsText := self hasMessageSelected ifTrue:
 		['<!--<b>Results:</b><br>-->{1}' asTextFromHtml format:
 			{(self resultsForTestAndMessageSelection
-				collect: [:result | '{1}: {2}' format: {result test title. result valueString}])
-					joinSeparatedBy: String cr}].
+				collect: [:result | '{1}: {2}' asText format: {result test title. result valueString}])
+					inject: Text new into: #,}].
 	
 	^ Text streamContents: [:stream |
 		({resultsText. description} copyWithout: nil)

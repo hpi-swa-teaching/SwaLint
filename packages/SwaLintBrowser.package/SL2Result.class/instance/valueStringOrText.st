@@ -1,0 +1,4 @@
+accessing
+valueStringOrText
+
+	^ self valueString
