@@ -5,5 +5,5 @@ mapNilObsession: aSLTestData
 	^ (self makeTestFrom: aSLTestData)
 		title: 'Nil obsession';
 		addCategoryPath: #('design quality' 'disharmonies');
-		addCategoryPath: #('<SWA critical>');
+		addCategoryPath: #('<SWA starting points>');
 		yourself

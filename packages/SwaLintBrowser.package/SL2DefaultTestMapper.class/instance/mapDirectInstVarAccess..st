@@ -5,5 +5,5 @@ mapDirectInstVarAccess: aSLTestData
 	^ (self makeTestFrom: aSLTestData)
 		title: 'Direct instvar access';
 		addCategoryPath: #('design quality' 'antipatterns');
-		addCategoryPath: #('<SWA critical>');
+		addCategoryPath: #('<SWA starting points>');
 		yourself

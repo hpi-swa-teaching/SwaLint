@@ -4,5 +4,5 @@ mapMagicNumbers: aSLTestData
 
 	^ (self makeTestFrom: aSLTestData)
 		addCategoryPath: #('design quality' 'antipatterns');
-		addCategoryPath: #('<SWA critical>');
+		addCategoryPath: #('<SWA starting points>');
 		yourself

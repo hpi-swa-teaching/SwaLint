@@ -4,5 +4,5 @@ mapClassWithoutComment: aSLTestData
 
 	^ (self makeTestFrom: aSLTestData)
 		addCategoryPath: #('code quality' 'coding styles');
-		addCategoryPath: #('<SWA critical>');
+		addCategoryPath: #('<SWA starting points>');
 		yourself
