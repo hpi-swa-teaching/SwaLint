@@ -13,4 +13,5 @@ buildSystemCategoryList: builder
 		setIndex: #selectSystemCategoryAt:;
 		getSelectionList: #hasSystemCategorySelectedAt:;
 		setSelectionList: #systemCategoryAt:select:;
+		menu: #systemCategoryMenu:;
 		yourself

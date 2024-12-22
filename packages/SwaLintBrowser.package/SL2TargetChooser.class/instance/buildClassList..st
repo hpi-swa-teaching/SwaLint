@@ -13,4 +13,5 @@ buildClassList: builder
 		setIndex: #selectClassAt:;
 		getSelectionList: #hasClassSelectedAt:;
 		setSelectionList: #classAt:select:;
+		menu: #classMenu:;
 		yourself

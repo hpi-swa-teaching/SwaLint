@@ -1,4 +1,4 @@
 private
 classesInSystemCategory: category
 
-	^ self systemOrganizer listAtCategoryNamed: category
+	^ self systemOrganizer sl2ClassesInCategory: category

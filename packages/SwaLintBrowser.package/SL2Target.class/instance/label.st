@@ -8,7 +8,7 @@ label
 	allClasses := OrderedCollection withAll: self classes.
 	self systemCategories do: [:category |
 		| categoryClasses |
-		categoryClasses := SystemOrganizer default listAtCategoryNamed: category.
+		categoryClasses := SystemOrganizer default sl2ClassesInCategory: category.
 		(allClasses includesAllOf: categoryClasses) ifTrue:
 			[allClasses removeAll: categoryClasses.
 			allCategories add: category]].
