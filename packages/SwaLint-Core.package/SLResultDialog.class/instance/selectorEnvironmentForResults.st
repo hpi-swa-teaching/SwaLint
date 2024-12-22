@@ -14,5 +14,5 @@ selectorEnvironmentForResults
 				ifFalse: [self addResult: result toEnvironment: environment]. 
 			selectedTests add: result testData]].
 	
-	environment label: ((self resultDialogLabelFor: selectedTests), ' (', self environment timeString, ')').
+	environment label: ((self resultDialogLabelFor: selectedTests), ' (', self testEnvironment timeString, ')').
 	^ environment

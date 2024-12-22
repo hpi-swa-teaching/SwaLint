@@ -9,7 +9,7 @@ categoryAt: anInteger put: aBoolean
 				ifTrue: [ self categoriesSelected copyWith: target ]
 				ifFalse: [ self categoriesSelected copyWithout: target ]]
 			ifFalse: [| categoryList package |
-				package := self environment packageForCategory: target.
+				package := self testEnvironment packageForCategory: target.
 				categoryList := self getCategoriesFor: package.
 				aBoolean
 					ifTrue: [ self categoriesSelected, categoryList ]

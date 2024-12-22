@@ -3,9 +3,9 @@ fetchAllTestObjects
 	"Fetches System- and CategoryTestObjects as well as all selected ClassTestObjects "
 	| allTestObjects |
 	allTestObjects := OrderedCollection new
-		addAll: (self environment testSystem children);
-		add: (self environment testSystem);
+		addAll: (self testEnvironment testSystem children);
+		add: (self testEnvironment testSystem);
 		yourself.
-	classesSelected do: [ :each | allTestObjects addAll: (self fetchChildTestObjectsFrom: each)].
+	self classesSelected do: [ :each | allTestObjects addAll: (self fetchChildTestObjectsFrom: each)].
 	
 	^ allTestObjects

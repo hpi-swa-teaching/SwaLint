@@ -1,6 +1,6 @@
 updating
 update: aspect
 
-	aspect == self environment ifTrue:
+	aspect == self testEnvironment ifTrue:
 		[self update].
 	^ super update: aspect

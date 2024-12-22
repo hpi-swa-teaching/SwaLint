@@ -5,7 +5,7 @@ findResults
 	allTestObjects := self fetchAllTestObjects.
 	resultsDict := Dictionary new.
 
-	self environment results do: [ :each | 
+	self testEnvironment results do: [ :each | 
 		((allTestObjects includes: (each testObject)) 
 		and: [self testsSelected anySatisfy: [ :testData | testData symbol = each testData symbol]]) 
 			ifTrue: [self addEntry: each to: resultsDict]].

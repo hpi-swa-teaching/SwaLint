@@ -1,4 +1,4 @@
 accessing
-environment: anObject
+testEnvironment: anObject
 
 	environment := anObject
