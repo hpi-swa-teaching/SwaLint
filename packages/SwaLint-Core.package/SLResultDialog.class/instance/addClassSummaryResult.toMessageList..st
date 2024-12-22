@@ -13,7 +13,7 @@ addClassSummaryResult: aSLSummaryResult toMessageList: aSet
 	aSLSummaryResult testObject classMethods do: [ :method |
 		aSLSummaryResult selectForSummary: method ifTrue: [
 			aSet add: (MethodReference 				
-				class: class class
+				class: class theMetaClass
 				selector: method methodSelector)]].
 	
 	(aSLSummaryResult testObject variables anySatisfy: [ :variable |

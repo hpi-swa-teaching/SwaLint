@@ -7,6 +7,6 @@ fetchClassVariables
 	classVariables do: [:each | each isClassVariable: true].
 	classVariables addAll: (self 
 		collect: SLVariableTestObject 
-		from: self testObject class instVarNames).
+		from: self testObject theMetaClass instVarNames).
 	classVariables do: [:each | each classSide: true].
 	^ classVariables

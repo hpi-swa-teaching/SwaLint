@@ -3,8 +3,10 @@ fetchSuperClassVariables
 	
 	superClassVariables := self 
 		collect: SLVariableTestObject 
-		from: self testObject class superclass allInstVarNames. 	
-	superClassVariables addAll: (self 
+		from: self testObject superclass allClassVarNames.
+	classVariables do: [:each | each isClassVariable: true].
+	classVariables addAll: (self
 		collect: SLVariableTestObject 
-		from: self testObject superclass allClassVarNames).
+		from: self testObject theMetaClass superclass allInstVarNames).
+	classVariables do: [:each | each classSide: true].
 	^ superClassVariables
