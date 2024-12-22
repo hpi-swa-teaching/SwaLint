@@ -5,4 +5,8 @@ setClass: aBehavior selector: aSymbol
 		[contents := currentCompiledMethod := nil.
 		self decorateButtons.
 		^ self].
+	aBehavior compiledMethodAt: aSymbol ifAbsent:
+		[contents := currentCompiledMethod := nil.
+		self decorateButtons.
+		^ self].
 	^ super setClass: aBehavior selector: aSymbol
