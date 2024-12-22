@@ -2,6 +2,7 @@
 	"category" : "SwaLintBrowser-UI",
 	"classinstvars" : [
 		"redundantVar2" ],
+	"classtraitcomposition" : "SL2AspectDependencyGraph classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -18,4 +19,5 @@
 	"pools" : [
 		 ],
 	"super" : "CodeHolder",
+	"traitcomposition" : "SL2AspectDependencyGraph",
 	"type" : "normal" }
