@@ -7,7 +7,7 @@ selectorEnvironmentForResults
 		ifAbsent: [Smalltalk at: #RBSelectorEnvironment]) new.
 	selectedTests := Set new.
 	
-	resultsSelected do: [ :result |
+	self resultsSelected do: [ :result |
 		result hasDetails ifTrue: [
 			result isSummary 
 				ifTrue: [self addSummaryResult: result toEnvironment: environment]
