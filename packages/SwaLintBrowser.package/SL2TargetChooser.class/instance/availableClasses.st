@@ -1,5 +1,7 @@
 accessing - toolbuilder
 availableClasses
+	<uses: #selectedSystemCategories>
 
-	^ (self selectedSystemCategories gather: [:category | self classesInSystemCategory: category])
-		sorted: #name ascending
+	^ self cached:
+		[(self selectedSystemCategories gather: [:category | self classesInSystemCategory: category])
+			sl2SortedByHeavy: #name]

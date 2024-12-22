@@ -12,7 +12,8 @@
 		"allClasses",
 		"accepted",
 		"selectedSystemCategory",
-		"selectedClass" ],
+		"selectedClass",
+		"caches" ],
 	"name" : "SL2TargetChooser",
 	"pools" : [
 		 ],
