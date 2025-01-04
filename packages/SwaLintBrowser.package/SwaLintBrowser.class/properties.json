@@ -14,7 +14,8 @@
 		"selectedClass",
 		"selectedMessageName",
 		"selectedTestNodePath",
-		"testNodePaths" ],
+		"testNodePaths",
+		"caches" ],
 	"name" : "SwaLintBrowser",
 	"pools" : [
 		 ],

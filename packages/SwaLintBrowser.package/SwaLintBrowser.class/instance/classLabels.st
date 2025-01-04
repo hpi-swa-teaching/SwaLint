@@ -2,5 +2,6 @@ accessing - toolbuilder
 classLabels
 	<uses: #(classes displayedResults)>
 
-	^ self classes collect: [:class |
-		self labelForClass: class]
+	^ self cached:
+		[self classes collect: [:class |
+			self labelForClass: class]]

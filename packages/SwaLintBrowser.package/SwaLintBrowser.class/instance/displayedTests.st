@@ -2,5 +2,7 @@ accessing
 displayedTests
 	<uses: #(displayedResults shouldDisplayAllTests tests)>
 
-	self shouldDisplayAllTests ifTrue: [^ self tests].
-	^ self displayedResults collect: #test as: Set
+	^ self cached:
+		[self shouldDisplayAllTests
+			ifTrue: [self tests]
+			ifFalse: [self displayedResults collect: #test as: Set]]

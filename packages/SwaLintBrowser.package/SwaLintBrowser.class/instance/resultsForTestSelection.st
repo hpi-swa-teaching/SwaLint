@@ -1,6 +1,8 @@
 accessing
 resultsForTestSelection
+	<uses: #(selectedTestNode displayedResults)>
 
-	self hasTestNodeSelected ifFalse: [^ self displayedResults].
-	
-	^ self resultsForTestNode: self selectedTestNode
+	^ self cached:
+		[self hasTestNodeSelected
+			ifFalse: [self displayedResults]
+			ifTrue: [self resultsForTestNode: self selectedTestNode]]
