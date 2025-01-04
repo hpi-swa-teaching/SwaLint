@@ -1,4 +1,4 @@
 preferences
 hasPreference: aSymbol
 
-	^ self class respondsTo: aSymbol
+	^ SLPlugIn withAllSubclasses anySatisfy: [:plugInClass | plugInClass respondsTo: aSymbol]
