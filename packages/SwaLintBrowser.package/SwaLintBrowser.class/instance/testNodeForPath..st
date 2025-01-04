@@ -1,5 +1,6 @@
 accessing - toolbuilder - test tree objects
 testNodeForPath: path
+	"See comment in #testNodePathFor:parent:."
 
 	| string |
 	string := (path ifNil: [^ nil]) lines last.
