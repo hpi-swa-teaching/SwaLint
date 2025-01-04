@@ -1,5 +1,5 @@
 debugging
 debugOut: anObject
 
-	self debug ifTrue: [
+	self debugMode ifTrue: [
 		Transcript show: anObject asString].
