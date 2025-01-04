@@ -1,4 +1,4 @@
 actions
 copySelectedTestName
 
-	Clipboard clipboardText: (self selectedTestNode ifNil: [^ self changed: #flash]) title.
+	Clipboard clipboardText: (self selectedTestNode ifNil: [^ self changed: #flash]) uniqueTitle.
