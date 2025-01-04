@@ -39,6 +39,7 @@
 		"testLawOfDemeter" : "BD 6/22/2018 13:51",
 		"testLiteralArrayCharacters" : "LS 6/16/2018 14:02",
 		"testLiteralArrayContainsComma" : "LS 6/16/2018 14:02",
+		"testLiteralArrayContainsDot" : "ct 12/13/2024 03:17",
 		"testLiteralValuesSpelling" : "LS 6/16/2018 14:02",
 		"testMethodModifierFinal" : "LS 6/16/2018 14:02",
 		"testMethodModifierOverride" : "LS 6/16/2018 14:02",
