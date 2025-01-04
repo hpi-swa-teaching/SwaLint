@@ -1,4 +1,4 @@
 initialize-release
 unregisterInWorldMenu
 
-	TheWorldMenu unregisterOpenCommand: self swaLint.
+	TheWorldMenu unregisterOpenCommand: self worldMenuLabel.

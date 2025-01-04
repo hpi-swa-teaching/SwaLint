@@ -50,7 +50,7 @@
 		"projectLogoContents" : "NR 5/28/2008 14:29",
 		"refresh" : "BD 7/9/2018 18:16",
 		"refreshAllEnvironments" : "BD 7/13/2018 11:56",
-		"registerInWorldMenu" : "ct 12/20/2024 00:03",
+		"registerInWorldMenu" : "ct 12/22/2024 00:10",
 		"registerPlugIn:" : "LS 6/15/2018 16:07",
 		"selfUpdate" : "ct 12/19/2024 23:08",
 		"selfUpdateBranch" : "ct 12/19/2024 23:09",
@@ -63,10 +63,11 @@
 		"swaLint" : "topa 4/21/2010 16:53",
 		"try:catch:" : "topa 4/23/2010 15:39",
 		"unload" : "ct 12/20/2024 00:02",
-		"unregisterInWorldMenu" : "ct 12/20/2024 00:02",
+		"unregisterInWorldMenu" : "ct 12/22/2024 00:10",
 		"unregisterPlugIn:" : "JTM 7/29/2015 14:08",
 		"useOBRefactory" : "ct 12/13/2024 05:23",
 		"versionString" : "BD 7/13/2018 11:36",
+		"worldMenuLabel" : "ct 12/22/2024 00:10",
 		"worldMenuPreferenceChanged" : "ct 12/13/2024 05:23" },
 	"instance" : {
 		 } }
