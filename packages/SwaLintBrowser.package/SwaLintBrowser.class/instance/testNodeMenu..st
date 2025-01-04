@@ -1,9 +1,9 @@
 menus
 testNodeMenu: menu
 
-	self hasTestSelected ifTrue:
+	self hasTestNodeSelected ifTrue:
 		[menu add: 'browse test (b)' action: [self browseSelectedTestNode].
-		self selectedTestNode mapper ifNotNil:
+		(self hasTestSelected and: [self selectedTestNode mapper notNil]) ifTrue:
 			[menu add: 'browse test mapper (B)' action: [self browseSelectedTestNodeMapper]].
 		menu add: 'inspect test (i)' action: [self inspectSelectedTestNode].
 		menu add: 'copy name (c)' action: [self copySelectedTestName].

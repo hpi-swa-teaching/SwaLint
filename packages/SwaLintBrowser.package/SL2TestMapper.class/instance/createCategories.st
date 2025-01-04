@@ -8,5 +8,6 @@ createCategories
 		categories
 			at: category path
 			ifPresent: [self error: 'multiple category definitions']
-			ifAbsentPut: [category]].
+			ifAbsentPut: [category].
+		category mapper: pragma method].
 	^ categories

@@ -1,0 +1,4 @@
+browsing
+browse
+
+	^ self browseMapper

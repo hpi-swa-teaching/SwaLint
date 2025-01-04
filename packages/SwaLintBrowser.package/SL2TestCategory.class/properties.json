@@ -10,7 +10,8 @@
 		"parent",
 		"title",
 		"sortKey",
-		"description" ],
+		"description",
+		"mapper" ],
 	"name" : "SL2TestCategory",
 	"pools" : [
 		 ],
