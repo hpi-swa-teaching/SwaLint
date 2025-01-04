@@ -1,5 +1,5 @@
 preferences
-DebugMode
+debugMode
 
 	<slpreference: 'Debug Mode'
 	categoryList: #(SwaLint)

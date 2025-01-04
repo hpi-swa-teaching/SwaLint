@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"tests",
 		"categories",
-		"debug",
 		"icon",
 		"classesIgnoringRules" ],
 	"classvars" : [
