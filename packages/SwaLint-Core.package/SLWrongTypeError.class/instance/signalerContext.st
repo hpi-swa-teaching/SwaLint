@@ -1,4 +1,4 @@
-printing
+handling
 signalerContext
 	"The debugger shouldn't look into the test objects"
 	
