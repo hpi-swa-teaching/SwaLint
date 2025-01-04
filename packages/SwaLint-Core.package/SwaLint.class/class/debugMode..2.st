@@ -1,4 +1,0 @@
-debugging
-debugMode
-
-	^ debug
