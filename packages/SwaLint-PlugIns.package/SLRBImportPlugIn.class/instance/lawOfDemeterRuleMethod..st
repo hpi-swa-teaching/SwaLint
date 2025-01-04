@@ -5,6 +5,7 @@ lawOfDemeterRuleMethod: aMethodTestObject
 	longRuntime: nil>
 	
 	| rbMethodNode isMatching |
+	aMethodTestObject shouldBeMethod.
 	rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).
 	isMatching := ( RBParseTreeSearcher new
 			matches: '(((`@reciver `@msg1: `@arg1) `@msg2: `@arg2) `@msg3: `@arg3)  `@msg4: `@arg4'

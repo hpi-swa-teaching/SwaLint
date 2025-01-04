@@ -5,6 +5,7 @@ toDoRuleMethod: aMethodTestObject
 	longRuntime: nil>
 
 	| rbMethodNode isMatching |
+	aMethodTestObject shouldBeMethod.
 	rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).
 	isMatching := ( RBParseTreeSearcher new
 			matches: '1 to: ``@object size do: [:`each | | `@temps | `@.Statements]'

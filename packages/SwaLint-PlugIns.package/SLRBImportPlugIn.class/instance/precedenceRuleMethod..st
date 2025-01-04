@@ -5,6 +5,7 @@ precedenceRuleMethod: aMethodTestObject
 	longRuntime: nil>
 
 	| rbMethodNode isMatching |
+	aMethodTestObject shouldBeMethod.
 	rbMethodNode := RBParser parseMethod: aMethodTestObject sourceCode.
 	isMatching := (RBParseTreeSearcher new
 	       matchesAnyOf: #('`{:node | node isMessage and: [node hasParentheses not and: [#(#+ #-) includes: node selector]]} * `@C'

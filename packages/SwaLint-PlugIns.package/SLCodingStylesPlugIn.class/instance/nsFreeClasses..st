@@ -9,7 +9,7 @@ nsFreeClasses: aSLSystemTestObject
 	aSLSystemTestObject shouldBeSystem.
 	^ (self integerResult:
 		(aSLSystemTestObject allClasses count: [ :each | 
-			each resultOf: #nsClass: isNil]))
+			(each resultOf: #nsClass:) value isNil]))
 		showRule: [:v | v > 0];
 		colorRule: self freeClassesColorRule;
 		yourself

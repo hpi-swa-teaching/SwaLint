@@ -5,6 +5,7 @@ ifTrueReturnsRuleMethod: aMethodTestObject
 	longRuntime: nil>
 	
 	| rbMethodNode isMatching |
+	aMethodTestObject shouldBeMethod.
 	rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).
 	isMatching := ( RBParseTreeSearcher new
 			matchesAnyOf: #(
