@@ -18,7 +18,6 @@ shiftedMessageListMenu: aMenu
 		('inspect instances'						inspectInstances)
 		('inspect subinstances'					inspectSubInstances)).
 
-	self addExtraShiftedItemsTo: aMenu.
 	aMenu addList: #(
 		-
 		('change category...'					changeCategory)).

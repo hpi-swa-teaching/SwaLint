@@ -1,7 +1,7 @@
 {
 	"category" : "SwaLintBrowser-UI",
 	"classinstvars" : [
-		"redundantVar2" ],
+		 ],
 	"classtraitcomposition" : "SL2AspectDependencyGraph classTrait",
 	"classvars" : [
 		 ],
