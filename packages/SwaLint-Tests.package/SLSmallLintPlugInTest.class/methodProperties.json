@@ -16,7 +16,7 @@
 		"testCollectionProtocol" : "BD 6/21/2018 18:05",
 		"testConsistencyCheck" : "LS 6/16/2018 13:49",
 		"testContainsRule" : "LS 6/16/2018 13:49",
-		"testDefinesEqualsNotHash" : "LS 6/16/2018 13:50",
+		"testDefinesEqualsNotHash" : "ct 12/20/2024 02:07",
 		"testDetectContains" : "LS 6/16/2018 13:50",
 		"testEndTrueFalse" : "LS 6/16/2018 13:50",
 		"testEqualNotUsed" : "LS 6/16/2018 13:50",

@@ -1,4 +1,4 @@
-testing
+running
 test: aTestSymbol on: aObjectArray expectedResults: aResultValueArray debug: aBoolean
 
 	| testObjects realResult |

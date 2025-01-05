@@ -1,4 +1,4 @@
-testing
+tests
 testDebugTryCatch
 
 	SwaLint debugMode: true.	

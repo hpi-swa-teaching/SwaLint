@@ -1,4 +1,4 @@
-testing
+tests
 testSignificantDuplication
 
 	| duplicationClass duplicationMethod testSystem|.

@@ -1,4 +1,4 @@
-testing
+tests
 testCompareWeightedMethodCount
 	| object tests |
 	object := SLFixtureClassBase as: SLTestObject.

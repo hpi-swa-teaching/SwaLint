@@ -1,4 +1,4 @@
-testing
+tests
 testBaseClassUsageRatio
 
 	| objects tests |
