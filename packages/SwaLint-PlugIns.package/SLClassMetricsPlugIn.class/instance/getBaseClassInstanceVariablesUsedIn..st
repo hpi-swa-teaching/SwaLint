@@ -1,5 +1,5 @@
 private
-getBaseClassInstanceVaribalesUsedIn: aSLClassTestObject
+getBaseClassInstanceVariablesUsedIn: aSLClassTestObject
 
 	| allMethodsUsedInClass allBaseClassAccessors instanceVars |
 
