@@ -2,7 +2,7 @@ updating
 fetchAllTestObjects
 	"Fetches System- and CategoryTestObjects as well as all selected ClassTestObjects "
 	| allTestObjects |
-	allTestObjects := OrderedCollection new
+	allTestObjects := Set new
 		addAll: (self testEnvironment testSystem children);
 		add: (self testEnvironment testSystem);
 		yourself.

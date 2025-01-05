@@ -5,4 +5,4 @@ findClassesForSelectedCategories
 	items := self categoriesSelected gather: [ :category |
 		((Smalltalk organization listAtCategoryNamed: category)
 			collect: [ :each | Smalltalk at: each ])].
-	^ items asOrderedCollection
+	^ items asSet
