@@ -24,8 +24,8 @@ buildControlBar: builder
 						state: #hasAuthorFilterLabel;
 						label: #authorFilterLabel;
 						action: #changeAuthorFilter;
-						yourself);"
-				add: builder pluggableSpacerSpec new;
+						yourself);
+				add: builder pluggableSpacerSpec new;"
 				add:
 					(builder pluggableButtonSpec new
 						model: self;
