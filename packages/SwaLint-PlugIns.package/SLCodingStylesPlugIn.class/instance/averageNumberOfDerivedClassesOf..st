@@ -1,6 +1,6 @@
 private
 averageNumberOfDerivedClassesOf: aSLSystemTestObject
 
-
-	^ ((aSLSystemTestObject allClasses collect:
-			[:class | class testObject subclasses size]) sum ) / (aSLSystemTestObject resultOf: #classCount:)
+	^ ((aSLSystemTestObject allClasses ifEmpty: [^ Float nan])
+		collect: [:class | class testObject subclasses size]) sum
+			/ (aSLSystemTestObject resultOf: #classCount:)

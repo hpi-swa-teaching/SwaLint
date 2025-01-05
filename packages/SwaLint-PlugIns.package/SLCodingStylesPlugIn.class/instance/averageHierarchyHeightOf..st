@@ -1,5 +1,6 @@
 private
 averageHierarchyHeightOf: aSLSystemTestObject
 
-	^ ((aSLSystemTestObject rootClasses collect: 
-		[:class | class resultOf: #heightOfInheritanceTree: ]) sum) / (aSLSystemTestObject rootClasses size)
+	^ (((aSLSystemTestObject rootClasses ifEmpty: [^ Float nan])
+		collect: [:class | class resultOf: #heightOfInheritanceTree:]) sum)
+			/ aSLSystemTestObject rootClasses size
