@@ -5,5 +5,6 @@ messageListMenu: aMenu shifted: shifted
 	menu := aMenu.
 	menu := self messageResultMenu: menu.
 	self hasMethodSelected ifTrue:
-		[menu := self menu: aMenu for: #(messageListMenu messageListMenuShifted:) shifted: shifted].
+		[aMenu addLine.
+		menu := self menu: aMenu for: #(messageListMenu messageListMenuShifted:) shifted: shifted].
 	^ menu

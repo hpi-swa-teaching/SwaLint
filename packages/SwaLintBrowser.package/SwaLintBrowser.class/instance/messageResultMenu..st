@@ -2,5 +2,6 @@ menus
 messageResultMenu: aMenu
 
 	^ aMenu
-		add: 'inspect results' action: #inspectSelectedResults;
+		add: 'explore results' action: #exploreSelectedResults;
+		add: 'delete from results (d)' action: #deleteSelectedResults;
 		yourself
