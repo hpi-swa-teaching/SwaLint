@@ -1,6 +1,6 @@
 *SwaLintBrowser-UI-menus
 sl2ClassListMenu: aMenu
-	<classListMenu>
+	<classListMenuShifted: false>
 	self hasClassSelected ifFalse: [^ aMenu].
 	^ aMenu addList: #(
 		-

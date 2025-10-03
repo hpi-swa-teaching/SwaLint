@@ -1,6 +1,6 @@
 *SwaLintBrowser-UI-menus
 sl2SystemCategoryMenu: aMenu
-	<systemCategoryMenu>
+	<systemCategoryMenuShifted: false>
 	self hasSystemCategorySelected ifFalse: [^ aMenu].
 	^ aMenu addList: #(
 		-
