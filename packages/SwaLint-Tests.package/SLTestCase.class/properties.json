@@ -1,9 +1,9 @@
 {
 	"category" : "SwaLint-Tests",
 	"classinstvars" : [
-		"DummyEnvironment" ],
-	"classvars" : [
 		 ],
+	"classvars" : [
+		"DummyEnvironment" ],
 	"commentStamp" : "NR 1/28/2008 17:09",
 	"instvars" : [
 		 ],

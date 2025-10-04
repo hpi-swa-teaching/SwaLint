@@ -7,7 +7,7 @@ setUp
 	
 	testDictionary := (Dictionary new).
 	testRunner := SLTestRunner new 
-		testEnvironment: (SLTestCase dummyEnvironment copy);
+		testEnvironment: self class dummyEnvironment copy;
 		testDictionary: testDictionary.
 	
 	self resetTestSystem
