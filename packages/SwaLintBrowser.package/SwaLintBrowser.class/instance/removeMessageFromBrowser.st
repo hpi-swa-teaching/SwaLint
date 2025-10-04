@@ -1,4 +1,4 @@
-as yet unclassified
+menu commands
 removeMessageFromBrowser
 	"Alias for keyboard shortcut."
 
