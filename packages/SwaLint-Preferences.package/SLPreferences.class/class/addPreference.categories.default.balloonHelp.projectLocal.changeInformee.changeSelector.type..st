@@ -23,6 +23,6 @@ addPreference: aName categories: categoryList default: aValue balloonHelp: helpS
 				preferenceDictionaryCopy at: newPreference name put: newPreference]]
 		ifFalse: "Use the copyFrom: primitive to atomically update the existing preference."
 			[aPreference copyFrom: newPreference].
-	self compileAccessorForPreference: aPreference.
+	"self compileAccessorForPreference: aPreference."
 
 	^ aPreference

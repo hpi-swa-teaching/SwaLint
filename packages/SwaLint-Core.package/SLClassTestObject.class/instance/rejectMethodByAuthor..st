@@ -1,7 +1,7 @@
 preferences
 rejectMethodByAuthor: aSLMethod  
 	| splitString authorString negated |
-	SLPreferences AuthorFilter ifEmpty: [^ false].
+	(SLPreferences valueOfPreference: #AuthorFilter) ifEmpty: [^ false].
 	aSLMethod testObject timeStamp ifEmpty: [^ false].
 	splitString := SLPreferences AuthorFilter splitBy: ', '.
 	(negated := splitString first beginsWith: '~= ')

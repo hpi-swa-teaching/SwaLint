@@ -4,6 +4,7 @@ smallLintTests
 	Symbol: at '*' 'small' will be inserted automatically.
 	DefaultActive: If a test is active, it will be shown in the SmallLint category. The value can be changed in the preferences"
 	
+	self flag: #deprecate. "ct: Do we still need this?"
 	{
 			"BlockLintRule"
 			{#AbstractClass. 'Abstract class'. 'References an abstract class'. false.}.

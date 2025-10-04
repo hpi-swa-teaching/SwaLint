@@ -1,7 +1,7 @@
 preferences
 rejectMethodByDate: aSLMethod  
 	| splitString dateString |
-	SLPreferences DateFilter ifEmpty: [^ false].
+	(SLPreferences valueOfPreference: #DateFilter) ifEmpty: [^ false].
 	splitString := SLPreferences DateFilter splitBy: ' '.
 	dateString := (splitString allButFirst inject: '' into: [:str :next | str, ' ', next]) withBlanksTrimmed.
 	^ aSLMethod testObject dateMethodLastSubmitted
