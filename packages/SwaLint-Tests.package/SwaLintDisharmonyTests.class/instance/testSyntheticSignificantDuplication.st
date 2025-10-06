@@ -1,4 +1,4 @@
-testing
+tests
 testSyntheticSignificantDuplication
 
 	| testSize testCloneMethod compCloneMethod testCloneChainMethod compCloneChainMethod plugIn |

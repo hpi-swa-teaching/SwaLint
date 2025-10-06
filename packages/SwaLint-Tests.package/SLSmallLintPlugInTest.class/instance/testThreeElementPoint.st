@@ -1,4 +1,4 @@
-testing
+tests
 testThreeElementPoint
 	
 	self 

@@ -1,5 +1,5 @@
 testing
 useOBRefactory
 
-	^ SLPreferences UseOBRefactoryIfAvailable and: [
+	^ self UseOBRefactoryIfAvailable and: [
 		(MCPackage named: 'OB-Refactory') hasWorkingCopy]

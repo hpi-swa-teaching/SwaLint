@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"ShowSwaMetricTests" : "MT 7/23/2014 23:24",
+		"ShowSwaMetricTests" : "ct 12/13/2024 04:44",
 		"ShowSwaMetricTests:" : "MT 7/23/2014 23:24",
 		"defaultCategory" : "JTM 5/20/2015 23:44",
 		"maxLineSize" : "tfel 1/11/2011 11:35" },
@@ -11,8 +11,8 @@
 		"evilMethods" : "JTM 5/27/2015 11:05",
 		"globalState:" : "BD 6/15/2018 18:53",
 		"instanceVariableAccess:" : "BD 6/16/2018 20:10",
-		"instanceVariableAccessIsConsistent:" : "BD 6/16/2018 20:12",
-		"magicNumbers:" : "BD 6/15/2018 18:09",
+		"instanceVariableAccessIsConsistent:" : "ct 1/4/2025 21:28",
+		"magicNumbers:" : "ct 1/4/2025 21:28",
 		"metaProgramming:" : "BD 6/15/2018 18:53",
 		"methodHandlesNil:" : "JTM 5/27/2015 14:01",
 		"methodHasComment:" : "JTM 5/27/2015 14:01",
@@ -21,8 +21,8 @@
 		"methodHasNoSender:" : "NA 7/31/2015 17:02",
 		"methodUsesMetaprogramming:" : "JTM 5/27/2015 14:01",
 		"methodsWithoutSenders:" : "NA 7/31/2015 17:15",
-		"nilProgramming:" : "BD 6/15/2018 18:54",
-		"noClassComments:" : "BD 6/15/2018 18:17",
+		"nilProgramming:" : "ct 1/4/2025 21:28",
+		"noClassComments:" : "ct 1/9/2025 22:12",
 		"printOn:" : "NH 6/24/2015 14:11",
 		"systemLocCount:" : "BD 6/15/2018 18:54",
 		"systemMethodCount:" : "BD 6/15/2018 18:55" } }

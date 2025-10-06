@@ -1,4 +1,4 @@
 debugging
 debugCr
 
-	self debug ifTrue: [Transcript cr].
+	self debugMode ifTrue: [Transcript cr].

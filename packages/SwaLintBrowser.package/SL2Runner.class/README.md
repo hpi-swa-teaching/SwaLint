@@ -1,0 +1,1 @@
+I run all SL2Tests for a SL2Target and provide SL2Results.

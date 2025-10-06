@@ -1,4 +1,4 @@
-testing
+tests
 testHandlingOfNilValues
 	self 
 		test: #nilProgramming:

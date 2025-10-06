@@ -1,5 +1,5 @@
 initialization
 onEnvironment: aSLEnvironment
 
-	environment := aSLEnvironment.
+	self testEnvironment: aSLEnvironment.
 	self update.

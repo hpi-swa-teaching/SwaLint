@@ -1,9 +1,0 @@
-OrderedDictionary {
-	'packages/BaselineOfSwaLint.package' : #SquotCypressCodeSerializer,
-	'packages/SwaLint-Core.package' : #SquotCypressCodeSerializer,
-	'packages/SwaLint-PlugIns.package' : #SquotCypressCodeSerializer,
-	'packages/SwaLint-Preferences.package' : #SquotCypressCodeSerializer,
-	'packages/SwaLint-Slime-Grease.package' : #SquotCypressCodeSerializer,
-	'packages/SwaLint-Slime-Seaside.package' : #SquotCypressCodeSerializer,
-	'packages/SwaLint-Tests.package' : #SquotCypressCodeSerializer
-}

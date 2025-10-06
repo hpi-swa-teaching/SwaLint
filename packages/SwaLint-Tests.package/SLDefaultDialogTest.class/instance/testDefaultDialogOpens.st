@@ -7,4 +7,4 @@ testDefaultDialogOpens
 	dialog testsSelected: {SLTestData newFromArray: {#unreferencedVariable: . 'unreferencedVariable' . '' . ''. SLSwaMetricsPlugIn} plugIn: SLSwaMetricsPlugInTest} asSet.
 	dialog classesSelected: {SLCircle} asSet.
 	self assert: (dialog runnable) equals: true.
-	dialog window closeBoxHit.
+	dialog changed: #close.

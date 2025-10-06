@@ -1,4 +1,4 @@
-testing
+tests
 testCompareNumberOfMethods
 
 	| objects tests |

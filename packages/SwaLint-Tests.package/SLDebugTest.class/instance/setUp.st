@@ -1,4 +1,4 @@
 running
 setUp
 
-	swaLintDebug  := SwaLint debug.
+	swaLintDebug  := SwaLint debugMode.

@@ -1,6 +1,7 @@
 initialization
 initializeDictionaryOfPreferences
-	"Initialize the DictionaryOfPreferences to be an empty IdentityDictionary"
-	"Preferences initializeDictionaryOfPreferences"
+	"Initialize the preferencesDictionary to be an empty IdentityDictionary"
 
-	self dictionaryOfPreferences: IdentityDictionary new
+	"SLPreferences initializeDictionaryOfPreferences"
+
+	preferencesDictionary := IdentityDictionary new

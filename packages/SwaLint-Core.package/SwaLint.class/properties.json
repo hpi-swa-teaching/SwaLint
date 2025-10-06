@@ -3,7 +3,6 @@
 	"classinstvars" : [
 		"tests",
 		"categories",
-		"debug",
 		"icon",
 		"classesIgnoringRules" ],
 	"classvars" : [
@@ -11,6 +10,7 @@
 		"DebugMode",
 		"MarkLongRuntimeTests",
 		"OrderByTests",
+		"SelfUpdateBranch",
 		"UseOBRefactoryIfAvailable",
 		"WorldMenuEntry" ],
 	"commentStamp" : "LG 7/24/2018 20:38",

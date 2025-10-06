@@ -1,3 +1,3 @@
-user interface
+PreferenceBrowser
 viewRegistry
-	^viewRegistry
+	^PreferenceViewRegistry forType: self type

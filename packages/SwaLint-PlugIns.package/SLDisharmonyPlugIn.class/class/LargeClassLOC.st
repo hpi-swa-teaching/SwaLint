@@ -2,10 +2,9 @@ preferences
 LargeClassLOC
 
 	<slpreference: 'Large class LOC'
-	type: #Numeric
-	categories: #(Disharmony)
-	defaultValue: nil
-	helpText: 'Lines of code for large classes. '>
+	categoryList: #(Disharmony)
+	description: 'Lines of code for large classes. '
+	type: #Number>
 	
 	^ LargeClassLOC 
 		ifNil: [SLClassMetricsPlugIn ClassLOCAVRG + SLClassMetricsPlugIn ClassLOCSTDEV * 3 ]

@@ -1,4 +1,4 @@
 private
 createEnvironment
 
-	self environment: SLDefaultEnvironment new.
+	self testEnvironment: SLDefaultEnvironment new.

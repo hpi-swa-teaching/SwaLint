@@ -1,0 +1,24 @@
+{
+	"class" : {
+		"newForTest:" : "ct 12/12/2024 04:21" },
+	"instance" : {
+		"addCategoryPath:" : "ct 12/19/2024 21:05",
+		"browse" : "ct 12/20/2024 05:28",
+		"browseMapper" : "ct 1/4/2025 21:36",
+		"browseTestData" : "ct 12/18/2024 03:11",
+		"categories" : "ct 12/17/2024 23:59",
+		"categories:" : "ct 12/18/2024 00:00",
+		"categoryPaths" : "ct 12/19/2024 21:05",
+		"categoryPaths:" : "ct 12/19/2024 21:05",
+		"description" : "ct 12/12/2024 04:23",
+		"description:" : "ct 12/12/2024 04:23",
+		"isCategory" : "ct 12/18/2024 02:09",
+		"key" : "ct 1/4/2025 21:40",
+		"mapper" : "ct 12/13/2024 00:49",
+		"mapper:" : "ct 1/4/2025 21:32",
+		"printOn:" : "ct 12/12/2024 04:38",
+		"testData" : "ct 12/12/2024 04:22",
+		"testData:" : "ct 12/12/2024 04:22",
+		"title" : "ct 12/12/2024 04:22",
+		"title:" : "ct 12/12/2024 04:22",
+		"uniqueTitle" : "ct 1/4/2025 21:43" } }

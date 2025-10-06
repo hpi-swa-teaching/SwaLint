@@ -1,4 +1,4 @@
-testing
+tests
 testCollectSelectNotUsed
 	
 	self 

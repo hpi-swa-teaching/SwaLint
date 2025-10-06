@@ -1,4 +1,4 @@
-testing
+tests
 testClassLOC
 
 	self 

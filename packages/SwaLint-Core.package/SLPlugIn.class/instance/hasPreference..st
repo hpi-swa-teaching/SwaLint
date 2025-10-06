@@ -1,5 +1,4 @@
 preferences
 hasPreference: aSymbol
 
-	SLPreferences preferenceAt: aSymbol ifAbsent: [^false].
-	^ true
+	^ SLPlugIn withAllSubclasses anySatisfy: [:plugInClass | plugInClass respondsTo: aSymbol]

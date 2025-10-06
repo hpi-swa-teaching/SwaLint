@@ -4,7 +4,7 @@ isProjectLocalString
 
 	| aStr |
 	aStr :=  'each project has its own setting'.
-	^ localToProject
+	^ self localToProject
 		ifTrue:
 			['<yes>', aStr]
 		ifFalse:

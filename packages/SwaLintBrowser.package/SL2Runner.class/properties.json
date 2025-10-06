@@ -1,0 +1,18 @@
+{
+	"category" : "SwaLintBrowser-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 12/19/2024 21:23",
+	"instvars" : [
+		"testEnvironment",
+		"target",
+		"tests",
+		"resultEnvironment",
+		"results" ],
+	"name" : "SL2Runner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

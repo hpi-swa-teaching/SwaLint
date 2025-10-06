@@ -1,4 +1,4 @@
 browsing
 browsable
 
-	^ resultsSelected notEmpty
+	^ self resultsSelected notEmpty

@@ -1,3 +1,0 @@
-fonts
-standardDefaultTextFont
-	^TextStyle defaultFont

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "ct 10/6/2025 04:00",
 		"testArgumentVariableNamesSpelling" : "LS 6/16/2018 13:46",
 		"testAsOrderedCollectionNotNeeded" : "LS 6/16/2018 13:46",
 		"testAssignmentHasNoEffect" : "LS 6/16/2018 14:01",
@@ -16,7 +17,7 @@
 		"testCollectionProtocol" : "BD 6/21/2018 18:05",
 		"testConsistencyCheck" : "LS 6/16/2018 13:49",
 		"testContainsRule" : "LS 6/16/2018 13:49",
-		"testDefinesEqualsNotHash" : "LS 6/16/2018 13:50",
+		"testDefinesEqualsNotHash" : "ct 12/20/2024 02:07",
 		"testDetectContains" : "LS 6/16/2018 13:50",
 		"testEndTrueFalse" : "LS 6/16/2018 13:50",
 		"testEqualNotUsed" : "LS 6/16/2018 13:50",
@@ -39,6 +40,7 @@
 		"testLawOfDemeter" : "BD 6/22/2018 13:51",
 		"testLiteralArrayCharacters" : "LS 6/16/2018 14:02",
 		"testLiteralArrayContainsComma" : "LS 6/16/2018 14:02",
+		"testLiteralArrayContainsDot" : "ct 12/13/2024 03:17",
 		"testLiteralValuesSpelling" : "LS 6/16/2018 14:02",
 		"testMethodModifierFinal" : "LS 6/16/2018 14:02",
 		"testMethodModifierOverride" : "LS 6/16/2018 14:02",
@@ -57,7 +59,7 @@
 		"testReturnInEnsure" : "LS 6/16/2018 14:18",
 		"testReturnsBooleanAndOther" : "LS 6/16/2018 14:18",
 		"testReturnsIfTrue" : "LS 6/16/2018 14:18",
-		"testRuleFor" : "NA 7/29/2015 16:42",
+		"testRuleFor" : "ct 10/4/2025 02:43",
 		"testSearchingLiteral" : "LS 6/16/2018 14:19",
 		"testSendsDifferentSuper" : "LS 6/16/2018 14:19",
 		"testSendsUnknownMessageToGlobal" : "LS 6/16/2018 14:19",

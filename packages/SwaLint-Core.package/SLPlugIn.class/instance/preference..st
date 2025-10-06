@@ -1,4 +1,6 @@
 preferences
 preference: aSymbol
 
-	^ (SLPreferences preferenceAt: aSymbol) preferenceValue
+	^ (SLPlugIn withAllSubclasses
+		detect: [:plugInClass | plugInClass respondsTo: aSymbol])
+			perform: aSymbol

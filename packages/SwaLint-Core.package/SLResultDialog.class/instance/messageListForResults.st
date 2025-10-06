@@ -4,7 +4,7 @@ messageListForResults
 	System Navigation calls it Message List.
 	ToolSet calls it MessageSet. "
 
-	^ resultsSelected 
+	^ self resultsSelected 
 		inject: Set new
 		into: [:messages :result |
 			result isSummary 

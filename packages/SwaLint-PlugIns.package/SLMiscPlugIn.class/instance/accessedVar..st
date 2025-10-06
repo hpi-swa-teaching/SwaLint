@@ -5,6 +5,7 @@ accessedVar: aSLMethodTestObject
 	<slTestName: 'Accessed Variable' 
 	description: 'Name of the accessed variable, for accessors only'>
 
+	aSLMethodTestObject shouldBeMethod.
 	(aSLMethodTestObject resultOf: #isAccessor:) ifNegative: [
 		SLWrongTypeError signal: 'Should be accessor method'].
 	^ self numericResult:

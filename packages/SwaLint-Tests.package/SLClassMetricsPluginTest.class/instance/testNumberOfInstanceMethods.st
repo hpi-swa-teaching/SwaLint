@@ -1,4 +1,4 @@
-testing
+tests
 testNumberOfInstanceMethods
 
 	self 

@@ -1,4 +1,4 @@
 accessing
 children
 	
-	^ self methods, self variables
+	^ self methods asArray "optimization", self variables

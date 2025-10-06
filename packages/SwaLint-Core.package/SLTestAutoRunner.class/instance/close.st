@@ -3,7 +3,7 @@ close
 	
 	self
 		lintingEnabled: false;
-		environment: nil;
+		testEnvironment: nil;
 		classesSelected: nil;
 		testsSelected: nil.
 	

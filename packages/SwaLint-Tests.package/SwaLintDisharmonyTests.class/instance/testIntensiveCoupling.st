@@ -1,4 +1,4 @@
-testing
+tests
 testIntensiveCoupling
 
 	| couplingClass intensiveCoupling testSystem |

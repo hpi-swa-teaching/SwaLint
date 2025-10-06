@@ -1,4 +1,4 @@
 positioning
 defaultMorphEntryHeight
 
-	^ 20
+	^ 20 px

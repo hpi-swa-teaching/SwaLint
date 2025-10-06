@@ -2,9 +2,11 @@
 	"class" : {
 		"dataFromEnvironment:" : "JTM 7/28/2015 10:45" },
 	"instance" : {
-		"addPlugIn:" : "NA 7/28/2015 13:06",
+		"addPlugIn:" : "ct 12/13/2024 01:00",
 		"addTest:" : "NH 7/15/2015 22:41",
-		"addTest:toCategory:" : "JTM 7/22/2015 13:54",
+		"addTest:toCategory:" : "ct 1/4/2025 23:42",
+		"basicAddPlugIn:" : "ct 12/19/2024 22:39",
+		"basicRemovePlugIn:" : "ct 12/13/2024 00:57",
 		"category:" : "AT 5/8/2008 09:32",
 		"categoryDict" : "NA 7/29/2015 18:31",
 		"categoryDict:" : "NH 7/15/2015 22:30",
@@ -21,7 +23,7 @@
 		"loadDefaults" : "NA 7/31/2015 18:56",
 		"packageForCategory:" : "AT 5/8/2008 09:32",
 		"refresh" : "BD 7/13/2018 11:52",
-		"removePlugIn:" : "JTM 7/22/2015 14:40",
+		"removePlugIn:" : "ct 12/13/2024 01:00",
 		"removeTest:" : "JTM 7/22/2015 14:41",
 		"selectableClassCategories" : "AT 5/8/2008 09:32",
 		"selectableTestCategories" : "NR 1/6/2008 17:16",
@@ -40,6 +42,6 @@
 		"tests:" : "NA 7/28/2015 12:04",
 		"testsAtCategory:" : "JTM 7/22/2015 12:20",
 		"testsSelectedForTestRun" : "NR 1/25/2008 13:55",
-		"try:catch:" : "JTM 7/22/2015 13:54",
+		"try:catch:" : "ct 1/4/2025 23:42",
 		"update:" : "topa 11/26/2012 19:34",
 		"warnOfAlreadyExists:" : "JTM 7/22/2015 14:44" } }

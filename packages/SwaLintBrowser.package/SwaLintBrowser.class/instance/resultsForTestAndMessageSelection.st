@@ -1,0 +1,4 @@
+accessing - toolbuilder
+resultsForTestAndMessageSelection
+
+	^ self resultsForTestAndClassSelectionAndMessage: self selectedMessageName

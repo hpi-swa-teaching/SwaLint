@@ -3,8 +3,5 @@ selectAllClasses
 	"Fixed to update all selections now that the
 	selection invalidation has been optimised."
 	
-	classesSelected := classes asSet.
-	self
-		changed: #classSelected;
-		changed: #runnable;
-		update.
+	self classesSelected: self classes asSet.
+	self update.

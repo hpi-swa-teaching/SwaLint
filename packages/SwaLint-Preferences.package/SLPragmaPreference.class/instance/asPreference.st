@@ -1,16 +1,15 @@
 converting
 asPreference
 	| preference |
-	
 	preference := SLPreference new.
 	preference
 		name: name
 		defaultValue: defaultValue
 		helpString: helpString
-		localToProject: localToProject
+		localToProject: self localToProject
 		categoryList: categoryList
 		changeInformee: changeInformee
 		changeSelector:  changeSelector
-		viewRegistry: viewRegistry.
+		type: type.
 	preference rawValue: self preferenceValue.
-	^ preference
+	^preference

@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"doNothing" : "fm 5/17/2018 23:16" } }
+		"doNothing" : "fm 5/17/2018 23:16",
+		"newSLInstVarInSubclassesSuperTestClass" : "ct 12/22/2024 02:07" } }

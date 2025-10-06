@@ -2,14 +2,15 @@ accessing-categories
 categoryAt: anInteger put: aBoolean
 	| target |
 	target := self categories at: anInteger ifAbsent: [^ self].
-	self selectByCategory
-		ifTrue: [categoriesSelected := aBoolean
-			ifTrue: [ categoriesSelected copyWith: target ]
-			ifFalse: [ categoriesSelected copyWithout: target ]]
-		ifFalse: [| categoryList package |
-			package := self environment packageForCategory: (target testObject).
-			categoryList := (self getCategoriesFor: package) select: [ :each | self categories includes: each].
-			categoriesSelected := aBoolean
-				ifTrue: [ categoriesSelected, categoryList ]
-				ifFalse: [ categoriesSelected copyWithoutAll: categoryList ]].
-	self changed: #categorySelected; updateClasses; updateResults.
+	self categoriesSelected:
+		(self selectByCategory
+			ifTrue: [aBoolean
+				ifTrue: [ self categoriesSelected copyWith: target ]
+				ifFalse: [ self categoriesSelected copyWithout: target ]]
+			ifFalse: [| categoryList package |
+				package := self testEnvironment packageForCategory: (target testObject).
+				categoryList := (self getCategoriesFor: package) select: [ :each | self categories includes: each].
+				aBoolean
+					ifTrue: [ self categoriesSelected, categoryList ]
+					ifFalse: [ self categoriesSelected copyWithoutAll: categoryList ]]).
+	self updateResults.

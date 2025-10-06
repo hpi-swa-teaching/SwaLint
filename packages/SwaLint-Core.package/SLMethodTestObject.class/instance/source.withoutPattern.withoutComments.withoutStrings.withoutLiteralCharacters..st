@@ -5,7 +5,11 @@ withoutComments: noComments
 withoutStrings: noStrings 
 withoutLiteralCharacters: noCharacters
 	"
-	Take a method source and remove the desired components.
+	Take a method source and remove the desired components, enabling simple parsing heuristics for analysis. (E.g., nested expressions can be counted more reliably if there are no irrelevant bracket characters in strings or comments.)
+		withoutPattern: only return method body
+		withoutComments: remove comments (including surrounding quotes)
+		withoutStrings: replace each literal string by empty string (to ensure valid syntax)
+		withoutCharacters: replace each literal character with $$
 	This probably can be expressed as a state machine-based parser, but this way,
 	it is only 3..4 methods.
 	"
@@ -33,6 +37,6 @@ withoutLiteralCharacters: noCharacters
 				ifTrue: [sourceStream next. stream nextPut: $$].
 
 			
-			(noComments & wasInComment) | (noStrings & inString) ifFalse: [
+			(noComments & wasInComment) | (noStrings & wasInString & inString) ifFalse: [
 				(noComments and: [wasInComment ~~ inComment]) 
 					ifFalse: [stream nextPut: c]]]]

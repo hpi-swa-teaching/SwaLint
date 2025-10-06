@@ -7,4 +7,4 @@ getOverviewPyramidResults
 			[(each isMemberOf: SLErrorResult)
 				ifFalse: [(each result notNil)]
 				ifTrue: [false]]]
-		ifNone: SLResult new) result
+		ifNone: [SLResult new]) result

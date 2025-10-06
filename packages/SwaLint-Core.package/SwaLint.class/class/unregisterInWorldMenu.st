@@ -1,5 +1,4 @@
-world menu
+initialize-release
 unregisterInWorldMenu
 
-	(TheWorldMenu respondsTo: #unregisterOpenCommand:)
-		ifTrue: [TheWorldMenu unregisterOpenCommand: self swaLint].
+	TheWorldMenu unregisterOpenCommand: self worldMenuLabel.

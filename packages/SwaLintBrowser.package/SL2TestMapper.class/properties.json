@@ -1,0 +1,14 @@
+{
+	"category" : "SwaLintBrowser-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ct 12/19/2024 21:21",
+	"instvars" : [
+		 ],
+	"name" : "SL2TestMapper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

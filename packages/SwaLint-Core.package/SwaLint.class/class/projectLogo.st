@@ -1,4 +1,4 @@
-accessing
+app - accessing
 projectLogo
 	"the SwaLint logo"
 	

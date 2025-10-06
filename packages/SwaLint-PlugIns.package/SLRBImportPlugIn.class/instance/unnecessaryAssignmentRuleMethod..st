@@ -5,6 +5,7 @@ unnecessaryAssignmentRuleMethod: aMethodTestObject
 	longRuntime: nil>
 	
 	| rbMethodNode unusedVariables |
+	aMethodTestObject shouldBeMethod.
 
 	"Get a list of all variables that are assigned in the method."
 	rbMethodNode := RBParser parseMethod: (aMethodTestObject sourceCode).

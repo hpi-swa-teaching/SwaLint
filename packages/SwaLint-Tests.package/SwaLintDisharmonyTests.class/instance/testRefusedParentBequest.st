@@ -1,4 +1,4 @@
-testing
+tests
 testRefusedParentBequest
 
 	<timeout: 10>

@@ -1,4 +1,4 @@
-world menu
+initialize-release
 registerInWorldMenu
 
-	TheWorldMenu registerOpenCommand: {self swaLint. {self. #open}}.
+	TheWorldMenu registerOpenCommand: {self worldMenuLabel. {SwaLint. #open}}.

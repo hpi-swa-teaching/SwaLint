@@ -1,7 +1,8 @@
 browsing
-addSummaryResult: aSLSummaryResult toEnvironment: anEnvironment	
+addSummaryResult: aSLSummaryResult toEnvironment: anEnvironment	 
 	
 	| class |
+	self flag: #todo "update".
 	class := aSLSummaryResult testObject testObject.
 	
 	aSLSummaryResult testObject instanceMethods do: [ :method |
@@ -13,5 +14,5 @@ addSummaryResult: aSLSummaryResult toEnvironment: anEnvironment
 	aSLSummaryResult testObject classMethods do: [ :method |
 		aSLSummaryResult selectForSummary: method ifTrue: [
 			anEnvironment 				
-				addClass: class class 
+				addClass: class theMetaClass 
 				selector: method methodSelector]].

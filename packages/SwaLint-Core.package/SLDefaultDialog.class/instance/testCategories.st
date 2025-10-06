@@ -1,4 +1,4 @@
 accessing-testCategories
 testCategories 
 
-	^ self environment testCategories
+	^ self testEnvironment testCategories

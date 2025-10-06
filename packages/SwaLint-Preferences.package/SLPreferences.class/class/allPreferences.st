@@ -1,5 +1,4 @@
-preference-object access
+accessing
 allPreferences
-	"Answer a list of all the Preference objects registered in the system"
 
-	^ self dictionaryOfPreferences values
+	^preferencesDictionary values reject: [:pref | pref isDeprecated]

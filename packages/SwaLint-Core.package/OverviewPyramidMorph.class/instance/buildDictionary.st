@@ -1,0 +1,4 @@
+initialization
+buildDictionary
+
+	^ self subclassResponsibility

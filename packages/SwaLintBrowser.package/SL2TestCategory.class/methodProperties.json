@@ -1,0 +1,26 @@
+{
+	"class" : {
+		"newWithPath:" : "ct 12/17/2024 23:55" },
+	"instance" : {
+		"allParents" : "ct 12/18/2024 02:26",
+		"anyTitle" : "ct 12/18/2024 02:53",
+		"browse" : "ct 1/4/2025 21:34",
+		"browseMapper" : "ct 1/4/2025 21:36",
+		"description" : "ct 12/17/2024 23:48",
+		"description:" : "ct 12/17/2024 23:48",
+		"includesCategory:" : "ct 12/18/2024 00:06",
+		"isCategory" : "ct 12/18/2024 02:09",
+		"key" : "ct 12/18/2024 02:09",
+		"mapper" : "ct 1/4/2025 21:33",
+		"mapper:" : "ct 1/4/2025 21:33",
+		"parent" : "ct 12/18/2024 02:08",
+		"parent:" : "ct 12/18/2024 02:08",
+		"path" : "ct 12/17/2024 23:55",
+		"path:" : "ct 12/19/2024 21:08",
+		"printOn:" : "ct 12/18/2024 02:12",
+		"sortKey" : "ct 12/18/2024 02:53",
+		"sortKey:" : "ct 12/18/2024 02:53",
+		"title" : "ct 12/18/2024 02:52",
+		"title:" : "ct 12/18/2024 02:52",
+		"uniqueTitle" : "ct 1/4/2025 21:43",
+		"withAllParents" : "ct 12/18/2024 02:25" } }

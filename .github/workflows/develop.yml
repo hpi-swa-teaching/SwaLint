@@ -1,6 +1,6 @@
 name: allTests
-on: 
-  push: 
+on:
+  push:
     branches-ignore:
       - main
   pull_request:
@@ -14,11 +14,16 @@ jobs:
   build:
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
         # Select platform(s)
-        os: [ ubuntu-latest ]
+        os: [ macos-latest ]  # ubuntu-latest does not work with Squeak 5.x VMs
         # Select compatible Smalltalk image(s)
-        smalltalk: [Squeak64-trunk, Squeak64-5.3, Squeak64-5.2]
+        smalltalk:
+          - Squeak64-trunk
+          - Squeak64-6.0
+          - Squeak64-5.3
+          - Squeak64-5.2
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -26,9 +31,9 @@ jobs:
       - uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-        env: 
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
-        env: 
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

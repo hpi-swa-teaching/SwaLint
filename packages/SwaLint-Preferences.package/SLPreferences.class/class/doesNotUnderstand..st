@@ -1,5 +1,10 @@
 get/set
 doesNotUnderstand: aMessage
-	"Look up the message selector as a flag."
-	aMessage arguments size > 0 ifTrue: [^ super doesNotUnderstand: aMessage].
-	^ self valueOfFlag: aMessage selector
+	"Interpret unary message selectors as preference id."
+	
+	^ aMessage arguments size > 0
+		ifTrue: [super doesNotUnderstand: aMessage]
+		ifFalse: [
+			self
+				valueOfPreference: aMessage selector
+				ifAbsent: [super doesNotUnderstand: aMessage]]

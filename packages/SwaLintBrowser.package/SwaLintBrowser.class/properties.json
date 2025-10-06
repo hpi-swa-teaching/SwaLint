@@ -1,0 +1,24 @@
+{
+	"category" : "SwaLintBrowser-UI",
+	"classinstvars" : [
+		 ],
+	"classtraitcomposition" : "SL2AspectDependencyGraph classTrait",
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"tests",
+		"results",
+		"shouldDisplayAllTests",
+		"selectedClass",
+		"selectedMessageName",
+		"selectedTestNodePath",
+		"testNodePaths",
+		"caches" ],
+	"name" : "SwaLintBrowser",
+	"pools" : [
+		 ],
+	"super" : "CodeHolder",
+	"traitcomposition" : "SL2AspectDependencyGraph",
+	"type" : "normal" }

@@ -1,4 +1,5 @@
 accessing-classes
 classAt: anInteger
 
-	^ classesSelected includes: (classes at: anInteger ifAbsent: [ ^ false ])
+	^ self classesSelected includes:
+		(self classes at: anInteger ifAbsent: [ ^ false ])

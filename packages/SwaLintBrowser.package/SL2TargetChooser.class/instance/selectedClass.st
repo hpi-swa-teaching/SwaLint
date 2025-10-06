@@ -1,0 +1,4 @@
+accessing - toolbuilder
+selectedClass
+
+	^ selectedClass

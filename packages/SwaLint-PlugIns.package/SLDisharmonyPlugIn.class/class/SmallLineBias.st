@@ -2,9 +2,8 @@ preferences
 SmallLineBias
 
 	<slpreference: 'Small line bias'
-	type: #Numeric
-	categories: #(Disharmony)
-	defaultValue: 3
-	helpText: 'The maximum distance between two exact clones.'>
+	categoryList: #(Disharmony)
+	description: 'The maximum distance between two exact clones.'
+	type: #Number>
 	
 	^ SmallLineBias ifNil: [ 3 ]

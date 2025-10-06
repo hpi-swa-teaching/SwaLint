@@ -1,4 +1,4 @@
-preferences panel
+support
 categoryListOfPreference: prefSymbol
 	"Return a list of all categories in which the preference occurs"
 

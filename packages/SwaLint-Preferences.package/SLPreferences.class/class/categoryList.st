@@ -1,6 +1,11 @@
-preferences panel
+support
 categoryList
-	"Answer a list of category names for the preferences panel"
-	^ {#?}, self categoryNames sorted asArray
+	"Return all available categories. No duplicates."
 
-	"Preferences listOfCategories"
+	| aSet |
+	aSet := Set new.
+	self allPreferences do: [ :aPreference | 
+		aSet addAll: (
+			aPreference categoryList collect: [ :aCategory |
+				aCategory asSymbol ]) ].
+	^aSet

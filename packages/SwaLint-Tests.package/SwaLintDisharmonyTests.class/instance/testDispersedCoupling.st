@@ -1,4 +1,4 @@
-testing
+tests
 testDispersedCoupling
 
 	| couplingClass dispersedCoupling testSystem |

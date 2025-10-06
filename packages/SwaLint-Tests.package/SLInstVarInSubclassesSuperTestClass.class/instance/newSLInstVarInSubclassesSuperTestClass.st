@@ -1,0 +1,3 @@
+testClassNameInSelector
+newSLInstVarInSubclassesSuperTestClass
+	^self new

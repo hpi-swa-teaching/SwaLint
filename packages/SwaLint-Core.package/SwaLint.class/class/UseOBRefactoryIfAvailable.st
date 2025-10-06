@@ -2,11 +2,9 @@ preferences
 UseOBRefactoryIfAvailable
 
 	<slpreference: 'Use OB-Refactory, if available'
+	categoryList: #(SwaLint)
+	description: 'Use the OB-Refactory browsing if available'
 	type: #Boolean
-	categories: #(SwaLint)
-	defaultValue: true
-	helpText: 'Use the OB-Refactory browsing if available'
-	projectLocal: false
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	

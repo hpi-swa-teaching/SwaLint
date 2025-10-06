@@ -1,4 +1,0 @@
-constants
-xOffset
-
-	^ 1

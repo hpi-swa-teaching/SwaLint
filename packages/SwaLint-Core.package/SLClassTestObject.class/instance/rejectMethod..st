@@ -1,6 +1,6 @@
 preferences
 rejectMethod: aSLMethod
 
-	SLPreferences ShouldFilterMethods ifFalse: [^ false].
+	(SLPreferences valueOfFlag: #ShouldFilterMethods) ifFalse: [^ false].
 	^ (self rejectMethodByDate: aSLMethod)
 		or: [self rejectMethodByAuthor: aSLMethod]

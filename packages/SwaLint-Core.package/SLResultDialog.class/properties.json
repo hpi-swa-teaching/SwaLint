@@ -10,9 +10,7 @@
 		"isOrderedByTests",
 		"results",
 		"resultsSelected",
-		"mainMorph",
-		"resultPanel",
-		"overviewpyramidMorph" ],
+		"resultIndex" ],
 	"name" : "SLResultDialog",
 	"pools" : [
 		 ],

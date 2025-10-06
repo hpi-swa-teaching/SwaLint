@@ -1,4 +1,4 @@
-testing
+tests
 testNumberOfAddedServices
 
 	self test: #classNAS:

@@ -9,12 +9,10 @@
 		"classesSelected",
 		"testsSelected",
 		"environment",
-		"window",
 		"resultDialog",
 		"callingWindow",
 		"callingDialog",
-		"lintingEnabled",
-		"toggleButton" ],
+		"lintingEnabled" ],
 	"name" : "SLTestAutoRunner",
 	"pools" : [
 		 ],

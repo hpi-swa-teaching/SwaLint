@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"newFor:" : "AT 5/8/2008 12:26",
-		"newFor:plugIn:test:object:" : "AT 5/8/2008 12:25" },
+		"newFor:plugIn:test:object:" : "ct 12/19/2024 20:52" },
 	"instance" : {
-		"error:" : "BD 7/13/2018 11:46",
 		"errorStack" : "AT 5/8/2008 12:25",
+		"exception" : "ct 12/19/2024 20:52",
+		"exception:" : "ct 12/19/2024 20:52",
 		"plugIn" : "AT 5/8/2008 12:25",
 		"plugIn:test:object:" : "AT 2/8/2008 16:24",
 		"rcvr" : "BD 7/13/2018 11:46",

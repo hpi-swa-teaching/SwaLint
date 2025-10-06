@@ -1,4 +1,0 @@
-fonts
-chooseBalloonHelpFont
-
-	BalloonMorph chooseBalloonFont

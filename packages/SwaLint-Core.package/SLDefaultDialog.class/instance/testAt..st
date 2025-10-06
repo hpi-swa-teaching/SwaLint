@@ -1,4 +1,5 @@
 accessing-test
 testAt: anInteger
 
-	^ testsSelected includes: (tests at: anInteger ifAbsent: [ ^ false ])
+	^ self testsSelected includes:
+		(self tests at: anInteger ifAbsent: [ ^ false ])

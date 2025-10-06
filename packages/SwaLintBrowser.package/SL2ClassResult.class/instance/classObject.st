@@ -1,0 +1,4 @@
+accessing
+classObject
+
+	^ class

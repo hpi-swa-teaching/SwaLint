@@ -1,4 +1,4 @@
-testing
+tests
 testMethodsWithOutSenders
     self 
         test: #methodsWithoutSenders:

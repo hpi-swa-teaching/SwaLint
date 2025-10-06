@@ -2,11 +2,9 @@ preferences
 ShowSwaMetricTests
 
 	<slpreference: 'Show swa metric tests'
+	categoryList: #(SwaLint)
+	description: 'Show high-level system metrics for general assessments of source code quality'
 	type: #Boolean
-	categories: #(SwaLint)
-	defaultValue: true
-	helpText: 'Show high-level system metrics for general assessments of source code quality'
-	projectLocal: false
 	changeInformee: #SwaLint
 	changeSelector: #refresh>
 	

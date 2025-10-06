@@ -1,4 +1,4 @@
 get/set
-valueOfPreference: aPreferenceSymbol ifAbsent: booleanValuedBlock
+valueOfPreference: aPreferenceSymbol ifAbsent: block
 	"Answer the value of the given preference"
-	^ (self preferenceAt: aPreferenceSymbol ifAbsent: [^ booleanValuedBlock value]) preferenceValue
+	^ (self preferenceAt: aPreferenceSymbol ifAbsent: [^ block value]) preferenceValue

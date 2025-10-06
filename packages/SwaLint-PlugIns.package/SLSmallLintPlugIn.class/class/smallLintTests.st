@@ -4,6 +4,7 @@ smallLintTests
 	Symbol: at '*' 'small' will be inserted automatically.
 	DefaultActive: If a test is active, it will be shown in the SmallLint category. The value can be changed in the preferences"
 	
+	self flag: #deprecate. "ct: Do we still need this?"
 	{
 			"BlockLintRule"
 			{#AbstractClass. 'Abstract class'. 'References an abstract class'. false.}.
@@ -19,10 +20,11 @@ smallLintTests
 			{#InstVarInSubclasses. 'Instance var in subclasses'. 'Instance variables defined in all subclasses'. true.}.
 			{#JustSendsSuper. 'Just sends super'. 'Method just sends super message'. true.}.
 			{#LiteralArrayContainsComma. 'Literal array contains a comma'. 'Literal array contains a #,'. true.}.
+			{#LiteralArrayContainsDot. 'Literal array contains a dot'. 'Literal array contains a #''.'''. true.}.
 			{#LiteralArrayContainsSuspiciousTrueFalseOrNil. 'Literal array contains a #true, #false, or #nil but the source doesn''t.'. 'With ANSI changes, #(true false nil) now is equal to {true. false. nil} not {#true. #false. #nil} as it used to be.
 This may be a bug.'. true.}.
 			{#LongMethods. 'Long methods'. 'Description'. false.}.
-			{#MethodHasNoTimeStamp. 'Method has no timeStamp'. 'For proper versioning, every method should have a timestamp.'. true.}.
+			{#MethodHasNoTimeStamp. 'Method has no timeStamp'. 'For proper change tracking, every method should have a timestamp.'. true.}.
 			{#MethodSourceContainsLinefeeds. 'Method source contains linefeeds'. 'Squeak code should not contain linefeed characters.'. true.}.
 			{#MissingSubclassResponsibility. 'Missing subclass responsibility'. 'Method defined in all subclasses, but not in superclass'. false.}.
 			{#OnlyReadOrWritten. 'OnlyReadOrWritten'. 'Instance variables not read AND written'. true.}.

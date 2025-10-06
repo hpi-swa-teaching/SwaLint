@@ -1,4 +1,4 @@
-personalization
+initialization - save/load
 storePreferencesToDisk
 	Cursor wait showWhile: [
-		[ self storePreferencesIn: 'mySwaLint.prefs' ] on: Error do: [ :ex | self inform: 'there was an error storing your preferences to disk' ]]
+		[ self storePreferencesIn: 'my.prefs' ] on: Error do: [ :ex | self inform: 'there was an error storing your preferences to disk' ]]

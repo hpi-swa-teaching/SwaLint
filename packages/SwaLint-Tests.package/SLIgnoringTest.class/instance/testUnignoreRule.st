@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testUnignoreRule
 
 	SwaLint class: self class ignoreRule: rule.
