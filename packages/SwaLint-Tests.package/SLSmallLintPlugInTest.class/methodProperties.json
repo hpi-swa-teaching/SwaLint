@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"expectedFailures" : "ct 10/6/2025 04:00",
 		"testArgumentVariableNamesSpelling" : "LS 6/16/2018 13:46",
 		"testAsOrderedCollectionNotNeeded" : "LS 6/16/2018 13:46",
 		"testAssignmentHasNoEffect" : "LS 6/16/2018 14:01",
