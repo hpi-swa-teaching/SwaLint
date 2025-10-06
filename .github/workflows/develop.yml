@@ -17,12 +17,11 @@ jobs:
       fail-fast: false
       matrix:
         # Select platform(s)
-        os: [ macos-latest ]
+        os: [ macos-latest ]  # ubuntu-latest does not work with Squeak 5.x VMs
         # Select compatible Smalltalk image(s)
         smalltalk:
           - Squeak64-trunk
           - Squeak64-6.0
-          # temporarily disabled because vm does not work on current ubuntu??
           - Squeak64-5.3
           - Squeak64-5.2
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
