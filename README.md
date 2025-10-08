@@ -3,7 +3,9 @@ SwaLint [![mainTests](https://github.com/hpi-swa-teaching/SwaLint/actions/workfl
 
 <!-- ## Checkout the main branch for the stable version of SwaLint! -->
 
-A code critics tool for Smalltalk projects. After installation you can open the **SwaLint Code Critics** via *Apps*.
+A code critics tool for Smalltalk projects. After installation you can open the **SwaLint Browser** via *Apps*.
+
+![SwaLint Browser](media/SwaLintBrowser.png)
 
 **Please visit the [SwaLint wiki](https://github.com/hpi-swa-teaching/SwaLint/wiki) for further information, future plans and technical advice.**
 
